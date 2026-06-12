@@ -10,12 +10,14 @@
     --bg:#0c0e12;--surface:#15171c;--text:#eef0f2;--muted:#8b929c;--border:#262932;
     --emerald:#34d399;--emerald-deep:#0e2b22;--emerald-line:rgba(52,211,153,0.35);
     --gold:#f0c75e;--gold-deep:#2a2206;--gold-line:rgba(240,199,94,0.35);
+    --azure:#38bdf8;--azure-deep:#0c2733;--azure-line:rgba(56,189,248,0.35);
     --radius:18px;
   }
   :root[data-theme="light"]{
     --bg:#f4f1ea;--surface:#ffffff;--text:#1a1815;--muted:#6b6660;--border:#e2ddd2;
     --emerald:#059669;--emerald-deep:#e6f5ef;--emerald-line:rgba(5,150,105,0.3);
     --gold:#b8860b;--gold-deep:#fbf2dc;--gold-line:rgba(184,134,11,0.3);
+    --azure:#0284c7;--azure-deep:#e0f2fe;--azure-line:rgba(2,132,199,0.3);
   }
   *{box-sizing:border-box;margin:0;padding:0;}
   body{
@@ -63,8 +65,8 @@
   .connector line{stroke-width:1.5;}
 
   .cards{
-    display:grid;grid-template-columns:1fr 1fr;gap:1.75rem;
-    max-width:900px;margin:0 auto;width:100%;
+    display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:1.75rem;
+    max-width:980px;margin:0 auto;width:100%;
   }
 
   .card{
@@ -87,6 +89,8 @@
   .card.games:hover{border-color:var(--emerald);}
   .card.grammar::before{background:var(--gold);}
   .card.grammar:hover{border-color:var(--gold);}
+  .card.tools::before{background:var(--azure);}
+  .card.tools:hover{border-color:var(--azure);}
 
   .card-icon{
     width:52px;height:52px;border-radius:14px;display:flex;align-items:center;
@@ -94,6 +98,7 @@
   }
   .card.games .card-icon{background:var(--emerald-deep);}
   .card.grammar .card-icon{background:var(--gold-deep);}
+  .card.tools .card-icon{background:var(--azure-deep);}
 
   .card h2{
     font-family:'Fraunces',serif;font-weight:600;font-size:1.6rem;
@@ -114,6 +119,7 @@
   }
   .card.games .enter{color:var(--emerald);}
   .card.grammar .enter{color:var(--gold);}
+  .card.tools .enter{color:var(--azure);}
   .enter .arrow{transition:transform 0.2s;}
   .card:hover .enter .arrow{transform:translateX(5px);}
 
@@ -136,12 +142,13 @@
 <div class="wrap">
   <p class="eyebrow">Phil Young's English School</p>
   <h1>Classroom <span class="accent">Hub</span></h1>
-  <p class="lede">Two collections of tools for live lessons — pick a door and get started.</p>
+  <p class="lede">Three collections of tools for live lessons — pick a door and get started.</p>
 
   <div class="hub-node"></div>
   <svg class="connector" viewBox="0 0 760 64" preserveAspectRatio="none" aria-hidden="true">
-    <line x1="380" y1="0" x2="190" y2="64" style="stroke:var(--emerald-line)" />
-    <line x1="380" y1="0" x2="570" y2="64" style="stroke:var(--gold-line)" />
+    <line x1="380" y1="0" x2="125" y2="64" style="stroke:var(--emerald-line)" />
+    <line x1="380" y1="0" x2="380" y2="64" style="stroke:var(--gold-line)" />
+    <line x1="380" y1="0" x2="635" y2="64" style="stroke:var(--azure-line)" />
   </svg>
 
   <div class="cards">
@@ -169,6 +176,19 @@
         <span class="tag">Exercises</span>
       </div>
       <span class="enter">Enter Grammar Hub <span class="arrow">→</span></span>
+    </a>
+
+    <a class="card tools" href="https://arschul.github.io/games/tool-hub/">
+      <div class="card-icon">🧰</div>
+      <h2>Tool Hub</h2>
+      <p>Classroom tools for planning, writing, and assessment — built to support a lesson, not just fill time.</p>
+      <div class="tags">
+        <span class="tag">Writing</span>
+        <span class="tag">Assessment</span>
+        <span class="tag">Planning</span>
+        <span class="tag">Speaking</span>
+      </div>
+      <span class="enter">Enter Tool Hub <span class="arrow">→</span></span>
     </a>
   </div>
 </div>
