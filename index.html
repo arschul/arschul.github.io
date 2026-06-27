@@ -13,6 +13,7 @@
     --azure:#38bdf8;--azure-deep:#0c2733;--azure-line:rgba(56,189,248,0.35);
     --rose:#fb7185;--rose-deep:#2e1016;--rose-line:rgba(251,113,133,0.35);
     --violet:#a78bfa;--violet-deep:#1c1433;--violet-line:rgba(167,139,250,0.35);
+    --teal:#2dd4bf;--teal-deep:#061f1e;--teal-line:rgba(45,212,191,0.35);
     --radius:18px;
   }
   :root[data-theme="light"]{
@@ -99,6 +100,8 @@
   .card.worksheets:hover{border-color:var(--rose);}
   .card.reviews::before{background:var(--violet);}
   .card.reviews:hover{border-color:var(--violet);}
+  .card.advanced::before{background:var(--teal);}
+  .card.advanced:hover{border-color:var(--teal);}
 
   .card-icon{
     width:52px;height:52px;border-radius:14px;display:flex;align-items:center;
@@ -158,11 +161,12 @@
 
   <div class="hub-node"></div>
   <svg class="connector" viewBox="0 0 760 64" preserveAspectRatio="none" aria-hidden="true">
-    <line x1="380" y1="0" x2="76" y2="64" style="stroke:var(--emerald-line)" />
-    <line x1="380" y1="0" x2="228" y2="64" style="stroke:var(--gold-line)" />
-    <line x1="380" y1="0" x2="380" y2="64" style="stroke:var(--azure-line)" />
-    <line x1="380" y1="0" x2="532" y2="64" style="stroke:var(--rose-line)" />
-    <line x1="380" y1="0" x2="684" y2="64" style="stroke:var(--violet-line)" />
+    <line x1="380" y1="0" x2="57" y2="64" style="stroke:var(--emerald-line)" />
+    <line x1="380" y1="0" x2="190" y2="64" style="stroke:var(--gold-line)" />
+    <line x1="380" y1="0" x2="323" y2="64" style="stroke:var(--azure-line)" />
+    <line x1="380" y1="0" x2="437" y2="64" style="stroke:var(--rose-line)" />
+    <line x1="380" y1="0" x2="570" y2="64" style="stroke:var(--violet-line)" />
+    <line x1="380" y1="0" x2="703" y2="64" style="stroke:var(--teal-line)" />
   </svg>
 
   <div class="cards">
@@ -227,8 +231,34 @@
         <span class="tag">Inter 1</span>
         <span class="tag">PDF</span>
         <span class="tag">Answer Keys</span>
+    
+    <a class="card advanced" href="https://arschul.github.io/advanced/">
+      <div class="card-icon">🚀</div>
+      <h2>Advanced Hub</h2>
+      <p>B2 → C1 courses, intensive programmes and advanced resources — structured for upper-intermediate learners.</p>
+      <div class="tags">
+        <span class="tag">B2–C1</span>
+        <span class="tag">Intensive</span>
+        <span class="tag">TOEFL</span>
+        <span class="tag">Courses</span>
       </div>
+      <span class="enter">Enter Advanced Hub <span class="arrow">→</span></span>
+    </a>
+  </div>
       <span class="enter">Enter Review Hub <span class="arrow">→</span></span>
+    </a>
+
+    <a class="card advanced" href="https://arschul.github.io/advanced/">
+      <div class="card-icon">🚀</div>
+      <h2>Advanced Hub</h2>
+      <p>B2 → C1 courses, intensive programmes and advanced resources — structured for upper-intermediate learners.</p>
+      <div class="tags">
+        <span class="tag">B2–C1</span>
+        <span class="tag">Intensive</span>
+        <span class="tag">TOEFL</span>
+        <span class="tag">Courses</span>
+      </div>
+      <span class="enter">Enter Advanced Hub <span class="arrow">→</span></span>
     </a>
   </div>
 </div>
