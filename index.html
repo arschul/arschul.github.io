@@ -143,10 +143,33 @@
     font-size:0.78rem;text-align:center;
   }
 
+  .featured{
+    display:block;max-width:980px;margin:0 auto 2.75rem;width:100%;
+    background:var(--surface);border:1px solid var(--border);border-radius:var(--radius);
+    padding:2.2rem 2.4rem;text-align:left;text-decoration:none;color:inherit;
+    position:relative;overflow:hidden;
+    transition:transform 0.3s,border-color 0.3s,box-shadow 0.3s;
+    display:flex;align-items:center;gap:1.6rem;flex-wrap:wrap;
+  }
+  .featured:hover{transform:translateY(-4px);box-shadow:0 16px 40px rgba(0,0,0,0.18);border-color:var(--azure);}
+  .featured::before{
+    content:'';position:absolute;top:0;left:0;right:0;height:4px;background:var(--azure);
+  }
+  .featured .card-icon{
+    width:60px;height:60px;border-radius:16px;display:flex;align-items:center;
+    justify-content:center;font-size:1.7rem;background:var(--azure-deep);flex-shrink:0;
+  }
+  .featured .featured-body{flex:1;min-width:220px;}
+  .featured .eyebrow{margin-bottom:0.3rem;text-align:left;}
+  .featured h2{
+    font-family:'Fraunces',serif;font-weight:600;font-size:1.55rem;
+    margin-bottom:0.4rem;letter-spacing:-0.5px;
+  }
+  .featured p{color:var(--muted);font-size:0.92rem;line-height:1.6;margin-bottom:0;}
+  .featured .enter{color:var(--azure);flex-shrink:0;}
+
   @media(max-width:680px){
-    .cards{grid-template-columns:1fr;}
-    .connector{display:none;}
-    .hub-node{margin-top:2rem;}
+    .featured{padding:1.8rem;}
   }
 </style>
 </head>
@@ -168,6 +191,16 @@
     <line x1="380" y1="0" x2="570" y2="64" style="stroke:var(--violet-line)" />
     <line x1="380" y1="0" x2="703" y2="64" style="stroke:var(--teal-line)" />
   </svg>
+
+  <a class="featured" href="https://arschul.github.io/tools/teacher-dashboard/teacher-dashboard.html">
+    <div class="card-icon">📊</div>
+    <div class="featured-body">
+      <p class="eyebrow">Featured</p>
+      <h2>Teacher Dashboard</h2>
+      <p>Manage classes &amp; students, take roll call, log observations, and generate printable attendance reports — your daily command center.</p>
+    </div>
+    <span class="enter">Open Dashboard <span class="arrow">→</span></span>
+  </a>
 
   <div class="cards">
     <a class="card games" href="https://arschul.github.io/games/">
