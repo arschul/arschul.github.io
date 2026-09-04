@@ -14,6 +14,7 @@
     --rose:#fb7185;--rose-deep:#2e1016;--rose-line:rgba(251,113,133,0.35);
     --violet:#a78bfa;--violet-deep:#1c1433;--violet-line:rgba(167,139,250,0.35);
     --teal:#2dd4bf;--teal-deep:#061f1e;--teal-line:rgba(45,212,191,0.35);
+    --tangerine:#fb923c;--tangerine-deep:#3a1f0b;--tangerine-line:rgba(251,146,60,0.35);
     --radius:18px;
   }
   :root[data-theme="light"]{
@@ -23,6 +24,7 @@
     --azure:#0284c7;--azure-deep:#e0f2fe;--azure-line:rgba(2,132,199,0.3);
     --rose:#e11d48;--rose-deep:#fde8ec;--rose-line:rgba(225,29,72,0.3);
     --violet:#7c3aed;--violet-deep:#ede9fe;--violet-line:rgba(124,58,237,0.3);
+    --tangerine:#ea580c;--tangerine-deep:#ffedd5;--tangerine-line:rgba(234,88,12,0.3);
   }
   *{box-sizing:border-box;margin:0;padding:0;}
   body{
@@ -102,6 +104,8 @@
   .card.reviews:hover{border-color:var(--violet);}
   .card.advanced::before{background:var(--teal);}
   .card.advanced:hover{border-color:var(--teal);}
+  .card.vocab::before{background:var(--tangerine);}
+  .card.vocab:hover{border-color:var(--tangerine);}
 
   .card-icon{
     width:52px;height:52px;border-radius:14px;display:flex;align-items:center;
@@ -112,6 +116,8 @@
   .card.tools .card-icon{background:var(--azure-deep);}
   .card.worksheets .card-icon{background:var(--rose-deep);}
   .card.reviews .card-icon{background:var(--violet-deep);}
+  .card.advanced .card-icon{background:var(--teal-deep);}
+  .card.vocab .card-icon{background:var(--tangerine-deep);}
 
   .card h2{
     font-family:'Fraunces',serif;font-weight:600;font-size:1.6rem;
@@ -135,6 +141,8 @@
   .card.tools .enter{color:var(--azure);}
   .card.worksheets .enter{color:var(--rose);}
   .card.reviews .enter{color:var(--violet);}
+  .card.advanced .enter{color:var(--teal);}
+  .card.vocab .enter{color:var(--tangerine);}
   .enter .arrow{transition:transform 0.2s;}
   .card:hover .enter .arrow{transform:translateX(5px);}
 
@@ -180,16 +188,17 @@
 <div class="wrap">
   <p class="eyebrow">Phil Young's English School</p>
   <h1>Classroom <span class="accent">Hub</span></h1>
-  <p class="lede">Four collections of tools for live lessons — pick a door and get started.</p>
+  <p class="lede">Seven collections of tools for live lessons — pick a door and get started.</p>
 
   <div class="hub-node"></div>
   <svg class="connector" viewBox="0 0 760 64" preserveAspectRatio="none" aria-hidden="true">
-    <line x1="380" y1="0" x2="57" y2="64" style="stroke:var(--emerald-line)" />
-    <line x1="380" y1="0" x2="190" y2="64" style="stroke:var(--gold-line)" />
-    <line x1="380" y1="0" x2="323" y2="64" style="stroke:var(--azure-line)" />
-    <line x1="380" y1="0" x2="437" y2="64" style="stroke:var(--rose-line)" />
-    <line x1="380" y1="0" x2="570" y2="64" style="stroke:var(--violet-line)" />
-    <line x1="380" y1="0" x2="703" y2="64" style="stroke:var(--teal-line)" />
+    <line x1="380" y1="0" x2="54" y2="64" style="stroke:var(--emerald-line)" />
+    <line x1="380" y1="0" x2="162" y2="64" style="stroke:var(--gold-line)" />
+    <line x1="380" y1="0" x2="270" y2="64" style="stroke:var(--azure-line)" />
+    <line x1="380" y1="0" x2="378" y2="64" style="stroke:var(--rose-line)" />
+    <line x1="380" y1="0" x2="486" y2="64" style="stroke:var(--violet-line)" />
+    <line x1="380" y1="0" x2="594" y2="64" style="stroke:var(--teal-line)" />
+    <line x1="380" y1="0" x2="702" y2="64" style="stroke:var(--tangerine-line)" />
   </svg>
 
   <a class="featured" href="https://arschul.github.io/tools/teacher-dashboard/teacher-dashboard.html">
@@ -279,6 +288,19 @@
         <span class="tag">Courses</span>
       </div>
       <span class="enter">Enter Advanced Hub <span class="arrow">→</span></span>
+    </a>
+
+    <a class="card vocab" href="https://arschul.github.io/vocab/">
+      <div class="card-icon">📚</div>
+      <h2>Vocab Hub</h2>
+      <p>Vocabulary from A1 to B2, learned through games — match, race, remember, and collect the badges.</p>
+      <div class="tags">
+        <span class="tag">A1–B2</span>
+        <span class="tag">Mini-Games</span>
+        <span class="tag">Badges</span>
+        <span class="tag">Board Mode</span>
+      </div>
+      <span class="enter">Enter Vocab Hub <span class="arrow">→</span></span>
     </a>
   </div>
 </div>
