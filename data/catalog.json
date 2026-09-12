@@ -538,7 +538,7 @@
    "hub": "advanced",
    "path": "essay-coach.html",
    "title": "Essay Coach",
-   "blurb": "Build an essay one step at a time — hook, thesis, topic sentences, support, conclusion — with colour-coded model essays at every level. Then practise on a searchable bank of TOEFL-style prompts.",
+   "blurb": "Build an essay one step at a time — hook, thesis, topic sentences, support, conclusion — with color-coded model essays at every level. Then practice on a searchable bank of TOEFL-style prompts.",
    "icon": "",
    "levels": [
     "C1"
@@ -656,7 +656,7 @@
    "hub": "advanced",
    "path": "toefl-itp.html",
    "title": "TOEFL ITP Coach",
-   "blurb": "Learn and practise all three paper-based ITP sections — Listening Comprehension, Structure & Written Expression, and Reading Comprehension. Strategy walkthroughs first, then timed practice sets with explained answers.",
+   "blurb": "Learn and practice all three paper-based ITP sections — Listening Comprehension, Structure & Written Expression, and Reading Comprehension. Strategy walkthroughs first, then timed practice sets with explained answers.",
    "icon": "",
    "levels": [
     "C1"
@@ -1874,7 +1874,7 @@
    "hub": "games",
    "path": "mastermind/mastermind.html",
    "title": "Mastermind",
-   "blurb": "Crack the secret colour code — guess the peg sequence with feedback clues.",
+   "blurb": "Crack the secret color code — guess the peg sequence with feedback clues.",
    "icon": "",
    "levels": [],
    "skills": [
@@ -1956,7 +1956,7 @@
    "hub": "games",
    "path": "orbit/orbit.html",
    "title": "Orbit",
-   "blurb": "Try to get four marbles of your colour in a horizontal, vertical or diagonal row.",
+   "blurb": "Try to get four marbles of your color in a horizontal, vertical or diagonal row.",
    "icon": "",
    "levels": [],
    "skills": [
@@ -7617,7 +7617,7 @@
    "hub": "root",
    "path": "https://arschul.github.io/advanced/",
    "title": "Advanced Hub",
-   "blurb": "B2 → C1 courses, intensive programmes and advanced resources — structured for upper-intermediate learners.",
+   "blurb": "B2 → C1 courses, intensive programs and advanced resources — structured for upper-intermediate learners.",
    "icon": "",
    "levels": [],
    "skills": [],
@@ -7662,7 +7662,7 @@
    "hub": "root",
    "path": "https://arschul.github.io/reviews/",
    "title": "Review Hub",
-   "blurb": "Test review sheets organised by class and unit block — open in browser or download to print.",
+   "blurb": "Test review sheets organized by class and unit block — open in browser or download to print.",
    "icon": "",
    "levels": [],
    "skills": [],
@@ -7809,7 +7809,7 @@
   {
    "id": "dialog-practice",
    "hub": "tools",
-   "path": "Dialog Practice/dialog-practice.html",
+   "path": "dialog-practice/dialog-practice.html",
    "title": "Dialog Simulator",
    "blurb": "Text-to-speech conversations by CEFR level, A1–B2.",
    "icon": "🎧",
