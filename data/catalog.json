@@ -1,0 +1,9196 @@
+{
+ "version": 1,
+ "generated_by": "build_catalog.py (Stage 0)",
+ "vocabularies": {
+  "levels": [
+   "A1",
+   "A2",
+   "B1",
+   "B2",
+   "C1"
+  ],
+  "skills": [
+   "speaking",
+   "listening",
+   "reading",
+   "writing",
+   "grammar",
+   "vocabulary",
+   "admin",
+   "assessment"
+  ],
+  "modes": [
+   "team",
+   "solo",
+   "whole-class",
+   "teacher"
+  ],
+  "preps": [
+   "none",
+   "print",
+   "setup"
+  ],
+  "minutes_buckets": [
+   [
+    0,
+    9,
+    "<10 min"
+   ],
+   [
+    10,
+    25,
+    "10–25 min"
+   ],
+   [
+    26,
+    999,
+    "25+ min"
+   ]
+  ],
+  "notes": "levels:[] means level-agnostic — matches every level filter."
+ },
+ "hubs": {
+  "root": {
+   "repo": "arschul.github.io",
+   "url": "https://arschul.github.io/",
+   "title": "Classroom Hub"
+  },
+  "games": {
+   "repo": "games",
+   "url": "https://arschul.github.io/games/",
+   "title": "Game Hub"
+  },
+  "tools": {
+   "repo": "tools",
+   "url": "https://arschul.github.io/tools/",
+   "title": "Tool Hub"
+  },
+  "grammar": {
+   "repo": "grammar",
+   "url": "https://arschul.github.io/grammar/",
+   "title": "Grammar Hub"
+  },
+  "advanced": {
+   "repo": "advanced",
+   "url": "https://arschul.github.io/advanced/",
+   "title": "Advanced Hub"
+  },
+  "reviews": {
+   "repo": "reviews",
+   "url": "https://arschul.github.io/reviews/",
+   "title": "Review Hub"
+  },
+  "worksheets": {
+   "repo": "worksheets",
+   "url": "https://arschul.github.io/worksheets/",
+   "title": "Worksheets"
+  },
+  "vocab": {
+   "repo": "vocab",
+   "url": "https://arschul.github.io/vocab/",
+   "title": "Vocab Hub"
+  }
+ },
+ "ignore": [
+  "*/README.md",
+  "tools/teacher-dashboard/teacher-dashboard-tests.html",
+  "games/future-projects/*"
+ ],
+ "stale": [
+  "games/perfect-fit.html",
+  "games/teacher-dashboard/teacher-dashboard.html"
+ ],
+ "unlisted": [
+  "games/battle-pets/battle-pets.html",
+  "games/compass-quest/compass-quest.html",
+  "games/whats-that/whats-that.html"
+ ],
+ "items": [
+  {
+   "id": "hub-teacher-dashboard",
+   "hub": "root",
+   "path": "https://arschul.github.io/tools/teacher-dashboard/teacher-dashboard.html",
+   "title": "Teacher Dashboard",
+   "blurb": "Featured",
+   "icon": "",
+   "levels": [],
+   "skills": [],
+   "mode": "teacher",
+   "prep": "none",
+   "minutes": 0,
+   "keywords": [],
+   "status": "live",
+   "featured": true
+  },
+  {
+   "id": "hub-game-hub",
+   "hub": "root",
+   "path": "https://arschul.github.io/games/",
+   "title": "Game Hub",
+   "blurb": "Classroom games, quizzes, and warm-ups built for the projector — played live, scored together.",
+   "icon": "",
+   "levels": [],
+   "skills": [],
+   "mode": "teacher",
+   "prep": "none",
+   "minutes": 0,
+   "keywords": [],
+   "status": "live"
+  },
+  {
+   "id": "hub-grammar-hub",
+   "hub": "root",
+   "path": "https://arschul.github.io/grammar/",
+   "title": "Grammar Hub",
+   "blurb": "Structured grammar lessons from A1 to B2, with a graded reading library and comprehension checks.",
+   "icon": "",
+   "levels": [],
+   "skills": [],
+   "mode": "teacher",
+   "prep": "none",
+   "minutes": 0,
+   "keywords": [],
+   "status": "live"
+  },
+  {
+   "id": "hub-tool-hub",
+   "hub": "root",
+   "path": "https://arschul.github.io/tools/",
+   "title": "Tool Hub",
+   "blurb": "Classroom tools for planning, writing, and assessment — built to support a lesson, not just fill time.",
+   "icon": "",
+   "levels": [],
+   "skills": [],
+   "mode": "teacher",
+   "prep": "none",
+   "minutes": 0,
+   "keywords": [],
+   "status": "live"
+  },
+  {
+   "id": "hub-worksheets",
+   "hub": "root",
+   "path": "https://arschul.github.io/worksheets/",
+   "title": "Worksheets",
+   "blurb": "Print-ready PDF worksheets for grammar practice — download, print, and hand out in class.",
+   "icon": "",
+   "levels": [],
+   "skills": [],
+   "mode": "teacher",
+   "prep": "none",
+   "minutes": 0,
+   "keywords": [],
+   "status": "live"
+  },
+  {
+   "id": "hub-review-hub",
+   "hub": "root",
+   "path": "https://arschul.github.io/reviews/",
+   "title": "Review Hub",
+   "blurb": "Test review sheets organised by class and unit block — open in browser or download to print.",
+   "icon": "",
+   "levels": [],
+   "skills": [],
+   "mode": "teacher",
+   "prep": "none",
+   "minutes": 0,
+   "keywords": [],
+   "status": "live"
+  },
+  {
+   "id": "hub-advanced-hub",
+   "hub": "root",
+   "path": "https://arschul.github.io/advanced/",
+   "title": "Advanced Hub",
+   "blurb": "B2 → C1 courses, intensive programmes and advanced resources — structured for upper-intermediate learners.",
+   "icon": "",
+   "levels": [],
+   "skills": [],
+   "mode": "teacher",
+   "prep": "none",
+   "minutes": 0,
+   "keywords": [],
+   "status": "live"
+  },
+  {
+   "id": "hub-vocab-hub",
+   "hub": "root",
+   "path": "https://arschul.github.io/vocab/",
+   "title": "Vocab Hub",
+   "blurb": "Vocabulary from A1 to B2, learned through games — match, race, remember, and collect the badges.",
+   "icon": "",
+   "levels": [],
+   "skills": [],
+   "mode": "teacher",
+   "prep": "none",
+   "minutes": 0,
+   "keywords": [],
+   "status": "live"
+  },
+  {
+   "id": "airtight",
+   "hub": "games",
+   "path": "airtight/airtight.html",
+   "title": "Airtight",
+   "blurb": "Two suspects, one alibi. Interrogate them separately and catch the contradictions.",
+   "icon": "",
+   "levels": [
+    "A2",
+    "B1",
+    "B2"
+   ],
+   "skills": [
+    "speaking",
+    "listening"
+   ],
+   "mode": "team",
+   "prep": "none",
+   "minutes": 25,
+   "keywords": [
+    "alibi",
+    "continuous",
+    "contradiction",
+    "detective",
+    "interrogation",
+    "past",
+    "suspects"
+   ],
+   "status": "live"
+  },
+  {
+   "id": "alphabet",
+   "hub": "games",
+   "path": "alphabet/alphabet.html",
+   "title": "Alphabet Game",
+   "blurb": "Test your vocabulary skills by finding words that start with specific letters.",
+   "icon": "",
+   "levels": [],
+   "skills": [
+    "vocabulary",
+    "speaking"
+   ],
+   "mode": "team",
+   "prep": "none",
+   "minutes": 10,
+   "keywords": [
+    "brainstorm",
+    "categories",
+    "letters",
+    "warm-up"
+   ],
+   "status": "live"
+  },
+  {
+   "id": "animal-guess-game",
+   "hub": "games",
+   "path": "animal-guess-game/animal-guess-game.html",
+   "title": "Animal Guess",
+   "blurb": "Test your knowledge and intuition at the same time.",
+   "icon": "",
+   "levels": [],
+   "skills": [
+    "vocabulary",
+    "speaking"
+   ],
+   "mode": "team",
+   "prep": "none",
+   "minutes": 10,
+   "keywords": [
+    "animals",
+    "guessing",
+    "questions",
+    "twenty",
+    "yes/no"
+   ],
+   "status": "live"
+  },
+  {
+   "id": "backandforth",
+   "hub": "games",
+   "path": "backandforth/backandforth.html",
+   "title": "Back and Forth",
+   "blurb": "Alternate listing items in a chosen category.",
+   "icon": "",
+   "levels": [],
+   "skills": [
+    "vocabulary",
+    "speaking"
+   ],
+   "mode": "team",
+   "prep": "none",
+   "minutes": 10,
+   "keywords": [
+    "alternating",
+    "categories",
+    "fire",
+    "quick",
+    "warm-up"
+   ],
+   "status": "live"
+  },
+  {
+   "id": "bingo",
+   "hub": "games",
+   "path": "bingo/bingo.html",
+   "title": "Bingo",
+   "blurb": "Play your words right and listen carefully!",
+   "icon": "",
+   "levels": [],
+   "skills": [
+    "listening",
+    "vocabulary"
+   ],
+   "mode": "whole-class",
+   "prep": "setup",
+   "minutes": 15,
+   "keywords": [
+    "caller",
+    "custom",
+    "grid",
+    "list",
+    "word",
+    "words"
+   ],
+   "status": "live"
+  },
+  {
+   "id": "bluff",
+   "hub": "games",
+   "path": "bluff/bluff.html",
+   "title": "Bluff",
+   "blurb": "If you don't know, just make it up!",
+   "icon": "",
+   "levels": [],
+   "skills": [
+    "speaking"
+   ],
+   "mode": "team",
+   "prep": "none",
+   "minutes": 15,
+   "keywords": [
+    "definitions",
+    "invent",
+    "lying",
+    "persuasion"
+   ],
+   "status": "live"
+  },
+  {
+   "id": "boardgame",
+   "hub": "games",
+   "path": "boardgame/boardgame.html",
+   "title": "CEFR Quest",
+   "blurb": "Grammar board game for 2–6 teams. Answer EFL questions, collect level tokens, and race to win!",
+   "icon": "",
+   "levels": [
+    "A1",
+    "A2",
+    "B1",
+    "B2"
+   ],
+   "skills": [
+    "grammar"
+   ],
+   "mode": "team",
+   "prep": "none",
+   "minutes": 30,
+   "keywords": [
+    "board",
+    "cefr",
+    "dice",
+    "game",
+    "grammar",
+    "quest",
+    "quiz",
+    "tokens"
+   ],
+   "status": "live"
+  },
+  {
+   "id": "chain",
+   "hub": "games",
+   "path": "chain/chain.html",
+   "title": "Chain",
+   "blurb": "Create word chains. Challenging and fun!",
+   "icon": "",
+   "levels": [],
+   "skills": [
+    "vocabulary"
+   ],
+   "mode": "team",
+   "prep": "none",
+   "minutes": 10,
+   "keywords": [
+    "chain",
+    "last",
+    "letter",
+    "warm-up",
+    "word"
+   ],
+   "status": "live"
+  },
+  {
+   "id": "city",
+   "hub": "games",
+   "path": "city/city.html",
+   "title": "City Directions",
+   "blurb": "Listen to spoken directions through a city grid, then tap the place where you end up. Named streets and avenues, A1–B1.",
+   "icon": "",
+   "levels": [
+    "A1",
+    "A2",
+    "B1"
+   ],
+   "skills": [
+    "listening"
+   ],
+   "mode": "team",
+   "prep": "none",
+   "minutes": 20,
+   "keywords": [
+    "compass",
+    "directions",
+    "map",
+    "navigation",
+    "of",
+    "place",
+    "prepositions",
+    "streets"
+   ],
+   "status": "live"
+  },
+  {
+   "id": "classroom-auction",
+   "hub": "games",
+   "path": "classroom-auction/classroom-auction.html",
+   "title": "Classroom Auction",
+   "blurb": "Bid against your classmates to prove you can perform stunts and tasks the fastest. Do you have what it takes to win the bid?",
+   "icon": "",
+   "levels": [],
+   "skills": [
+    "speaking"
+   ],
+   "mode": "team",
+   "prep": "none",
+   "minutes": 20,
+   "keywords": [
+    "bidding",
+    "challenges",
+    "dares",
+    "stunts"
+   ],
+   "status": "live"
+  },
+  {
+   "id": "connect",
+   "hub": "games",
+   "path": "connect/connect.html",
+   "title": "Connect",
+   "blurb": "Make words under pressure. Exercise your vocabulary.",
+   "icon": "",
+   "levels": [],
+   "skills": [
+    "vocabulary"
+   ],
+   "mode": "team",
+   "prep": "none",
+   "minutes": 20,
+   "keywords": [
+    "building",
+    "letters",
+    "power-ups",
+    "pressure",
+    "word"
+   ],
+   "status": "live"
+  },
+  {
+   "id": "control-deck",
+   "hub": "games",
+   "path": "control-deck/control-deck.html",
+   "title": "Control Deck",
+   "blurb": "A voice reads out a command. Find the matching dial, slider, or switch and set it exactly right before time runs out.",
+   "icon": "",
+   "levels": [],
+   "skills": [
+    "listening"
+   ],
+   "mode": "team",
+   "prep": "none",
+   "minutes": 15,
+   "keywords": [
+    "commands",
+    "dials",
+    "following",
+    "imperatives",
+    "instructions",
+    "sliders"
+   ],
+   "status": "live"
+  },
+  {
+   "id": "deal-no-deal",
+   "hub": "games",
+   "path": "deal-no-deal/deal-no-deal.html",
+   "title": "Deal or No Deal",
+   "blurb": "Are you feeling lucky?",
+   "icon": "",
+   "levels": [],
+   "skills": [
+    "speaking"
+   ],
+   "mode": "whole-class",
+   "prep": "none",
+   "minutes": 20,
+   "keywords": [
+    "banker",
+    "briefcase",
+    "money",
+    "prizes",
+    "probability"
+   ],
+   "status": "live"
+  },
+  {
+   "id": "deep-cover",
+   "hub": "games",
+   "path": "deep-cover/deep-cover.html",
+   "title": "Deep Cover",
+   "blurb": "One clue, one number. Guide your team to their secret agents on the word grid — and don't wake the mole.",
+   "icon": "",
+   "levels": [
+    "A1",
+    "A2",
+    "B1",
+    "B2"
+   ],
+   "skills": [
+    "vocabulary",
+    "speaking"
+   ],
+   "mode": "team",
+   "prep": "none",
+   "minutes": 25,
+   "keywords": [
+    "association",
+    "clue",
+    "codenames",
+    "grid",
+    "spy",
+    "spymaster",
+    "word"
+   ],
+   "status": "live"
+  },
+  {
+   "id": "emoji",
+   "hub": "games",
+   "path": "emoji/emoji.html",
+   "title": "Emoji Game",
+   "blurb": "Exercise your memory. Can you remember what you have just seen?",
+   "icon": "",
+   "levels": [
+    "A1",
+    "A2"
+   ],
+   "skills": [
+    "vocabulary"
+   ],
+   "mode": "team",
+   "prep": "none",
+   "minutes": 10,
+   "keywords": [
+    "changed",
+    "memory",
+    "observation",
+    "what"
+   ],
+   "status": "live"
+  },
+  {
+   "id": "emoji-logic",
+   "hub": "games",
+   "path": "emoji-logic/emoji-logic.html",
+   "title": "Emoji Logic",
+   "blurb": "Einstein's riddle with emoji. Teams answer on paper, or solve it together on the board.",
+   "icon": "",
+   "levels": [],
+   "skills": [
+    "reading"
+   ],
+   "mode": "team",
+   "prep": "print",
+   "minutes": 25,
+   "keywords": [
+    "deduction",
+    "einstein",
+    "grid",
+    "logic",
+    "prepositions",
+    "puzzle",
+    "riddle",
+    "zebra"
+   ],
+   "status": "live"
+  },
+  {
+   "id": "escape",
+   "hub": "games",
+   "path": "escape/escape.html",
+   "title": "Escape",
+   "blurb": "Team up to solve puzzles and escape in time!",
+   "icon": "",
+   "levels": [],
+   "skills": [
+    "reading"
+   ],
+   "mode": "team",
+   "prep": "none",
+   "minutes": 25,
+   "keywords": [
+    "clues",
+    "escape",
+    "locks",
+    "puzzles",
+    "room"
+   ],
+   "status": "live"
+  },
+  {
+   "id": "escape2",
+   "hub": "games",
+   "path": "escape2/escape2.html",
+   "title": "Escape 2",
+   "blurb": "Team up to solve puzzles and escape in time! Again!",
+   "icon": "",
+   "levels": [],
+   "skills": [
+    "reading"
+   ],
+   "mode": "team",
+   "prep": "none",
+   "minutes": 25,
+   "keywords": [
+    "clues",
+    "escape",
+    "locks",
+    "puzzles",
+    "room",
+    "sequel"
+   ],
+   "status": "live"
+  },
+  {
+   "id": "family-feud-efl",
+   "hub": "games",
+   "path": "family-feud-efl/family-feud-efl.html",
+   "title": "Feud",
+   "blurb": "Answer fast and accurately to end up with more points!",
+   "icon": "",
+   "levels": [],
+   "skills": [
+    "speaking"
+   ],
+   "mode": "team",
+   "prep": "none",
+   "minutes": 30,
+   "keywords": [
+    "buzzer",
+    "fast",
+    "feud",
+    "money",
+    "survey"
+   ],
+   "status": "live"
+  },
+  {
+   "id": "grammar-boom",
+   "hub": "games",
+   "path": "grammar-boom/grammar-boom.html",
+   "title": "Grammar Boom",
+   "blurb": "Baamboozle-style team quiz. Pick a tile, answer the CEFR grammar question, then flip your fate card.",
+   "icon": "",
+   "levels": [
+    "A1",
+    "A2",
+    "B1",
+    "B2"
+   ],
+   "skills": [
+    "grammar"
+   ],
+   "mode": "team",
+   "prep": "none",
+   "minutes": 20,
+   "keywords": [
+    "baamboozle",
+    "fate",
+    "flip",
+    "quiz",
+    "tiles"
+   ],
+   "status": "live"
+  },
+  {
+   "id": "herd-up",
+   "hub": "games",
+   "path": "herd-up/herd-up.html",
+   "title": "Herd Up!",
+   "blurb": "Think like the group.",
+   "icon": "",
+   "levels": [],
+   "skills": [
+    "vocabulary",
+    "speaking"
+   ],
+   "mode": "team",
+   "prep": "none",
+   "minutes": 10,
+   "keywords": [
+    "alike",
+    "consensus",
+    "group",
+    "think",
+    "thinking"
+   ],
+   "status": "live"
+  },
+  {
+   "id": "hex-duel",
+   "hub": "games",
+   "path": "hex-duel/hex-duel.html",
+   "title": "Hex Duel",
+   "blurb": "Expand and conquer your opponents.",
+   "icon": "",
+   "levels": [],
+   "skills": [
+    "vocabulary"
+   ],
+   "mode": "team",
+   "prep": "none",
+   "minutes": 20,
+   "keywords": [
+    "chaos",
+    "conquest",
+    "hexagons",
+    "mode",
+    "territory"
+   ],
+   "status": "live"
+  },
+  {
+   "id": "hot-seat",
+   "hub": "games",
+   "path": "hot-seat/hot-seat.html",
+   "title": "Hot Seat",
+   "blurb": "Describe the word without saying any of the four forbidden words. Teams, timer, A1-B2.",
+   "icon": "",
+   "levels": [
+    "A1",
+    "A2",
+    "B1",
+    "B2"
+   ],
+   "skills": [
+    "speaking"
+   ],
+   "mode": "team",
+   "prep": "none",
+   "minutes": 15,
+   "keywords": [
+    "definitions",
+    "describe",
+    "forbidden",
+    "taboo",
+    "words"
+   ],
+   "status": "live"
+  },
+  {
+   "id": "interrupt",
+   "hub": "games",
+   "path": "interrupt/interrupt.html",
+   "title": "Interrupt!",
+   "blurb": "Teams tell one story together and steal the turn off each other. 615 cards, A1–B2.",
+   "icon": "",
+   "levels": [
+    "A1",
+    "A2",
+    "B1",
+    "B2"
+   ],
+   "skills": [
+    "speaking"
+   ],
+   "mode": "team",
+   "prep": "none",
+   "minutes": 20,
+   "keywords": [
+    "cards",
+    "narrative",
+    "steal",
+    "storytelling",
+    "turn"
+   ],
+   "status": "live"
+  },
+  {
+   "id": "inventions",
+   "hub": "games",
+   "path": "inventions/inventions.html",
+   "title": "Inventions",
+   "blurb": "Learn about amazing inventions throughout history. Educational and fascinating!",
+   "icon": "",
+   "levels": [],
+   "skills": [
+    "reading",
+    "speaking"
+   ],
+   "mode": "team",
+   "prep": "none",
+   "minutes": 20,
+   "keywords": [
+    "facts",
+    "history",
+    "technology",
+    "trivia"
+   ],
+   "status": "live"
+  },
+  {
+   "id": "jeopardy",
+   "hub": "games",
+   "path": "jeopardy/jeopardy.html",
+   "title": "Jeopardy",
+   "blurb": "Buzz first and answer correctly to be the winner!",
+   "icon": "",
+   "levels": [],
+   "skills": [
+    "grammar",
+    "vocabulary"
+   ],
+   "mode": "team",
+   "prep": "setup",
+   "minutes": 30,
+   "keywords": [
+    "board",
+    "buzzer",
+    "categories",
+    "quiz"
+   ],
+   "status": "live"
+  },
+  {
+   "id": "last-one-standing",
+   "hub": "games",
+   "path": "last-one-standing/last-one-standing.html",
+   "title": "Last One Standing",
+   "blurb": "Choose differently from me and you win.",
+   "icon": "",
+   "levels": [],
+   "skills": [
+    "vocabulary",
+    "speaking"
+   ],
+   "mode": "team",
+   "prep": "none",
+   "minutes": 10,
+   "keywords": [
+    "choose",
+    "differently",
+    "elimination"
+   ],
+   "status": "live"
+  },
+  {
+   "id": "leftright",
+   "hub": "games",
+   "path": "leftright/leftright.html",
+   "title": "Left to Right",
+   "blurb": "A little luck goes a long way.",
+   "icon": "",
+   "levels": [],
+   "skills": [
+    "speaking"
+   ],
+   "mode": "whole-class",
+   "prep": "none",
+   "minutes": 10,
+   "keywords": [
+    "chance",
+    "luck",
+    "pass",
+    "warm-up"
+   ],
+   "status": "live"
+  },
+  {
+   "id": "letter-battle",
+   "hub": "games",
+   "path": "letter-battle/letter-battle.html",
+   "title": "Lexicon Duel",
+   "blurb": "Grab your weapons and get ready for a battle of words.",
+   "icon": "",
+   "levels": [],
+   "skills": [
+    "vocabulary"
+   ],
+   "mode": "solo",
+   "prep": "none",
+   "minutes": 20,
+   "keywords": [
+    "bar",
+    "battle",
+    "charge",
+    "duel",
+    "lexicon",
+    "waves",
+    "word"
+   ],
+   "status": "live"
+  },
+  {
+   "id": "linking-park",
+   "hub": "games",
+   "path": "linking-park/linking-park.html",
+   "title": "Linking Park",
+   "blurb": "Drag the right connectors into the gaps to transition from sentence to sentence.",
+   "icon": "",
+   "levels": [
+    "A1",
+    "A2",
+    "B1",
+    "B2"
+   ],
+   "skills": [
+    "writing",
+    "reading"
+   ],
+   "mode": "team",
+   "prep": "none",
+   "minutes": 20,
+   "keywords": [
+    "connectors",
+    "discourse",
+    "linking",
+    "markers",
+    "paragraphs",
+    "transitions",
+    "words"
+   ],
+   "status": "live"
+  },
+  {
+   "id": "mastermind",
+   "hub": "games",
+   "path": "mastermind/mastermind.html",
+   "title": "Mastermind",
+   "blurb": "Crack the secret colour code — guess the peg sequence with feedback clues.",
+   "icon": "",
+   "levels": [],
+   "skills": [
+    "vocabulary"
+   ],
+   "mode": "team",
+   "prep": "none",
+   "minutes": 15,
+   "keywords": [
+    "breaking",
+    "code",
+    "colors",
+    "deduction",
+    "pegs"
+   ],
+   "status": "live"
+  },
+  {
+   "id": "minefield",
+   "hub": "games",
+   "path": "minefield/minefield.html",
+   "title": "Minefield",
+   "blurb": "Answer to dig a tile — grab treasure, dodge mines, steal and swap scores.",
+   "icon": "",
+   "levels": [
+    "A1",
+    "A2",
+    "B1",
+    "B2"
+   ],
+   "skills": [
+    "grammar"
+   ],
+   "mode": "team",
+   "prep": "none",
+   "minutes": 20,
+   "keywords": [
+    "mines",
+    "steal",
+    "swap",
+    "tiles",
+    "treasure"
+   ],
+   "status": "live"
+  },
+  {
+   "id": "mistake-hunters",
+   "hub": "games",
+   "path": "mistake-hunters/mistake-hunters.html",
+   "title": "Mistake Hunters",
+   "blurb": "Find every mistake and claim the top spot. Five CEFR levels, A1–C1.",
+   "icon": "",
+   "levels": [
+    "A1",
+    "A2",
+    "B1",
+    "B2",
+    "C1"
+   ],
+   "skills": [
+    "grammar"
+   ],
+   "mode": "team",
+   "prep": "none",
+   "minutes": 25,
+   "keywords": [
+    "correction",
+    "error",
+    "find",
+    "mistake",
+    "proofreading",
+    "steal",
+    "the"
+   ],
+   "status": "live"
+  },
+  {
+   "id": "orbit",
+   "hub": "games",
+   "path": "orbit/orbit.html",
+   "title": "Orbit",
+   "blurb": "Try to get four marbles of your colour in a horizontal, vertical or diagonal row.",
+   "icon": "",
+   "levels": [],
+   "skills": [
+    "speaking"
+   ],
+   "mode": "team",
+   "prep": "none",
+   "minutes": 15,
+   "keywords": [
+    "a",
+    "four",
+    "in",
+    "marbles",
+    "row",
+    "strategy"
+   ],
+   "status": "live"
+  },
+  {
+   "id": "order-up",
+   "hub": "games",
+   "path": "order-up/order-up.html",
+   "title": "Order Up",
+   "blurb": "Place five items in the correct order.",
+   "icon": "",
+   "levels": [],
+   "skills": [
+    "vocabulary",
+    "reading"
+   ],
+   "mode": "team",
+   "prep": "none",
+   "minutes": 20,
+   "keywords": [
+    "hard",
+    "mode",
+    "ordering",
+    "ranking",
+    "sequence"
+   ],
+   "status": "live"
+  },
+  {
+   "id": "perfect-fit",
+   "hub": "games",
+   "path": "perfect-fit/perfect-fit.html",
+   "title": "Perfect Fit",
+   "blurb": "Race the clock to fit every shape into its slot before the board pops!",
+   "icon": "",
+   "levels": [],
+   "skills": [
+    "vocabulary"
+   ],
+   "mode": "team",
+   "prep": "none",
+   "minutes": 15,
+   "keywords": [
+    "race",
+    "shapes",
+    "slots",
+    "timer"
+   ],
+   "status": "live"
+  },
+  {
+   "id": "problem-solvers",
+   "hub": "games",
+   "path": "problem-solvers/problem-solvers.html",
+   "title": "Problem Solvers",
+   "blurb": "Invent ridiculous solutions to ridiculous problems.",
+   "icon": "",
+   "levels": [],
+   "skills": [
+    "speaking"
+   ],
+   "mode": "team",
+   "prep": "none",
+   "minutes": 20,
+   "keywords": [
+    "absurd",
+    "creative",
+    "pitching",
+    "problems",
+    "solutions"
+   ],
+   "status": "live"
+  },
+  {
+   "id": "record-breaker",
+   "hub": "games",
+   "path": "record-breaker/record-breaker.html",
+   "title": "Record Breaker",
+   "blurb": "Guess the number but don't go overboard!",
+   "icon": "",
+   "levels": [],
+   "skills": [
+    "listening",
+    "speaking"
+   ],
+   "mode": "team",
+   "prep": "none",
+   "minutes": 15,
+   "keywords": [
+    "estimation",
+    "guess",
+    "number",
+    "records",
+    "the"
+   ],
+   "status": "live"
+  },
+  {
+   "id": "resistance",
+   "hub": "games",
+   "path": "resistance/resistance.html",
+   "title": "Resistance",
+   "blurb": "Can you spot a liar? Can you overcome the challenges?",
+   "icon": "",
+   "levels": [],
+   "skills": [
+    "speaking"
+   ],
+   "mode": "team",
+   "prep": "none",
+   "minutes": 30,
+   "keywords": [
+    "bluffing",
+    "deduction",
+    "liar",
+    "missions",
+    "social"
+   ],
+   "status": "live"
+  },
+  {
+   "id": "ring-memory",
+   "hub": "games",
+   "path": "ring-memory/ring-memory.html",
+   "title": "Ring of Gems",
+   "blurb": "Match gem pairs before the stone rings turn and scramble everything.",
+   "icon": "",
+   "levels": [],
+   "skills": [
+    "vocabulary"
+   ],
+   "mode": "team",
+   "prep": "none",
+   "minutes": 10,
+   "keywords": [
+    "gems",
+    "memory",
+    "of",
+    "pairs",
+    "ring",
+    "rotation"
+   ],
+   "status": "live"
+  },
+  {
+   "id": "hangman",
+   "hub": "games",
+   "path": "hangman/hangman.html",
+   "title": "Save the Cheese",
+   "blurb": "Classic word guessing game. Figure out the hidden word before running out of chances!",
+   "icon": "",
+   "levels": [],
+   "skills": [
+    "vocabulary"
+   ],
+   "mode": "whole-class",
+   "prep": "setup",
+   "minutes": 10,
+   "keywords": [
+    "cheese",
+    "guessing",
+    "hangman",
+    "letters",
+    "save",
+    "spelling",
+    "the",
+    "word"
+   ],
+   "status": "live"
+  },
+  {
+   "id": "scattergories",
+   "hub": "games",
+   "path": "scattergories/scattergories.html",
+   "title": "Scattergories",
+   "blurb": "Quick thinking game where you name items in categories.",
+   "icon": "",
+   "levels": [],
+   "skills": [
+    "vocabulary",
+    "writing"
+   ],
+   "mode": "team",
+   "prep": "none",
+   "minutes": 15,
+   "keywords": [
+    "categories",
+    "letters",
+    "quick",
+    "thinking"
+   ],
+   "status": "live"
+  },
+  {
+   "id": "scrambler",
+   "hub": "games",
+   "path": "scrambler/scrambler.html",
+   "title": "Scrambler",
+   "blurb": "Order sentences or unscramble words to tell the story!",
+   "icon": "",
+   "levels": [
+    "A1",
+    "A2",
+    "B1",
+    "B2"
+   ],
+   "skills": [
+    "grammar",
+    "reading"
+   ],
+   "mode": "team",
+   "prep": "none",
+   "minutes": 20,
+   "keywords": [
+    "and",
+    "drag",
+    "drop",
+    "order",
+    "sentence",
+    "unscramble",
+    "word"
+   ],
+   "status": "live"
+  },
+  {
+   "id": "sentence-auction",
+   "hub": "games",
+   "path": "sentence-auction/sentence-auction.html",
+   "title": "Sentence Auction",
+   "blurb": "Bid on correct sentences and be the one with the most money at the end!",
+   "icon": "",
+   "levels": [
+    "A1",
+    "A2",
+    "B1",
+    "B2"
+   ],
+   "skills": [
+    "grammar"
+   ],
+   "mode": "team",
+   "prep": "none",
+   "minutes": 25,
+   "keywords": [
+    "bidding",
+    "correct",
+    "error",
+    "money",
+    "sentences",
+    "spotting"
+   ],
+   "status": "live"
+  },
+  {
+   "id": "song-word-race",
+   "hub": "games",
+   "path": "song-word-race/song-word-race.html",
+   "title": "Song Word Race",
+   "blurb": "Race to the mic and sing a song containing the word on screen.",
+   "icon": "",
+   "levels": [],
+   "skills": [
+    "listening",
+    "speaking"
+   ],
+   "mode": "team",
+   "prep": "none",
+   "minutes": 15,
+   "keywords": [
+    "music",
+    "race",
+    "singing",
+    "songs"
+   ],
+   "status": "live"
+  },
+  {
+   "id": "sound-off",
+   "hub": "games",
+   "path": "sound-off/sound-off.html",
+   "title": "Sound Off",
+   "blurb": "Minimal-pair listening battle: hear it, choose it, say it. Trains the sounds Brazilians mix up.",
+   "icon": "",
+   "levels": [
+    "A1",
+    "A2",
+    "B1",
+    "B2"
+   ],
+   "skills": [
+    "listening",
+    "speaking"
+   ],
+   "mode": "team",
+   "prep": "none",
+   "minutes": 20,
+   "keywords": [
+    "minimal",
+    "pairs",
+    "phonemes",
+    "pronunciation"
+   ],
+   "status": "live"
+  },
+  {
+   "id": "bee",
+   "hub": "games",
+   "path": "bee/bee.html",
+   "title": "Spelling Bee",
+   "blurb": "Do you know how to spell? Are you sure?",
+   "icon": "",
+   "levels": [
+    "A1",
+    "A2",
+    "B1",
+    "B2"
+   ],
+   "skills": [
+    "listening"
+   ],
+   "mode": "team",
+   "prep": "none",
+   "minutes": 25,
+   "keywords": [
+    "bee",
+    "dictation",
+    "spelling",
+    "tournament"
+   ],
+   "status": "live"
+  },
+  {
+   "id": "stairs",
+   "hub": "games",
+   "path": "stairs/stairs.html",
+   "title": "Stairs",
+   "blurb": "Climb your way to success in this progressive challenge game. Each level gets more exciting!",
+   "icon": "",
+   "levels": [],
+   "skills": [
+    "grammar",
+    "vocabulary"
+   ],
+   "mode": "team",
+   "prep": "none",
+   "minutes": 20,
+   "keywords": [
+    "climb",
+    "levels",
+    "progressive"
+   ],
+   "status": "live"
+  },
+  {
+   "id": "stop-twist",
+   "hub": "games",
+   "path": "stop-twist/stop-twist.html",
+   "title": "Stop Twist",
+   "blurb": "Be fast and precise! Can you fill in every category before your classmates?",
+   "icon": "",
+   "levels": [],
+   "skills": [
+    "vocabulary",
+    "writing"
+   ],
+   "mode": "team",
+   "prep": "none",
+   "minutes": 15,
+   "keywords": [
+    "categories",
+    "letters",
+    "speed",
+    "stop"
+   ],
+   "status": "live"
+  },
+  {
+   "id": "adventure",
+   "hub": "games",
+   "path": "adventure/adventure.html",
+   "title": "The Lost Signal",
+   "blurb": "Branching sci-fi story with 106 endings. Reading level A2–B1.",
+   "icon": "",
+   "levels": [
+    "A2",
+    "B1"
+   ],
+   "skills": [
+    "reading"
+   ],
+   "mode": "whole-class",
+   "prep": "none",
+   "minutes": 30,
+   "keywords": [
+    "adventure",
+    "branching",
+    "choose",
+    "endings",
+    "lost",
+    "own",
+    "sci-fi",
+    "signal",
+    "story",
+    "the",
+    "your"
+   ],
+   "status": "live"
+  },
+  {
+   "id": "categories",
+   "hub": "games",
+   "path": "categories/categories.html",
+   "title": "Think on your Feet",
+   "blurb": "Name an item for every category on the board before your clock runs out. CEFR level filter, 2–6 teams.",
+   "icon": "",
+   "levels": [
+    "A1",
+    "A2",
+    "B1",
+    "B2"
+   ],
+   "skills": [
+    "vocabulary",
+    "speaking"
+   ],
+   "mode": "team",
+   "prep": "none",
+   "minutes": 15,
+   "keywords": [
+    "brainstorm",
+    "categories",
+    "clock",
+    "feet",
+    "on",
+    "think",
+    "your"
+   ],
+   "status": "live"
+  },
+  {
+   "id": "topten",
+   "hub": "games",
+   "path": "topten/topten.html",
+   "title": "Top Ten",
+   "blurb": "Rank and discuss the best items in various categories. Great for group discussions!",
+   "icon": "",
+   "levels": [],
+   "skills": [
+    "speaking"
+   ],
+   "mode": "team",
+   "prep": "none",
+   "minutes": 20,
+   "keywords": [
+    "discussion",
+    "opinions",
+    "ranking"
+   ],
+   "status": "live"
+  },
+  {
+   "id": "toptwenty",
+   "hub": "games",
+   "path": "toptwenty/toptwenty.html",
+   "title": "Top Twenty",
+   "blurb": "Rank it like a boss!",
+   "icon": "",
+   "levels": [],
+   "skills": [
+    "speaking"
+   ],
+   "mode": "team",
+   "prep": "none",
+   "minutes": 20,
+   "keywords": [
+    "guessing",
+    "it",
+    "lists",
+    "rank",
+    "ranking",
+    "trivia"
+   ],
+   "status": "live"
+  },
+  {
+   "id": "trivia-teams",
+   "hub": "games",
+   "path": "trivia-teams/trivia-teams.html",
+   "title": "Trivia Badge Hunters",
+   "blurb": "The more you know!",
+   "icon": "",
+   "levels": [
+    "A1",
+    "A2",
+    "B1",
+    "B2"
+   ],
+   "skills": [
+    "reading"
+   ],
+   "mode": "team",
+   "prep": "none",
+   "minutes": 25,
+   "keywords": [
+    "badges",
+    "general",
+    "knowledge",
+    "trivia"
+   ],
+   "status": "live"
+  },
+  {
+   "id": "truorfalse",
+   "hub": "games",
+   "path": "truorfalse/truorfalse.html",
+   "title": "True or False",
+   "blurb": "Fact or Fake?",
+   "icon": "",
+   "levels": [
+    "A1",
+    "A2",
+    "B1",
+    "B2"
+   ],
+   "skills": [
+    "reading"
+   ],
+   "mode": "team",
+   "prep": "none",
+   "minutes": 15,
+   "keywords": [
+    "fact",
+    "facts",
+    "fake",
+    "false",
+    "or",
+    "true"
+   ],
+   "status": "live"
+  },
+  {
+   "id": "tictactoe",
+   "hub": "games",
+   "path": "tictactoe/tictactoe.html",
+   "title": "Ultimate Tic Tac Toe",
+   "blurb": "How many boards can you play at the same time?",
+   "icon": "",
+   "levels": [],
+   "skills": [
+    "grammar",
+    "speaking"
+   ],
+   "mode": "team",
+   "prep": "setup",
+   "minutes": 15,
+   "keywords": [
+    "boards",
+    "strategy",
+    "tac",
+    "tic",
+    "toe"
+   ],
+   "status": "live"
+  },
+  {
+   "id": "unscramble",
+   "hub": "games",
+   "path": "unscramble/unscramble.html",
+   "title": "Unscramble",
+   "blurb": "Put the letters in order to make a word in a specific category.",
+   "icon": "",
+   "levels": [
+    "A1",
+    "A2",
+    "B1",
+    "B2"
+   ],
+   "skills": [
+    "vocabulary"
+   ],
+   "mode": "team",
+   "prep": "none",
+   "minutes": 15,
+   "keywords": [
+    "anagram",
+    "categories",
+    "letters",
+    "scramble",
+    "word"
+   ],
+   "status": "live"
+  },
+  {
+   "id": "vocab-toolkit",
+   "hub": "games",
+   "path": "vocab-toolkit/vocab-toolkit.html",
+   "title": "Vocab Toolkit",
+   "blurb": "Enter any word list and choose an activity: Word Search, Save the Cheese, Bingo, Anagram Scramble, Definition Match, or Flashcards.",
+   "icon": "",
+   "levels": [],
+   "skills": [
+    "vocabulary"
+   ],
+   "mode": "whole-class",
+   "prep": "setup",
+   "minutes": 20,
+   "keywords": [
+    "anagram",
+    "bingo",
+    "custom",
+    "list",
+    "multi-activity",
+    "search",
+    "word"
+   ],
+   "status": "live"
+  },
+  {
+   "id": "wave",
+   "hub": "games",
+   "path": "wave/wave.html",
+   "title": "Wave",
+   "blurb": "Ride the wave of excitement in this dynamic and engaging game experience.",
+   "icon": "",
+   "levels": [],
+   "skills": [
+    "speaking"
+   ],
+   "mode": "team",
+   "prep": "none",
+   "minutes": 10,
+   "keywords": [
+    "energy",
+    "warm-up"
+   ],
+   "status": "live"
+  },
+  {
+   "id": "wheel",
+   "hub": "games",
+   "path": "wheel/wheel.html",
+   "title": "Wheel",
+   "blurb": "Spin the wheel of fortune and see where luck takes you. Exciting and unpredictable!",
+   "icon": "",
+   "levels": [
+    "A1",
+    "A2",
+    "B1",
+    "B2"
+   ],
+   "skills": [
+    "speaking"
+   ],
+   "mode": "whole-class",
+   "prep": "none",
+   "minutes": 15,
+   "keywords": [
+    "fortune",
+    "of",
+    "prizes",
+    "random",
+    "spinner",
+    "wheel"
+   ],
+   "status": "live"
+  },
+  {
+   "id": "word-buzz",
+   "hub": "games",
+   "path": "word-buzz/word-buzz.html",
+   "title": "Word Buzz",
+   "blurb": "Be fast and say the word first!",
+   "icon": "",
+   "levels": [
+    "A1",
+    "A2",
+    "B1",
+    "B2"
+   ],
+   "skills": [
+    "vocabulary",
+    "listening"
+   ],
+   "mode": "team",
+   "prep": "none",
+   "minutes": 15,
+   "keywords": [
+    "buzzer",
+    "first",
+    "say",
+    "speed",
+    "to"
+   ],
+   "status": "live"
+  },
+  {
+   "id": "word-gap-game",
+   "hub": "games",
+   "path": "word-gap-game/word-gap-game.html",
+   "title": "Word Gap",
+   "blurb": "Find the word and click it to complete the gap!",
+   "icon": "",
+   "levels": [
+    "A1",
+    "A2",
+    "B1",
+    "B2",
+    "C1"
+   ],
+   "skills": [
+    "grammar",
+    "vocabulary"
+   ],
+   "mode": "team",
+   "prep": "none",
+   "minutes": 20,
+   "keywords": [
+    "chips",
+    "cloze",
+    "distractors",
+    "fill",
+    "focus",
+    "fun",
+    "gap",
+    "mode",
+    "word"
+   ],
+   "status": "live"
+  },
+  {
+   "id": "teacher-wordle",
+   "hub": "games",
+   "path": "teacher-wordle/teacher-wordle.html",
+   "title": "Word Quest",
+   "blurb": "Custom wordle with dictionary API.",
+   "icon": "",
+   "levels": [
+    "A1",
+    "A2",
+    "B1",
+    "B2"
+   ],
+   "skills": [
+    "vocabulary"
+   ],
+   "mode": "solo",
+   "prep": "none",
+   "minutes": 10,
+   "keywords": [
+    "dictionary",
+    "guessing",
+    "letters",
+    "quest",
+    "word",
+    "wordle"
+   ],
+   "status": "live"
+  },
+  {
+   "id": "wordsearch",
+   "hub": "games",
+   "path": "wordsearch/wordsearch.html",
+   "title": "Word Search Maker",
+   "blurb": "Build your own word search puzzle and race to find every word!",
+   "icon": "",
+   "levels": [],
+   "skills": [
+    "vocabulary"
+   ],
+   "mode": "whole-class",
+   "prep": "setup",
+   "minutes": 15,
+   "keywords": [
+    "beat",
+    "clock",
+    "custom",
+    "puzzle",
+    "search",
+    "the",
+    "word",
+    "words"
+   ],
+   "status": "live"
+  },
+  {
+   "id": "teacher-dashboard",
+   "hub": "tools",
+   "path": "teacher-dashboard/teacher-dashboard.html",
+   "title": "Teacher Dashboard",
+   "blurb": "Manage classes & students, take roll call, log observations, and generate printable attendance reports.",
+   "icon": "📊",
+   "levels": [],
+   "skills": [
+    "admin"
+   ],
+   "mode": "teacher",
+   "prep": "none",
+   "minutes": 0,
+   "keywords": [
+    "attendance",
+    "call",
+    "classes",
+    "grades",
+    "observations",
+    "reports",
+    "roll",
+    "students"
+   ],
+   "status": "live",
+   "featured": true
+  },
+  {
+   "id": "aura-tracker",
+   "hub": "tools",
+   "path": "aura-tracker/aura-tracker.html",
+   "title": "Aura Tracker",
+   "blurb": "No cap · Fully transparent · Based on vibes.",
+   "icon": "🏛️",
+   "levels": [],
+   "skills": [
+    "admin"
+   ],
+   "mode": "whole-class",
+   "prep": "none",
+   "minutes": 5,
+   "keywords": [
+    "behavior",
+    "points",
+    "tracker",
+    "vibes"
+   ],
+   "status": "live"
+  },
+  {
+   "id": "dialog-practice",
+   "hub": "tools",
+   "path": "Dialog Practice/dialog-practice.html",
+   "title": "Dialog Simulator",
+   "blurb": "Text-to-speech conversations by CEFR level, A1–B2.",
+   "icon": "🎧",
+   "levels": [
+    "A1",
+    "A2",
+    "B1",
+    "B2"
+   ],
+   "skills": [
+    "listening",
+    "speaking"
+   ],
+   "mode": "whole-class",
+   "prep": "none",
+   "minutes": 20,
+   "keywords": [
+    "conversations",
+    "dialog",
+    "dialogues",
+    "play",
+    "role",
+    "simulator",
+    "tts"
+   ],
+   "status": "live"
+  },
+  {
+   "id": "before-after-writing",
+   "hub": "tools",
+   "path": "before-after-writing/before-after-writing.html",
+   "title": "Before & After Writing",
+   "blurb": "From poor-written to polished with a few changes.",
+   "icon": "🏛️",
+   "levels": [
+    "A1",
+    "A2",
+    "B1",
+    "B2"
+   ],
+   "skills": [
+    "writing"
+   ],
+   "mode": "team",
+   "prep": "none",
+   "minutes": 25,
+   "keywords": [
+    "editing",
+    "find",
+    "improve",
+    "mode",
+    "paragraphs",
+    "revision"
+   ],
+   "status": "live"
+  },
+  {
+   "id": "efl-classroom-toolkit",
+   "hub": "tools",
+   "path": "efl-classroom-toolkit/efl-classroom-toolkit.html",
+   "title": "Classroom Toolkit",
+   "blurb": "Various tools to deal with class management.",
+   "icon": "🏛️",
+   "levels": [],
+   "skills": [
+    "admin"
+   ],
+   "mode": "whole-class",
+   "prep": "none",
+   "minutes": 5,
+   "keywords": [
+    "class",
+    "groups",
+    "management",
+    "noise",
+    "picker",
+    "random",
+    "timer"
+   ],
+   "status": "live"
+  },
+  {
+   "id": "competition",
+   "hub": "tools",
+   "path": "competition/competition.html",
+   "title": "Competition",
+   "blurb": "Duel matches league-style.",
+   "icon": "⚔",
+   "levels": [],
+   "skills": [
+    "admin"
+   ],
+   "mode": "team",
+   "prep": "setup",
+   "minutes": 15,
+   "keywords": [
+    "duels",
+    "league",
+    "scoring",
+    "tournament"
+   ],
+   "status": "live"
+  },
+  {
+   "id": "dictation",
+   "hub": "tools",
+   "path": "dictation/dictation.html",
+   "title": "Dictation Drill",
+   "blurb": "Listen and type what you hear, solo practice or team game.",
+   "icon": "🎧",
+   "levels": [
+    "A1",
+    "A2",
+    "B1",
+    "B2"
+   ],
+   "skills": [
+    "listening",
+    "writing"
+   ],
+   "mode": "solo",
+   "prep": "none",
+   "minutes": 15,
+   "keywords": [
+    "dictation",
+    "spelling",
+    "tts",
+    "typing"
+   ],
+   "status": "live"
+  },
+  {
+   "id": "reading",
+   "hub": "tools",
+   "path": "reading/reader.html",
+   "title": "EFL Reader",
+   "blurb": "Graded reading passages with word highlighting, topic filters, and comprehension questions.",
+   "icon": "📖",
+   "levels": [
+    "A1",
+    "A2",
+    "B1",
+    "B2"
+   ],
+   "skills": [
+    "reading"
+   ],
+   "mode": "solo",
+   "prep": "none",
+   "minutes": 25,
+   "keywords": [
+    "comprehension",
+    "efl",
+    "graded",
+    "highlighting",
+    "passages",
+    "reader",
+    "topics"
+   ],
+   "status": "live"
+  },
+  {
+   "id": "first-class",
+   "hub": "tools",
+   "path": "first-class/first-class.html",
+   "title": "First Class",
+   "blurb": "Start-of-term rules deck with illustrated slides, an icebreaker timer, and a rules quiz.",
+   "icon": "👋",
+   "levels": [
+    "A1",
+    "A2",
+    "B1",
+    "B2"
+   ],
+   "skills": [
+    "speaking"
+   ],
+   "mode": "whole-class",
+   "prep": "none",
+   "minutes": 40,
+   "keywords": [
+    "day",
+    "homework",
+    "icebreaker",
+    "of",
+    "one",
+    "phones",
+    "policies",
+    "rules",
+    "start",
+    "term"
+   ],
+   "status": "live"
+  },
+  {
+   "id": "ideadeck",
+   "hub": "tools",
+   "path": "ideadeck/ideadeck.html",
+   "title": "Idea Deck",
+   "blurb": "Prepare your pitch and deliver.",
+   "icon": "🎙️",
+   "levels": [
+    "A1",
+    "A2",
+    "B1",
+    "B2"
+   ],
+   "skills": [
+    "speaking"
+   ],
+   "mode": "solo",
+   "prep": "none",
+   "minutes": 20,
+   "keywords": [
+    "deck",
+    "idea",
+    "pitch",
+    "presentation",
+    "prompts"
+   ],
+   "status": "live"
+  },
+  {
+   "id": "listening-cloze",
+   "hub": "tools",
+   "path": "listening-cloze/listening-cloze.html",
+   "title": "Listening Cloze",
+   "blurb": "Hear a passage, fill the gaps. Listen-first mode, sentence replay, and team play.",
+   "icon": "🎧",
+   "levels": [
+    "A1",
+    "A2",
+    "B1",
+    "B2"
+   ],
+   "skills": [
+    "listening"
+   ],
+   "mode": "whole-class",
+   "prep": "none",
+   "minutes": 20,
+   "keywords": [
+    "cloze",
+    "fill",
+    "forms",
+    "gap",
+    "replay",
+    "tts",
+    "weak"
+   ],
+   "status": "live"
+  },
+  {
+   "id": "pronunciation-trainer",
+   "hub": "tools",
+   "path": "pronunciation-trainer/pronunciation-trainer.html",
+   "title": "Pronunciation Trainer",
+   "blurb": "Interactive phonemic chart, minimal-pair listening, and connected-speech drills (US/UK).",
+   "icon": "🗣️",
+   "levels": [
+    "A1",
+    "A2",
+    "B1",
+    "B2"
+   ],
+   "skills": [
+    "speaking",
+    "listening"
+   ],
+   "mode": "whole-class",
+   "prep": "none",
+   "minutes": 20,
+   "keywords": [
+    "accent",
+    "chart",
+    "connected",
+    "ipa",
+    "minimal",
+    "pairs",
+    "phonemic",
+    "speech",
+    "uk",
+    "us"
+   ],
+   "status": "live"
+  },
+  {
+   "id": "irregular",
+   "hub": "tools",
+   "path": "irregular/irregular.html",
+   "title": "Irregular Verbs",
+   "blurb": "Flashcards can help memorize verb forms.",
+   "icon": "📚",
+   "levels": [
+    "A1",
+    "A2",
+    "B1"
+   ],
+   "skills": [
+    "grammar"
+   ],
+   "mode": "solo",
+   "prep": "none",
+   "minutes": 10,
+   "keywords": [
+    "flashcards",
+    "irregular",
+    "participle",
+    "past",
+    "verbs"
+   ],
+   "status": "live"
+  },
+  {
+   "id": "mad-libs-efl",
+   "hub": "tools",
+   "path": "mad-libs-efl/mad-libs-efl.html",
+   "title": "Mad Libs",
+   "blurb": "Create funny stories one word at a time.",
+   "icon": "🤪",
+   "levels": [
+    "A1",
+    "A2",
+    "B1",
+    "B2",
+    "C1"
+   ],
+   "skills": [
+    "grammar",
+    "writing"
+   ],
+   "mode": "whole-class",
+   "prep": "none",
+   "minutes": 15,
+   "keywords": [
+    "adjectives",
+    "libs",
+    "mad",
+    "nouns",
+    "of",
+    "parts",
+    "silly",
+    "speech",
+    "stories",
+    "verbs"
+   ],
+   "status": "live"
+  },
+  {
+   "id": "efl-oral-assessment",
+   "hub": "tools",
+   "path": "efl-oral-assessment/efl-oral-assessment.html",
+   "title": "Oral Assessment",
+   "blurb": "Oral rubrics for student scoring.",
+   "icon": "🎙️",
+   "levels": [],
+   "skills": [
+    "assessment"
+   ],
+   "mode": "teacher",
+   "prep": "none",
+   "minutes": 0,
+   "keywords": [
+    "assessment",
+    "oral",
+    "rubric",
+    "scoring",
+    "speaking"
+   ],
+   "status": "live"
+  },
+  {
+   "id": "placement-test",
+   "hub": "tools",
+   "path": "placement-test.html",
+   "title": "Placement Test",
+   "blurb": "Conversation-based placement across 9 levels, Starter to Intermediate 4.",
+   "icon": "📋",
+   "levels": [],
+   "skills": [
+    "assessment"
+   ],
+   "mode": "teacher",
+   "prep": "none",
+   "minutes": 20,
+   "keywords": [
+    "interview",
+    "levels",
+    "new",
+    "placement",
+    "starter",
+    "students"
+   ],
+   "status": "live"
+  },
+  {
+   "id": "pop-quiz",
+   "hub": "tools",
+   "path": "pop-quiz/pop-quiz.html",
+   "title": "Pop Quiz",
+   "blurb": "Instant grammar quizzes from 31 GrammarHub topics. Projected team play or solo self-check; filter by level, topic and type.",
+   "icon": "⚡",
+   "levels": [
+    "A1",
+    "A2",
+    "B1",
+    "B2"
+   ],
+   "skills": [
+    "grammar"
+   ],
+   "mode": "team",
+   "prep": "none",
+   "minutes": 15,
+   "keywords": [
+    "fill",
+    "generator",
+    "grammarhub",
+    "match",
+    "pop",
+    "quiz",
+    "unscramble"
+   ],
+   "status": "live"
+  },
+  {
+   "id": "questions",
+   "hub": "tools",
+   "path": "questions/questions.html",
+   "title": "Questions",
+   "blurb": "Browse through our question bank",
+   "icon": "❔",
+   "levels": [
+    "A1",
+    "A2",
+    "B1",
+    "B2"
+   ],
+   "skills": [
+    "speaking"
+   ],
+   "mode": "whole-class",
+   "prep": "none",
+   "minutes": 15,
+   "keywords": [
+    "bank",
+    "conversation",
+    "discussion",
+    "question",
+    "starters"
+   ],
+   "status": "live"
+  },
+  {
+   "id": "efl-recipe-challenge",
+   "hub": "tools",
+   "path": "efl-recipe-challenge/efl-recipe-challenge.html",
+   "title": "Recipe Rumble",
+   "blurb": "Teams spin for random ingredients, then write and pitch a dish.",
+   "icon": "😋",
+   "levels": [
+    "A1",
+    "A2",
+    "B1"
+   ],
+   "skills": [
+    "speaking",
+    "writing"
+   ],
+   "mode": "team",
+   "prep": "none",
+   "minutes": 25,
+   "keywords": [
+    "cooking",
+    "food",
+    "ingredients",
+    "kitchen",
+    "pitch",
+    "recipe",
+    "rumble"
+   ],
+   "status": "live"
+  },
+  {
+   "id": "reportcards",
+   "hub": "tools",
+   "path": "reportcards/reportcards.html",
+   "title": "Report Card Tool",
+   "blurb": "Student assessment made easy.",
+   "icon": "📝",
+   "levels": [],
+   "skills": [
+    "assessment"
+   ],
+   "mode": "teacher",
+   "prep": "none",
+   "minutes": 0,
+   "keywords": [
+    "assessment",
+    "cards",
+    "comments",
+    "grades",
+    "report",
+    "student"
+   ],
+   "status": "live"
+  },
+  {
+   "id": "roleplay-spinner",
+   "hub": "tools",
+   "path": "roleplay-spinner/roleplay-spinner.html",
+   "title": "Roleplay Spinner",
+   "blurb": "Create improv scenarios on the go.",
+   "icon": "🎭",
+   "levels": [
+    "A1",
+    "A2",
+    "B1",
+    "B2"
+   ],
+   "skills": [
+    "speaking"
+   ],
+   "mode": "team",
+   "prep": "none",
+   "minutes": 15,
+   "keywords": [
+    "improv",
+    "play",
+    "role",
+    "scenarios",
+    "situations"
+   ],
+   "status": "live"
+  },
+  {
+   "id": "story-spark",
+   "hub": "tools",
+   "path": "story-spark/story-spark.html",
+   "title": "Story Spark",
+   "blurb": "Roll a character, a goal, an obstacle and a twist, then write it in four beats. A1–B2.",
+   "icon": "✨",
+   "levels": [
+    "A1",
+    "A2",
+    "B1",
+    "B2"
+   ],
+   "skills": [
+    "writing"
+   ],
+   "mode": "solo",
+   "prep": "none",
+   "minutes": 25,
+   "keywords": [
+    "character",
+    "creative",
+    "plot",
+    "prompts",
+    "twist",
+    "writing"
+   ],
+   "status": "live"
+  },
+  {
+   "id": "thermometer",
+   "hub": "tools",
+   "path": "thermometer/thermometer.html",
+   "title": "Thermometer",
+   "blurb": "English only, please!",
+   "icon": "🌡",
+   "levels": [
+    "A1",
+    "A2",
+    "B1",
+    "B2"
+   ],
+   "skills": [
+    "admin"
+   ],
+   "mode": "whole-class",
+   "prep": "none",
+   "minutes": 5,
+   "keywords": [
+    "behavior",
+    "english",
+    "l1",
+    "monitoring",
+    "only",
+    "portuguese"
+   ],
+   "status": "live"
+  },
+  {
+   "id": "spinner",
+   "hub": "tools",
+   "path": "spinner/spinner.html",
+   "title": "This or that?",
+   "blurb": "Would you rather...?",
+   "icon": "❔",
+   "levels": [],
+   "skills": [
+    "speaking"
+   ],
+   "mode": "whole-class",
+   "prep": "none",
+   "minutes": 10,
+   "keywords": [
+    "dilemmas",
+    "discussion",
+    "or",
+    "rather",
+    "that",
+    "this",
+    "would",
+    "you"
+   ],
+   "status": "live"
+  },
+  {
+   "id": "toefl-correction",
+   "hub": "tools",
+   "path": "toefl-correction/toefl-correction.html",
+   "title": "TOEFL Correction",
+   "blurb": "Convert correct answers per section into a TOEFL score",
+   "icon": "✓",
+   "levels": [],
+   "skills": [
+    "assessment"
+   ],
+   "mode": "teacher",
+   "prep": "none",
+   "minutes": 5,
+   "keywords": [
+    "calculator",
+    "conversion",
+    "itp",
+    "score",
+    "sections",
+    "toefl"
+   ],
+   "status": "live"
+  },
+  {
+   "id": "writing-scaffold",
+   "hub": "tools",
+   "path": "writing-scaffold/writing-scaffold.html",
+   "title": "Writing Scaffold",
+   "blurb": "Writing made easy with sentence starters, connectors and a word bank.",
+   "icon": "📓",
+   "levels": [
+    "A1",
+    "A2",
+    "B1",
+    "B2",
+    "C1"
+   ],
+   "skills": [
+    "writing"
+   ],
+   "mode": "solo",
+   "prep": "none",
+   "minutes": 30,
+   "keywords": [
+    "bank",
+    "connectors",
+    "prompts",
+    "sentence",
+    "starters",
+    "word"
+   ],
+   "status": "live"
+  },
+  {
+   "id": "present-continuous-activities",
+   "hub": "grammar",
+   "path": "a1/present-continuous_activities.html",
+   "title": "Present Continuous — Activities",
+   "blurb": "Am, is, are + -ing — talking about what's happening right now.",
+   "icon": "",
+   "levels": [
+    "A1"
+   ],
+   "skills": [
+    "grammar"
+   ],
+   "mode": "solo",
+   "prep": "none",
+   "minutes": 20,
+   "keywords": [
+    "about",
+    "am",
+    "are",
+    "continuous",
+    "happening",
+    "ing",
+    "is",
+    "now",
+    "present",
+    "right",
+    "s",
+    "talking",
+    "what"
+   ],
+   "status": "live",
+   "topic": "Present Continuous",
+   "kind": "activities"
+  },
+  {
+   "id": "present-continuous-slides",
+   "hub": "grammar",
+   "path": "a1/present-continuous_slides.html",
+   "title": "Present Continuous — Slides",
+   "blurb": "Am, is, are + -ing — talking about what's happening right now.",
+   "icon": "",
+   "levels": [
+    "A1"
+   ],
+   "skills": [
+    "grammar"
+   ],
+   "mode": "whole-class",
+   "prep": "none",
+   "minutes": 25,
+   "keywords": [
+    "about",
+    "am",
+    "are",
+    "continuous",
+    "happening",
+    "ing",
+    "is",
+    "now",
+    "present",
+    "right",
+    "s",
+    "talking",
+    "what"
+   ],
+   "status": "live",
+   "topic": "Present Continuous",
+   "kind": "slides"
+  },
+  {
+   "id": "simple-past-to-be-activities",
+   "hub": "grammar",
+   "path": "a1/simple-past-to-be_activities.html",
+   "title": "Simple Past: To Be — Activities",
+   "blurb": "Describing past situations and states with was and were.",
+   "icon": "",
+   "levels": [
+    "A1"
+   ],
+   "skills": [
+    "grammar"
+   ],
+   "mode": "solo",
+   "prep": "none",
+   "minutes": 20,
+   "keywords": [
+    "and",
+    "be",
+    "describing",
+    "past",
+    "simple",
+    "situations",
+    "states",
+    "to",
+    "was",
+    "were",
+    "with"
+   ],
+   "status": "live",
+   "topic": "Simple Past: To Be",
+   "kind": "activities"
+  },
+  {
+   "id": "simple-past-to-be-slides",
+   "hub": "grammar",
+   "path": "a1/simple-past-to-be_slides.html",
+   "title": "Simple Past: To Be — Slides",
+   "blurb": "Describing past situations and states with was and were.",
+   "icon": "",
+   "levels": [
+    "A1"
+   ],
+   "skills": [
+    "grammar"
+   ],
+   "mode": "whole-class",
+   "prep": "none",
+   "minutes": 25,
+   "keywords": [
+    "and",
+    "be",
+    "describing",
+    "past",
+    "simple",
+    "situations",
+    "states",
+    "to",
+    "was",
+    "were",
+    "with"
+   ],
+   "status": "live",
+   "topic": "Simple Past: To Be",
+   "kind": "slides"
+  },
+  {
+   "id": "simple-present-to-be-activities",
+   "hub": "grammar",
+   "path": "a1/simple-present-to-be_activities.html",
+   "title": "Simple Present: To Be — Activities",
+   "blurb": "Describing people, places and things with am, is and are.",
+   "icon": "",
+   "levels": [
+    "A1"
+   ],
+   "skills": [
+    "grammar"
+   ],
+   "mode": "solo",
+   "prep": "none",
+   "minutes": 20,
+   "keywords": [
+    "am",
+    "and",
+    "are",
+    "be",
+    "describing",
+    "is",
+    "people",
+    "places",
+    "present",
+    "simple",
+    "things",
+    "to",
+    "with"
+   ],
+   "status": "live",
+   "topic": "Simple Present: To Be",
+   "kind": "activities"
+  },
+  {
+   "id": "simple-present-to-be-slides",
+   "hub": "grammar",
+   "path": "a1/simple-present-to-be_slides.html",
+   "title": "Simple Present: To Be — Slides",
+   "blurb": "Describing people, places and things with am, is and are.",
+   "icon": "",
+   "levels": [
+    "A1"
+   ],
+   "skills": [
+    "grammar"
+   ],
+   "mode": "whole-class",
+   "prep": "none",
+   "minutes": 25,
+   "keywords": [
+    "am",
+    "and",
+    "are",
+    "be",
+    "describing",
+    "is",
+    "people",
+    "places",
+    "present",
+    "simple",
+    "things",
+    "to",
+    "with"
+   ],
+   "status": "live",
+   "topic": "Simple Present: To Be",
+   "kind": "slides"
+  },
+  {
+   "id": "simple-present-do-does-activities",
+   "hub": "grammar",
+   "path": "a1/simple-present-do-does_activities.html",
+   "title": "Simple Present: Do / Does — Activities",
+   "blurb": "Habits, routines and facts with all verbs except to be.",
+   "icon": "",
+   "levels": [
+    "A1"
+   ],
+   "skills": [
+    "grammar"
+   ],
+   "mode": "solo",
+   "prep": "none",
+   "minutes": 20,
+   "keywords": [
+    "all",
+    "and",
+    "be",
+    "do",
+    "does",
+    "except",
+    "facts",
+    "habits",
+    "present",
+    "routines",
+    "simple",
+    "to",
+    "verbs",
+    "with"
+   ],
+   "status": "live",
+   "topic": "Simple Present: Do / Does",
+   "kind": "activities"
+  },
+  {
+   "id": "simple-present-do-does-slides",
+   "hub": "grammar",
+   "path": "a1/simple-present-do-does_slides.html",
+   "title": "Simple Present: Do / Does — Slides",
+   "blurb": "Habits, routines and facts with all verbs except to be.",
+   "icon": "",
+   "levels": [
+    "A1"
+   ],
+   "skills": [
+    "grammar"
+   ],
+   "mode": "whole-class",
+   "prep": "none",
+   "minutes": 25,
+   "keywords": [
+    "all",
+    "and",
+    "be",
+    "do",
+    "does",
+    "except",
+    "facts",
+    "habits",
+    "present",
+    "routines",
+    "simple",
+    "to",
+    "verbs",
+    "with"
+   ],
+   "status": "live",
+   "topic": "Simple Present: Do / Does",
+   "kind": "slides"
+  },
+  {
+   "id": "past-progressive-activities",
+   "hub": "grammar",
+   "path": "a2/past-progressive_activities.html",
+   "title": "Past Progressive — Activities",
+   "blurb": "Was/were + -ing — actions in progress in the past, often interrupted.",
+   "icon": "",
+   "levels": [
+    "A2"
+   ],
+   "skills": [
+    "grammar"
+   ],
+   "mode": "solo",
+   "prep": "none",
+   "minutes": 20,
+   "keywords": [
+    "actions",
+    "in",
+    "ing",
+    "interrupted",
+    "often",
+    "past",
+    "progress",
+    "progressive",
+    "the",
+    "was",
+    "were"
+   ],
+   "status": "live",
+   "topic": "Past Progressive",
+   "kind": "activities"
+  },
+  {
+   "id": "past-progressive-slides",
+   "hub": "grammar",
+   "path": "a2/past-progressive_slides.html",
+   "title": "Past Progressive — Slides",
+   "blurb": "Was/were + -ing — actions in progress in the past, often interrupted.",
+   "icon": "",
+   "levels": [
+    "A2"
+   ],
+   "skills": [
+    "grammar"
+   ],
+   "mode": "whole-class",
+   "prep": "none",
+   "minutes": 25,
+   "keywords": [
+    "actions",
+    "in",
+    "ing",
+    "interrupted",
+    "often",
+    "past",
+    "progress",
+    "progressive",
+    "the",
+    "was",
+    "were"
+   ],
+   "status": "live",
+   "topic": "Past Progressive",
+   "kind": "slides"
+  },
+  {
+   "id": "simple-past-did-activities",
+   "hub": "grammar",
+   "path": "a2/simple-past-did_activities.html",
+   "title": "Simple Past: Did — Activities",
+   "blurb": "Talking about completed past actions with regular and irregular verbs.",
+   "icon": "",
+   "levels": [
+    "A2"
+   ],
+   "skills": [
+    "grammar"
+   ],
+   "mode": "solo",
+   "prep": "none",
+   "minutes": 20,
+   "keywords": [
+    "about",
+    "actions",
+    "and",
+    "completed",
+    "did",
+    "irregular",
+    "past",
+    "regular",
+    "simple",
+    "talking",
+    "verbs",
+    "with"
+   ],
+   "status": "live",
+   "topic": "Simple Past: Did",
+   "kind": "activities"
+  },
+  {
+   "id": "simple-past-did-slides",
+   "hub": "grammar",
+   "path": "a2/simple-past-did_slides.html",
+   "title": "Simple Past: Did — Slides",
+   "blurb": "Talking about completed past actions with regular and irregular verbs.",
+   "icon": "",
+   "levels": [
+    "A2"
+   ],
+   "skills": [
+    "grammar"
+   ],
+   "mode": "whole-class",
+   "prep": "none",
+   "minutes": 25,
+   "keywords": [
+    "about",
+    "actions",
+    "and",
+    "completed",
+    "did",
+    "irregular",
+    "past",
+    "regular",
+    "simple",
+    "talking",
+    "verbs",
+    "with"
+   ],
+   "status": "live",
+   "topic": "Simple Past: Did",
+   "kind": "slides"
+  },
+  {
+   "id": "used-to-activities",
+   "hub": "grammar",
+   "path": "a2/used-to_activities.html",
+   "title": "Used To — Activities",
+   "blurb": "Past habits and states that no longer exist.",
+   "icon": "",
+   "levels": [
+    "A2"
+   ],
+   "skills": [
+    "grammar"
+   ],
+   "mode": "solo",
+   "prep": "none",
+   "minutes": 20,
+   "keywords": [
+    "and",
+    "exist",
+    "habits",
+    "longer",
+    "no",
+    "past",
+    "states",
+    "that",
+    "to",
+    "used"
+   ],
+   "status": "live",
+   "topic": "Used To",
+   "kind": "activities"
+  },
+  {
+   "id": "used-to-slides",
+   "hub": "grammar",
+   "path": "a2/used-to_slides.html",
+   "title": "Used To — Slides",
+   "blurb": "Past habits and states that no longer exist.",
+   "icon": "",
+   "levels": [
+    "A2"
+   ],
+   "skills": [
+    "grammar"
+   ],
+   "mode": "whole-class",
+   "prep": "none",
+   "minutes": 25,
+   "keywords": [
+    "and",
+    "exist",
+    "habits",
+    "longer",
+    "no",
+    "past",
+    "states",
+    "that",
+    "to",
+    "used"
+   ],
+   "status": "live",
+   "topic": "Used To",
+   "kind": "slides"
+  },
+  {
+   "id": "zero-conditional-activities",
+   "hub": "grammar",
+   "path": "a2/zero-conditional_activities.html",
+   "title": "Zero Conditional — Activities",
+   "blurb": "General truths, facts and things that always happen.",
+   "icon": "",
+   "levels": [
+    "A2"
+   ],
+   "skills": [
+    "grammar"
+   ],
+   "mode": "solo",
+   "prep": "none",
+   "minutes": 20,
+   "keywords": [
+    "always",
+    "and",
+    "conditional",
+    "facts",
+    "general",
+    "happen",
+    "that",
+    "things",
+    "truths",
+    "zero"
+   ],
+   "status": "live",
+   "topic": "Zero Conditional",
+   "kind": "activities"
+  },
+  {
+   "id": "zero-conditional-slides",
+   "hub": "grammar",
+   "path": "a2/zero-conditional_slides.html",
+   "title": "Zero Conditional — Slides",
+   "blurb": "General truths, facts and things that always happen.",
+   "icon": "",
+   "levels": [
+    "A2"
+   ],
+   "skills": [
+    "grammar"
+   ],
+   "mode": "whole-class",
+   "prep": "none",
+   "minutes": 25,
+   "keywords": [
+    "always",
+    "and",
+    "conditional",
+    "facts",
+    "general",
+    "happen",
+    "that",
+    "things",
+    "truths",
+    "zero"
+   ],
+   "status": "live",
+   "topic": "Zero Conditional",
+   "kind": "slides"
+  },
+  {
+   "id": "adjective-order-activities",
+   "hub": "grammar",
+   "path": "b1/adjective-order_activities.html",
+   "title": "Adjective Order — Activities",
+   "blurb": "Learn the fixed sequence English uses when two or more adjectives come before a noun.",
+   "icon": "",
+   "levels": [
+    "B1"
+   ],
+   "skills": [
+    "grammar"
+   ],
+   "mode": "solo",
+   "prep": "none",
+   "minutes": 20,
+   "keywords": [
+    "a",
+    "adjective",
+    "adjectives",
+    "before",
+    "come",
+    "english",
+    "fixed",
+    "learn",
+    "more",
+    "noun",
+    "or",
+    "order",
+    "sequence",
+    "the",
+    "two",
+    "uses",
+    "when"
+   ],
+   "status": "live",
+   "topic": "Adjective Order",
+   "kind": "activities"
+  },
+  {
+   "id": "adjective-order-slides",
+   "hub": "grammar",
+   "path": "b1/adjective-order_slides.html",
+   "title": "Adjective Order — Slides",
+   "blurb": "Learn the fixed sequence English uses when two or more adjectives come before a noun.",
+   "icon": "",
+   "levels": [
+    "B1"
+   ],
+   "skills": [
+    "grammar"
+   ],
+   "mode": "whole-class",
+   "prep": "none",
+   "minutes": 25,
+   "keywords": [
+    "a",
+    "adjective",
+    "adjectives",
+    "before",
+    "come",
+    "english",
+    "fixed",
+    "learn",
+    "more",
+    "noun",
+    "or",
+    "order",
+    "sequence",
+    "the",
+    "two",
+    "uses",
+    "when"
+   ],
+   "status": "live",
+   "topic": "Adjective Order",
+   "kind": "slides"
+  },
+  {
+   "id": "articles-activities",
+   "hub": "grammar",
+   "path": "b1/articles_activities.html",
+   "title": "Articles: A/An, The & No Article — Activities",
+   "blurb": "When to use a/an, the, or no article with countable and uncountable nouns.",
+   "icon": "",
+   "levels": [
+    "B1"
+   ],
+   "skills": [
+    "grammar"
+   ],
+   "mode": "solo",
+   "prep": "none",
+   "minutes": 20,
+   "keywords": [
+    "a",
+    "an",
+    "and",
+    "article",
+    "articles",
+    "countable",
+    "no",
+    "nouns",
+    "or",
+    "the",
+    "to",
+    "uncountable",
+    "use",
+    "when",
+    "with"
+   ],
+   "status": "live",
+   "topic": "Articles: A/An, The & No Article",
+   "kind": "activities"
+  },
+  {
+   "id": "articles-slides",
+   "hub": "grammar",
+   "path": "b1/articles_slides.html",
+   "title": "Articles: A/An, The & No Article — Slides",
+   "blurb": "When to use a/an, the, or no article with countable and uncountable nouns.",
+   "icon": "",
+   "levels": [
+    "B1"
+   ],
+   "skills": [
+    "grammar"
+   ],
+   "mode": "whole-class",
+   "prep": "none",
+   "minutes": 25,
+   "keywords": [
+    "a",
+    "an",
+    "and",
+    "article",
+    "articles",
+    "countable",
+    "no",
+    "nouns",
+    "or",
+    "the",
+    "to",
+    "uncountable",
+    "use",
+    "when",
+    "with"
+   ],
+   "status": "live",
+   "topic": "Articles: A/An, The & No Article",
+   "kind": "slides"
+  },
+  {
+   "id": "expressing-abilities-activities",
+   "hub": "grammar",
+   "path": "b1/expressing-abilities_activities.html",
+   "title": "Expressing Abilities — Activities",
+   "blurb": "Using can, could, be able to, manage to and succeed in.",
+   "icon": "",
+   "levels": [
+    "B1"
+   ],
+   "skills": [
+    "grammar"
+   ],
+   "mode": "solo",
+   "prep": "none",
+   "minutes": 20,
+   "keywords": [
+    "abilities",
+    "able",
+    "and",
+    "be",
+    "can",
+    "could",
+    "expressing",
+    "in",
+    "manage",
+    "succeed",
+    "to",
+    "using"
+   ],
+   "status": "live",
+   "topic": "Expressing Abilities",
+   "kind": "activities"
+  },
+  {
+   "id": "expressing-abilities-slides",
+   "hub": "grammar",
+   "path": "b1/expressing-abilities_slides.html",
+   "title": "Expressing Abilities — Slides",
+   "blurb": "Using can, could, be able to, manage to and succeed in.",
+   "icon": "",
+   "levels": [
+    "B1"
+   ],
+   "skills": [
+    "grammar"
+   ],
+   "mode": "whole-class",
+   "prep": "none",
+   "minutes": 25,
+   "keywords": [
+    "abilities",
+    "able",
+    "and",
+    "be",
+    "can",
+    "could",
+    "expressing",
+    "in",
+    "manage",
+    "succeed",
+    "to",
+    "using"
+   ],
+   "status": "live",
+   "topic": "Expressing Abilities",
+   "kind": "slides"
+  },
+  {
+   "id": "first-conditional-activities",
+   "hub": "grammar",
+   "path": "b1/first-conditional_activities.html",
+   "title": "First Conditional — Activities",
+   "blurb": "Real possibilities and their likely results.",
+   "icon": "",
+   "levels": [
+    "B1"
+   ],
+   "skills": [
+    "grammar"
+   ],
+   "mode": "solo",
+   "prep": "none",
+   "minutes": 20,
+   "keywords": [
+    "and",
+    "conditional",
+    "first",
+    "likely",
+    "possibilities",
+    "real",
+    "results",
+    "their"
+   ],
+   "status": "live",
+   "topic": "First Conditional",
+   "kind": "activities"
+  },
+  {
+   "id": "first-conditional-slides",
+   "hub": "grammar",
+   "path": "b1/first-conditional_slides.html",
+   "title": "First Conditional — Slides",
+   "blurb": "Real possibilities and their likely results.",
+   "icon": "",
+   "levels": [
+    "B1"
+   ],
+   "skills": [
+    "grammar"
+   ],
+   "mode": "whole-class",
+   "prep": "none",
+   "minutes": 25,
+   "keywords": [
+    "and",
+    "conditional",
+    "first",
+    "likely",
+    "possibilities",
+    "real",
+    "results",
+    "their"
+   ],
+   "status": "live",
+   "topic": "First Conditional",
+   "kind": "slides"
+  },
+  {
+   "id": "defining-relative-clauses-activities",
+   "hub": "grammar",
+   "path": "b1/defining-relative-clauses_activities.html",
+   "title": "Defining Relative Clauses — Activities",
+   "blurb": "Who, which, where and when — clauses that define exactly who or what we mean.",
+   "icon": "",
+   "levels": [
+    "B1"
+   ],
+   "skills": [
+    "grammar"
+   ],
+   "mode": "solo",
+   "prep": "none",
+   "minutes": 20,
+   "keywords": [
+    "and",
+    "clauses",
+    "define",
+    "defining",
+    "exactly",
+    "mean",
+    "or",
+    "relative",
+    "that",
+    "we",
+    "what",
+    "when",
+    "where",
+    "which",
+    "who"
+   ],
+   "status": "live",
+   "topic": "Defining Relative Clauses",
+   "kind": "activities"
+  },
+  {
+   "id": "defining-relative-clauses-slides",
+   "hub": "grammar",
+   "path": "b1/defining-relative-clauses_slides.html",
+   "title": "Defining Relative Clauses — Slides",
+   "blurb": "Who, which, where and when — clauses that define exactly who or what we mean.",
+   "icon": "",
+   "levels": [
+    "B1"
+   ],
+   "skills": [
+    "grammar"
+   ],
+   "mode": "whole-class",
+   "prep": "none",
+   "minutes": 25,
+   "keywords": [
+    "and",
+    "clauses",
+    "define",
+    "defining",
+    "exactly",
+    "mean",
+    "or",
+    "relative",
+    "that",
+    "we",
+    "what",
+    "when",
+    "where",
+    "which",
+    "who"
+   ],
+   "status": "live",
+   "topic": "Defining Relative Clauses",
+   "kind": "slides"
+  },
+  {
+   "id": "five-tenses-review-activities",
+   "hub": "grammar",
+   "path": "b1/five-tenses-review_activities.html",
+   "title": "Review of Tenses — Activities",
+   "blurb": "A focused review of five core tenses: simple present, present progressive, simple past, past progressive, and present perfect.",
+   "icon": "",
+   "levels": [
+    "B1"
+   ],
+   "skills": [
+    "grammar"
+   ],
+   "mode": "solo",
+   "prep": "none",
+   "minutes": 20,
+   "keywords": [
+    "a",
+    "and",
+    "core",
+    "five",
+    "focused",
+    "of",
+    "past",
+    "perfect",
+    "present",
+    "progressive",
+    "review",
+    "simple",
+    "tenses"
+   ],
+   "status": "live",
+   "topic": "Review of Tenses",
+   "kind": "activities"
+  },
+  {
+   "id": "five-tenses-review-slides",
+   "hub": "grammar",
+   "path": "b1/five-tenses-review_slides.html",
+   "title": "Review of Tenses — Slides",
+   "blurb": "A focused review of five core tenses: simple present, present progressive, simple past, past progressive, and present perfect.",
+   "icon": "",
+   "levels": [
+    "B1"
+   ],
+   "skills": [
+    "grammar"
+   ],
+   "mode": "whole-class",
+   "prep": "none",
+   "minutes": 25,
+   "keywords": [
+    "a",
+    "and",
+    "core",
+    "five",
+    "focused",
+    "of",
+    "past",
+    "perfect",
+    "present",
+    "progressive",
+    "review",
+    "simple",
+    "tenses"
+   ],
+   "status": "live",
+   "topic": "Review of Tenses",
+   "kind": "slides"
+  },
+  {
+   "id": "future-forms-activities",
+   "hub": "grammar",
+   "path": "b1/future-forms_activities.html",
+   "title": "Future Forms — Activities",
+   "blurb": "Will, going to, present progressive and simple present for the future.",
+   "icon": "",
+   "levels": [
+    "B1"
+   ],
+   "skills": [
+    "grammar"
+   ],
+   "mode": "solo",
+   "prep": "none",
+   "minutes": 20,
+   "keywords": [
+    "and",
+    "for",
+    "forms",
+    "future",
+    "going",
+    "present",
+    "progressive",
+    "simple",
+    "the",
+    "to",
+    "will"
+   ],
+   "status": "live",
+   "topic": "Future Forms",
+   "kind": "activities"
+  },
+  {
+   "id": "future-forms-slides",
+   "hub": "grammar",
+   "path": "b1/future-forms_slides.html",
+   "title": "Future Forms — Slides",
+   "blurb": "Will, going to, present progressive and simple present for the future.",
+   "icon": "",
+   "levels": [
+    "B1"
+   ],
+   "skills": [
+    "grammar"
+   ],
+   "mode": "whole-class",
+   "prep": "none",
+   "minutes": 25,
+   "keywords": [
+    "and",
+    "for",
+    "forms",
+    "future",
+    "going",
+    "present",
+    "progressive",
+    "simple",
+    "the",
+    "to",
+    "will"
+   ],
+   "status": "live",
+   "topic": "Future Forms",
+   "kind": "slides"
+  },
+  {
+   "id": "future-progressive-activities",
+   "hub": "grammar",
+   "path": "b1/future-progressive_activities.html",
+   "title": "Future Progressive — Activities",
+   "blurb": "Actions in progress at a future moment: will be + -ing.",
+   "icon": "",
+   "levels": [
+    "B1"
+   ],
+   "skills": [
+    "grammar"
+   ],
+   "mode": "solo",
+   "prep": "none",
+   "minutes": 20,
+   "keywords": [
+    "a",
+    "actions",
+    "at",
+    "be",
+    "future",
+    "in",
+    "ing",
+    "moment",
+    "progress",
+    "progressive",
+    "will"
+   ],
+   "status": "live",
+   "topic": "Future Progressive",
+   "kind": "activities"
+  },
+  {
+   "id": "future-progressive-slides",
+   "hub": "grammar",
+   "path": "b1/future-progressive_slides.html",
+   "title": "Future Progressive — Slides",
+   "blurb": "Actions in progress at a future moment: will be + -ing.",
+   "icon": "",
+   "levels": [
+    "B1"
+   ],
+   "skills": [
+    "grammar"
+   ],
+   "mode": "whole-class",
+   "prep": "none",
+   "minutes": 25,
+   "keywords": [
+    "a",
+    "actions",
+    "at",
+    "be",
+    "future",
+    "in",
+    "ing",
+    "moment",
+    "progress",
+    "progressive",
+    "will"
+   ],
+   "status": "live",
+   "topic": "Future Progressive",
+   "kind": "slides"
+  },
+  {
+   "id": "future-possibility-certainty-activities",
+   "hub": "grammar",
+   "path": "b1/future-possibility-certainty_activities.html",
+   "title": "Future Possibility and Certainty — Activities",
+   "blurb": "Using might, may, could, probably and definitely to express how sure you are.",
+   "icon": "",
+   "levels": [
+    "B1"
+   ],
+   "skills": [
+    "grammar"
+   ],
+   "mode": "solo",
+   "prep": "none",
+   "minutes": 20,
+   "keywords": [
+    "and",
+    "are",
+    "certainty",
+    "could",
+    "definitely",
+    "express",
+    "future",
+    "how",
+    "may",
+    "might",
+    "possibility",
+    "probably",
+    "sure",
+    "to",
+    "using",
+    "you"
+   ],
+   "status": "live",
+   "topic": "Future Possibility and Certainty",
+   "kind": "activities"
+  },
+  {
+   "id": "future-possibility-certainty-slides",
+   "hub": "grammar",
+   "path": "b1/future-possibility-certainty_slides.html",
+   "title": "Future Possibility and Certainty — Slides",
+   "blurb": "Using might, may, could, probably and definitely to express how sure you are.",
+   "icon": "",
+   "levels": [
+    "B1"
+   ],
+   "skills": [
+    "grammar"
+   ],
+   "mode": "whole-class",
+   "prep": "none",
+   "minutes": 25,
+   "keywords": [
+    "and",
+    "are",
+    "certainty",
+    "could",
+    "definitely",
+    "express",
+    "future",
+    "how",
+    "may",
+    "might",
+    "possibility",
+    "probably",
+    "sure",
+    "to",
+    "using",
+    "you"
+   ],
+   "status": "live",
+   "topic": "Future Possibility and Certainty",
+   "kind": "slides"
+  },
+  {
+   "id": "future-time-clauses-activities",
+   "hub": "grammar",
+   "path": "b1/future-time-clauses_activities.html",
+   "title": "Future Time Clauses — Activities",
+   "blurb": "Using after, as soon as, before, until and when with the present simple for future events.",
+   "icon": "",
+   "levels": [
+    "B1"
+   ],
+   "skills": [
+    "grammar"
+   ],
+   "mode": "solo",
+   "prep": "none",
+   "minutes": 20,
+   "keywords": [
+    "after",
+    "and",
+    "as",
+    "before",
+    "clauses",
+    "events",
+    "for",
+    "future",
+    "present",
+    "simple",
+    "soon",
+    "the",
+    "time",
+    "until",
+    "using",
+    "when",
+    "with"
+   ],
+   "status": "live",
+   "topic": "Future Time Clauses",
+   "kind": "activities"
+  },
+  {
+   "id": "future-time-clauses-slides",
+   "hub": "grammar",
+   "path": "b1/future-time-clauses_slides.html",
+   "title": "Future Time Clauses — Slides",
+   "blurb": "Using after, as soon as, before, until and when with the present simple for future events.",
+   "icon": "",
+   "levels": [
+    "B1"
+   ],
+   "skills": [
+    "grammar"
+   ],
+   "mode": "whole-class",
+   "prep": "none",
+   "minutes": 25,
+   "keywords": [
+    "after",
+    "and",
+    "as",
+    "before",
+    "clauses",
+    "events",
+    "for",
+    "future",
+    "present",
+    "simple",
+    "soon",
+    "the",
+    "time",
+    "until",
+    "using",
+    "when",
+    "with"
+   ],
+   "status": "live",
+   "topic": "Future Time Clauses",
+   "kind": "slides"
+  },
+  {
+   "id": "gerund-phrases-activities",
+   "hub": "grammar",
+   "path": "b1/gerund-phrases_activities.html",
+   "title": "Gerund Phrases — Activities",
+   "blurb": "Using verb+ing forms as the subject and object of a sentence.",
+   "icon": "",
+   "levels": [
+    "B1"
+   ],
+   "skills": [
+    "grammar"
+   ],
+   "mode": "solo",
+   "prep": "none",
+   "minutes": 20,
+   "keywords": [
+    "a",
+    "and",
+    "as",
+    "forms",
+    "gerund",
+    "ing",
+    "object",
+    "of",
+    "phrases",
+    "sentence",
+    "subject",
+    "the",
+    "using",
+    "verb"
+   ],
+   "status": "live",
+   "topic": "Gerund Phrases",
+   "kind": "activities"
+  },
+  {
+   "id": "gerund-phrases-slides",
+   "hub": "grammar",
+   "path": "b1/gerund-phrases_slides.html",
+   "title": "Gerund Phrases — Slides",
+   "blurb": "Using verb+ing forms as the subject and object of a sentence.",
+   "icon": "",
+   "levels": [
+    "B1"
+   ],
+   "skills": [
+    "grammar"
+   ],
+   "mode": "whole-class",
+   "prep": "none",
+   "minutes": 25,
+   "keywords": [
+    "a",
+    "and",
+    "as",
+    "forms",
+    "gerund",
+    "ing",
+    "object",
+    "of",
+    "phrases",
+    "sentence",
+    "subject",
+    "the",
+    "using",
+    "verb"
+   ],
+   "status": "live",
+   "topic": "Gerund Phrases",
+   "kind": "slides"
+  },
+  {
+   "id": "indirect-questions-activities",
+   "hub": "grammar",
+   "path": "b1/indirect-questions_activities.html",
+   "title": "Indirect Questions — Activities",
+   "blurb": "Polite embedded questions using statement word order and introductory phrases.",
+   "icon": "",
+   "levels": [
+    "B1"
+   ],
+   "skills": [
+    "grammar"
+   ],
+   "mode": "solo",
+   "prep": "none",
+   "minutes": 20,
+   "keywords": [
+    "and",
+    "embedded",
+    "indirect",
+    "introductory",
+    "order",
+    "phrases",
+    "polite",
+    "questions",
+    "statement",
+    "using",
+    "word"
+   ],
+   "status": "live",
+   "topic": "Indirect Questions",
+   "kind": "activities"
+  },
+  {
+   "id": "indirect-questions-slides",
+   "hub": "grammar",
+   "path": "b1/indirect-questions_slides.html",
+   "title": "Indirect Questions — Slides",
+   "blurb": "Polite embedded questions using statement word order and introductory phrases.",
+   "icon": "",
+   "levels": [
+    "B1"
+   ],
+   "skills": [
+    "grammar"
+   ],
+   "mode": "whole-class",
+   "prep": "none",
+   "minutes": 25,
+   "keywords": [
+    "and",
+    "embedded",
+    "indirect",
+    "introductory",
+    "order",
+    "phrases",
+    "polite",
+    "questions",
+    "statement",
+    "using",
+    "word"
+   ],
+   "status": "live",
+   "topic": "Indirect Questions",
+   "kind": "slides"
+  },
+  {
+   "id": "infinitives-with-to-activities",
+   "hub": "grammar",
+   "path": "b1/infinitives-with-to_activities.html",
+   "title": "Infinitives with To — Activities",
+   "blurb": "Purpose, verb + object, verb + infinitive and adjective + infinitive.",
+   "icon": "",
+   "levels": [
+    "B1"
+   ],
+   "skills": [
+    "grammar"
+   ],
+   "mode": "solo",
+   "prep": "none",
+   "minutes": 20,
+   "keywords": [
+    "adjective",
+    "and",
+    "infinitive",
+    "infinitives",
+    "object",
+    "purpose",
+    "to",
+    "verb",
+    "with"
+   ],
+   "status": "live",
+   "topic": "Infinitives with To",
+   "kind": "activities"
+  },
+  {
+   "id": "infinitives-with-to-slides",
+   "hub": "grammar",
+   "path": "b1/infinitives-with-to_slides.html",
+   "title": "Infinitives with To — Slides",
+   "blurb": "Purpose, verb + object, verb + infinitive and adjective + infinitive.",
+   "icon": "",
+   "levels": [
+    "B1"
+   ],
+   "skills": [
+    "grammar"
+   ],
+   "mode": "whole-class",
+   "prep": "none",
+   "minutes": 25,
+   "keywords": [
+    "adjective",
+    "and",
+    "infinitive",
+    "infinitives",
+    "object",
+    "purpose",
+    "to",
+    "verb",
+    "with"
+   ],
+   "status": "live",
+   "topic": "Infinitives with To",
+   "kind": "slides"
+  },
+  {
+   "id": "modals-of-deduction-activities",
+   "hub": "grammar",
+   "path": "b1/modals-of-deduction_activities.html",
+   "title": "Modals of Deduction — Activities",
+   "blurb": "Use must, might, may, could and can't to say how certain you are about the present.",
+   "icon": "",
+   "levels": [
+    "B1"
+   ],
+   "skills": [
+    "grammar"
+   ],
+   "mode": "solo",
+   "prep": "none",
+   "minutes": 20,
+   "keywords": [
+    "about",
+    "and",
+    "are",
+    "can",
+    "certain",
+    "could",
+    "deduction",
+    "how",
+    "may",
+    "might",
+    "modals",
+    "must",
+    "of",
+    "present",
+    "say",
+    "t",
+    "the",
+    "to",
+    "use",
+    "you"
+   ],
+   "status": "live",
+   "topic": "Modals of Deduction",
+   "kind": "activities"
+  },
+  {
+   "id": "modals-of-deduction-slides",
+   "hub": "grammar",
+   "path": "b1/modals-of-deduction_slides.html",
+   "title": "Modals of Deduction — Slides",
+   "blurb": "Use must, might, may, could and can't to say how certain you are about the present.",
+   "icon": "",
+   "levels": [
+    "B1"
+   ],
+   "skills": [
+    "grammar"
+   ],
+   "mode": "whole-class",
+   "prep": "none",
+   "minutes": 25,
+   "keywords": [
+    "about",
+    "and",
+    "are",
+    "can",
+    "certain",
+    "could",
+    "deduction",
+    "how",
+    "may",
+    "might",
+    "modals",
+    "must",
+    "of",
+    "present",
+    "say",
+    "t",
+    "the",
+    "to",
+    "use",
+    "you"
+   ],
+   "status": "live",
+   "topic": "Modals of Deduction",
+   "kind": "slides"
+  },
+  {
+   "id": "past-perfect-activities",
+   "hub": "grammar",
+   "path": "b1/past-perfect_activities.html",
+   "title": "Past Perfect — Activities",
+   "blurb": "Using had + past participle to show which of two past events happened first.",
+   "icon": "",
+   "levels": [
+    "B1"
+   ],
+   "skills": [
+    "grammar"
+   ],
+   "mode": "solo",
+   "prep": "none",
+   "minutes": 20,
+   "keywords": [
+    "events",
+    "first",
+    "had",
+    "happened",
+    "of",
+    "participle",
+    "past",
+    "perfect",
+    "show",
+    "to",
+    "two",
+    "using",
+    "which"
+   ],
+   "status": "live",
+   "topic": "Past Perfect",
+   "kind": "activities"
+  },
+  {
+   "id": "past-perfect-slides",
+   "hub": "grammar",
+   "path": "b1/past-perfect_slides.html",
+   "title": "Past Perfect — Slides",
+   "blurb": "Using had + past participle to show which of two past events happened first.",
+   "icon": "",
+   "levels": [
+    "B1"
+   ],
+   "skills": [
+    "grammar"
+   ],
+   "mode": "whole-class",
+   "prep": "none",
+   "minutes": 25,
+   "keywords": [
+    "events",
+    "first",
+    "had",
+    "happened",
+    "of",
+    "participle",
+    "past",
+    "perfect",
+    "show",
+    "to",
+    "two",
+    "using",
+    "which"
+   ],
+   "status": "live",
+   "topic": "Past Perfect",
+   "kind": "slides"
+  },
+  {
+   "id": "participial-adjectives-activities",
+   "hub": "grammar",
+   "path": "b1/participial-adjectives_activities.html",
+   "title": "Participial Adjectives — Activities",
+   "blurb": "The difference between -ed and -ing adjectives — bored vs boring, excited vs exciting.",
+   "icon": "",
+   "levels": [
+    "B1"
+   ],
+   "skills": [
+    "grammar"
+   ],
+   "mode": "solo",
+   "prep": "none",
+   "minutes": 20,
+   "keywords": [
+    "adjectives",
+    "and",
+    "between",
+    "bored",
+    "boring",
+    "difference",
+    "ed",
+    "excited",
+    "exciting",
+    "ing",
+    "participial",
+    "the",
+    "vs"
+   ],
+   "status": "live",
+   "topic": "Participial Adjectives",
+   "kind": "activities"
+  },
+  {
+   "id": "participial-adjectives-slides",
+   "hub": "grammar",
+   "path": "b1/participial-adjectives_slides.html",
+   "title": "Participial Adjectives — Slides",
+   "blurb": "The difference between -ed and -ing adjectives — bored vs boring, excited vs exciting.",
+   "icon": "",
+   "levels": [
+    "B1"
+   ],
+   "skills": [
+    "grammar"
+   ],
+   "mode": "whole-class",
+   "prep": "none",
+   "minutes": 25,
+   "keywords": [
+    "adjectives",
+    "and",
+    "between",
+    "bored",
+    "boring",
+    "difference",
+    "ed",
+    "excited",
+    "exciting",
+    "ing",
+    "participial",
+    "the",
+    "vs"
+   ],
+   "status": "live",
+   "topic": "Participial Adjectives",
+   "kind": "slides"
+  },
+  {
+   "id": "phrasal-verbs-separable-activities",
+   "hub": "grammar",
+   "path": "b1/phrasal-verbs-separable_activities.html",
+   "title": "Phrasal Verbs: Separable and Non-Separable — Activities",
+   "blurb": "When you can split a phrasal verb — and when you can't.",
+   "icon": "",
+   "levels": [
+    "B1"
+   ],
+   "skills": [
+    "grammar"
+   ],
+   "mode": "solo",
+   "prep": "none",
+   "minutes": 20,
+   "keywords": [
+    "a",
+    "and",
+    "can",
+    "non",
+    "phrasal",
+    "separable",
+    "split",
+    "t",
+    "verb",
+    "verbs",
+    "when",
+    "you"
+   ],
+   "status": "live",
+   "topic": "Phrasal Verbs: Separable and Non-Separable",
+   "kind": "activities"
+  },
+  {
+   "id": "phrasal-verbs-separable-slides",
+   "hub": "grammar",
+   "path": "b1/phrasal-verbs-separable_slides.html",
+   "title": "Phrasal Verbs: Separable and Non-Separable — Slides",
+   "blurb": "When you can split a phrasal verb — and when you can't.",
+   "icon": "",
+   "levels": [
+    "B1"
+   ],
+   "skills": [
+    "grammar"
+   ],
+   "mode": "whole-class",
+   "prep": "none",
+   "minutes": 25,
+   "keywords": [
+    "a",
+    "and",
+    "can",
+    "non",
+    "phrasal",
+    "separable",
+    "split",
+    "t",
+    "verb",
+    "verbs",
+    "when",
+    "you"
+   ],
+   "status": "live",
+   "topic": "Phrasal Verbs: Separable and Non-Separable",
+   "kind": "slides"
+  },
+  {
+   "id": "present-perfect-activities",
+   "hub": "grammar",
+   "path": "b1/present-perfect_activities.html",
+   "title": "Present Perfect — Activities",
+   "blurb": "Talking about experiences and events connected to the present.",
+   "icon": "",
+   "levels": [
+    "B1"
+   ],
+   "skills": [
+    "grammar"
+   ],
+   "mode": "solo",
+   "prep": "none",
+   "minutes": 20,
+   "keywords": [
+    "about",
+    "and",
+    "connected",
+    "events",
+    "experiences",
+    "perfect",
+    "present",
+    "talking",
+    "the",
+    "to"
+   ],
+   "status": "live",
+   "topic": "Present Perfect",
+   "kind": "activities"
+  },
+  {
+   "id": "present-perfect-slides",
+   "hub": "grammar",
+   "path": "b1/present-perfect_slides.html",
+   "title": "Present Perfect — Slides",
+   "blurb": "Talking about experiences and events connected to the present.",
+   "icon": "",
+   "levels": [
+    "B1"
+   ],
+   "skills": [
+    "grammar"
+   ],
+   "mode": "whole-class",
+   "prep": "none",
+   "minutes": 25,
+   "keywords": [
+    "about",
+    "and",
+    "connected",
+    "events",
+    "experiences",
+    "perfect",
+    "present",
+    "talking",
+    "the",
+    "to"
+   ],
+   "status": "live",
+   "topic": "Present Perfect",
+   "kind": "slides"
+  },
+  {
+   "id": "present-perfect-progressive-activities",
+   "hub": "grammar",
+   "path": "b1/present-perfect-progressive_activities.html",
+   "title": "Present Perfect Progressive — Activities",
+   "blurb": "Actions that started in the past and are still in progress, with for and since.",
+   "icon": "",
+   "levels": [
+    "B1"
+   ],
+   "skills": [
+    "grammar"
+   ],
+   "mode": "solo",
+   "prep": "none",
+   "minutes": 20,
+   "keywords": [
+    "actions",
+    "and",
+    "are",
+    "for",
+    "in",
+    "past",
+    "perfect",
+    "present",
+    "progress",
+    "progressive",
+    "since",
+    "started",
+    "still",
+    "that",
+    "the",
+    "with"
+   ],
+   "status": "live",
+   "topic": "Present Perfect Progressive",
+   "kind": "activities"
+  },
+  {
+   "id": "present-perfect-progressive-slides",
+   "hub": "grammar",
+   "path": "b1/present-perfect-progressive_slides.html",
+   "title": "Present Perfect Progressive — Slides",
+   "blurb": "Actions that started in the past and are still in progress, with for and since.",
+   "icon": "",
+   "levels": [
+    "B1"
+   ],
+   "skills": [
+    "grammar"
+   ],
+   "mode": "whole-class",
+   "prep": "none",
+   "minutes": 25,
+   "keywords": [
+    "actions",
+    "and",
+    "are",
+    "for",
+    "in",
+    "past",
+    "perfect",
+    "present",
+    "progress",
+    "progressive",
+    "since",
+    "started",
+    "still",
+    "that",
+    "the",
+    "with"
+   ],
+   "status": "live",
+   "topic": "Present Perfect Progressive",
+   "kind": "slides"
+  },
+  {
+   "id": "present-perfect-vs-past-activities",
+   "hub": "grammar",
+   "path": "b1/present-perfect-vs-past_activities.html",
+   "title": "Present Perfect vs Simple Past — Activities",
+   "blurb": "Choosing the right tense — when time matters and when it doesn't.",
+   "icon": "",
+   "levels": [
+    "B1"
+   ],
+   "skills": [
+    "grammar"
+   ],
+   "mode": "solo",
+   "prep": "none",
+   "minutes": 20,
+   "keywords": [
+    "and",
+    "choosing",
+    "doesn",
+    "it",
+    "matters",
+    "past",
+    "perfect",
+    "present",
+    "right",
+    "simple",
+    "t",
+    "tense",
+    "the",
+    "time",
+    "vs",
+    "when"
+   ],
+   "status": "live",
+   "topic": "Present Perfect vs Simple Past",
+   "kind": "activities"
+  },
+  {
+   "id": "present-perfect-vs-past-slides",
+   "hub": "grammar",
+   "path": "b1/present-perfect-vs-past_slides.html",
+   "title": "Present Perfect vs Simple Past — Slides",
+   "blurb": "Choosing the right tense — when time matters and when it doesn't.",
+   "icon": "",
+   "levels": [
+    "B1"
+   ],
+   "skills": [
+    "grammar"
+   ],
+   "mode": "whole-class",
+   "prep": "none",
+   "minutes": 25,
+   "keywords": [
+    "and",
+    "choosing",
+    "doesn",
+    "it",
+    "matters",
+    "past",
+    "perfect",
+    "present",
+    "right",
+    "simple",
+    "t",
+    "tense",
+    "the",
+    "time",
+    "vs",
+    "when"
+   ],
+   "status": "live",
+   "topic": "Present Perfect vs Simple Past",
+   "kind": "slides"
+  },
+  {
+   "id": "present-past-tenses-review-activities",
+   "hub": "grammar",
+   "path": "b1/present-past-tenses-review_activities.html",
+   "title": "Present and Past Tenses: A Review — Activities",
+   "blurb": "A side-by-side review of six tenses: simple past, past progressive, past perfect, past perfect progressive, present perfect, and present perfect progressive.",
+   "icon": "",
+   "levels": [
+    "B1"
+   ],
+   "skills": [
+    "grammar"
+   ],
+   "mode": "solo",
+   "prep": "none",
+   "minutes": 20,
+   "keywords": [
+    "a",
+    "and",
+    "by",
+    "of",
+    "past",
+    "perfect",
+    "present",
+    "progressive",
+    "review",
+    "side",
+    "simple",
+    "six",
+    "tenses"
+   ],
+   "status": "live",
+   "topic": "Present and Past Tenses: A Review",
+   "kind": "activities"
+  },
+  {
+   "id": "present-past-tenses-review-slides",
+   "hub": "grammar",
+   "path": "b1/present-past-tenses-review_slides.html",
+   "title": "Present and Past Tenses: A Review — Slides",
+   "blurb": "A side-by-side review of six tenses: simple past, past progressive, past perfect, past perfect progressive, present perfect, and present perfect progressive.",
+   "icon": "",
+   "levels": [
+    "B1"
+   ],
+   "skills": [
+    "grammar"
+   ],
+   "mode": "whole-class",
+   "prep": "none",
+   "minutes": 25,
+   "keywords": [
+    "a",
+    "and",
+    "by",
+    "of",
+    "past",
+    "perfect",
+    "present",
+    "progressive",
+    "review",
+    "side",
+    "simple",
+    "six",
+    "tenses"
+   ],
+   "status": "live",
+   "topic": "Present and Past Tenses: A Review",
+   "kind": "slides"
+  },
+  {
+   "id": "reflexive-pronouns-activities",
+   "hub": "grammar",
+   "path": "b1/reflexive-pronouns_activities.html",
+   "title": "Reflexive Pronouns — Activities",
+   "blurb": "Myself, yourself, himself, herself — when to use reflexive pronouns.",
+   "icon": "",
+   "levels": [
+    "B1"
+   ],
+   "skills": [
+    "grammar"
+   ],
+   "mode": "solo",
+   "prep": "none",
+   "minutes": 20,
+   "keywords": [
+    "herself",
+    "himself",
+    "myself",
+    "pronouns",
+    "reflexive",
+    "to",
+    "use",
+    "when",
+    "yourself"
+   ],
+   "status": "live",
+   "topic": "Reflexive Pronouns",
+   "kind": "activities"
+  },
+  {
+   "id": "reflexive-pronouns-slides",
+   "hub": "grammar",
+   "path": "b1/reflexive-pronouns_slides.html",
+   "title": "Reflexive Pronouns — Slides",
+   "blurb": "Myself, yourself, himself, herself — when to use reflexive pronouns.",
+   "icon": "",
+   "levels": [
+    "B1"
+   ],
+   "skills": [
+    "grammar"
+   ],
+   "mode": "whole-class",
+   "prep": "none",
+   "minutes": 25,
+   "keywords": [
+    "herself",
+    "himself",
+    "myself",
+    "pronouns",
+    "reflexive",
+    "to",
+    "use",
+    "when",
+    "yourself"
+   ],
+   "status": "live",
+   "topic": "Reflexive Pronouns",
+   "kind": "slides"
+  },
+  {
+   "id": "reported-speech-activities",
+   "hub": "grammar",
+   "path": "b1/reported-speech_activities.html",
+   "title": "Reported Speech — Activities",
+   "blurb": "Reporting what others said, with tense and pronoun changes.",
+   "icon": "",
+   "levels": [
+    "B1"
+   ],
+   "skills": [
+    "grammar"
+   ],
+   "mode": "solo",
+   "prep": "none",
+   "minutes": 20,
+   "keywords": [
+    "and",
+    "changes",
+    "others",
+    "pronoun",
+    "reported",
+    "reporting",
+    "said",
+    "speech",
+    "tense",
+    "what",
+    "with"
+   ],
+   "status": "live",
+   "topic": "Reported Speech",
+   "kind": "activities"
+  },
+  {
+   "id": "reported-speech-slides",
+   "hub": "grammar",
+   "path": "b1/reported-speech_slides.html",
+   "title": "Reported Speech — Slides",
+   "blurb": "Reporting what others said, with tense and pronoun changes.",
+   "icon": "",
+   "levels": [
+    "B1"
+   ],
+   "skills": [
+    "grammar"
+   ],
+   "mode": "whole-class",
+   "prep": "none",
+   "minutes": 25,
+   "keywords": [
+    "and",
+    "changes",
+    "others",
+    "pronoun",
+    "reported",
+    "reporting",
+    "said",
+    "speech",
+    "tense",
+    "what",
+    "with"
+   ],
+   "status": "live",
+   "topic": "Reported Speech",
+   "kind": "slides"
+  },
+  {
+   "id": "simple-past-passive-activities",
+   "hub": "grammar",
+   "path": "b1/simple-past-passive_activities.html",
+   "title": "Simple Past Passive — Activities",
+   "blurb": "Using was / were + past participle to focus on actions rather than who did them.",
+   "icon": "",
+   "levels": [
+    "B1"
+   ],
+   "skills": [
+    "grammar"
+   ],
+   "mode": "solo",
+   "prep": "none",
+   "minutes": 20,
+   "keywords": [
+    "actions",
+    "did",
+    "focus",
+    "on",
+    "participle",
+    "passive",
+    "past",
+    "rather",
+    "simple",
+    "than",
+    "them",
+    "to",
+    "using",
+    "was",
+    "were",
+    "who"
+   ],
+   "status": "live",
+   "topic": "Simple Past Passive",
+   "kind": "activities"
+  },
+  {
+   "id": "simple-past-passive-slides",
+   "hub": "grammar",
+   "path": "b1/simple-past-passive_slides.html",
+   "title": "Simple Past Passive — Slides",
+   "blurb": "Using was / were + past participle to focus on actions rather than who did them.",
+   "icon": "",
+   "levels": [
+    "B1"
+   ],
+   "skills": [
+    "grammar"
+   ],
+   "mode": "whole-class",
+   "prep": "none",
+   "minutes": 25,
+   "keywords": [
+    "actions",
+    "did",
+    "focus",
+    "on",
+    "participle",
+    "passive",
+    "past",
+    "rather",
+    "simple",
+    "than",
+    "them",
+    "to",
+    "using",
+    "was",
+    "were",
+    "who"
+   ],
+   "status": "live",
+   "topic": "Simple Past Passive",
+   "kind": "slides"
+  },
+  {
+   "id": "simple-present-passive-activities",
+   "hub": "grammar",
+   "path": "b1/simple-present-passive_activities.html",
+   "title": "Simple Present Passive — Activities",
+   "blurb": "Focusing on what receives the action using is/are + past participle.",
+   "icon": "",
+   "levels": [
+    "B1"
+   ],
+   "skills": [
+    "grammar"
+   ],
+   "mode": "solo",
+   "prep": "none",
+   "minutes": 20,
+   "keywords": [
+    "action",
+    "are",
+    "focusing",
+    "is",
+    "on",
+    "participle",
+    "passive",
+    "past",
+    "present",
+    "receives",
+    "simple",
+    "the",
+    "using",
+    "what"
+   ],
+   "status": "live",
+   "topic": "Simple Present Passive",
+   "kind": "activities"
+  },
+  {
+   "id": "simple-present-passive-slides",
+   "hub": "grammar",
+   "path": "b1/simple-present-passive_slides.html",
+   "title": "Simple Present Passive — Slides",
+   "blurb": "Focusing on what receives the action using is/are + past participle.",
+   "icon": "",
+   "levels": [
+    "B1"
+   ],
+   "skills": [
+    "grammar"
+   ],
+   "mode": "whole-class",
+   "prep": "none",
+   "minutes": 25,
+   "keywords": [
+    "action",
+    "are",
+    "focusing",
+    "is",
+    "on",
+    "participle",
+    "passive",
+    "past",
+    "present",
+    "receives",
+    "simple",
+    "the",
+    "using",
+    "what"
+   ],
+   "status": "live",
+   "topic": "Simple Present Passive",
+   "kind": "slides"
+  },
+  {
+   "id": "simple-future-passive-activities",
+   "hub": "grammar",
+   "path": "b1/simple-future-passive_activities.html",
+   "title": "Simple Future Passive — Activities",
+   "blurb": "Predictions about what will and won't happen: will be + past participle.",
+   "icon": "",
+   "levels": [
+    "B1"
+   ],
+   "skills": [
+    "grammar"
+   ],
+   "mode": "solo",
+   "prep": "none",
+   "minutes": 20,
+   "keywords": [
+    "about",
+    "and",
+    "be",
+    "future",
+    "happen",
+    "participle",
+    "passive",
+    "past",
+    "predictions",
+    "simple",
+    "t",
+    "what",
+    "will",
+    "won"
+   ],
+   "status": "live",
+   "topic": "Simple Future Passive",
+   "kind": "activities"
+  },
+  {
+   "id": "simple-future-passive-slides",
+   "hub": "grammar",
+   "path": "b1/simple-future-passive_slides.html",
+   "title": "Simple Future Passive — Slides",
+   "blurb": "Predictions about what will and won't happen: will be + past participle.",
+   "icon": "",
+   "levels": [
+    "B1"
+   ],
+   "skills": [
+    "grammar"
+   ],
+   "mode": "whole-class",
+   "prep": "none",
+   "minutes": 25,
+   "keywords": [
+    "about",
+    "and",
+    "be",
+    "future",
+    "happen",
+    "participle",
+    "passive",
+    "past",
+    "predictions",
+    "simple",
+    "t",
+    "what",
+    "will",
+    "won"
+   ],
+   "status": "live",
+   "topic": "Simple Future Passive",
+   "kind": "slides"
+  },
+  {
+   "id": "second-conditional-activities",
+   "hub": "grammar",
+   "path": "b1/second-conditional_activities.html",
+   "title": "Second Conditional — Activities",
+   "blurb": "Imaginary or unlikely present and future situations.",
+   "icon": "",
+   "levels": [
+    "B1"
+   ],
+   "skills": [
+    "grammar"
+   ],
+   "mode": "solo",
+   "prep": "none",
+   "minutes": 20,
+   "keywords": [
+    "and",
+    "conditional",
+    "future",
+    "imaginary",
+    "or",
+    "present",
+    "second",
+    "situations",
+    "unlikely"
+   ],
+   "status": "live",
+   "topic": "Second Conditional",
+   "kind": "activities"
+  },
+  {
+   "id": "second-conditional-slides",
+   "hub": "grammar",
+   "path": "b1/second-conditional_slides.html",
+   "title": "Second Conditional — Slides",
+   "blurb": "Imaginary or unlikely present and future situations.",
+   "icon": "",
+   "levels": [
+    "B1"
+   ],
+   "skills": [
+    "grammar"
+   ],
+   "mode": "whole-class",
+   "prep": "none",
+   "minutes": 25,
+   "keywords": [
+    "and",
+    "conditional",
+    "future",
+    "imaginary",
+    "or",
+    "present",
+    "second",
+    "situations",
+    "unlikely"
+   ],
+   "status": "live",
+   "topic": "Second Conditional",
+   "kind": "slides"
+  },
+  {
+   "id": "so-such-activities",
+   "hub": "grammar",
+   "path": "b1/so-such_activities.html",
+   "title": "So / Such — Activities",
+   "blurb": "Expressing degree and intensifying descriptions.",
+   "icon": "",
+   "levels": [
+    "B1"
+   ],
+   "skills": [
+    "grammar"
+   ],
+   "mode": "solo",
+   "prep": "none",
+   "minutes": 20,
+   "keywords": [
+    "and",
+    "degree",
+    "descriptions",
+    "expressing",
+    "intensifying",
+    "so",
+    "such"
+   ],
+   "status": "live",
+   "topic": "So / Such",
+   "kind": "activities"
+  },
+  {
+   "id": "so-such-slides",
+   "hub": "grammar",
+   "path": "b1/so-such_slides.html",
+   "title": "So / Such — Slides",
+   "blurb": "Expressing degree and intensifying descriptions.",
+   "icon": "",
+   "levels": [
+    "B1"
+   ],
+   "skills": [
+    "grammar"
+   ],
+   "mode": "whole-class",
+   "prep": "none",
+   "minutes": 25,
+   "keywords": [
+    "and",
+    "degree",
+    "descriptions",
+    "expressing",
+    "intensifying",
+    "so",
+    "such"
+   ],
+   "status": "live",
+   "topic": "So / Such",
+   "kind": "slides"
+  },
+  {
+   "id": "so-such-too-enough-activities",
+   "hub": "grammar",
+   "path": "b1/so-such-too-enough_activities.html",
+   "title": "So, Such, Too, Enough — Activities",
+   "blurb": "Use so , such , too and enough to express degree, intensity and sufficiency.",
+   "icon": "",
+   "levels": [
+    "B1"
+   ],
+   "skills": [
+    "grammar"
+   ],
+   "mode": "solo",
+   "prep": "none",
+   "minutes": 20,
+   "keywords": [
+    "and",
+    "degree",
+    "enough",
+    "express",
+    "intensity",
+    "so",
+    "such",
+    "sufficiency",
+    "to",
+    "too",
+    "use"
+   ],
+   "status": "live",
+   "topic": "So, Such, Too, Enough",
+   "kind": "activities"
+  },
+  {
+   "id": "so-such-too-enough-slides",
+   "hub": "grammar",
+   "path": "b1/so-such-too-enough_slides.html",
+   "title": "So, Such, Too, Enough — Slides",
+   "blurb": "Use so , such , too and enough to express degree, intensity and sufficiency.",
+   "icon": "",
+   "levels": [
+    "B1"
+   ],
+   "skills": [
+    "grammar"
+   ],
+   "mode": "whole-class",
+   "prep": "none",
+   "minutes": 25,
+   "keywords": [
+    "and",
+    "degree",
+    "enough",
+    "express",
+    "intensity",
+    "so",
+    "such",
+    "sufficiency",
+    "to",
+    "too",
+    "use"
+   ],
+   "status": "live",
+   "topic": "So, Such, Too, Enough",
+   "kind": "slides"
+  },
+  {
+   "id": "stative-dynamic-verbs-activities",
+   "hub": "grammar",
+   "path": "b1/stative-dynamic-verbs_activities.html",
+   "title": "Stative and Dynamic Verbs — Activities",
+   "blurb": "Verbs that describe states, verbs that describe actions, and the ones that do both.",
+   "icon": "",
+   "levels": [
+    "B1"
+   ],
+   "skills": [
+    "grammar"
+   ],
+   "mode": "solo",
+   "prep": "none",
+   "minutes": 20,
+   "keywords": [
+    "actions",
+    "and",
+    "both",
+    "describe",
+    "do",
+    "dynamic",
+    "ones",
+    "states",
+    "stative",
+    "that",
+    "the",
+    "verbs"
+   ],
+   "status": "live",
+   "topic": "Stative and Dynamic Verbs",
+   "kind": "activities"
+  },
+  {
+   "id": "stative-dynamic-verbs-slides",
+   "hub": "grammar",
+   "path": "b1/stative-dynamic-verbs_slides.html",
+   "title": "Stative and Dynamic Verbs — Slides",
+   "blurb": "Verbs that describe states, verbs that describe actions, and the ones that do both.",
+   "icon": "",
+   "levels": [
+    "B1"
+   ],
+   "skills": [
+    "grammar"
+   ],
+   "mode": "whole-class",
+   "prep": "none",
+   "minutes": 25,
+   "keywords": [
+    "actions",
+    "and",
+    "both",
+    "describe",
+    "do",
+    "dynamic",
+    "ones",
+    "states",
+    "stative",
+    "that",
+    "the",
+    "verbs"
+   ],
+   "status": "live",
+   "topic": "Stative and Dynamic Verbs",
+   "kind": "slides"
+  },
+  {
+   "id": "tag-questions-activities",
+   "hub": "grammar",
+   "path": "b1/tag-questions_activities.html",
+   "title": "Tag Questions - Present — Activities",
+   "blurb": "Adding short question tags with be, do and modal verbs.",
+   "icon": "",
+   "levels": [
+    "B1"
+   ],
+   "skills": [
+    "grammar"
+   ],
+   "mode": "solo",
+   "prep": "none",
+   "minutes": 20,
+   "keywords": [
+    "adding",
+    "and",
+    "be",
+    "do",
+    "modal",
+    "present",
+    "question",
+    "questions",
+    "short",
+    "tag",
+    "tags",
+    "verbs",
+    "with"
+   ],
+   "status": "live",
+   "topic": "Tag Questions - Present",
+   "kind": "activities"
+  },
+  {
+   "id": "tag-questions-slides",
+   "hub": "grammar",
+   "path": "b1/tag-questions_slides.html",
+   "title": "Tag Questions - Present — Slides",
+   "blurb": "Adding short question tags with be, do and modal verbs.",
+   "icon": "",
+   "levels": [
+    "B1"
+   ],
+   "skills": [
+    "grammar"
+   ],
+   "mode": "whole-class",
+   "prep": "none",
+   "minutes": 25,
+   "keywords": [
+    "adding",
+    "and",
+    "be",
+    "do",
+    "modal",
+    "present",
+    "question",
+    "questions",
+    "short",
+    "tag",
+    "tags",
+    "verbs",
+    "with"
+   ],
+   "status": "live",
+   "topic": "Tag Questions - Present",
+   "kind": "slides"
+  },
+  {
+   "id": "verb-gerund-infinitive-activities",
+   "hub": "grammar",
+   "path": "b1/verb-gerund-infinitive_activities.html",
+   "title": "Verb + Gerund or Infinitive — Activities",
+   "blurb": "Love, like, hate, prefer, would like, would prefer and would rather.",
+   "icon": "",
+   "levels": [
+    "B1"
+   ],
+   "skills": [
+    "grammar"
+   ],
+   "mode": "solo",
+   "prep": "none",
+   "minutes": 20,
+   "keywords": [
+    "and",
+    "gerund",
+    "hate",
+    "infinitive",
+    "like",
+    "love",
+    "or",
+    "prefer",
+    "rather",
+    "verb",
+    "would"
+   ],
+   "status": "live",
+   "topic": "Verb + Gerund or Infinitive",
+   "kind": "activities"
+  },
+  {
+   "id": "verb-gerund-infinitive-slides",
+   "hub": "grammar",
+   "path": "b1/verb-gerund-infinitive_slides.html",
+   "title": "Verb + Gerund or Infinitive — Slides",
+   "blurb": "Love, like, hate, prefer, would like, would prefer and would rather.",
+   "icon": "",
+   "levels": [
+    "B1"
+   ],
+   "skills": [
+    "grammar"
+   ],
+   "mode": "whole-class",
+   "prep": "none",
+   "minutes": 25,
+   "keywords": [
+    "and",
+    "gerund",
+    "hate",
+    "infinitive",
+    "like",
+    "love",
+    "or",
+    "prefer",
+    "rather",
+    "verb",
+    "would"
+   ],
+   "status": "live",
+   "topic": "Verb + Gerund or Infinitive",
+   "kind": "slides"
+  },
+  {
+   "id": "should-have-activities",
+   "hub": "grammar",
+   "path": "b1/should-have_activities.html",
+   "title": "Should Have / Shouldn't Have — Activities",
+   "blurb": "Criticising past mistakes and expressing regret with should(n't) have + past participle.",
+   "icon": "",
+   "levels": [
+    "B1"
+   ],
+   "skills": [
+    "grammar"
+   ],
+   "mode": "solo",
+   "prep": "none",
+   "minutes": 20,
+   "keywords": [
+    "and",
+    "criticising",
+    "expressing",
+    "have",
+    "mistakes",
+    "n",
+    "participle",
+    "past",
+    "regret",
+    "should",
+    "shouldn",
+    "t",
+    "with"
+   ],
+   "status": "live",
+   "topic": "Should Have / Shouldn't Have",
+   "kind": "activities"
+  },
+  {
+   "id": "should-have-slides",
+   "hub": "grammar",
+   "path": "b1/should-have_slides.html",
+   "title": "Should Have / Shouldn't Have — Slides",
+   "blurb": "Criticising past mistakes and expressing regret with should(n't) have + past participle.",
+   "icon": "",
+   "levels": [
+    "B1"
+   ],
+   "skills": [
+    "grammar"
+   ],
+   "mode": "whole-class",
+   "prep": "none",
+   "minutes": 25,
+   "keywords": [
+    "and",
+    "criticising",
+    "expressing",
+    "have",
+    "mistakes",
+    "n",
+    "participle",
+    "past",
+    "regret",
+    "should",
+    "shouldn",
+    "t",
+    "with"
+   ],
+   "status": "live",
+   "topic": "Should Have / Shouldn't Have",
+   "kind": "slides"
+  },
+  {
+   "id": "wishes-about-the-past-activities",
+   "hub": "grammar",
+   "path": "b1/wishes-about-the-past_activities.html",
+   "title": "Wishes About the Past — Activities",
+   "blurb": "Expressing regret with wish + had / hadn't + past participle.",
+   "icon": "",
+   "levels": [
+    "B1"
+   ],
+   "skills": [
+    "grammar"
+   ],
+   "mode": "solo",
+   "prep": "none",
+   "minutes": 20,
+   "keywords": [
+    "about",
+    "expressing",
+    "had",
+    "hadn",
+    "participle",
+    "past",
+    "regret",
+    "t",
+    "the",
+    "wish",
+    "wishes",
+    "with"
+   ],
+   "status": "live",
+   "topic": "Wishes About the Past",
+   "kind": "activities"
+  },
+  {
+   "id": "wishes-about-the-past-slides",
+   "hub": "grammar",
+   "path": "b1/wishes-about-the-past_slides.html",
+   "title": "Wishes About the Past — Slides",
+   "blurb": "Expressing regret with wish + had / hadn't + past participle.",
+   "icon": "",
+   "levels": [
+    "B1"
+   ],
+   "skills": [
+    "grammar"
+   ],
+   "mode": "whole-class",
+   "prep": "none",
+   "minutes": 25,
+   "keywords": [
+    "about",
+    "expressing",
+    "had",
+    "hadn",
+    "participle",
+    "past",
+    "regret",
+    "t",
+    "the",
+    "wish",
+    "wishes",
+    "with"
+   ],
+   "status": "live",
+   "topic": "Wishes About the Past",
+   "kind": "slides"
+  },
+  {
+   "id": "cleft-sentences-activities",
+   "hub": "grammar",
+   "path": "b2/cleft-sentences_activities.html",
+   "title": "Cleft Sentences — Activities",
+   "blurb": "Split a sentence to spotlight one part: It's a love of life that motivates them; What I need is a holiday.",
+   "icon": "",
+   "levels": [
+    "B2"
+   ],
+   "skills": [
+    "grammar"
+   ],
+   "mode": "solo",
+   "prep": "none",
+   "minutes": 20,
+   "keywords": [
+    "a",
+    "cleft",
+    "holiday",
+    "i",
+    "is",
+    "it",
+    "life",
+    "love",
+    "motivates",
+    "need",
+    "of",
+    "one",
+    "part",
+    "s",
+    "sentence",
+    "sentences",
+    "split",
+    "spotlight",
+    "that",
+    "them",
+    "to",
+    "what"
+   ],
+   "status": "live",
+   "topic": "Cleft Sentences",
+   "kind": "activities"
+  },
+  {
+   "id": "cleft-sentences-slides",
+   "hub": "grammar",
+   "path": "b2/cleft-sentences_slides.html",
+   "title": "Cleft Sentences — Slides",
+   "blurb": "Split a sentence to spotlight one part: It's a love of life that motivates them; What I need is a holiday.",
+   "icon": "",
+   "levels": [
+    "B2"
+   ],
+   "skills": [
+    "grammar"
+   ],
+   "mode": "whole-class",
+   "prep": "none",
+   "minutes": 25,
+   "keywords": [
+    "a",
+    "cleft",
+    "holiday",
+    "i",
+    "is",
+    "it",
+    "life",
+    "love",
+    "motivates",
+    "need",
+    "of",
+    "one",
+    "part",
+    "s",
+    "sentence",
+    "sentences",
+    "split",
+    "spotlight",
+    "that",
+    "them",
+    "to",
+    "what"
+   ],
+   "status": "live",
+   "topic": "Cleft Sentences",
+   "kind": "slides"
+  },
+  {
+   "id": "conditional-conjunctions-activities",
+   "hub": "grammar",
+   "path": "b2/conditional-conjunctions_activities.html",
+   "title": "Conditional Conjunctions & Phrases — Activities",
+   "blurb": "Conditions without if : unless, as long as, provided that, in case, once and since.",
+   "icon": "",
+   "levels": [
+    "B2"
+   ],
+   "skills": [
+    "grammar"
+   ],
+   "mode": "solo",
+   "prep": "none",
+   "minutes": 20,
+   "keywords": [
+    "and",
+    "as",
+    "case",
+    "conditional",
+    "conditions",
+    "conjunctions",
+    "if",
+    "in",
+    "long",
+    "once",
+    "phrases",
+    "provided",
+    "since",
+    "that",
+    "unless",
+    "without"
+   ],
+   "status": "live",
+   "topic": "Conditional Conjunctions & Phrases",
+   "kind": "activities"
+  },
+  {
+   "id": "conditional-conjunctions-slides",
+   "hub": "grammar",
+   "path": "b2/conditional-conjunctions_slides.html",
+   "title": "Conditional Conjunctions & Phrases — Slides",
+   "blurb": "Conditions without if : unless, as long as, provided that, in case, once and since.",
+   "icon": "",
+   "levels": [
+    "B2"
+   ],
+   "skills": [
+    "grammar"
+   ],
+   "mode": "whole-class",
+   "prep": "none",
+   "minutes": 25,
+   "keywords": [
+    "and",
+    "as",
+    "case",
+    "conditional",
+    "conditions",
+    "conjunctions",
+    "if",
+    "in",
+    "long",
+    "once",
+    "phrases",
+    "provided",
+    "since",
+    "that",
+    "unless",
+    "without"
+   ],
+   "status": "live",
+   "topic": "Conditional Conjunctions & Phrases",
+   "kind": "slides"
+  },
+  {
+   "id": "conditionals-review-activities",
+   "hub": "grammar",
+   "path": "b2/conditionals-review_activities.html",
+   "title": "Conditionals Review — Activities",
+   "blurb": "All four conditionals side by side: zero, first, second and third, real and unreal.",
+   "icon": "",
+   "levels": [
+    "B2"
+   ],
+   "skills": [
+    "grammar"
+   ],
+   "mode": "solo",
+   "prep": "none",
+   "minutes": 20,
+   "keywords": [
+    "all",
+    "and",
+    "by",
+    "conditionals",
+    "first",
+    "four",
+    "real",
+    "review",
+    "second",
+    "side",
+    "third",
+    "unreal",
+    "zero"
+   ],
+   "status": "live",
+   "topic": "Conditionals Review",
+   "kind": "activities"
+  },
+  {
+   "id": "conditionals-review-slides",
+   "hub": "grammar",
+   "path": "b2/conditionals-review_slides.html",
+   "title": "Conditionals Review — Slides",
+   "blurb": "All four conditionals side by side: zero, first, second and third, real and unreal.",
+   "icon": "",
+   "levels": [
+    "B2"
+   ],
+   "skills": [
+    "grammar"
+   ],
+   "mode": "whole-class",
+   "prep": "none",
+   "minutes": 25,
+   "keywords": [
+    "all",
+    "and",
+    "by",
+    "conditionals",
+    "first",
+    "four",
+    "real",
+    "review",
+    "second",
+    "side",
+    "third",
+    "unreal",
+    "zero"
+   ],
+   "status": "live",
+   "topic": "Conditionals Review",
+   "kind": "slides"
+  },
+  {
+   "id": "future-in-the-past-activities",
+   "hub": "grammar",
+   "path": "b2/future-in-the-past_activities.html",
+   "title": "Future in the Past — Activities",
+   "blurb": "Plans and obligations that never happened: was going to, was supposed to, would.",
+   "icon": "",
+   "levels": [
+    "B2"
+   ],
+   "skills": [
+    "grammar"
+   ],
+   "mode": "solo",
+   "prep": "none",
+   "minutes": 20,
+   "keywords": [
+    "and",
+    "future",
+    "going",
+    "happened",
+    "in",
+    "never",
+    "obligations",
+    "past",
+    "plans",
+    "supposed",
+    "that",
+    "the",
+    "to",
+    "was",
+    "would"
+   ],
+   "status": "live",
+   "topic": "Future in the Past",
+   "kind": "activities"
+  },
+  {
+   "id": "future-in-the-past-slides",
+   "hub": "grammar",
+   "path": "b2/future-in-the-past_slides.html",
+   "title": "Future in the Past — Slides",
+   "blurb": "Plans and obligations that never happened: was going to, was supposed to, would.",
+   "icon": "",
+   "levels": [
+    "B2"
+   ],
+   "skills": [
+    "grammar"
+   ],
+   "mode": "whole-class",
+   "prep": "none",
+   "minutes": 25,
+   "keywords": [
+    "and",
+    "future",
+    "going",
+    "happened",
+    "in",
+    "never",
+    "obligations",
+    "past",
+    "plans",
+    "supposed",
+    "that",
+    "the",
+    "to",
+    "was",
+    "would"
+   ],
+   "status": "live",
+   "topic": "Future in the Past",
+   "kind": "slides"
+  },
+  {
+   "id": "gerund-after-prepositions-activities",
+   "hub": "grammar",
+   "path": "b2/gerund-after-prepositions_activities.html",
+   "title": "Gerunds after Prepositions — Activities",
+   "blurb": "After any preposition, use the -ing form: good at cooking, look forward to seeing you.",
+   "icon": "",
+   "levels": [
+    "B2"
+   ],
+   "skills": [
+    "grammar"
+   ],
+   "mode": "solo",
+   "prep": "none",
+   "minutes": 20,
+   "keywords": [
+    "after",
+    "any",
+    "at",
+    "cooking",
+    "form",
+    "forward",
+    "gerunds",
+    "good",
+    "ing",
+    "look",
+    "preposition",
+    "prepositions",
+    "seeing",
+    "the",
+    "to",
+    "use",
+    "you"
+   ],
+   "status": "live",
+   "topic": "Gerunds after Prepositions",
+   "kind": "activities"
+  },
+  {
+   "id": "gerund-after-prepositions-slides",
+   "hub": "grammar",
+   "path": "b2/gerund-after-prepositions_slides.html",
+   "title": "Gerunds after Prepositions — Slides",
+   "blurb": "After any preposition, use the -ing form: good at cooking, look forward to seeing you.",
+   "icon": "",
+   "levels": [
+    "B2"
+   ],
+   "skills": [
+    "grammar"
+   ],
+   "mode": "whole-class",
+   "prep": "none",
+   "minutes": 25,
+   "keywords": [
+    "after",
+    "any",
+    "at",
+    "cooking",
+    "form",
+    "forward",
+    "gerunds",
+    "good",
+    "ing",
+    "look",
+    "preposition",
+    "prepositions",
+    "seeing",
+    "the",
+    "to",
+    "use",
+    "you"
+   ],
+   "status": "live",
+   "topic": "Gerunds after Prepositions",
+   "kind": "slides"
+  },
+  {
+   "id": "inverted-conditionals-activities",
+   "hub": "grammar",
+   "path": "b2/inverted-conditionals_activities.html",
+   "title": "Inverted Conditionals — Activities",
+   "blurb": "Drop if and invert the subject: Should, Were and Had in formal conditional sentences.",
+   "icon": "",
+   "levels": [
+    "B2"
+   ],
+   "skills": [
+    "grammar"
+   ],
+   "mode": "solo",
+   "prep": "none",
+   "minutes": 20,
+   "keywords": [
+    "and",
+    "conditional",
+    "conditionals",
+    "drop",
+    "formal",
+    "had",
+    "if",
+    "in",
+    "invert",
+    "inverted",
+    "sentences",
+    "should",
+    "subject",
+    "the",
+    "were"
+   ],
+   "status": "live",
+   "topic": "Inverted Conditionals",
+   "kind": "activities"
+  },
+  {
+   "id": "inverted-conditionals-slides",
+   "hub": "grammar",
+   "path": "b2/inverted-conditionals_slides.html",
+   "title": "Inverted Conditionals — Slides",
+   "blurb": "Drop if and invert the subject: Should, Were and Had in formal conditional sentences.",
+   "icon": "",
+   "levels": [
+    "B2"
+   ],
+   "skills": [
+    "grammar"
+   ],
+   "mode": "whole-class",
+   "prep": "none",
+   "minutes": 25,
+   "keywords": [
+    "and",
+    "conditional",
+    "conditionals",
+    "drop",
+    "formal",
+    "had",
+    "if",
+    "in",
+    "invert",
+    "inverted",
+    "sentences",
+    "should",
+    "subject",
+    "the",
+    "were"
+   ],
+   "status": "live",
+   "topic": "Inverted Conditionals",
+   "kind": "slides"
+  },
+  {
+   "id": "mixed-conditionals-activities",
+   "hub": "grammar",
+   "path": "b2/mixed-conditionals_activities.html",
+   "title": "Mixed Conditionals — Activities",
+   "blurb": "Combine two time frames: an unreal condition and result in different times.",
+   "icon": "",
+   "levels": [
+    "B2"
+   ],
+   "skills": [
+    "grammar"
+   ],
+   "mode": "solo",
+   "prep": "none",
+   "minutes": 20,
+   "keywords": [
+    "an",
+    "and",
+    "combine",
+    "condition",
+    "conditionals",
+    "different",
+    "frames",
+    "in",
+    "mixed",
+    "result",
+    "time",
+    "times",
+    "two",
+    "unreal"
+   ],
+   "status": "live",
+   "topic": "Mixed Conditionals",
+   "kind": "activities"
+  },
+  {
+   "id": "mixed-conditionals-slides",
+   "hub": "grammar",
+   "path": "b2/mixed-conditionals_slides.html",
+   "title": "Mixed Conditionals — Slides",
+   "blurb": "Combine two time frames: an unreal condition and result in different times.",
+   "icon": "",
+   "levels": [
+    "B2"
+   ],
+   "skills": [
+    "grammar"
+   ],
+   "mode": "whole-class",
+   "prep": "none",
+   "minutes": 25,
+   "keywords": [
+    "an",
+    "and",
+    "combine",
+    "condition",
+    "conditionals",
+    "different",
+    "frames",
+    "in",
+    "mixed",
+    "result",
+    "time",
+    "times",
+    "two",
+    "unreal"
+   ],
+   "status": "live",
+   "topic": "Mixed Conditionals",
+   "kind": "slides"
+  },
+  {
+   "id": "negative-inversions-activities",
+   "hub": "grammar",
+   "path": "b2/negative-inversions_activities.html",
+   "title": "Negative Inversions — Activities",
+   "blurb": "Front a negative adverbial and flip the subject and auxiliary: never have I, no sooner had we, little did she know.",
+   "icon": "",
+   "levels": [
+    "B2"
+   ],
+   "skills": [
+    "grammar"
+   ],
+   "mode": "solo",
+   "prep": "none",
+   "minutes": 20,
+   "keywords": [
+    "a",
+    "adverbial",
+    "and",
+    "auxiliary",
+    "did",
+    "flip",
+    "front",
+    "had",
+    "have",
+    "i",
+    "inversions",
+    "know",
+    "little",
+    "negative",
+    "never",
+    "no",
+    "she",
+    "sooner",
+    "subject",
+    "the",
+    "we"
+   ],
+   "status": "live",
+   "topic": "Negative Inversions",
+   "kind": "activities"
+  },
+  {
+   "id": "negative-inversions-slides",
+   "hub": "grammar",
+   "path": "b2/negative-inversions_slides.html",
+   "title": "Negative Inversions — Slides",
+   "blurb": "Front a negative adverbial and flip the subject and auxiliary: never have I, no sooner had we, little did she know.",
+   "icon": "",
+   "levels": [
+    "B2"
+   ],
+   "skills": [
+    "grammar"
+   ],
+   "mode": "whole-class",
+   "prep": "none",
+   "minutes": 25,
+   "keywords": [
+    "a",
+    "adverbial",
+    "and",
+    "auxiliary",
+    "did",
+    "flip",
+    "front",
+    "had",
+    "have",
+    "i",
+    "inversions",
+    "know",
+    "little",
+    "negative",
+    "never",
+    "no",
+    "she",
+    "sooner",
+    "subject",
+    "the",
+    "we"
+   ],
+   "status": "live",
+   "topic": "Negative Inversions",
+   "kind": "slides"
+  },
+  {
+   "id": "noun-clauses-activities",
+   "hub": "grammar",
+   "path": "b2/noun-clauses_activities.html",
+   "title": "Noun Clauses — Activities",
+   "blurb": "Clauses that act as nouns: what you wear, that she got the job, whether to accept.",
+   "icon": "",
+   "levels": [
+    "B2"
+   ],
+   "skills": [
+    "grammar"
+   ],
+   "mode": "solo",
+   "prep": "none",
+   "minutes": 20,
+   "keywords": [
+    "accept",
+    "act",
+    "as",
+    "clauses",
+    "got",
+    "job",
+    "noun",
+    "nouns",
+    "she",
+    "that",
+    "the",
+    "to",
+    "wear",
+    "what",
+    "whether",
+    "you"
+   ],
+   "status": "live",
+   "topic": "Noun Clauses",
+   "kind": "activities"
+  },
+  {
+   "id": "noun-clauses-slides",
+   "hub": "grammar",
+   "path": "b2/noun-clauses_slides.html",
+   "title": "Noun Clauses — Slides",
+   "blurb": "Clauses that act as nouns: what you wear, that she got the job, whether to accept.",
+   "icon": "",
+   "levels": [
+    "B2"
+   ],
+   "skills": [
+    "grammar"
+   ],
+   "mode": "whole-class",
+   "prep": "none",
+   "minutes": 25,
+   "keywords": [
+    "accept",
+    "act",
+    "as",
+    "clauses",
+    "got",
+    "job",
+    "noun",
+    "nouns",
+    "she",
+    "that",
+    "the",
+    "to",
+    "wear",
+    "what",
+    "whether",
+    "you"
+   ],
+   "status": "live",
+   "topic": "Noun Clauses",
+   "kind": "slides"
+  },
+  {
+   "id": "paired-conjunctions-activities",
+   "hub": "grammar",
+   "path": "b2/paired-conjunctions_activities.html",
+   "title": "Paired Conjunctions — Activities",
+   "blurb": "Link two things with two halves: both/and, either/or, neither/nor, not only/but also.",
+   "icon": "",
+   "levels": [
+    "B2"
+   ],
+   "skills": [
+    "grammar"
+   ],
+   "mode": "solo",
+   "prep": "none",
+   "minutes": 20,
+   "keywords": [
+    "also",
+    "and",
+    "both",
+    "but",
+    "conjunctions",
+    "either",
+    "halves",
+    "link",
+    "neither",
+    "nor",
+    "not",
+    "only",
+    "or",
+    "paired",
+    "things",
+    "two",
+    "with"
+   ],
+   "status": "live",
+   "topic": "Paired Conjunctions",
+   "kind": "activities"
+  },
+  {
+   "id": "paired-conjunctions-slides",
+   "hub": "grammar",
+   "path": "b2/paired-conjunctions_slides.html",
+   "title": "Paired Conjunctions — Slides",
+   "blurb": "Link two things with two halves: both/and, either/or, neither/nor, not only/but also.",
+   "icon": "",
+   "levels": [
+    "B2"
+   ],
+   "skills": [
+    "grammar"
+   ],
+   "mode": "whole-class",
+   "prep": "none",
+   "minutes": 25,
+   "keywords": [
+    "also",
+    "and",
+    "both",
+    "but",
+    "conjunctions",
+    "either",
+    "halves",
+    "link",
+    "neither",
+    "nor",
+    "not",
+    "only",
+    "or",
+    "paired",
+    "things",
+    "two",
+    "with"
+   ],
+   "status": "live",
+   "topic": "Paired Conjunctions",
+   "kind": "slides"
+  },
+  {
+   "id": "participle-clauses-activities",
+   "hub": "grammar",
+   "path": "b2/participle-clauses_activities.html",
+   "title": "Participle Clauses — Activities",
+   "blurb": "The three participle forms and what they mean: walking in, called a skill, having done this a few times.",
+   "icon": "",
+   "levels": [
+    "B2"
+   ],
+   "skills": [
+    "grammar"
+   ],
+   "mode": "solo",
+   "prep": "none",
+   "minutes": 20,
+   "keywords": [
+    "a",
+    "and",
+    "called",
+    "clauses",
+    "done",
+    "few",
+    "forms",
+    "having",
+    "in",
+    "mean",
+    "participle",
+    "skill",
+    "the",
+    "they",
+    "this",
+    "three",
+    "times",
+    "walking",
+    "what"
+   ],
+   "status": "live",
+   "topic": "Participle Clauses",
+   "kind": "activities"
+  },
+  {
+   "id": "participle-clauses-slides",
+   "hub": "grammar",
+   "path": "b2/participle-clauses_slides.html",
+   "title": "Participle Clauses — Slides",
+   "blurb": "The three participle forms and what they mean: walking in, called a skill, having done this a few times.",
+   "icon": "",
+   "levels": [
+    "B2"
+   ],
+   "skills": [
+    "grammar"
+   ],
+   "mode": "whole-class",
+   "prep": "none",
+   "minutes": 25,
+   "keywords": [
+    "a",
+    "and",
+    "called",
+    "clauses",
+    "done",
+    "few",
+    "forms",
+    "having",
+    "in",
+    "mean",
+    "participle",
+    "skill",
+    "the",
+    "they",
+    "this",
+    "three",
+    "times",
+    "walking",
+    "what"
+   ],
+   "status": "live",
+   "topic": "Participle Clauses",
+   "kind": "slides"
+  },
+  {
+   "id": "passive-infinitives-gerunds-activities",
+   "hub": "grammar",
+   "path": "b2/passive-infinitives-gerunds_activities.html",
+   "title": "Passive with Infinitives & Gerunds — Activities",
+   "blurb": "Tenseless passives: must be answered, would like to be given, hates being introduced.",
+   "icon": "",
+   "levels": [
+    "B2"
+   ],
+   "skills": [
+    "grammar"
+   ],
+   "mode": "solo",
+   "prep": "none",
+   "minutes": 20,
+   "keywords": [
+    "answered",
+    "be",
+    "being",
+    "gerunds",
+    "given",
+    "hates",
+    "infinitives",
+    "introduced",
+    "like",
+    "must",
+    "passive",
+    "passives",
+    "tenseless",
+    "to",
+    "with",
+    "would"
+   ],
+   "status": "live",
+   "topic": "Passive with Infinitives & Gerunds",
+   "kind": "activities"
+  },
+  {
+   "id": "passive-infinitives-gerunds-slides",
+   "hub": "grammar",
+   "path": "b2/passive-infinitives-gerunds_slides.html",
+   "title": "Passive with Infinitives & Gerunds — Slides",
+   "blurb": "Tenseless passives: must be answered, would like to be given, hates being introduced.",
+   "icon": "",
+   "levels": [
+    "B2"
+   ],
+   "skills": [
+    "grammar"
+   ],
+   "mode": "whole-class",
+   "prep": "none",
+   "minutes": 25,
+   "keywords": [
+    "answered",
+    "be",
+    "being",
+    "gerunds",
+    "given",
+    "hates",
+    "infinitives",
+    "introduced",
+    "like",
+    "must",
+    "passive",
+    "passives",
+    "tenseless",
+    "to",
+    "with",
+    "would"
+   ],
+   "status": "live",
+   "topic": "Passive with Infinitives & Gerunds",
+   "kind": "slides"
+  },
+  {
+   "id": "passive-reporting-structures-activities",
+   "hub": "grammar",
+   "path": "b2/passive-reporting-structures_activities.html",
+   "title": "Passive Reporting Structures — Activities",
+   "blurb": "Report information formally without naming a source: It is said that… and …is said to have…",
+   "icon": "",
+   "levels": [
+    "B2"
+   ],
+   "skills": [
+    "grammar"
+   ],
+   "mode": "solo",
+   "prep": "none",
+   "minutes": 20,
+   "keywords": [
+    "a",
+    "and",
+    "formally",
+    "have",
+    "information",
+    "is",
+    "it",
+    "naming",
+    "passive",
+    "report",
+    "reporting",
+    "said",
+    "source",
+    "structures",
+    "that",
+    "to",
+    "without"
+   ],
+   "status": "live",
+   "topic": "Passive Reporting Structures",
+   "kind": "activities"
+  },
+  {
+   "id": "passive-reporting-structures-slides",
+   "hub": "grammar",
+   "path": "b2/passive-reporting-structures_slides.html",
+   "title": "Passive Reporting Structures — Slides",
+   "blurb": "Report information formally without naming a source: It is said that… and …is said to have…",
+   "icon": "",
+   "levels": [
+    "B2"
+   ],
+   "skills": [
+    "grammar"
+   ],
+   "mode": "whole-class",
+   "prep": "none",
+   "minutes": 25,
+   "keywords": [
+    "a",
+    "and",
+    "formally",
+    "have",
+    "information",
+    "is",
+    "it",
+    "naming",
+    "passive",
+    "report",
+    "reporting",
+    "said",
+    "source",
+    "structures",
+    "that",
+    "to",
+    "without"
+   ],
+   "status": "live",
+   "topic": "Passive Reporting Structures",
+   "kind": "slides"
+  },
+  {
+   "id": "past-modals-of-deduction-activities",
+   "hub": "grammar",
+   "path": "b2/past-modals-of-deduction_activities.html",
+   "title": "Past Modals of Deduction — Activities",
+   "blurb": "Draw conclusions about finished events: must have, may/might/could have, can't have.",
+   "icon": "",
+   "levels": [
+    "B2"
+   ],
+   "skills": [
+    "grammar"
+   ],
+   "mode": "solo",
+   "prep": "none",
+   "minutes": 20,
+   "keywords": [
+    "about",
+    "can",
+    "conclusions",
+    "could",
+    "deduction",
+    "draw",
+    "events",
+    "finished",
+    "have",
+    "may",
+    "might",
+    "modals",
+    "must",
+    "of",
+    "past",
+    "t"
+   ],
+   "status": "live",
+   "topic": "Past Modals of Deduction",
+   "kind": "activities"
+  },
+  {
+   "id": "past-modals-of-deduction-slides",
+   "hub": "grammar",
+   "path": "b2/past-modals-of-deduction_slides.html",
+   "title": "Past Modals of Deduction — Slides",
+   "blurb": "Draw conclusions about finished events: must have, may/might/could have, can't have.",
+   "icon": "",
+   "levels": [
+    "B2"
+   ],
+   "skills": [
+    "grammar"
+   ],
+   "mode": "whole-class",
+   "prep": "none",
+   "minutes": 25,
+   "keywords": [
+    "about",
+    "can",
+    "conclusions",
+    "could",
+    "deduction",
+    "draw",
+    "events",
+    "finished",
+    "have",
+    "may",
+    "might",
+    "modals",
+    "must",
+    "of",
+    "past",
+    "t"
+   ],
+   "status": "live",
+   "topic": "Past Modals of Deduction",
+   "kind": "slides"
+  },
+  {
+   "id": "reduced-adverb-cause-effect-activities",
+   "hub": "grammar",
+   "path": "b2/reduced-adverb-cause-effect_activities.html",
+   "title": "Reduced Adverb Cause-Effect Clauses — Activities",
+   "blurb": "Shorten clauses of reason to a participle: standing in the queue, being metal, having used her name.",
+   "icon": "",
+   "levels": [
+    "B2"
+   ],
+   "skills": [
+    "grammar"
+   ],
+   "mode": "solo",
+   "prep": "none",
+   "minutes": 20,
+   "keywords": [
+    "a",
+    "adverb",
+    "being",
+    "cause",
+    "clauses",
+    "effect",
+    "having",
+    "her",
+    "in",
+    "metal",
+    "name",
+    "of",
+    "participle",
+    "queue",
+    "reason",
+    "reduced",
+    "shorten",
+    "standing",
+    "the",
+    "to",
+    "used"
+   ],
+   "status": "live",
+   "topic": "Reduced Adverb Cause-Effect Clauses",
+   "kind": "activities"
+  },
+  {
+   "id": "reduced-adverb-cause-effect-slides",
+   "hub": "grammar",
+   "path": "b2/reduced-adverb-cause-effect_slides.html",
+   "title": "Reduced Adverb Cause-Effect Clauses — Slides",
+   "blurb": "Shorten clauses of reason to a participle: standing in the queue, being metal, having used her name.",
+   "icon": "",
+   "levels": [
+    "B2"
+   ],
+   "skills": [
+    "grammar"
+   ],
+   "mode": "whole-class",
+   "prep": "none",
+   "minutes": 25,
+   "keywords": [
+    "a",
+    "adverb",
+    "being",
+    "cause",
+    "clauses",
+    "effect",
+    "having",
+    "her",
+    "in",
+    "metal",
+    "name",
+    "of",
+    "participle",
+    "queue",
+    "reason",
+    "reduced",
+    "shorten",
+    "standing",
+    "the",
+    "to",
+    "used"
+   ],
+   "status": "live",
+   "topic": "Reduced Adverb Cause-Effect Clauses",
+   "kind": "slides"
+  },
+  {
+   "id": "reduced-relative-clauses-activities",
+   "hub": "grammar",
+   "path": "b2/reduced-relative-clauses_activities.html",
+   "title": "Reduced Relative Clauses — Activities",
+   "blurb": "Drop the relative pronoun — and sometimes be: tornadoes we've seen, people interested in it, letters sent yesterday.",
+   "icon": "",
+   "levels": [
+    "B2"
+   ],
+   "skills": [
+    "grammar"
+   ],
+   "mode": "solo",
+   "prep": "none",
+   "minutes": 20,
+   "keywords": [
+    "and",
+    "be",
+    "clauses",
+    "drop",
+    "in",
+    "interested",
+    "it",
+    "letters",
+    "people",
+    "pronoun",
+    "reduced",
+    "relative",
+    "seen",
+    "sent",
+    "sometimes",
+    "the",
+    "tornadoes",
+    "ve",
+    "we",
+    "yesterday"
+   ],
+   "status": "live",
+   "topic": "Reduced Relative Clauses",
+   "kind": "activities"
+  },
+  {
+   "id": "reduced-relative-clauses-slides",
+   "hub": "grammar",
+   "path": "b2/reduced-relative-clauses_slides.html",
+   "title": "Reduced Relative Clauses — Slides",
+   "blurb": "Drop the relative pronoun — and sometimes be: tornadoes we've seen, people interested in it, letters sent yesterday.",
+   "icon": "",
+   "levels": [
+    "B2"
+   ],
+   "skills": [
+    "grammar"
+   ],
+   "mode": "whole-class",
+   "prep": "none",
+   "minutes": 25,
+   "keywords": [
+    "and",
+    "be",
+    "clauses",
+    "drop",
+    "in",
+    "interested",
+    "it",
+    "letters",
+    "people",
+    "pronoun",
+    "reduced",
+    "relative",
+    "seen",
+    "sent",
+    "sometimes",
+    "the",
+    "tornadoes",
+    "ve",
+    "we",
+    "yesterday"
+   ],
+   "status": "live",
+   "topic": "Reduced Relative Clauses",
+   "kind": "slides"
+  },
+  {
+   "id": "reduced-adverb-time-clauses-activities",
+   "hub": "grammar",
+   "path": "b2/reduced-adverb-time-clauses_activities.html",
+   "title": "Reduced Adverb Time Clauses — Activities",
+   "blurb": "Shorten time clauses to a gerund: after studying all day, before leaving, on hearing the news.",
+   "icon": "",
+   "levels": [
+    "B2"
+   ],
+   "skills": [
+    "grammar"
+   ],
+   "mode": "solo",
+   "prep": "none",
+   "minutes": 20,
+   "keywords": [
+    "a",
+    "adverb",
+    "after",
+    "all",
+    "before",
+    "clauses",
+    "day",
+    "gerund",
+    "hearing",
+    "leaving",
+    "news",
+    "on",
+    "reduced",
+    "shorten",
+    "studying",
+    "the",
+    "time",
+    "to"
+   ],
+   "status": "live",
+   "topic": "Reduced Adverb Time Clauses",
+   "kind": "activities"
+  },
+  {
+   "id": "reduced-adverb-time-clauses-slides",
+   "hub": "grammar",
+   "path": "b2/reduced-adverb-time-clauses_slides.html",
+   "title": "Reduced Adverb Time Clauses — Slides",
+   "blurb": "Shorten time clauses to a gerund: after studying all day, before leaving, on hearing the news.",
+   "icon": "",
+   "levels": [
+    "B2"
+   ],
+   "skills": [
+    "grammar"
+   ],
+   "mode": "whole-class",
+   "prep": "none",
+   "minutes": 25,
+   "keywords": [
+    "a",
+    "adverb",
+    "after",
+    "all",
+    "before",
+    "clauses",
+    "day",
+    "gerund",
+    "hearing",
+    "leaving",
+    "news",
+    "on",
+    "reduced",
+    "shorten",
+    "studying",
+    "the",
+    "time",
+    "to"
+   ],
+   "status": "live",
+   "topic": "Reduced Adverb Time Clauses",
+   "kind": "slides"
+  },
+  {
+   "id": "relative-clauses-activities",
+   "hub": "grammar",
+   "path": "b2/relative-clauses_activities.html",
+   "title": "Relative Clauses — Activities",
+   "blurb": "Defining and non-defining clauses: who, which, that, whose, where — and where the commas go.",
+   "icon": "",
+   "levels": [
+    "B2"
+   ],
+   "skills": [
+    "grammar"
+   ],
+   "mode": "solo",
+   "prep": "none",
+   "minutes": 20,
+   "keywords": [
+    "and",
+    "clauses",
+    "commas",
+    "defining",
+    "go",
+    "non",
+    "relative",
+    "that",
+    "the",
+    "where",
+    "which",
+    "who",
+    "whose"
+   ],
+   "status": "live",
+   "topic": "Relative Clauses",
+   "kind": "activities"
+  },
+  {
+   "id": "relative-clauses-slides",
+   "hub": "grammar",
+   "path": "b2/relative-clauses_slides.html",
+   "title": "Relative Clauses — Slides",
+   "blurb": "Defining and non-defining clauses: who, which, that, whose, where — and where the commas go.",
+   "icon": "",
+   "levels": [
+    "B2"
+   ],
+   "skills": [
+    "grammar"
+   ],
+   "mode": "whole-class",
+   "prep": "none",
+   "minutes": 25,
+   "keywords": [
+    "and",
+    "clauses",
+    "commas",
+    "defining",
+    "go",
+    "non",
+    "relative",
+    "that",
+    "the",
+    "where",
+    "which",
+    "who",
+    "whose"
+   ],
+   "status": "live",
+   "topic": "Relative Clauses",
+   "kind": "slides"
+  },
+  {
+   "id": "subjunctive-activities",
+   "hub": "grammar",
+   "path": "b2/subjunctive_activities.html",
+   "title": "The Subjunctive — Activities",
+   "blurb": "Use the bare infinitive after that: I recommend that she take the train; it is vital that he be told.",
+   "icon": "",
+   "levels": [
+    "B2"
+   ],
+   "skills": [
+    "grammar"
+   ],
+   "mode": "solo",
+   "prep": "none",
+   "minutes": 20,
+   "keywords": [
+    "after",
+    "bare",
+    "be",
+    "he",
+    "i",
+    "infinitive",
+    "is",
+    "it",
+    "recommend",
+    "she",
+    "subjunctive",
+    "take",
+    "that",
+    "the",
+    "told",
+    "train",
+    "use",
+    "vital"
+   ],
+   "status": "live",
+   "topic": "The Subjunctive",
+   "kind": "activities"
+  },
+  {
+   "id": "subjunctive-slides",
+   "hub": "grammar",
+   "path": "b2/subjunctive_slides.html",
+   "title": "The Subjunctive — Slides",
+   "blurb": "Use the bare infinitive after that: I recommend that she take the train; it is vital that he be told.",
+   "icon": "",
+   "levels": [
+    "B2"
+   ],
+   "skills": [
+    "grammar"
+   ],
+   "mode": "whole-class",
+   "prep": "none",
+   "minutes": 25,
+   "keywords": [
+    "after",
+    "bare",
+    "be",
+    "he",
+    "i",
+    "infinitive",
+    "is",
+    "it",
+    "recommend",
+    "she",
+    "subjunctive",
+    "take",
+    "that",
+    "the",
+    "told",
+    "train",
+    "use",
+    "vital"
+   ],
+   "status": "live",
+   "topic": "The Subjunctive",
+   "kind": "slides"
+  },
+  {
+   "id": "third-conditional-activities",
+   "hub": "grammar",
+   "path": "b2/third-conditional_activities.html",
+   "title": "Third Conditional — Activities",
+   "blurb": "Hypothetical past situations and their imagined results.",
+   "icon": "",
+   "levels": [
+    "B2"
+   ],
+   "skills": [
+    "grammar"
+   ],
+   "mode": "solo",
+   "prep": "none",
+   "minutes": 20,
+   "keywords": [
+    "and",
+    "conditional",
+    "hypothetical",
+    "imagined",
+    "past",
+    "results",
+    "situations",
+    "their",
+    "third"
+   ],
+   "status": "live",
+   "topic": "Third Conditional",
+   "kind": "activities"
+  },
+  {
+   "id": "third-conditional-slides",
+   "hub": "grammar",
+   "path": "b2/third-conditional_slides.html",
+   "title": "Third Conditional — Slides",
+   "blurb": "Hypothetical past situations and their imagined results.",
+   "icon": "",
+   "levels": [
+    "B2"
+   ],
+   "skills": [
+    "grammar"
+   ],
+   "mode": "whole-class",
+   "prep": "none",
+   "minutes": 25,
+   "keywords": [
+    "and",
+    "conditional",
+    "hypothetical",
+    "imagined",
+    "past",
+    "results",
+    "situations",
+    "their",
+    "third"
+   ],
+   "status": "live",
+   "topic": "Third Conditional",
+   "kind": "slides"
+  },
+  {
+   "id": "verb-object-infinitive-activities",
+   "hub": "grammar",
+   "path": "b2/verb-object-infinitive_activities.html",
+   "title": "Verb + Object + Infinitive — Activities",
+   "blurb": "Report advice, requests and rules: tell her to wait, ask them not to call.",
+   "icon": "",
+   "levels": [
+    "B2"
+   ],
+   "skills": [
+    "grammar"
+   ],
+   "mode": "solo",
+   "prep": "none",
+   "minutes": 20,
+   "keywords": [
+    "advice",
+    "and",
+    "ask",
+    "call",
+    "her",
+    "infinitive",
+    "not",
+    "object",
+    "report",
+    "requests",
+    "rules",
+    "tell",
+    "them",
+    "to",
+    "verb",
+    "wait"
+   ],
+   "status": "live",
+   "topic": "Verb + Object + Infinitive",
+   "kind": "activities"
+  },
+  {
+   "id": "verb-object-infinitive-slides",
+   "hub": "grammar",
+   "path": "b2/verb-object-infinitive_slides.html",
+   "title": "Verb + Object + Infinitive — Slides",
+   "blurb": "Report advice, requests and rules: tell her to wait, ask them not to call.",
+   "icon": "",
+   "levels": [
+    "B2"
+   ],
+   "skills": [
+    "grammar"
+   ],
+   "mode": "whole-class",
+   "prep": "none",
+   "minutes": 25,
+   "keywords": [
+    "advice",
+    "and",
+    "ask",
+    "call",
+    "her",
+    "infinitive",
+    "not",
+    "object",
+    "report",
+    "requests",
+    "rules",
+    "tell",
+    "them",
+    "to",
+    "verb",
+    "wait"
+   ],
+   "status": "live",
+   "topic": "Verb + Object + Infinitive",
+   "kind": "slides"
+  },
+  {
+   "id": "vocab-a1-family-people",
+   "hub": "vocab",
+   "path": "index.html#/a1/family-people",
+   "title": "Family & People (A1)",
+   "blurb": "A1 vocabulary set — study, games, flashcards and board mode.",
+   "icon": "",
+   "levels": [
+    "A1"
+   ],
+   "skills": [
+    "vocabulary"
+   ],
+   "mode": "whole-class",
+   "prep": "none",
+   "minutes": 20,
+   "keywords": [
+    "family",
+    "people",
+    "vocabulary",
+    "theme"
+   ],
+   "status": "live"
+  },
+  {
+   "id": "vocab-a1-food-drink",
+   "hub": "vocab",
+   "path": "index.html#/a1/food-drink",
+   "title": "Food & Drink (A1)",
+   "blurb": "A1 vocabulary set — study, games, flashcards and board mode.",
+   "icon": "",
+   "levels": [
+    "A1"
+   ],
+   "skills": [
+    "vocabulary"
+   ],
+   "mode": "whole-class",
+   "prep": "none",
+   "minutes": 20,
+   "keywords": [
+    "drink",
+    "food",
+    "vocabulary",
+    "theme"
+   ],
+   "status": "live"
+  },
+  {
+   "id": "vocab-a1-daily-routine",
+   "hub": "vocab",
+   "path": "index.html#/a1/daily-routine",
+   "title": "Daily Routine (A1)",
+   "blurb": "A1 vocabulary set — study, games, flashcards and board mode.",
+   "icon": "",
+   "levels": [
+    "A1"
+   ],
+   "skills": [
+    "vocabulary"
+   ],
+   "mode": "whole-class",
+   "prep": "none",
+   "minutes": 20,
+   "keywords": [
+    "daily",
+    "routine",
+    "vocabulary",
+    "theme"
+   ],
+   "status": "live"
+  },
+  {
+   "id": "vocab-a1-numbers-time-colors",
+   "hub": "vocab",
+   "path": "index.html#/a1/numbers-time-colors",
+   "title": "Numbers, Time & Colors (A1)",
+   "blurb": "A1 vocabulary set — study, games, flashcards and board mode.",
+   "icon": "",
+   "levels": [
+    "A1"
+   ],
+   "skills": [
+    "vocabulary"
+   ],
+   "mode": "whole-class",
+   "prep": "none",
+   "minutes": 20,
+   "keywords": [
+    "colors",
+    "numbers",
+    "time",
+    "vocabulary",
+    "theme"
+   ],
+   "status": "live"
+  },
+  {
+   "id": "vocab-a1-clothes",
+   "hub": "vocab",
+   "path": "index.html#/a1/clothes",
+   "title": "Clothes (A1)",
+   "blurb": "A1 vocabulary set — study, games, flashcards and board mode.",
+   "icon": "",
+   "levels": [
+    "A1"
+   ],
+   "skills": [
+    "vocabulary"
+   ],
+   "mode": "whole-class",
+   "prep": "none",
+   "minutes": 20,
+   "keywords": [
+    "clothes",
+    "vocabulary",
+    "theme"
+   ],
+   "status": "live"
+  },
+  {
+   "id": "vocab-a1-house-furniture",
+   "hub": "vocab",
+   "path": "index.html#/a1/house-furniture",
+   "title": "House & Furniture (A1)",
+   "blurb": "A1 vocabulary set — study, games, flashcards and board mode.",
+   "icon": "",
+   "levels": [
+    "A1"
+   ],
+   "skills": [
+    "vocabulary"
+   ],
+   "mode": "whole-class",
+   "prep": "none",
+   "minutes": 20,
+   "keywords": [
+    "furniture",
+    "house",
+    "vocabulary",
+    "theme"
+   ],
+   "status": "live"
+  },
+  {
+   "id": "vocab-a1-weather",
+   "hub": "vocab",
+   "path": "index.html#/a1/weather",
+   "title": "Weather & Seasons (A1)",
+   "blurb": "A1 vocabulary set — study, games, flashcards and board mode.",
+   "icon": "",
+   "levels": [
+    "A1"
+   ],
+   "skills": [
+    "vocabulary"
+   ],
+   "mode": "whole-class",
+   "prep": "none",
+   "minutes": 20,
+   "keywords": [
+    "seasons",
+    "weather",
+    "vocabulary",
+    "theme"
+   ],
+   "status": "live"
+  },
+  {
+   "id": "vocab-a1-animals",
+   "hub": "vocab",
+   "path": "index.html#/a1/animals",
+   "title": "Animals (A1)",
+   "blurb": "A1 vocabulary set — study, games, flashcards and board mode.",
+   "icon": "",
+   "levels": [
+    "A1"
+   ],
+   "skills": [
+    "vocabulary"
+   ],
+   "mode": "whole-class",
+   "prep": "none",
+   "minutes": 20,
+   "keywords": [
+    "animals",
+    "vocabulary",
+    "theme"
+   ],
+   "status": "live"
+  },
+  {
+   "id": "vocab-a2-shopping-money",
+   "hub": "vocab",
+   "path": "index.html#/a2/shopping-money",
+   "title": "Shopping & Money (A2)",
+   "blurb": "A2 vocabulary set — study, games, flashcards and board mode.",
+   "icon": "",
+   "levels": [
+    "A2"
+   ],
+   "skills": [
+    "vocabulary"
+   ],
+   "mode": "whole-class",
+   "prep": "none",
+   "minutes": 20,
+   "keywords": [
+    "money",
+    "shopping",
+    "vocabulary",
+    "theme"
+   ],
+   "status": "live"
+  },
+  {
+   "id": "vocab-a2-health-body",
+   "hub": "vocab",
+   "path": "index.html#/a2/health-body",
+   "title": "Health & Body (A2)",
+   "blurb": "A2 vocabulary set — study, games, flashcards and board mode.",
+   "icon": "",
+   "levels": [
+    "A2"
+   ],
+   "skills": [
+    "vocabulary"
+   ],
+   "mode": "whole-class",
+   "prep": "none",
+   "minutes": 20,
+   "keywords": [
+    "body",
+    "health",
+    "vocabulary",
+    "theme"
+   ],
+   "status": "live"
+  },
+  {
+   "id": "vocab-a2-travel-transport",
+   "hub": "vocab",
+   "path": "index.html#/a2/travel-transport",
+   "title": "Travel & Transport (A2)",
+   "blurb": "A2 vocabulary set — study, games, flashcards and board mode.",
+   "icon": "",
+   "levels": [
+    "A2"
+   ],
+   "skills": [
+    "vocabulary"
+   ],
+   "mode": "whole-class",
+   "prep": "none",
+   "minutes": 20,
+   "keywords": [
+    "transport",
+    "travel",
+    "vocabulary",
+    "theme"
+   ],
+   "status": "live"
+  },
+  {
+   "id": "vocab-a2-school-study",
+   "hub": "vocab",
+   "path": "index.html#/a2/school-study",
+   "title": "School & Study (A2)",
+   "blurb": "A2 vocabulary set — study, games, flashcards and board mode.",
+   "icon": "",
+   "levels": [
+    "A2"
+   ],
+   "skills": [
+    "vocabulary"
+   ],
+   "mode": "whole-class",
+   "prep": "none",
+   "minutes": 20,
+   "keywords": [
+    "school",
+    "study",
+    "vocabulary",
+    "theme"
+   ],
+   "status": "live"
+  },
+  {
+   "id": "vocab-a2-free-time",
+   "hub": "vocab",
+   "path": "index.html#/a2/free-time",
+   "title": "Free Time & Hobbies (A2)",
+   "blurb": "A2 vocabulary set — study, games, flashcards and board mode.",
+   "icon": "",
+   "levels": [
+    "A2"
+   ],
+   "skills": [
+    "vocabulary"
+   ],
+   "mode": "whole-class",
+   "prep": "none",
+   "minutes": 20,
+   "keywords": [
+    "free",
+    "hobbies",
+    "time",
+    "vocabulary",
+    "theme"
+   ],
+   "status": "live"
+  },
+  {
+   "id": "vocab-a2-town-directions",
+   "hub": "vocab",
+   "path": "index.html#/a2/town-directions",
+   "title": "Town & Directions (A2)",
+   "blurb": "A2 vocabulary set — study, games, flashcards and board mode.",
+   "icon": "",
+   "levels": [
+    "A2"
+   ],
+   "skills": [
+    "vocabulary"
+   ],
+   "mode": "whole-class",
+   "prep": "none",
+   "minutes": 20,
+   "keywords": [
+    "directions",
+    "town",
+    "vocabulary",
+    "theme"
+   ],
+   "status": "live"
+  },
+  {
+   "id": "vocab-a2-jobs-work",
+   "hub": "vocab",
+   "path": "index.html#/a2/jobs-work",
+   "title": "Jobs & Work (A2)",
+   "blurb": "A2 vocabulary set — study, games, flashcards and board mode.",
+   "icon": "",
+   "levels": [
+    "A2"
+   ],
+   "skills": [
+    "vocabulary"
+   ],
+   "mode": "whole-class",
+   "prep": "none",
+   "minutes": 20,
+   "keywords": [
+    "jobs",
+    "work",
+    "vocabulary",
+    "theme"
+   ],
+   "status": "live"
+  },
+  {
+   "id": "vocab-a2-feelings-personality",
+   "hub": "vocab",
+   "path": "index.html#/a2/feelings-personality",
+   "title": "Feelings & Personality (A2)",
+   "blurb": "A2 vocabulary set — study, games, flashcards and board mode.",
+   "icon": "",
+   "levels": [
+    "A2"
+   ],
+   "skills": [
+    "vocabulary"
+   ],
+   "mode": "whole-class",
+   "prep": "none",
+   "minutes": 20,
+   "keywords": [
+    "feelings",
+    "personality",
+    "vocabulary",
+    "theme"
+   ],
+   "status": "live"
+  },
+  {
+   "id": "vocab-b1-environment-nature",
+   "hub": "vocab",
+   "path": "index.html#/b1/environment-nature",
+   "title": "Environment & Nature (B1)",
+   "blurb": "B1 vocabulary set — study, games, flashcards and board mode.",
+   "icon": "",
+   "levels": [
+    "B1"
+   ],
+   "skills": [
+    "vocabulary"
+   ],
+   "mode": "whole-class",
+   "prep": "none",
+   "minutes": 20,
+   "keywords": [
+    "environment",
+    "nature",
+    "vocabulary",
+    "theme"
+   ],
+   "status": "live"
+  },
+  {
+   "id": "vocab-b1-technology-internet",
+   "hub": "vocab",
+   "path": "index.html#/b1/technology-internet",
+   "title": "Technology & Internet (B1)",
+   "blurb": "B1 vocabulary set — study, games, flashcards and board mode.",
+   "icon": "",
+   "levels": [
+    "B1"
+   ],
+   "skills": [
+    "vocabulary"
+   ],
+   "mode": "whole-class",
+   "prep": "none",
+   "minutes": 20,
+   "keywords": [
+    "internet",
+    "technology",
+    "vocabulary",
+    "theme"
+   ],
+   "status": "live"
+  },
+  {
+   "id": "vocab-b1-media-news",
+   "hub": "vocab",
+   "path": "index.html#/b1/media-news",
+   "title": "Media & News (B1)",
+   "blurb": "B1 vocabulary set — study, games, flashcards and board mode.",
+   "icon": "",
+   "levels": [
+    "B1"
+   ],
+   "skills": [
+    "vocabulary"
+   ],
+   "mode": "whole-class",
+   "prep": "none",
+   "minutes": 20,
+   "keywords": [
+    "media",
+    "news",
+    "vocabulary",
+    "theme"
+   ],
+   "status": "live"
+  },
+  {
+   "id": "vocab-b1-relationships",
+   "hub": "vocab",
+   "path": "index.html#/b1/relationships",
+   "title": "Relationships (B1)",
+   "blurb": "B1 vocabulary set — study, games, flashcards and board mode.",
+   "icon": "",
+   "levels": [
+    "B1"
+   ],
+   "skills": [
+    "vocabulary"
+   ],
+   "mode": "whole-class",
+   "prep": "none",
+   "minutes": 20,
+   "keywords": [
+    "relationships",
+    "vocabulary",
+    "theme"
+   ],
+   "status": "live"
+  },
+  {
+   "id": "vocab-b1-crime-law",
+   "hub": "vocab",
+   "path": "index.html#/b1/crime-law",
+   "title": "Crime & Law (B1)",
+   "blurb": "B1 vocabulary set — study, games, flashcards and board mode.",
+   "icon": "",
+   "levels": [
+    "B1"
+   ],
+   "skills": [
+    "vocabulary"
+   ],
+   "mode": "whole-class",
+   "prep": "none",
+   "minutes": 20,
+   "keywords": [
+    "crime",
+    "law",
+    "vocabulary",
+    "theme"
+   ],
+   "status": "live"
+  },
+  {
+   "id": "vocab-b1-sport-fitness",
+   "hub": "vocab",
+   "path": "index.html#/b1/sport-fitness",
+   "title": "Sport & Fitness (B1)",
+   "blurb": "B1 vocabulary set — study, games, flashcards and board mode.",
+   "icon": "",
+   "levels": [
+    "B1"
+   ],
+   "skills": [
+    "vocabulary"
+   ],
+   "mode": "whole-class",
+   "prep": "none",
+   "minutes": 20,
+   "keywords": [
+    "fitness",
+    "sport",
+    "vocabulary",
+    "theme"
+   ],
+   "status": "live"
+  },
+  {
+   "id": "vocab-b1-housing-living",
+   "hub": "vocab",
+   "path": "index.html#/b1/housing-living",
+   "title": "Housing & Living (B1)",
+   "blurb": "B1 vocabulary set — study, games, flashcards and board mode.",
+   "icon": "",
+   "levels": [
+    "B1"
+   ],
+   "skills": [
+    "vocabulary"
+   ],
+   "mode": "whole-class",
+   "prep": "none",
+   "minutes": 20,
+   "keywords": [
+    "housing",
+    "living",
+    "vocabulary",
+    "theme"
+   ],
+   "status": "live"
+  },
+  {
+   "id": "vocab-b1-opinions-argument",
+   "hub": "vocab",
+   "path": "index.html#/b1/opinions-argument",
+   "title": "Opinions & Argument (B1)",
+   "blurb": "B1 vocabulary set — study, games, flashcards and board mode.",
+   "icon": "",
+   "levels": [
+    "B1"
+   ],
+   "skills": [
+    "vocabulary"
+   ],
+   "mode": "whole-class",
+   "prep": "none",
+   "minutes": 20,
+   "keywords": [
+    "argument",
+    "opinions",
+    "vocabulary",
+    "theme"
+   ],
+   "status": "live"
+  },
+  {
+   "id": "vocab-b2-business-economy",
+   "hub": "vocab",
+   "path": "index.html#/b2/business-economy",
+   "title": "Business & Economy (B2)",
+   "blurb": "B2 vocabulary set — study, games, flashcards and board mode.",
+   "icon": "",
+   "levels": [
+    "B2"
+   ],
+   "skills": [
+    "vocabulary"
+   ],
+   "mode": "whole-class",
+   "prep": "none",
+   "minutes": 20,
+   "keywords": [
+    "business",
+    "economy",
+    "vocabulary",
+    "theme"
+   ],
+   "status": "live"
+  },
+  {
+   "id": "vocab-b2-science-research",
+   "hub": "vocab",
+   "path": "index.html#/b2/science-research",
+   "title": "Science & Research (B2)",
+   "blurb": "B2 vocabulary set — study, games, flashcards and board mode.",
+   "icon": "",
+   "levels": [
+    "B2"
+   ],
+   "skills": [
+    "vocabulary"
+   ],
+   "mode": "whole-class",
+   "prep": "none",
+   "minutes": 20,
+   "keywords": [
+    "research",
+    "science",
+    "vocabulary",
+    "theme"
+   ],
+   "status": "live"
+  },
+  {
+   "id": "vocab-b2-politics-society",
+   "hub": "vocab",
+   "path": "index.html#/b2/politics-society",
+   "title": "Politics & Society (B2)",
+   "blurb": "B2 vocabulary set — study, games, flashcards and board mode.",
+   "icon": "",
+   "levels": [
+    "B2"
+   ],
+   "skills": [
+    "vocabulary"
+   ],
+   "mode": "whole-class",
+   "prep": "none",
+   "minutes": 20,
+   "keywords": [
+    "politics",
+    "society",
+    "vocabulary",
+    "theme"
+   ],
+   "status": "live"
+  },
+  {
+   "id": "vocab-b2-psychology-behavior",
+   "hub": "vocab",
+   "path": "index.html#/b2/psychology-behavior",
+   "title": "Psychology & Behavior (B2)",
+   "blurb": "B2 vocabulary set — study, games, flashcards and board mode.",
+   "icon": "",
+   "levels": [
+    "B2"
+   ],
+   "skills": [
+    "vocabulary"
+   ],
+   "mode": "whole-class",
+   "prep": "none",
+   "minutes": 20,
+   "keywords": [
+    "behavior",
+    "psychology",
+    "vocabulary",
+    "theme"
+   ],
+   "status": "live"
+  },
+  {
+   "id": "vocab-b2-arts-culture",
+   "hub": "vocab",
+   "path": "index.html#/b2/arts-culture",
+   "title": "Arts & Culture (B2)",
+   "blurb": "B2 vocabulary set — study, games, flashcards and board mode.",
+   "icon": "",
+   "levels": [
+    "B2"
+   ],
+   "skills": [
+    "vocabulary"
+   ],
+   "mode": "whole-class",
+   "prep": "none",
+   "minutes": 20,
+   "keywords": [
+    "arts",
+    "culture",
+    "vocabulary",
+    "theme"
+   ],
+   "status": "live"
+  },
+  {
+   "id": "vocab-b2-globalization-migration",
+   "hub": "vocab",
+   "path": "index.html#/b2/globalization-migration",
+   "title": "Globalization & Migration (B2)",
+   "blurb": "B2 vocabulary set — study, games, flashcards and board mode.",
+   "icon": "",
+   "levels": [
+    "B2"
+   ],
+   "skills": [
+    "vocabulary"
+   ],
+   "mode": "whole-class",
+   "prep": "none",
+   "minutes": 20,
+   "keywords": [
+    "globalization",
+    "migration",
+    "vocabulary",
+    "theme"
+   ],
+   "status": "live"
+  },
+  {
+   "id": "vocab-b2-ethics-decisions",
+   "hub": "vocab",
+   "path": "index.html#/b2/ethics-decisions",
+   "title": "Ethics & Decisions (B2)",
+   "blurb": "B2 vocabulary set — study, games, flashcards and board mode.",
+   "icon": "",
+   "levels": [
+    "B2"
+   ],
+   "skills": [
+    "vocabulary"
+   ],
+   "mode": "whole-class",
+   "prep": "none",
+   "minutes": 20,
+   "keywords": [
+    "decisions",
+    "ethics",
+    "vocabulary",
+    "theme"
+   ],
+   "status": "live"
+  },
+  {
+   "id": "vocab-b2-trends-data",
+   "hub": "vocab",
+   "path": "index.html#/b2/trends-data",
+   "title": "Trends & Data (B2)",
+   "blurb": "B2 vocabulary set — study, games, flashcards and board mode.",
+   "icon": "",
+   "levels": [
+    "B2"
+   ],
+   "skills": [
+    "vocabulary"
+   ],
+   "mode": "whole-class",
+   "prep": "none",
+   "minutes": 20,
+   "keywords": [
+    "data",
+    "trends",
+    "vocabulary",
+    "theme"
+   ],
+   "status": "live"
+  },
+  {
+   "id": "basic-4-test-1-review",
+   "hub": "reviews",
+   "path": "basic-4/Basic_4_Test_1_Review.pdf",
+   "title": "Basic 4 Test 1 Review",
+   "blurb": "Basic 4 test review worksheet.",
+   "icon": "",
+   "levels": [],
+   "skills": [
+    "grammar"
+   ],
+   "mode": "solo",
+   "prep": "print",
+   "minutes": 25,
+   "keywords": [
+    "1",
+    "4",
+    "basic",
+    "review",
+    "test"
+   ],
+   "status": "live",
+   "klass": "Basic 4",
+   "kind": "review"
+  },
+  {
+   "id": "basic-4-test-1-review---key",
+   "hub": "reviews",
+   "path": "basic-4/Basic_4_Test_1_Review_-_Key.pdf",
+   "title": "Basic 4 Test 1 Review — Answer Key",
+   "blurb": "Basic 4 test review answer key.",
+   "icon": "",
+   "levels": [],
+   "skills": [
+    "grammar"
+   ],
+   "mode": "solo",
+   "prep": "print",
+   "minutes": 25,
+   "keywords": [
+    "1",
+    "4",
+    "basic",
+    "key",
+    "review",
+    "test"
+   ],
+   "status": "live",
+   "klass": "Basic 4",
+   "kind": "key"
+  },
+  {
+   "id": "basic-4-test-2-review",
+   "hub": "reviews",
+   "path": "basic-4/Basic_4_Test_2_Review.pdf",
+   "title": "Basic 4 Test 2 Review",
+   "blurb": "Basic 4 test review worksheet.",
+   "icon": "",
+   "levels": [],
+   "skills": [
+    "grammar"
+   ],
+   "mode": "solo",
+   "prep": "print",
+   "minutes": 25,
+   "keywords": [
+    "2",
+    "4",
+    "basic",
+    "review",
+    "test"
+   ],
+   "status": "live",
+   "klass": "Basic 4",
+   "kind": "review"
+  },
+  {
+   "id": "basic-4-test-2-review---key",
+   "hub": "reviews",
+   "path": "basic-4/Basic_4_Test_2_Review_-_Key.pdf",
+   "title": "Basic 4 Test 2 Review — Answer Key",
+   "blurb": "Basic 4 test review answer key.",
+   "icon": "",
+   "levels": [],
+   "skills": [
+    "grammar"
+   ],
+   "mode": "solo",
+   "prep": "print",
+   "minutes": 25,
+   "keywords": [
+    "2",
+    "4",
+    "basic",
+    "key",
+    "review",
+    "test"
+   ],
+   "status": "live",
+   "klass": "Basic 4",
+   "kind": "key"
+  },
+  {
+   "id": "basic-4-test-3-review",
+   "hub": "reviews",
+   "path": "basic-4/Basic_4_Test_3_Review.pdf",
+   "title": "Basic 4 Test 3 Review",
+   "blurb": "Basic 4 test review worksheet.",
+   "icon": "",
+   "levels": [],
+   "skills": [
+    "grammar"
+   ],
+   "mode": "solo",
+   "prep": "print",
+   "minutes": 25,
+   "keywords": [
+    "3",
+    "4",
+    "basic",
+    "review",
+    "test"
+   ],
+   "status": "live",
+   "klass": "Basic 4",
+   "kind": "review"
+  },
+  {
+   "id": "basic-4-test-3-review---key",
+   "hub": "reviews",
+   "path": "basic-4/Basic_4_Test_3_Review_-_Key.pdf",
+   "title": "Basic 4 Test 3 Review — Answer Key",
+   "blurb": "Basic 4 test review answer key.",
+   "icon": "",
+   "levels": [],
+   "skills": [
+    "grammar"
+   ],
+   "mode": "solo",
+   "prep": "print",
+   "minutes": 25,
+   "keywords": [
+    "3",
+    "4",
+    "basic",
+    "key",
+    "review",
+    "test"
+   ],
+   "status": "live",
+   "klass": "Basic 4",
+   "kind": "key"
+  },
+  {
+   "id": "inter-1-test-1-review",
+   "hub": "reviews",
+   "path": "inter-1/Inter_1_Test_1_Review.pdf",
+   "title": "Inter 1 Test 1 Review",
+   "blurb": "Inter 1 test review worksheet.",
+   "icon": "",
+   "levels": [],
+   "skills": [
+    "grammar"
+   ],
+   "mode": "solo",
+   "prep": "print",
+   "minutes": 25,
+   "keywords": [
+    "1",
+    "inter",
+    "review",
+    "test"
+   ],
+   "status": "live",
+   "klass": "Inter 1",
+   "kind": "review"
+  },
+  {
+   "id": "inter-1-test-1-review---key",
+   "hub": "reviews",
+   "path": "inter-1/Inter_1_Test_1_Review_-_Key.pdf",
+   "title": "Inter 1 Test 1 Review — Answer Key",
+   "blurb": "Inter 1 test review answer key.",
+   "icon": "",
+   "levels": [],
+   "skills": [
+    "grammar"
+   ],
+   "mode": "solo",
+   "prep": "print",
+   "minutes": 25,
+   "keywords": [
+    "1",
+    "inter",
+    "key",
+    "review",
+    "test"
+   ],
+   "status": "live",
+   "klass": "Inter 1",
+   "kind": "key"
+  },
+  {
+   "id": "inter-1-test-1-game",
+   "hub": "reviews",
+   "path": "inter-1/Inter_1_Test_1_Game.html",
+   "title": "Inter 1 Test 1 Game",
+   "blurb": "Inter 1 test review game.",
+   "icon": "",
+   "levels": [],
+   "skills": [
+    "grammar"
+   ],
+   "mode": "team",
+   "prep": "none",
+   "minutes": 25,
+   "keywords": [
+    "1",
+    "game",
+    "inter",
+    "test"
+   ],
+   "status": "live",
+   "klass": "Inter 1",
+   "kind": "game"
+  },
+  {
+   "id": "inter-1-test-2-review",
+   "hub": "reviews",
+   "path": "inter-1/Inter_1_Test_2_Review.pdf",
+   "title": "Inter 1 Test 2 Review",
+   "blurb": "Inter 1 test review worksheet.",
+   "icon": "",
+   "levels": [],
+   "skills": [
+    "grammar"
+   ],
+   "mode": "solo",
+   "prep": "print",
+   "minutes": 25,
+   "keywords": [
+    "1",
+    "2",
+    "inter",
+    "review",
+    "test"
+   ],
+   "status": "live",
+   "klass": "Inter 1",
+   "kind": "review"
+  },
+  {
+   "id": "inter-1-test-2-review---key",
+   "hub": "reviews",
+   "path": "inter-1/Inter_1_Test_2_Review_-_Key.pdf",
+   "title": "Inter 1 Test 2 Review — Answer Key",
+   "blurb": "Inter 1 test review answer key.",
+   "icon": "",
+   "levels": [],
+   "skills": [
+    "grammar"
+   ],
+   "mode": "solo",
+   "prep": "print",
+   "minutes": 25,
+   "keywords": [
+    "1",
+    "2",
+    "inter",
+    "key",
+    "review",
+    "test"
+   ],
+   "status": "live",
+   "klass": "Inter 1",
+   "kind": "key"
+  },
+  {
+   "id": "inter-1-test-3-review",
+   "hub": "reviews",
+   "path": "inter-1/Inter_1_Test_3_Review.pdf",
+   "title": "Inter 1 Test 3 Review",
+   "blurb": "Inter 1 test review worksheet.",
+   "icon": "",
+   "levels": [],
+   "skills": [
+    "grammar"
+   ],
+   "mode": "solo",
+   "prep": "print",
+   "minutes": 25,
+   "keywords": [
+    "1",
+    "3",
+    "inter",
+    "review",
+    "test"
+   ],
+   "status": "live",
+   "klass": "Inter 1",
+   "kind": "review"
+  },
+  {
+   "id": "inter-1-test-3-review---key",
+   "hub": "reviews",
+   "path": "inter-1/Inter_1_Test_3_Review_-_Key.pdf",
+   "title": "Inter 1 Test 3 Review — Answer Key",
+   "blurb": "Inter 1 test review answer key.",
+   "icon": "",
+   "levels": [],
+   "skills": [
+    "grammar"
+   ],
+   "mode": "solo",
+   "prep": "print",
+   "minutes": 25,
+   "keywords": [
+    "1",
+    "3",
+    "inter",
+    "key",
+    "review",
+    "test"
+   ],
+   "status": "live",
+   "klass": "Inter 1",
+   "kind": "key"
+  },
+  {
+   "id": "inter-4-test-1-review",
+   "hub": "reviews",
+   "path": "inter-4/Inter_4_Test_1_Review.pdf",
+   "title": "Inter 4 Test 1 Review",
+   "blurb": "Inter 4 test review worksheet.",
+   "icon": "",
+   "levels": [],
+   "skills": [
+    "grammar"
+   ],
+   "mode": "solo",
+   "prep": "print",
+   "minutes": 25,
+   "keywords": [
+    "1",
+    "4",
+    "inter",
+    "review",
+    "test"
+   ],
+   "status": "live",
+   "klass": "Inter 4",
+   "kind": "review"
+  },
+  {
+   "id": "inter-4-test-1-review---key",
+   "hub": "reviews",
+   "path": "inter-4/Inter_4_Test_1_Review_-_Key.pdf",
+   "title": "Inter 4 Test 1 Review — Answer Key",
+   "blurb": "Inter 4 test review answer key.",
+   "icon": "",
+   "levels": [],
+   "skills": [
+    "grammar"
+   ],
+   "mode": "solo",
+   "prep": "print",
+   "minutes": 25,
+   "keywords": [
+    "1",
+    "4",
+    "inter",
+    "key",
+    "review",
+    "test"
+   ],
+   "status": "live",
+   "klass": "Inter 4",
+   "kind": "key"
+  },
+  {
+   "id": "preteens-1-test-1-review",
+   "hub": "reviews",
+   "path": "preteens-1/PreTeens_1_Test_1_Review.pdf",
+   "title": "PreTeens 1 Test 1 Review",
+   "blurb": "Preteens 1 test review worksheet.",
+   "icon": "",
+   "levels": [],
+   "skills": [
+    "grammar"
+   ],
+   "mode": "solo",
+   "prep": "print",
+   "minutes": 25,
+   "keywords": [
+    "1",
+    "preteens",
+    "review",
+    "test"
+   ],
+   "status": "live",
+   "klass": "Preteens 1",
+   "kind": "review"
+  },
+  {
+   "id": "preteens-1-test-1-review---key",
+   "hub": "reviews",
+   "path": "preteens-1/PreTeens_1_Test_1_Review_-_Key.pdf",
+   "title": "PreTeens 1 Test 1 Review — Answer Key",
+   "blurb": "Preteens 1 test review answer key.",
+   "icon": "",
+   "levels": [],
+   "skills": [
+    "grammar"
+   ],
+   "mode": "solo",
+   "prep": "print",
+   "minutes": 25,
+   "keywords": [
+    "1",
+    "key",
+    "preteens",
+    "review",
+    "test"
+   ],
+   "status": "live",
+   "klass": "Preteens 1",
+   "kind": "key"
+  },
+  {
+   "id": "preteens-1-test-1-game",
+   "hub": "reviews",
+   "path": "preteens-1/PreTeens_1_Test_1_Game.html",
+   "title": "PreTeens 1 Test 1 Game",
+   "blurb": "Preteens 1 test review game.",
+   "icon": "",
+   "levels": [],
+   "skills": [
+    "grammar"
+   ],
+   "mode": "team",
+   "prep": "none",
+   "minutes": 25,
+   "keywords": [
+    "1",
+    "game",
+    "preteens",
+    "test"
+   ],
+   "status": "live",
+   "klass": "Preteens 1",
+   "kind": "game"
+  },
+  {
+   "id": "basic-4---review-of-tenses-worksheet",
+   "hub": "worksheets",
+   "path": "Basic 4 - Review of Tenses Worksheet.pdf",
+   "title": "Basic 4 — Review of Tenses",
+   "blurb": "Printable worksheet: Present Simple, Present Continuous, Past Simple, Past Continuous, Present Perfect.",
+   "icon": "",
+   "levels": [],
+   "skills": [
+    "grammar"
+   ],
+   "mode": "solo",
+   "prep": "print",
+   "minutes": 30,
+   "keywords": [
+    "continuous",
+    "past",
+    "perfect",
+    "present",
+    "simple"
+   ],
+   "status": "live",
+   "klass": "Basic 4",
+   "date": "2026-06-17"
+  },
+  {
+   "id": "basic4-test3-reinforcement",
+   "hub": "worksheets",
+   "path": "Basic4_Test3_Reinforcement.pdf",
+   "title": "Basic 4 — Test 3 Reinforcement",
+   "blurb": "Printable worksheet: Simple Past Passive, Simple Present Passive, Reflexive Pronouns, Mixed Tenses, Vocabulary.",
+   "icon": "",
+   "levels": [],
+   "skills": [
+    "grammar"
+   ],
+   "mode": "solo",
+   "prep": "print",
+   "minutes": 30,
+   "keywords": [
+    "mixed",
+    "passive",
+    "past",
+    "present",
+    "pronouns",
+    "reflexive",
+    "simple",
+    "tenses",
+    "vocabulary"
+   ],
+   "status": "live",
+   "klass": "Basic 4",
+   "date": "2026-06-25"
+  },
+  {
+   "id": "inter1-test3-reinforcement",
+   "hub": "worksheets",
+   "path": "Inter1_Test3_Reinforcement.pdf",
+   "title": "Intermediate 1 — Test 3 Reinforcement",
+   "blurb": "Printable worksheet: Hope & Wish, Relative Clauses, Conditionals, Past Perfect, Word Formation, Participial Adjectives.",
+   "icon": "",
+   "levels": [],
+   "skills": [
+    "grammar"
+   ],
+   "mode": "solo",
+   "prep": "print",
+   "minutes": 30,
+   "keywords": [
+    "adjectives",
+    "clauses",
+    "conditionals",
+    "formation",
+    "hope",
+    "participial",
+    "past",
+    "perfect",
+    "relative",
+    "wish",
+    "word"
+   ],
+   "status": "live",
+   "klass": "Intermediate 1",
+   "date": "2026-06-25"
+  },
+  {
+   "id": "adv4",
+   "hub": "advanced",
+   "path": "adv4.html",
+   "title": "Advanced 4 — Booklet Companion",
+   "blurb": "The whole Advanced 4 student’s booklet on one screen — grammar explanations, self-checking practice and space to draft every writing task. Conditionals through to the final time-capsule letter, one set per class.",
+   "icon": "",
+   "levels": [
+    "C1"
+   ],
+   "skills": [
+    "grammar"
+   ],
+   "mode": "whole-class",
+   "prep": "none",
+   "minutes": 40,
+   "keywords": [
+    "advanced",
+    "booklet",
+    "companion"
+   ],
+   "status": "live"
+  },
+  {
+   "id": "intensive-b2-c1",
+   "hub": "advanced",
+   "path": "intensive-b2-c1.html",
+   "title": "Intensive Advanced English",
+   "blurb": "17-class evening intensive — vocabulary, grammar, reading, writing and TOEFL practice across 15 themes. All exercises inline with click-to-reveal answers and a print-ready worksheet for every class.",
+   "icon": "",
+   "levels": [
+    "C1"
+   ],
+   "skills": [
+    "grammar"
+   ],
+   "mode": "whole-class",
+   "prep": "none",
+   "minutes": 40,
+   "keywords": [
+    "advanced",
+    "english",
+    "intensive"
+   ],
+   "status": "live"
+  },
+  {
+   "id": "essay-coach",
+   "hub": "advanced",
+   "path": "essay-coach.html",
+   "title": "Essay Coach",
+   "blurb": "Build an essay one step at a time — hook, thesis, topic sentences, support, conclusion — with colour-coded model essays at every level. Then practise on a searchable bank of TOEFL-style prompts.",
+   "icon": "",
+   "levels": [
+    "C1"
+   ],
+   "skills": [
+    "grammar"
+   ],
+   "mode": "whole-class",
+   "prep": "none",
+   "minutes": 40,
+   "keywords": [
+    "coach",
+    "essay"
+   ],
+   "status": "live"
+  },
+  {
+   "id": "toefl-itp",
+   "hub": "advanced",
+   "path": "toefl-itp.html",
+   "title": "TOEFL ITP Coach",
+   "blurb": "Learn and practise all three paper-based ITP sections — Listening Comprehension, Structure & Written Expression, and Reading Comprehension. Strategy walkthroughs first, then timed practice sets with explained answers.",
+   "icon": "",
+   "levels": [
+    "C1"
+   ],
+   "skills": [
+    "grammar"
+   ],
+   "mode": "whole-class",
+   "prep": "none",
+   "minutes": 40,
+   "keywords": [
+    "coach",
+    "itp",
+    "toefl"
+   ],
+   "status": "live"
+  },
+  {
+   "id": "index",
+   "hub": "advanced",
+   "path": "toefl/index.html",
+   "title": "TOEFL Error Correction",
+   "blurb": "The grammar mistakes that cost students the most marks, one page per family. Each page explains the patterns behind the error, then drills them with thirty exercises — recognition, four-underlined-parts error spotting, and self-correction.",
+   "icon": "",
+   "levels": [
+    "C1"
+   ],
+   "skills": [
+    "grammar"
+   ],
+   "mode": "whole-class",
+   "prep": "none",
+   "minutes": 40,
+   "keywords": [
+    "correction",
+    "error",
+    "toefl"
+   ],
+   "status": "live"
+  },
+  {
+   "id": "project-lab",
+   "hub": "advanced",
+   "path": "project-lab.html",
+   "title": "Project Lab",
+   "blurb": "Twelve multi-session projects for teenagers — invent a company, run a newsroom, redesign a city district. Each one is broken into six stages and around thirty numbered steps, so teams always know what comes next. Printable briefs, projectable milestones and a live progress board.",
+   "icon": "",
+   "levels": [
+    "C1"
+   ],
+   "skills": [
+    "grammar"
+   ],
+   "mode": "whole-class",
+   "prep": "none",
+   "minutes": 40,
+   "keywords": [
+    "lab",
+    "project"
+   ],
+   "status": "live"
+  },
+  {
+   "id": "toefl-articles-determiners",
+   "hub": "advanced",
+   "path": "toefl/articles-determiners.html",
+   "title": "TOEFL Error Correction — Articles, Determiners and Countability",
+   "blurb": "Thirty error-correction exercises on articles, determiners and countability, on screen plus a printable worksheet and key.",
+   "icon": "",
+   "levels": [
+    "C1"
+   ],
+   "skills": [
+    "grammar"
+   ],
+   "mode": "solo",
+   "prep": "print",
+   "minutes": 30,
+   "keywords": [
+    "and",
+    "articles",
+    "countability",
+    "determiners",
+    "toefl",
+    "error",
+    "correction"
+   ],
+   "status": "live",
+   "section": "toefl"
+  },
+  {
+   "id": "toefl-modifiers-comparison",
+   "hub": "advanced",
+   "path": "toefl/modifiers-comparison.html",
+   "title": "TOEFL Error Correction — Modifiers and Comparison",
+   "blurb": "Thirty error-correction exercises on modifiers and comparison, on screen plus a printable worksheet and key.",
+   "icon": "",
+   "levels": [
+    "C1"
+   ],
+   "skills": [
+    "grammar"
+   ],
+   "mode": "solo",
+   "prep": "print",
+   "minutes": 30,
+   "keywords": [
+    "and",
+    "comparison",
+    "modifiers",
+    "toefl",
+    "error",
+    "correction"
+   ],
+   "status": "live",
+   "section": "toefl"
+  },
+  {
+   "id": "toefl-parallel-structure",
+   "hub": "advanced",
+   "path": "toefl/parallel-structure.html",
+   "title": "TOEFL Error Correction — Parallel Structure",
+   "blurb": "Thirty error-correction exercises on parallel structure, on screen plus a printable worksheet and key.",
+   "icon": "",
+   "levels": [
+    "C1"
+   ],
+   "skills": [
+    "grammar"
+   ],
+   "mode": "solo",
+   "prep": "print",
+   "minutes": 30,
+   "keywords": [
+    "parallel",
+    "structure",
+    "toefl",
+    "error",
+    "correction"
+   ],
+   "status": "live",
+   "section": "toefl"
+  },
+  {
+   "id": "toefl-prepositions",
+   "hub": "advanced",
+   "path": "toefl/prepositions.html",
+   "title": "TOEFL Error Correction — Prepositions and Dependent Prepositions",
+   "blurb": "Thirty error-correction exercises on prepositions and dependent prepositions, on screen plus a printable worksheet and key.",
+   "icon": "",
+   "levels": [
+    "C1"
+   ],
+   "skills": [
+    "grammar"
+   ],
+   "mode": "solo",
+   "prep": "print",
+   "minutes": 30,
+   "keywords": [
+    "and",
+    "dependent",
+    "prepositions",
+    "toefl",
+    "error",
+    "correction"
+   ],
+   "status": "live",
+   "section": "toefl"
+  },
+  {
+   "id": "toefl-pronoun-reference",
+   "hub": "advanced",
+   "path": "toefl/pronoun-reference.html",
+   "title": "TOEFL Error Correction — Pronoun Reference and Agreement",
+   "blurb": "Thirty error-correction exercises on pronoun reference and agreement, on screen plus a printable worksheet and key.",
+   "icon": "",
+   "levels": [
+    "C1"
+   ],
+   "skills": [
+    "grammar"
+   ],
+   "mode": "solo",
+   "prep": "print",
+   "minutes": 30,
+   "keywords": [
+    "agreement",
+    "and",
+    "pronoun",
+    "reference",
+    "toefl",
+    "error",
+    "correction"
+   ],
+   "status": "live",
+   "section": "toefl"
+  },
+  {
+   "id": "toefl-quiz",
+   "hub": "advanced",
+   "path": "toefl/quiz.html",
+   "title": "TOEFL Error Correction — Quiz Builder",
+   "blurb": "Build a custom quiz across every error family.",
+   "icon": "",
+   "levels": [
+    "C1"
+   ],
+   "skills": [
+    "grammar"
+   ],
+   "mode": "solo",
+   "prep": "none",
+   "minutes": 30,
+   "keywords": [
+    "builder",
+    "quiz",
+    "toefl",
+    "error",
+    "correction"
+   ],
+   "status": "live",
+   "section": "toefl"
+  },
+  {
+   "id": "toefl-sentence-boundaries",
+   "hub": "advanced",
+   "path": "toefl/sentence-boundaries.html",
+   "title": "TOEFL Error Correction — Sentence Boundaries",
+   "blurb": "Thirty error-correction exercises on sentence boundaries, on screen plus a printable worksheet and key.",
+   "icon": "",
+   "levels": [
+    "C1"
+   ],
+   "skills": [
+    "grammar"
+   ],
+   "mode": "solo",
+   "prep": "print",
+   "minutes": 30,
+   "keywords": [
+    "boundaries",
+    "sentence",
+    "toefl",
+    "error",
+    "correction"
+   ],
+   "status": "live",
+   "section": "toefl"
+  },
+  {
+   "id": "toefl-subject-verb-agreement",
+   "hub": "advanced",
+   "path": "toefl/subject-verb-agreement.html",
+   "title": "TOEFL Error Correction — Subject–Verb Agreement",
+   "blurb": "Thirty error-correction exercises on subject–verb agreement, on screen plus a printable worksheet and key.",
+   "icon": "",
+   "levels": [
+    "C1"
+   ],
+   "skills": [
+    "grammar"
+   ],
+   "mode": "solo",
+   "prep": "print",
+   "minutes": 30,
+   "keywords": [
+    "agreement",
+    "subject",
+    "verb",
+    "toefl",
+    "error",
+    "correction"
+   ],
+   "status": "live",
+   "section": "toefl"
+  },
+  {
+   "id": "toefl-tense-and-sequence",
+   "hub": "advanced",
+   "path": "toefl/tense-and-sequence.html",
+   "title": "TOEFL Error Correction — Verb Tense and Sequence",
+   "blurb": "Thirty error-correction exercises on verb tense and sequence, on screen plus a printable worksheet and key.",
+   "icon": "",
+   "levels": [
+    "C1"
+   ],
+   "skills": [
+    "grammar"
+   ],
+   "mode": "solo",
+   "prep": "print",
+   "minutes": 30,
+   "keywords": [
+    "and",
+    "sequence",
+    "tense",
+    "verb",
+    "toefl",
+    "error",
+    "correction"
+   ],
+   "status": "live",
+   "section": "toefl"
+  },
+  {
+   "id": "toefl-verb-forms",
+   "hub": "advanced",
+   "path": "toefl/verb-forms.html",
+   "title": "TOEFL Error Correction — Verb Forms",
+   "blurb": "Thirty error-correction exercises on verb forms, on screen plus a printable worksheet and key.",
+   "icon": "",
+   "levels": [
+    "C1"
+   ],
+   "skills": [
+    "grammar"
+   ],
+   "mode": "solo",
+   "prep": "print",
+   "minutes": 30,
+   "keywords": [
+    "forms",
+    "verb",
+    "toefl",
+    "error",
+    "correction"
+   ],
+   "status": "live",
+   "section": "toefl"
+  },
+  {
+   "id": "toefl-word-form",
+   "hub": "advanced",
+   "path": "toefl/word-form.html",
+   "title": "TOEFL Error Correction — Word Form",
+   "blurb": "Thirty error-correction exercises on word form, on screen plus a printable worksheet and key.",
+   "icon": "",
+   "levels": [
+    "C1"
+   ],
+   "skills": [
+    "grammar"
+   ],
+   "mode": "solo",
+   "prep": "print",
+   "minutes": 30,
+   "keywords": [
+    "form",
+    "word",
+    "toefl",
+    "error",
+    "correction"
+   ],
+   "status": "live",
+   "section": "toefl"
+  },
+  {
+   "id": "toefl-word-order",
+   "hub": "advanced",
+   "path": "toefl/word-order.html",
+   "title": "TOEFL Error Correction — Word Order, Inversion and Redundancy",
+   "blurb": "Thirty error-correction exercises on word order, inversion and redundancy, on screen plus a printable worksheet and key.",
+   "icon": "",
+   "levels": [
+    "C1"
+   ],
+   "skills": [
+    "grammar"
+   ],
+   "mode": "solo",
+   "prep": "print",
+   "minutes": 30,
+   "keywords": [
+    "and",
+    "inversion",
+    "order",
+    "redundancy",
+    "word",
+    "toefl",
+    "error",
+    "correction"
+   ],
+   "status": "live",
+   "section": "toefl"
+  },
+  {
+   "id": "c1-vocab-work",
+   "hub": "advanced",
+   "path": "vocab/theme.html#/work",
+   "title": "C1 Vocabulary — Work & Employment",
+   "blurb": "Forty C1 items with collocations, usage notes, word families and a Portuguese-speaker pitfall.",
+   "icon": "",
+   "levels": [
+    "C1"
+   ],
+   "skills": [
+    "vocabulary"
+   ],
+   "mode": "whole-class",
+   "prep": "none",
+   "minutes": 25,
+   "keywords": [
+    "employment",
+    "work",
+    "c1",
+    "vocabulary",
+    "theme"
+   ],
+   "status": "live",
+   "section": "vocab"
+  },
+  {
+   "id": "c1-vocab-technology",
+   "hub": "advanced",
+   "path": "vocab/theme.html#/technology",
+   "title": "C1 Vocabulary — Technology & AI",
+   "blurb": "Forty C1 items with collocations, usage notes, word families and a Portuguese-speaker pitfall.",
+   "icon": "",
+   "levels": [
+    "C1"
+   ],
+   "skills": [
+    "vocabulary"
+   ],
+   "mode": "whole-class",
+   "prep": "none",
+   "minutes": 25,
+   "keywords": [
+    "ai",
+    "technology",
+    "c1",
+    "vocabulary",
+    "theme"
+   ],
+   "status": "live",
+   "section": "vocab"
+  },
+  {
+   "id": "c1-vocab-environment",
+   "hub": "advanced",
+   "path": "vocab/theme.html#/environment",
+   "title": "C1 Vocabulary — Environment",
+   "blurb": "Forty C1 items with collocations, usage notes, word families and a Portuguese-speaker pitfall.",
+   "icon": "",
+   "levels": [
+    "C1"
+   ],
+   "skills": [
+    "vocabulary"
+   ],
+   "mode": "whole-class",
+   "prep": "none",
+   "minutes": 25,
+   "keywords": [
+    "environment",
+    "c1",
+    "vocabulary",
+    "theme"
+   ],
+   "status": "live",
+   "section": "vocab"
+  },
+  {
+   "id": "c1-vocab-health",
+   "hub": "advanced",
+   "path": "vocab/theme.html#/health",
+   "title": "C1 Vocabulary — Health & Medicine",
+   "blurb": "Forty C1 items with collocations, usage notes, word families and a Portuguese-speaker pitfall.",
+   "icon": "",
+   "levels": [
+    "C1"
+   ],
+   "skills": [
+    "vocabulary"
+   ],
+   "mode": "whole-class",
+   "prep": "none",
+   "minutes": 25,
+   "keywords": [
+    "health",
+    "medicine",
+    "c1",
+    "vocabulary",
+    "theme"
+   ],
+   "status": "live",
+   "section": "vocab"
+  },
+  {
+   "id": "c1-vocab-education",
+   "hub": "advanced",
+   "path": "vocab/theme.html#/education",
+   "title": "C1 Vocabulary — Education",
+   "blurb": "Forty C1 items with collocations, usage notes, word families and a Portuguese-speaker pitfall.",
+   "icon": "",
+   "levels": [
+    "C1"
+   ],
+   "skills": [
+    "vocabulary"
+   ],
+   "mode": "whole-class",
+   "prep": "none",
+   "minutes": 25,
+   "keywords": [
+    "education",
+    "c1",
+    "vocabulary",
+    "theme"
+   ],
+   "status": "live",
+   "section": "vocab"
+  },
+  {
+   "id": "c1-vocab-crime",
+   "hub": "advanced",
+   "path": "vocab/theme.html#/crime",
+   "title": "C1 Vocabulary — Crime & Justice",
+   "blurb": "Forty C1 items with collocations, usage notes, word families and a Portuguese-speaker pitfall.",
+   "icon": "",
+   "levels": [
+    "C1"
+   ],
+   "skills": [
+    "vocabulary"
+   ],
+   "mode": "whole-class",
+   "prep": "none",
+   "minutes": 25,
+   "keywords": [
+    "crime",
+    "justice",
+    "c1",
+    "vocabulary",
+    "theme"
+   ],
+   "status": "live",
+   "section": "vocab"
+  },
+  {
+   "id": "c1-vocab-media",
+   "hub": "advanced",
+   "path": "vocab/theme.html#/media",
+   "title": "C1 Vocabulary — Media & Information",
+   "blurb": "Forty C1 items with collocations, usage notes, word families and a Portuguese-speaker pitfall.",
+   "icon": "",
+   "levels": [
+    "C1"
+   ],
+   "skills": [
+    "vocabulary"
+   ],
+   "mode": "whole-class",
+   "prep": "none",
+   "minutes": 25,
+   "keywords": [
+    "information",
+    "media",
+    "c1",
+    "vocabulary",
+    "theme"
+   ],
+   "status": "live",
+   "section": "vocab"
+  },
+  {
+   "id": "c1-vocab-economy",
+   "hub": "advanced",
+   "path": "vocab/theme.html#/economy",
+   "title": "C1 Vocabulary — Economy & Money",
+   "blurb": "Forty C1 items with collocations, usage notes, word families and a Portuguese-speaker pitfall.",
+   "icon": "",
+   "levels": [
+    "C1"
+   ],
+   "skills": [
+    "vocabulary"
+   ],
+   "mode": "whole-class",
+   "prep": "none",
+   "minutes": 25,
+   "keywords": [
+    "economy",
+    "money",
+    "c1",
+    "vocabulary",
+    "theme"
+   ],
+   "status": "live",
+   "section": "vocab"
+  },
+  {
+   "id": "c1-vocab-urban",
+   "hub": "advanced",
+   "path": "vocab/theme.html#/urban",
+   "title": "C1 Vocabulary — Urban Life",
+   "blurb": "Forty C1 items with collocations, usage notes, word families and a Portuguese-speaker pitfall.",
+   "icon": "",
+   "levels": [
+    "C1"
+   ],
+   "skills": [
+    "vocabulary"
+   ],
+   "mode": "whole-class",
+   "prep": "none",
+   "minutes": 25,
+   "keywords": [
+    "life",
+    "urban",
+    "c1",
+    "vocabulary",
+    "theme"
+   ],
+   "status": "live",
+   "section": "vocab"
+  },
+  {
+   "id": "c1-vocab-science",
+   "hub": "advanced",
+   "path": "vocab/theme.html#/science",
+   "title": "C1 Vocabulary — Science & Research",
+   "blurb": "Forty C1 items with collocations, usage notes, word families and a Portuguese-speaker pitfall.",
+   "icon": "",
+   "levels": [
+    "C1"
+   ],
+   "skills": [
+    "vocabulary"
+   ],
+   "mode": "whole-class",
+   "prep": "none",
+   "minutes": 25,
+   "keywords": [
+    "research",
+    "science",
+    "c1",
+    "vocabulary",
+    "theme"
+   ],
+   "status": "live",
+   "section": "vocab"
+  },
+  {
+   "id": "c1-vocab-arts",
+   "hub": "advanced",
+   "path": "vocab/theme.html#/arts",
+   "title": "C1 Vocabulary — Arts & Culture",
+   "blurb": "Forty C1 items with collocations, usage notes, word families and a Portuguese-speaker pitfall.",
+   "icon": "",
+   "levels": [
+    "C1"
+   ],
+   "skills": [
+    "vocabulary"
+   ],
+   "mode": "whole-class",
+   "prep": "none",
+   "minutes": 25,
+   "keywords": [
+    "arts",
+    "culture",
+    "c1",
+    "vocabulary",
+    "theme"
+   ],
+   "status": "live",
+   "section": "vocab"
+  },
+  {
+   "id": "c1-vocab-society",
+   "hub": "advanced",
+   "path": "vocab/theme.html#/society",
+   "title": "C1 Vocabulary — Society & Politics",
+   "blurb": "Forty C1 items with collocations, usage notes, word families and a Portuguese-speaker pitfall.",
+   "icon": "",
+   "levels": [
+    "C1"
+   ],
+   "skills": [
+    "vocabulary"
+   ],
+   "mode": "whole-class",
+   "prep": "none",
+   "minutes": 25,
+   "keywords": [
+    "politics",
+    "society",
+    "c1",
+    "vocabulary",
+    "theme"
+   ],
+   "status": "live",
+   "section": "vocab"
+  }
+ ]
+}
