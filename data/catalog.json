@@ -53,42 +53,138 @@
   "root": {
    "repo": "arschul.github.io",
    "url": "https://arschul.github.io/",
-   "title": "Classroom Hub"
+   "title": "Classroom Hub",
+   "tokens": {
+    "bg": "--bg",
+    "surface": "--surface",
+    "ink": "--text",
+    "ink_soft": "--muted",
+    "rule": "--border",
+    "accent": "--gold",
+    "radius": "--radius",
+    "display": "'Fraunces', serif",
+    "ui": "'DM Sans', sans-serif"
+   },
+   "description": "Every classroom tool, game, worksheet and grammar deck in one place."
   },
   "games": {
    "repo": "games",
    "url": "https://arschul.github.io/games/",
-   "title": "Game Hub"
+   "title": "Game Hub",
+   "tokens": {
+    "bg": "--background",
+    "surface": "--card",
+    "ink": "--foreground",
+    "ink_soft": "--muted-foreground",
+    "rule": "--border",
+    "accent": "--primary",
+    "radius": "--radius",
+    "display": "'Montserrat', sans-serif",
+    "ui": "'Open Sans', sans-serif"
+   },
+   "description": "Projector-ready EFL classroom games for teams, A1 to B2."
   },
   "tools": {
    "repo": "tools",
    "url": "https://arschul.github.io/tools/",
-   "title": "Tool Hub"
+   "title": "Tool Hub",
+   "tokens": {
+    "bg": "--background",
+    "surface": "--card",
+    "ink": "--foreground",
+    "ink_soft": "--muted-foreground",
+    "rule": "--border",
+    "accent": "--primary",
+    "radius": "--radius",
+    "display": "'Montserrat', sans-serif",
+    "ui": "'Open Sans', sans-serif"
+   },
+   "description": "Classroom tools for planning, writing and assessment."
   },
   "grammar": {
    "repo": "grammar",
    "url": "https://arschul.github.io/grammar/",
-   "title": "Grammar Hub"
+   "title": "Grammar Hub",
+   "tokens": {
+    "bg": "--paper",
+    "surface": "--card",
+    "ink": "--ink",
+    "ink_soft": "--ink-soft",
+    "rule": "--line",
+    "accent": "--brand",
+    "radius": "--r",
+    "display": "'Bricolage Grotesque', sans-serif",
+    "ui": "'DM Sans', sans-serif"
+   },
+   "description": "Interactive English grammar lessons and slide decks, A1 to B2."
   },
   "advanced": {
    "repo": "advanced",
    "url": "https://arschul.github.io/advanced/",
-   "title": "Advanced Hub"
+   "title": "Advanced Hub",
+   "tokens": {
+    "bg": "--bg",
+    "surface": "--surface",
+    "ink": "--text",
+    "ink_soft": "--muted",
+    "rule": "--border",
+    "accent": "--teal",
+    "radius": "--radius",
+    "display": "'Fraunces', serif",
+    "ui": "'DM Sans', sans-serif"
+   },
+   "description": "B2 to C1 courses, TOEFL preparation and advanced resources."
   },
   "reviews": {
    "repo": "reviews",
    "url": "https://arschul.github.io/reviews/",
-   "title": "Review Hub"
+   "title": "Review Hub",
+   "tokens": {
+    "bg": "--bg",
+    "surface": "--surface",
+    "ink": "--text",
+    "ink_soft": "--muted",
+    "rule": "--border",
+    "accent": "--violet",
+    "radius": "--radius",
+    "display": "'Fraunces', serif",
+    "ui": "'DM Sans', sans-serif"
+   },
+   "description": "Test review sheets and review games, organized by class and unit."
   },
   "worksheets": {
    "repo": "worksheets",
    "url": "https://arschul.github.io/worksheets/",
-   "title": "Worksheets"
+   "title": "Worksheets",
+   "tokens": {
+    "bg": "--bg",
+    "surface": "--surface",
+    "ink": "--ink",
+    "ink_soft": "--ink-soft",
+    "rule": "--rule",
+    "accent": "--gold",
+    "radius": "--radius",
+    "display": "'Source Serif 4', serif",
+    "ui": "'IBM Plex Sans', sans-serif"
+   },
+   "description": "Printable grammar worksheets, searchable by class and topic."
   },
   "vocab": {
    "repo": "vocab",
    "url": "https://arschul.github.io/vocab/",
-   "title": "Vocab Hub"
+   "title": "Vocab Hub",
+   "tokens": {
+    "bg": "--bg",
+    "surface": "--surface",
+    "ink": "--text",
+    "ink_soft": "--muted",
+    "rule": "--border",
+    "accent": "--sky",
+    "radius": "--radius",
+    "display": "'Baloo 2', cursive",
+    "ui": "'DM Sans', sans-serif"
+   },
+   "description": "Gamified vocabulary sets from A1 to B2."
   }
  },
  "ignore": [
