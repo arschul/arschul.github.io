@@ -220,6 +220,17 @@
   <h1>Classroom <span class="accent">Hub</span></h1>
   <p class="lede">Seven collections of tools for live lessons — pick a door and get started.</p>
 
+<!-- HUBGEN:search start -->
+  <link rel="stylesheet" href="https://arschul.github.io/assets/hub-search.v1.css">
+  <script defer src="https://arschul.github.io/assets/hub-search.v1.js"></script>
+  <div class="xhub">
+    <input type="search" class="xhub-search" placeholder="Search everything — 300 games, tools, decks and worksheets" aria-label="Search every hub" autocomplete="off" spellcheck="false">
+    <p class="xhub-hint">Press / to jump here. Try a grammar topic, a game name, or a class code.</p>
+    <div class="xhub-results" hidden role="region" aria-live="polite" aria-label="Search results"></div>
+  </div>
+<!-- HUBGEN:search end -->
+
+  <div class="xhub-hidden-when-searching">
   <div class="hub-node"></div>
   <svg class="connector" viewBox="0 0 760 64" preserveAspectRatio="none" aria-hidden="true">
     <line x1="380" y1="0" x2="54" y2="64" style="stroke:var(--emerald-line)" />
@@ -332,6 +343,7 @@
       </div>
       <span class="enter">Enter Vocab Hub <span class="arrow">→</span></span>
     </a>
+  </div>
   </div>
 </div>
 
