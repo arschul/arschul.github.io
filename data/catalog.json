@@ -130,8 +130,8 @@
     "rule": "--border",
     "accent": "--teal",
     "radius": "--radius",
-    "display": "'Fraunces', serif",
-    "ui": "'DM Sans', sans-serif"
+    "display": "'Spectral', serif",
+    "ui": "'Work Sans', sans-serif"
    },
    "description": "B2 to C1 courses, TOEFL preparation and advanced resources."
   },
@@ -184,7 +184,12 @@
     "display": "'Baloo 2', cursive",
     "ui": "'DM Sans', sans-serif"
    },
-   "description": "Gamified vocabulary sets from A1 to B2."
+   "description": "Gamified vocabulary sets from A1 to B2.",
+   "backlink": {
+    "label": "🏠",
+    "class": "iconbtn",
+    "title": "Classroom Hub"
+   }
   }
  },
  "ignore": [
