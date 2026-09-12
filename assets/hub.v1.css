@@ -1,0 +1,178 @@
+/* hub.v1.css — shared layer for the arschul hub ecosystem.
+ *
+ * This file owns STRUCTURE and BEHAVIOR, never a hub's palette. Each hub keeps its
+ * own identity by mapping its existing tokens onto the --hub-* contract below; that
+ * mapping is emitted into the hub's <head> by hubgen, so it stays in one place.
+ *
+ * Every selector here is prefixed .hub- so it cannot collide with a hub's own CSS.
+ * Versioned filename: to change this file, ship hub.v2.css and let hubs opt in one
+ * at a time. Never mutate a version that is already live.
+ */
+
+/* ---------------------------------------------------------------- contract */
+/* Fallbacks only. A hub that maps its own tokens overrides all of these. */
+:root {
+  --hub-bg:        #10182a;
+  --hub-surface:   #182338;
+  --hub-ink:       #e9edf4;
+  --hub-ink-soft:  #94a1b8;
+  --hub-rule:      #2c3a55;
+  --hub-accent:    #d9a548;
+  --hub-radius:    10px;
+  --hub-shadow:    0 1px 2px rgba(0, 0, 0, .4);
+  --hub-font-ui:   system-ui, sans-serif;
+  --hub-font-display: var(--hub-font-ui);
+  --hub-gap:       1rem;
+  --hub-speed:     .2s;
+}
+
+/* -------------------------------------------------------------- back-link */
+.hub-backlink {
+  color: var(--hub-ink-soft);
+  font-family: var(--hub-font-ui);
+  font-size: .85rem;
+  text-decoration: none;
+  transition: color var(--hub-speed);
+}
+.hub-backlink:hover { color: var(--hub-accent); }
+
+/* ----------------------------------------------------------- theme toggle */
+.hub-theme-toggle {
+  margin-left: auto;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.1rem;
+  height: 2.1rem;
+  padding: 0;
+  background: none;
+  border: 1px solid var(--hub-rule);
+  border-radius: 100px;
+  color: var(--hub-ink-soft);
+  font-size: .95rem;
+  line-height: 1;
+  cursor: pointer;
+  transition: border-color var(--hub-speed), color var(--hub-speed);
+}
+.hub-theme-toggle:hover { border-color: var(--hub-accent); color: var(--hub-accent); }
+
+/* ------------------------------------------------------------- card grid */
+/* Unused until Stage 2, shipped now so the canary proves the delivery path. */
+.hub-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(17rem, 1fr));
+  gap: var(--hub-gap);
+}
+.hub-card {
+  display: flex;
+  flex-direction: column;
+  gap: .45rem;
+  padding: 1.1rem 1.25rem 1rem;
+  background: var(--hub-surface);
+  border: 1px solid var(--hub-rule);
+  border-radius: var(--hub-radius);
+  box-shadow: var(--hub-shadow);
+  color: inherit;
+  text-decoration: none;
+  transition: transform var(--hub-speed), border-color var(--hub-speed);
+}
+.hub-card:hover { transform: translateY(-3px); border-color: var(--hub-accent); }
+.hub-card.is-featured { border-color: var(--hub-accent); }
+.hub-card[hidden] { display: none; }
+
+.hub-card__icon  { font-size: 1.4rem; line-height: 1; }
+.hub-card__title {
+  margin: 0;
+  font-family: var(--hub-font-display);
+  font-size: 1.02rem;
+  font-weight: 600;
+  color: var(--hub-ink);
+}
+.hub-card__blurb {
+  margin: 0;
+  font-size: .86rem;
+  line-height: 1.5;
+  color: var(--hub-ink-soft);
+  max-width: 60ch;
+}
+.hub-card__meta { display: flex; flex-wrap: wrap; gap: .3rem; margin-top: auto; padding-top: .55rem; }
+
+.hub-chip {
+  padding: .16rem .45rem;
+  border: 1px solid var(--hub-rule);
+  border-radius: 100px;
+  font-size: .68rem;
+  font-weight: 600;
+  letter-spacing: .3px;
+  color: var(--hub-ink-soft);
+  white-space: nowrap;
+}
+.hub-chip--level { border-color: var(--hub-accent); color: var(--hub-accent); }
+
+/* --------------------------------------------------------------- filters */
+.hub-filters { display: flex; flex-wrap: wrap; gap: .4rem; align-items: center; margin: 0 0 1rem; }
+.hub-filters__group { display: flex; flex-wrap: wrap; gap: .3rem; }
+.hub-filters__label {
+  font-size: .72rem;
+  color: var(--hub-ink-soft);
+  margin-right: .2rem;
+}
+.hub-filter {
+  padding: .28rem .6rem;
+  background: none;
+  border: 1px solid var(--hub-rule);
+  border-radius: 100px;
+  color: var(--hub-ink-soft);
+  font: inherit;
+  font-size: .76rem;
+  cursor: pointer;
+  transition: border-color var(--hub-speed), color var(--hub-speed), background var(--hub-speed);
+}
+.hub-filter:hover { border-color: var(--hub-accent); color: var(--hub-accent); }
+.hub-filter[aria-pressed="true"] {
+  background: var(--hub-accent);
+  border-color: var(--hub-accent);
+  color: var(--hub-bg);
+}
+.hub-filters__count { font-size: .76rem; color: var(--hub-ink-soft); margin-left: auto; }
+
+/* ---------------------------------------------------------------- search */
+.hub-search {
+  width: 100%;
+  padding: .8rem .9rem;
+  background: transparent;
+  border: none;
+  border-bottom: 2px dashed var(--hub-rule);
+  color: var(--hub-ink);
+  font: inherit;
+  transition: border-color var(--hub-speed);
+}
+.hub-search::placeholder { color: var(--hub-ink-soft); }
+.hub-search:focus { outline: none; border-bottom-color: var(--hub-accent); }
+.hub-empty {
+  padding: 2.5rem 1rem;
+  border: 1px dashed var(--hub-rule);
+  border-radius: var(--hub-radius);
+  text-align: center;
+  color: var(--hub-ink-soft);
+}
+
+/* ------------------------------------------------------- quality floor */
+:where(.hub-card, .hub-filter, .hub-theme-toggle, .hub-backlink, .hub-search):focus-visible {
+  outline: 2px solid var(--hub-accent);
+  outline-offset: 2px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .hub-card,
+  .hub-filter,
+  .hub-theme-toggle,
+  .hub-backlink,
+  .hub-search { transition: none; }
+  .hub-card:hover { transform: none; }
+}
+
+@media (max-width: 520px) {
+  .hub-grid { grid-template-columns: 1fr; }
+  .hub-filters__count { margin-left: 0; width: 100%; }
+}
