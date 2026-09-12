@@ -298,6 +298,23 @@ def render_backlink(cat, hub):
     return f'  <a class="{cls}" href="{root["url"]}"{title}>{label}</a>'
 
 
+def render_search(cat, hub):
+    """Cross-hub search box. Root only; the other hubs have their own in-hub search."""
+    if hub != "root":
+        return ""
+    root = cat["hubs"]["root"]["url"].rstrip("/")
+    total = len([i for i in cat["items"] if i["hub"] != "root" and i.get("status", "live") == "live"])
+    return "\n".join([
+        f'  <link rel="stylesheet" href="{root}/assets/hub-search.v1.css">',
+        f'  <script defer src="{root}/assets/hub-search.v1.js"></script>',
+        '  <div class="xhub">',
+        f'    <input type="search" class="xhub-search" placeholder="Search everything — {total} games, tools, decks and worksheets" aria-label="Search every hub" autocomplete="off" spellcheck="false">',
+        '    <p class="xhub-hint">Press / to jump here. Try a grammar topic, a game name, or a class code.</p>',
+        '    <div class="xhub-results" hidden role="region" aria-live="polite" aria-label="Search results"></div>',
+        '  </div>',
+    ])
+
+
 def render_head(cat, hub):
     """Meta block, favicon, shared assets, and this hub's mapping onto the --hub-* contract."""
     h = cat["hubs"][hub]
@@ -366,7 +383,8 @@ def cmd_build(cat, args):
         src = orig = open(idx, encoding="utf-8").read()
         hit = False
         for name, body in [("cards", render_cards(cat, hub)), ("theme", render_theme()),
-                           ("backlink", render_backlink(cat, hub)), ("head", render_head(cat, hub))]:
+                           ("backlink", render_backlink(cat, hub)), ("head", render_head(cat, hub)),
+                           ("search", render_search(cat, hub))]:
             src, ok = replace_region(src, name, body)
             hit = hit or ok
         if not hit:
@@ -445,7 +463,7 @@ def cmd_verify(cat, args):
             print(f"{C['red']}✗ not idempotent:{C['off']} {p}")
         return 1
     print(f"{C['green']}✓ idempotent{C['off']} — second build byte-identical to the first")
-    print(f"{C['dim']}  {len(untouched)}/{len(before)} hub indexes unchanged from the live version{C['off']}")
+    print(f"{C['dim']}  {len(untouched)}/{len(before)} hub indexes already at their generated state{C['off']}")
     for p in before:
         for f in node_check(p):
             print(f"{C['red']}✗ {f}{C['off']}")
