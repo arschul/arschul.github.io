@@ -36,7 +36,7 @@ from collections import Counter, defaultdict
 
 CATALOG = "catalog.json"
 ROOT_REPO = "arschul.github.io"
-ASSET_VERSION = "v1"          # bump to ship a new shared stylesheet/script
+ASSET_VERSION = "v2"          # bump to ship a new shared stylesheet/script
 LINK_EXT = (".html", ".pdf", ".docx")
 
 C = dict(red="\033[31m", yellow="\033[33m", green="\033[32m", dim="\033[2m", off="\033[0m")
@@ -227,7 +227,7 @@ def bucket(minutes):
 
 
 def render_cards(cat, hub):
-    """Card grid for a hub — real anchors, filterable data attributes."""
+    """Filter toolbar + card grid. Cards are real anchors with filterable data attributes."""
     items = [i for i in cat["items"] if i["hub"] == hub and i.get("status", "live") == "live"]
     items.sort(key=lambda i: (not i.get("featured", False), i["title"].lower()))
     rows = []
@@ -244,20 +244,33 @@ def render_cards(cat, hub):
             f'data-time="{bucket(i.get("minutes"))}"',
             f'data-search="{esc(" ".join([i["title"], i.get("blurb",""), " ".join(i.get("keywords",[]))]).lower())}"',
         ]
-        icon = f'<span class="hub-card__icon" aria-hidden="true">{i["icon"]}</span>\n      ' if i.get("icon") else ""
-        chips = "".join(f'<span class="chip chip--level">{l}</span>' for l in i.get("levels", []))
+        icon = f'<span class="hub-card__icon" aria-hidden="true">{i["icon"]}</span>\n        ' if i.get("icon") else ""
+        chips = "".join(f'<span class="hub-chip hub-chip--level">{l}</span>' for l in i.get("levels", []))
         if i.get("mode"):
-            chips += f'<span class="chip chip--mode">{esc(i["mode"])}</span>'
+            chips += f'<span class="hub-chip hub-chip--mode">{esc(i["mode"])}</span>'
         if i.get("prep") and i["prep"] != "none":
-            chips += f'<span class="chip chip--prep">{esc(i["prep"])}</span>'
+            chips += f'<span class="hub-chip hub-chip--prep">{esc(i["prep"])}</span>'
         rows.append(
-            f'    <a {" ".join(attrs)}>\n'
-            f'      {icon}<h3 class="hub-card__title">{esc(i["title"])}</h3>\n'
-            f'      <p class="hub-card__blurb">{esc(i.get("blurb",""))}</p>\n'
-            f'      <div class="hub-card__meta">{chips}</div>\n'
-            f'    </a>'
+            f'      <a {" ".join(attrs)}>\n'
+            f'        {icon}<h3 class="hub-card__title">{esc(i["title"])}</h3>\n'
+            f'        <p class="hub-card__blurb">{esc(i.get("blurb",""))}</p>\n'
+            f'        <div class="hub-card__meta">{chips}</div>\n'
+            f'      </a>'
         )
-    return "\n".join(rows)
+    noun = dict(games="games", tools="tools").get(hub, "items")
+    return (
+        '  <div class="hub-toolbar">\n'
+        '    <div class="hub-toolbar__row">\n'
+        f'      <input type="search" class="hub-search" id="searchInput" placeholder="Search {noun} — press / to jump here" aria-label="Search {noun}" autocomplete="off">\n'
+        '    </div>\n'
+        '    <div class="hub-toolbar__row hub-toolbar__row--facets">\n'
+        '      <button type="button" class="hub-clear" hidden>Clear all</button>\n'
+        '    </div>\n'
+        '    <div class="hub-toolbar__row"><span class="hub-count"></span></div>\n'
+        '  </div>\n'
+        '  <div class="hub-grid">\n' + "\n".join(rows) + '\n  </div>\n'
+        f'  <p class="hub-empty" hidden>Nothing matches those filters. <button type="button" class="hub-clear">Clear all</button></p>'
+    )
 
 
 def render_theme():
@@ -278,14 +291,20 @@ def render_backlink(cat, hub):
     if hub == "root":
         return ""
     root = cat["hubs"]["root"]
-    return f'  <a class="hub-backlink" href="{root["url"]}">← {root["title"]}</a>'
+    cfg = cat["hubs"][hub].get("backlink") or {}
+    label = cfg.get("label", "\u2190 " + root["title"])
+    cls = ("hub-backlink " + cfg["class"]).strip() if cfg.get("class") else "hub-backlink"
+    title = f' title="{esc(cfg["title"])}"' if cfg.get("title") else ""
+    return f'  <a class="{cls}" href="{root["url"]}"{title}>{label}</a>'
 
 
 def render_head(cat, hub):
+    """Meta block, favicon, shared assets, and this hub's mapping onto the --hub-* contract."""
     h = cat["hubs"][hub]
     root = cat["hubs"]["root"]["url"].rstrip("/")
     desc = h.get("description") or f'{h["title"]} — Phil Young\'s English School, Curitiba.'
-    return "\n".join([
+    t = h.get("tokens", {})
+    lines = [
         f'  <meta name="description" content="{esc(desc)}">',
         f'  <link rel="icon" href="{root}/assets/favicon.svg" type="image/svg+xml">',
         f'  <meta property="og:type" content="website">',
@@ -294,7 +313,17 @@ def render_head(cat, hub):
         f'  <meta property="og:url" content="{h["url"]}">',
         f'  <link rel="stylesheet" href="{root}/assets/hub.{ASSET_VERSION}.css">',
         f'  <script defer src="{root}/assets/hub.{ASSET_VERSION}.js"></script>',
-    ])
+    ]
+    if t:
+        pairs = [("bg", "bg"), ("surface", "surface"), ("ink", "ink"), ("ink-soft", "ink_soft"),
+                 ("rule", "rule"), ("accent", "accent"), ("radius", "radius")]
+        decls = "".join(f"--hub-{css}:var({t[key]});" for css, key in pairs if t.get(key))
+        if t.get("display"):
+            decls += f'--hub-font-display:{t["display"]};'
+        if t.get("ui"):
+            decls += f'--hub-font-ui:{t["ui"]};'
+        lines.append(f'  <style>:root{{{decls}}}</style>')
+    return "\n".join(lines)
 
 
 REGION_RE = "<!--\\s*HUBGEN:{name} start\\s*-->(.*?)<!--\\s*HUBGEN:{name} end\\s*-->"
