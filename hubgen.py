@@ -187,6 +187,19 @@ def cmd_check(cat, args):
             else:
                 problems.append(f"orphan (unreachable, uncatalogued): {full}")
 
+    # 4. structural integrity of every hub index — catches a marker placed on a
+    #    partial element, which leaves orphaned markup behind
+    for hub, meta in hubs.items():
+        idx = os.path.join(meta["repo"], "index.html")
+        if not os.path.exists(idx):
+            continue
+        src = open(idx, encoding="utf-8").read()
+        for tag in ("a", "div", "section", "button", "ul", "svg"):
+            o = len(re.findall(r"<" + tag + r"[\s>]", src))
+            c = len(re.findall(r"</" + tag + r">", src))
+            if o != c:
+                problems.append(f"unbalanced <{tag}> in {idx}: {o} open, {c} close")
+
     # 4. vocabulary conformance
     v = cat["vocabularies"]
     for it in cat["items"]:
