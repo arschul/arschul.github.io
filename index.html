@@ -3,7 +3,37 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- HUBGEN:theme start -->
+  <script>
+    (function(){try{var k="arschul:theme",v=localStorage.getItem(k);
+      if(!v){var old=["hub-theme","theme","gh-theme","adv-theme","reviews-theme","worksheets-theme"];
+        for(var i=0;i<old.length;i++){var o=localStorage.getItem(old[i]);if(o){v=o;break;}}
+        v=v||"dark";localStorage.setItem(k,v);}
+      var m=(v==="system")?(matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light"):v;
+      document.documentElement.setAttribute("data-theme",m);}catch(e){}})();
+  </script>
+<!-- HUBGEN:theme end -->
 <title>Classroom Hub — Phil Young's English School</title>
+<!-- HUBGEN:head start -->
+  <meta name="description" content="Every classroom tool, game, worksheet and grammar deck in one place.">
+  <link rel="icon" href="https://arschul.github.io/assets/favicon.svg" type="image/svg+xml">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Classroom Hub">
+  <meta property="og:description" content="Every classroom tool, game, worksheet and grammar deck in one place.">
+  <meta property="og:url" content="https://arschul.github.io/">
+  <link rel="stylesheet" href="https://arschul.github.io/assets/hub.v2.css">
+  <script defer src="https://arschul.github.io/assets/hub.v2.js"></script>
+  <style>:root{--hub-bg:var(--bg);--hub-surface:var(--surface);--hub-ink:var(--text);--hub-ink-soft:var(--muted);--hub-rule:var(--border);--hub-accent:var(--gold);--hub-radius:var(--radius);--hub-font-display:'Fraunces', serif;--hub-font-ui:'DM Sans', sans-serif;}</style>
+<!-- HUBGEN:head end -->
+<style>
+  /* fallback if the shared stylesheet fails to load — structure only */
+  .hub-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(17rem,1fr));gap:1rem;}
+  .hub-card{display:flex;flex-direction:column;gap:.45rem;padding:1.1rem 1.25rem;
+    border:1px solid currentColor;border-radius:10px;text-decoration:none;color:inherit;opacity:.95;}
+  .hub-card[hidden]{display:none;}
+  .hub-card__title{margin:0;font-size:1.02rem;}
+  .hub-card__blurb{margin:0;font-size:.86rem;line-height:1.5;}
+</style>
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300..900&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
 <style>
   :root{
@@ -308,20 +338,6 @@
 <footer>Built for Phil Young's English School · Curitiba</footer>
 
 <script>
-  function toggleTheme(){
-    const html=document.documentElement;
-    const next=html.getAttribute('data-theme')==='light'?'dark':'light';
-    html.setAttribute('data-theme',next);
-    document.getElementById('theme-btn').textContent=next==='light'?'☀️':'🌙';
-    localStorage.setItem('hub-theme',next);
-  }
-  (function(){
-    const saved=localStorage.getItem('hub-theme');
-    if(saved==='light'){
-      document.documentElement.setAttribute('data-theme','light');
-      document.getElementById('theme-btn').textContent='☀️';
-    }
-  })();
 </script>
 </body>
 </html>
