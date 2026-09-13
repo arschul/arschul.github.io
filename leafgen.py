@@ -58,10 +58,17 @@ def leaves(root):
                     yield repo, os.path.join(dirpath, f)
 
 
+REDIRECT = re.compile(r"http-equiv=[\"']?refresh|location\.(?:replace|href)", re.I)
+
+
 def process(path, add_back):
     src = open(path, encoding="utf-8", errors="replace").read()
     if "HUBGEN:leaf start" in src:
         return None, "already done"
+    # Redirect stubs are on screen for milliseconds and need no theme. Padding them
+    # also pushes them past the size heuristic that hubgen uses to recognise a stub.
+    if len(src) < 2048 and REDIRECT.search(src):
+        return None, "redirect stub, skipped"
     m = re.search(r"<head[^>]*>", src, re.I)
     if not m:
         return None, "no <head>"
