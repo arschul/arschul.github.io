@@ -36,7 +36,7 @@ from collections import Counter, defaultdict
 
 CATALOG = "catalog.json"
 ROOT_REPO = "arschul.github.io"
-ASSET_VERSION = "v2"          # bump to ship a new shared stylesheet/script
+ASSET_VERSION = "v3"          # bump to ship a new shared stylesheet/script
 LINK_EXT = (".html", ".pdf", ".docx")
 
 C = dict(red="\033[31m", yellow="\033[33m", green="\033[32m", dim="\033[2m", off="\033[0m")
@@ -229,7 +229,9 @@ def cmd_check(cat, args):
 # ---------------------------------------------------------------------- build
 
 def esc(s):
-    return html.escape(s or "", quote=True)
+    """Escape only &, <, > and " — html.escape() also rewrites apostrophes, which
+    would churn every line of hand-written copy on the first generated build."""
+    return (s or "").replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;").replace('"', "&quot;")
 
 
 def bucket(minutes):
@@ -239,8 +241,55 @@ def bucket(minutes):
     return "medium"
 
 
+LEVEL_SEQ = ["A1", "A2", "B1", "B2", "C1"]
+
+
+def render_grammar_cards(cat, hub):
+    """Grammar's cards carry two links each — Activities and Slides — so they use
+    the hub's own two-button card rather than the single-anchor .hub-card. The
+    markup is byte-identical to what was hand-maintained; only the source moved."""
+    items = [i for i in cat["items"] if i["hub"] == hub and i.get("status", "live") == "live"]
+    topics = {}
+    for i in items:
+        key = (i["levels"][0] if i.get("levels") else "", i.get("topic", i["title"]))
+        t = topics.setdefault(key, dict(level=key[0], title=key[1], blurb=i.get("blurb", ""),
+                                        search=i.get("search", ""), order=i.get("order", 9999),
+                                        blurb_html=i.get("blurb_html"), links={}))
+        t["links"][i.get("kind", "activities")] = i["path"]
+    labels = {l.split(" ")[0]: l for l in cat["hubs"][hub].get("level_labels", [])}
+    out = []
+    for lvl in LEVEL_SEQ:
+        group = [t for k, t in topics.items() if k[0] == lvl]
+        if not group:
+            continue
+        group.sort(key=lambda t: t["order"])
+        out.append('  <div class="level-section">')
+        out.append(f'    <div class="level-heading"><span class="level-label">'
+                   f'{esc(labels.get(lvl, lvl))}</span><div class="level-line"></div></div>')
+        out.append('    <div class="topic-cards">')
+        for t in group:
+            search = t["search"]
+            out.append(f'      <div class="topic-card multi" data-search="{esc(search)}">')
+            out.append(f'        <div class="cefr-badge">{esc(lvl)}</div>')
+            out.append(f'        <h3>{esc(t["title"])}</h3>')
+            body = t["blurb_html"] or esc(t["blurb"])   # some blurbs carry inline <em>
+            out.append(f'        <p>{body}</p>')
+            out.append('        <div class="tc-buttons">')
+            if t["links"].get("activities"):
+                out.append(f'          <a class="tc-btn" href="{t["links"]["activities"]}">Activities →</a>')
+            if t["links"].get("slides"):
+                out.append(f'          <a class="tc-btn tc-btn-alt" href="{t["links"]["slides"]}">Slides →</a>')
+            out.append('        </div>')
+            out.append('      </div>')
+        out.append('    </div>')
+        out.append('  </div>')
+    return "\n".join(out)
+
+
 def render_cards(cat, hub):
     """Filter toolbar + card grid. Cards are real anchors with filterable data attributes."""
+    if hub == "grammar":
+        return render_grammar_cards(cat, hub)
     items = [i for i in cat["items"] if i["hub"] == hub and i.get("status", "live") == "live"]
     items.sort(key=lambda i: (not i.get("featured", False), i["title"].lower()))
     rows = []

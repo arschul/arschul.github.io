@@ -116,7 +116,13 @@
     "display": "'Bricolage Grotesque', sans-serif",
     "ui": "'DM Sans', sans-serif"
    },
-   "description": "Interactive English grammar lessons and slide decks, A1 to B2."
+   "description": "Interactive English grammar lessons and slide decks, A1 to B2.",
+   "level_labels": [
+    "A1 — Beginner",
+    "A2 — Elementary",
+    "B1 — Intermediate",
+    "B2 — Upper Intermediate"
+   ]
   },
   "advanced": {
    "repo": "advanced",
@@ -1502,8 +1508,8 @@
    "id": "escape",
    "hub": "games",
    "path": "escape/escape.html",
-   "title": "Escape",
-   "blurb": "Team up to solve puzzles and escape in time!",
+   "title": "Escape: The Cipher Vault",
+   "blurb": "Five locks, five kinds of code — Caesar, Pig Pen, color sequence, picture sequence and a keypad. Teams crack them all before the timer runs out.",
    "icon": "",
    "levels": [],
    "skills": [
@@ -1513,11 +1519,19 @@
    "prep": "none",
    "minutes": 25,
    "keywords": [
-    "clues",
+    "breaking",
+    "caesar",
+    "cipher",
+    "code",
+    "decode",
     "escape",
+    "keypad",
     "locks",
-    "puzzles",
-    "room"
+    "pigpen",
+    "puzzle",
+    "room",
+    "sequence",
+    "vault"
    ],
    "status": "live"
   },
@@ -1525,8 +1539,8 @@
    "id": "escape2",
    "hub": "games",
    "path": "escape2/escape2.html",
-   "title": "Escape 2",
-   "blurb": "Team up to solve puzzles and escape in time! Again!",
+   "title": "Escape 2: The Riddle Door",
+   "blurb": "Five English riddles guard five locks, with audio clues for the ones that whisper. Teams argue their way through the wordplay to get out.",
    "icon": "",
    "levels": [],
    "skills": [
@@ -1536,12 +1550,18 @@
    "prep": "none",
    "minutes": 25,
    "keywords": [
+    "audio",
     "clues",
+    "door",
     "escape",
+    "lateral",
+    "listening",
     "locks",
-    "puzzles",
+    "puzzle",
+    "riddle",
     "room",
-    "sequel"
+    "thinking",
+    "wordplay"
    ],
    "status": "live"
   },
@@ -2650,28 +2670,11 @@
    "mode": "solo",
    "prep": "none",
    "minutes": 20,
-   "keywords": [
-    "a",
-    "adjective",
-    "adjectives",
-    "before",
-    "come",
-    "english",
-    "fixed",
-    "learn",
-    "more",
-    "noun",
-    "or",
-    "order",
-    "sequence",
-    "the",
-    "two",
-    "uses",
-    "when"
-   ],
    "status": "live",
    "topic": "Adjective Order",
-   "kind": "activities"
+   "kind": "activities",
+   "search": "b1 adjective order learn the fixed sequence english uses when two or more adjectives come before a noun.",
+   "order": 8
   },
   {
    "id": "adjective-order-slides",
@@ -2689,28 +2692,11 @@
    "mode": "whole-class",
    "prep": "none",
    "minutes": 25,
-   "keywords": [
-    "a",
-    "adjective",
-    "adjectives",
-    "before",
-    "come",
-    "english",
-    "fixed",
-    "learn",
-    "more",
-    "noun",
-    "or",
-    "order",
-    "sequence",
-    "the",
-    "two",
-    "uses",
-    "when"
-   ],
    "status": "live",
    "topic": "Adjective Order",
-   "kind": "slides"
+   "kind": "slides",
+   "search": "b1 adjective order learn the fixed sequence english uses when two or more adjectives come before a noun.",
+   "order": 8
   },
   {
    "id": "articles-activities",
@@ -2728,26 +2714,11 @@
    "mode": "solo",
    "prep": "none",
    "minutes": 20,
-   "keywords": [
-    "a",
-    "an",
-    "and",
-    "article",
-    "articles",
-    "countable",
-    "no",
-    "nouns",
-    "or",
-    "the",
-    "to",
-    "uncountable",
-    "use",
-    "when",
-    "with"
-   ],
    "status": "live",
    "topic": "Articles: A/An, The & No Article",
-   "kind": "activities"
+   "kind": "activities",
+   "search": "b1 articles: a/an, the & no article when to use a/an, the, or no article with countable and uncountable nouns.",
+   "order": 9
   },
   {
    "id": "articles-slides",
@@ -2765,26 +2736,11 @@
    "mode": "whole-class",
    "prep": "none",
    "minutes": 25,
-   "keywords": [
-    "a",
-    "an",
-    "and",
-    "article",
-    "articles",
-    "countable",
-    "no",
-    "nouns",
-    "or",
-    "the",
-    "to",
-    "uncountable",
-    "use",
-    "when",
-    "with"
-   ],
    "status": "live",
    "topic": "Articles: A/An, The & No Article",
-   "kind": "slides"
+   "kind": "slides",
+   "search": "b1 articles: a/an, the & no article when to use a/an, the, or no article with countable and uncountable nouns.",
+   "order": 9
   },
   {
    "id": "cleft-sentences-activities",
@@ -2802,33 +2758,11 @@
    "mode": "solo",
    "prep": "none",
    "minutes": 20,
-   "keywords": [
-    "a",
-    "cleft",
-    "holiday",
-    "i",
-    "is",
-    "it",
-    "life",
-    "love",
-    "motivates",
-    "need",
-    "of",
-    "one",
-    "part",
-    "s",
-    "sentence",
-    "sentences",
-    "split",
-    "spotlight",
-    "that",
-    "them",
-    "to",
-    "what"
-   ],
    "status": "live",
    "topic": "Cleft Sentences",
-   "kind": "activities"
+   "kind": "activities",
+   "search": "b2 cleft sentences emphasis focus it cleft what cleft pseudo cleft all cleft the thing the reason highlight information structure",
+   "order": 42
   },
   {
    "id": "cleft-sentences-slides",
@@ -2846,33 +2780,11 @@
    "mode": "whole-class",
    "prep": "none",
    "minutes": 25,
-   "keywords": [
-    "a",
-    "cleft",
-    "holiday",
-    "i",
-    "is",
-    "it",
-    "life",
-    "love",
-    "motivates",
-    "need",
-    "of",
-    "one",
-    "part",
-    "s",
-    "sentence",
-    "sentences",
-    "split",
-    "spotlight",
-    "that",
-    "them",
-    "to",
-    "what"
-   ],
    "status": "live",
    "topic": "Cleft Sentences",
-   "kind": "slides"
+   "kind": "slides",
+   "search": "b2 cleft sentences emphasis focus it cleft what cleft pseudo cleft all cleft the thing the reason highlight information structure",
+   "order": 42
   },
   {
    "id": "conditional-conjunctions-activities",
@@ -2890,27 +2802,12 @@
    "mode": "solo",
    "prep": "none",
    "minutes": 20,
-   "keywords": [
-    "and",
-    "as",
-    "case",
-    "conditional",
-    "conditions",
-    "conjunctions",
-    "if",
-    "in",
-    "long",
-    "once",
-    "phrases",
-    "provided",
-    "since",
-    "that",
-    "unless",
-    "without"
-   ],
    "status": "live",
    "topic": "Conditional Conjunctions & Phrases",
-   "kind": "activities"
+   "kind": "activities",
+   "search": "b2 conditional conjunctions phrases unless as long as provided that in case once since only if except if precaution reason",
+   "order": 43,
+   "blurb_html": "Conditions without <em>if</em>: unless, as long as, provided that, in case, once and since."
   },
   {
    "id": "conditional-conjunctions-slides",
@@ -2928,27 +2825,12 @@
    "mode": "whole-class",
    "prep": "none",
    "minutes": 25,
-   "keywords": [
-    "and",
-    "as",
-    "case",
-    "conditional",
-    "conditions",
-    "conjunctions",
-    "if",
-    "in",
-    "long",
-    "once",
-    "phrases",
-    "provided",
-    "since",
-    "that",
-    "unless",
-    "without"
-   ],
    "status": "live",
    "topic": "Conditional Conjunctions & Phrases",
-   "kind": "slides"
+   "kind": "slides",
+   "search": "b2 conditional conjunctions phrases unless as long as provided that in case once since only if except if precaution reason",
+   "order": 43,
+   "blurb_html": "Conditions without <em>if</em>: unless, as long as, provided that, in case, once and since."
   },
   {
    "id": "conditionals-review-activities",
@@ -2966,24 +2848,11 @@
    "mode": "solo",
    "prep": "none",
    "minutes": 20,
-   "keywords": [
-    "all",
-    "and",
-    "by",
-    "conditionals",
-    "first",
-    "four",
-    "real",
-    "review",
-    "second",
-    "side",
-    "third",
-    "unreal",
-    "zero"
-   ],
    "status": "live",
    "topic": "Conditionals Review",
-   "kind": "activities"
+   "kind": "activities",
+   "search": "b2 conditionals review zero first second third conditional if clause real unreal general truth future possibility hypothetical present past unless",
+   "order": 44
   },
   {
    "id": "conditionals-review-slides",
@@ -3001,24 +2870,11 @@
    "mode": "whole-class",
    "prep": "none",
    "minutes": 25,
-   "keywords": [
-    "all",
-    "and",
-    "by",
-    "conditionals",
-    "first",
-    "four",
-    "real",
-    "review",
-    "second",
-    "side",
-    "third",
-    "unreal",
-    "zero"
-   ],
    "status": "live",
    "topic": "Conditionals Review",
-   "kind": "slides"
+   "kind": "slides",
+   "search": "b2 conditionals review zero first second third conditional if clause real unreal general truth future possibility hypothetical present past unless",
+   "order": 44
   },
   {
    "id": "defining-relative-clauses-activities",
@@ -3036,26 +2892,11 @@
    "mode": "solo",
    "prep": "none",
    "minutes": 20,
-   "keywords": [
-    "and",
-    "clauses",
-    "define",
-    "defining",
-    "exactly",
-    "mean",
-    "or",
-    "relative",
-    "that",
-    "we",
-    "what",
-    "when",
-    "where",
-    "which",
-    "who"
-   ],
    "status": "live",
    "topic": "Defining Relative Clauses",
-   "kind": "activities"
+   "kind": "activities",
+   "search": "b1 defining relative clauses who, which, where and when — clauses that define exactly who or what we mean.",
+   "order": 12
   },
   {
    "id": "defining-relative-clauses-slides",
@@ -3073,26 +2914,11 @@
    "mode": "whole-class",
    "prep": "none",
    "minutes": 25,
-   "keywords": [
-    "and",
-    "clauses",
-    "define",
-    "defining",
-    "exactly",
-    "mean",
-    "or",
-    "relative",
-    "that",
-    "we",
-    "what",
-    "when",
-    "where",
-    "which",
-    "who"
-   ],
    "status": "live",
    "topic": "Defining Relative Clauses",
-   "kind": "slides"
+   "kind": "slides",
+   "search": "b1 defining relative clauses who, which, where and when — clauses that define exactly who or what we mean.",
+   "order": 12
   },
   {
    "id": "expressing-abilities-activities",
@@ -3110,23 +2936,11 @@
    "mode": "solo",
    "prep": "none",
    "minutes": 20,
-   "keywords": [
-    "abilities",
-    "able",
-    "and",
-    "be",
-    "can",
-    "could",
-    "expressing",
-    "in",
-    "manage",
-    "succeed",
-    "to",
-    "using"
-   ],
    "status": "live",
    "topic": "Expressing Abilities",
-   "kind": "activities"
+   "kind": "activities",
+   "search": "b1 expressing abilities using can, could, be able to, manage to and succeed in.",
+   "order": 10
   },
   {
    "id": "expressing-abilities-slides",
@@ -3144,23 +2958,11 @@
    "mode": "whole-class",
    "prep": "none",
    "minutes": 25,
-   "keywords": [
-    "abilities",
-    "able",
-    "and",
-    "be",
-    "can",
-    "could",
-    "expressing",
-    "in",
-    "manage",
-    "succeed",
-    "to",
-    "using"
-   ],
    "status": "live",
    "topic": "Expressing Abilities",
-   "kind": "slides"
+   "kind": "slides",
+   "search": "b1 expressing abilities using can, could, be able to, manage to and succeed in.",
+   "order": 10
   },
   {
    "id": "first-conditional-activities",
@@ -3178,19 +2980,11 @@
    "mode": "solo",
    "prep": "none",
    "minutes": 20,
-   "keywords": [
-    "and",
-    "conditional",
-    "first",
-    "likely",
-    "possibilities",
-    "real",
-    "results",
-    "their"
-   ],
    "status": "live",
    "topic": "First Conditional",
-   "kind": "activities"
+   "kind": "activities",
+   "search": "b1 first conditional real possibilities and their likely results.",
+   "order": 11
   },
   {
    "id": "first-conditional-slides",
@@ -3208,19 +3002,11 @@
    "mode": "whole-class",
    "prep": "none",
    "minutes": 25,
-   "keywords": [
-    "and",
-    "conditional",
-    "first",
-    "likely",
-    "possibilities",
-    "real",
-    "results",
-    "their"
-   ],
    "status": "live",
    "topic": "First Conditional",
-   "kind": "slides"
+   "kind": "slides",
+   "search": "b1 first conditional real possibilities and their likely results.",
+   "order": 11
   },
   {
    "id": "five-tenses-review-activities",
@@ -3238,24 +3024,11 @@
    "mode": "solo",
    "prep": "none",
    "minutes": 20,
-   "keywords": [
-    "a",
-    "and",
-    "core",
-    "five",
-    "focused",
-    "of",
-    "past",
-    "perfect",
-    "present",
-    "progressive",
-    "review",
-    "simple",
-    "tenses"
-   ],
    "status": "live",
    "topic": "Review of Tenses",
-   "kind": "activities"
+   "kind": "activities",
+   "search": "b1 review of tenses a focused review of five core tenses: simple present, present progressive, simple past, past progressive, and present perfect.",
+   "order": 13
   },
   {
    "id": "five-tenses-review-slides",
@@ -3273,24 +3046,11 @@
    "mode": "whole-class",
    "prep": "none",
    "minutes": 25,
-   "keywords": [
-    "a",
-    "and",
-    "core",
-    "five",
-    "focused",
-    "of",
-    "past",
-    "perfect",
-    "present",
-    "progressive",
-    "review",
-    "simple",
-    "tenses"
-   ],
    "status": "live",
    "topic": "Review of Tenses",
-   "kind": "slides"
+   "kind": "slides",
+   "search": "b1 review of tenses a focused review of five core tenses: simple present, present progressive, simple past, past progressive, and present perfect.",
+   "order": 13
   },
   {
    "id": "future-forms-activities",
@@ -3308,22 +3068,11 @@
    "mode": "solo",
    "prep": "none",
    "minutes": 20,
-   "keywords": [
-    "and",
-    "for",
-    "forms",
-    "future",
-    "going",
-    "present",
-    "progressive",
-    "simple",
-    "the",
-    "to",
-    "will"
-   ],
    "status": "live",
    "topic": "Future Forms",
-   "kind": "activities"
+   "kind": "activities",
+   "search": "b1 future forms will, going to, present progressive and simple present for the future.",
+   "order": 14
   },
   {
    "id": "future-forms-slides",
@@ -3341,22 +3090,11 @@
    "mode": "whole-class",
    "prep": "none",
    "minutes": 25,
-   "keywords": [
-    "and",
-    "for",
-    "forms",
-    "future",
-    "going",
-    "present",
-    "progressive",
-    "simple",
-    "the",
-    "to",
-    "will"
-   ],
    "status": "live",
    "topic": "Future Forms",
-   "kind": "slides"
+   "kind": "slides",
+   "search": "b1 future forms will, going to, present progressive and simple present for the future.",
+   "order": 14
   },
   {
    "id": "future-in-the-past-activities",
@@ -3374,26 +3112,11 @@
    "mode": "solo",
    "prep": "none",
    "minutes": 20,
-   "keywords": [
-    "and",
-    "future",
-    "going",
-    "happened",
-    "in",
-    "never",
-    "obligations",
-    "past",
-    "plans",
-    "supposed",
-    "that",
-    "the",
-    "to",
-    "was",
-    "would"
-   ],
    "status": "live",
    "topic": "Future in the Past",
-   "kind": "activities"
+   "kind": "activities",
+   "search": "b2 future in the past was going to was supposed to would past progressive plans intentions obligations reported speech backshift",
+   "order": 45
   },
   {
    "id": "future-in-the-past-slides",
@@ -3411,26 +3134,11 @@
    "mode": "whole-class",
    "prep": "none",
    "minutes": 25,
-   "keywords": [
-    "and",
-    "future",
-    "going",
-    "happened",
-    "in",
-    "never",
-    "obligations",
-    "past",
-    "plans",
-    "supposed",
-    "that",
-    "the",
-    "to",
-    "was",
-    "would"
-   ],
    "status": "live",
    "topic": "Future in the Past",
-   "kind": "slides"
+   "kind": "slides",
+   "search": "b2 future in the past was going to was supposed to would past progressive plans intentions obligations reported speech backshift",
+   "order": 45
   },
   {
    "id": "future-possibility-certainty-activities",
@@ -3448,27 +3156,11 @@
    "mode": "solo",
    "prep": "none",
    "minutes": 20,
-   "keywords": [
-    "and",
-    "are",
-    "certainty",
-    "could",
-    "definitely",
-    "express",
-    "future",
-    "how",
-    "may",
-    "might",
-    "possibility",
-    "probably",
-    "sure",
-    "to",
-    "using",
-    "you"
-   ],
    "status": "live",
    "topic": "Future Possibility and Certainty",
-   "kind": "activities"
+   "kind": "activities",
+   "search": "b1 future possibility and certainty using might, may, could, probably and definitely to express how sure you are.",
+   "order": 16
   },
   {
    "id": "future-possibility-certainty-slides",
@@ -3486,27 +3178,11 @@
    "mode": "whole-class",
    "prep": "none",
    "minutes": 25,
-   "keywords": [
-    "and",
-    "are",
-    "certainty",
-    "could",
-    "definitely",
-    "express",
-    "future",
-    "how",
-    "may",
-    "might",
-    "possibility",
-    "probably",
-    "sure",
-    "to",
-    "using",
-    "you"
-   ],
    "status": "live",
    "topic": "Future Possibility and Certainty",
-   "kind": "slides"
+   "kind": "slides",
+   "search": "b1 future possibility and certainty using might, may, could, probably and definitely to express how sure you are.",
+   "order": 16
   },
   {
    "id": "future-progressive-activities",
@@ -3524,22 +3200,11 @@
    "mode": "solo",
    "prep": "none",
    "minutes": 20,
-   "keywords": [
-    "a",
-    "actions",
-    "at",
-    "be",
-    "future",
-    "in",
-    "ing",
-    "moment",
-    "progress",
-    "progressive",
-    "will"
-   ],
    "status": "live",
    "topic": "Future Progressive",
-   "kind": "activities"
+   "kind": "activities",
+   "search": "b1 future progressive continuous will be doing -ing in progress at this time tomorrow polite enquiry stative verbs",
+   "order": 15
   },
   {
    "id": "future-progressive-slides",
@@ -3557,22 +3222,11 @@
    "mode": "whole-class",
    "prep": "none",
    "minutes": 25,
-   "keywords": [
-    "a",
-    "actions",
-    "at",
-    "be",
-    "future",
-    "in",
-    "ing",
-    "moment",
-    "progress",
-    "progressive",
-    "will"
-   ],
    "status": "live",
    "topic": "Future Progressive",
-   "kind": "slides"
+   "kind": "slides",
+   "search": "b1 future progressive continuous will be doing -ing in progress at this time tomorrow polite enquiry stative verbs",
+   "order": 15
   },
   {
    "id": "future-time-clauses-activities",
@@ -3590,28 +3244,11 @@
    "mode": "solo",
    "prep": "none",
    "minutes": 20,
-   "keywords": [
-    "after",
-    "and",
-    "as",
-    "before",
-    "clauses",
-    "events",
-    "for",
-    "future",
-    "present",
-    "simple",
-    "soon",
-    "the",
-    "time",
-    "until",
-    "using",
-    "when",
-    "with"
-   ],
    "status": "live",
    "topic": "Future Time Clauses",
-   "kind": "activities"
+   "kind": "activities",
+   "search": "b1 future time clauses using after, as soon as, before, until and when with the present simple for future events.",
+   "order": 17
   },
   {
    "id": "future-time-clauses-slides",
@@ -3629,28 +3266,11 @@
    "mode": "whole-class",
    "prep": "none",
    "minutes": 25,
-   "keywords": [
-    "after",
-    "and",
-    "as",
-    "before",
-    "clauses",
-    "events",
-    "for",
-    "future",
-    "present",
-    "simple",
-    "soon",
-    "the",
-    "time",
-    "until",
-    "using",
-    "when",
-    "with"
-   ],
    "status": "live",
    "topic": "Future Time Clauses",
-   "kind": "slides"
+   "kind": "slides",
+   "search": "b1 future time clauses using after, as soon as, before, until and when with the present simple for future events.",
+   "order": 17
   },
   {
    "id": "gerund-after-prepositions-activities",
@@ -3668,28 +3288,11 @@
    "mode": "solo",
    "prep": "none",
    "minutes": 20,
-   "keywords": [
-    "after",
-    "any",
-    "at",
-    "cooking",
-    "form",
-    "forward",
-    "gerunds",
-    "good",
-    "ing",
-    "look",
-    "preposition",
-    "prepositions",
-    "seeing",
-    "the",
-    "to",
-    "use",
-    "you"
-   ],
    "status": "live",
    "topic": "Gerunds after Prepositions",
-   "kind": "activities"
+   "kind": "activities",
+   "search": "b2 gerund after prepositions object of a preposition ing good at interested in look forward to instead of end up apologize for used to working",
+   "order": 46
   },
   {
    "id": "gerund-after-prepositions-slides",
@@ -3707,28 +3310,11 @@
    "mode": "whole-class",
    "prep": "none",
    "minutes": 25,
-   "keywords": [
-    "after",
-    "any",
-    "at",
-    "cooking",
-    "form",
-    "forward",
-    "gerunds",
-    "good",
-    "ing",
-    "look",
-    "preposition",
-    "prepositions",
-    "seeing",
-    "the",
-    "to",
-    "use",
-    "you"
-   ],
    "status": "live",
    "topic": "Gerunds after Prepositions",
-   "kind": "slides"
+   "kind": "slides",
+   "search": "b2 gerund after prepositions object of a preposition ing good at interested in look forward to instead of end up apologize for used to working",
+   "order": 46
   },
   {
    "id": "gerund-phrases-activities",
@@ -3746,25 +3332,11 @@
    "mode": "solo",
    "prep": "none",
    "minutes": 20,
-   "keywords": [
-    "a",
-    "and",
-    "as",
-    "forms",
-    "gerund",
-    "ing",
-    "object",
-    "of",
-    "phrases",
-    "sentence",
-    "subject",
-    "the",
-    "using",
-    "verb"
-   ],
    "status": "live",
    "topic": "Gerund Phrases",
-   "kind": "activities"
+   "kind": "activities",
+   "search": "b1 gerund phrases using verb+ing forms as the subject and object of a sentence.",
+   "order": 18
   },
   {
    "id": "gerund-phrases-slides",
@@ -3782,25 +3354,11 @@
    "mode": "whole-class",
    "prep": "none",
    "minutes": 25,
-   "keywords": [
-    "a",
-    "and",
-    "as",
-    "forms",
-    "gerund",
-    "ing",
-    "object",
-    "of",
-    "phrases",
-    "sentence",
-    "subject",
-    "the",
-    "using",
-    "verb"
-   ],
    "status": "live",
    "topic": "Gerund Phrases",
-   "kind": "slides"
+   "kind": "slides",
+   "search": "b1 gerund phrases using verb+ing forms as the subject and object of a sentence.",
+   "order": 18
   },
   {
    "id": "indirect-questions-activities",
@@ -3818,22 +3376,11 @@
    "mode": "solo",
    "prep": "none",
    "minutes": 20,
-   "keywords": [
-    "and",
-    "embedded",
-    "indirect",
-    "introductory",
-    "order",
-    "phrases",
-    "polite",
-    "questions",
-    "statement",
-    "using",
-    "word"
-   ],
    "status": "live",
    "topic": "Indirect Questions",
-   "kind": "activities"
+   "kind": "activities",
+   "search": "b1 indirect questions polite embedded questions using statement word order and introductory phrases.",
+   "order": 19
   },
   {
    "id": "indirect-questions-slides",
@@ -3851,22 +3398,11 @@
    "mode": "whole-class",
    "prep": "none",
    "minutes": 25,
-   "keywords": [
-    "and",
-    "embedded",
-    "indirect",
-    "introductory",
-    "order",
-    "phrases",
-    "polite",
-    "questions",
-    "statement",
-    "using",
-    "word"
-   ],
    "status": "live",
    "topic": "Indirect Questions",
-   "kind": "slides"
+   "kind": "slides",
+   "search": "b1 indirect questions polite embedded questions using statement word order and introductory phrases.",
+   "order": 19
   },
   {
    "id": "infinitives-with-to-activities",
@@ -3884,20 +3420,11 @@
    "mode": "solo",
    "prep": "none",
    "minutes": 20,
-   "keywords": [
-    "adjective",
-    "and",
-    "infinitive",
-    "infinitives",
-    "object",
-    "purpose",
-    "to",
-    "verb",
-    "with"
-   ],
    "status": "live",
    "topic": "Infinitives with To",
-   "kind": "activities"
+   "kind": "activities",
+   "search": "b1 infinitives with to purpose, verb + object, verb + infinitive and adjective + infinitive.",
+   "order": 20
   },
   {
    "id": "infinitives-with-to-slides",
@@ -3915,20 +3442,11 @@
    "mode": "whole-class",
    "prep": "none",
    "minutes": 25,
-   "keywords": [
-    "adjective",
-    "and",
-    "infinitive",
-    "infinitives",
-    "object",
-    "purpose",
-    "to",
-    "verb",
-    "with"
-   ],
    "status": "live",
    "topic": "Infinitives with To",
-   "kind": "slides"
+   "kind": "slides",
+   "search": "b1 infinitives with to purpose, verb + object, verb + infinitive and adjective + infinitive.",
+   "order": 20
   },
   {
    "id": "inverted-conditionals-activities",
@@ -3946,26 +3464,12 @@
    "mode": "solo",
    "prep": "none",
    "minutes": 20,
-   "keywords": [
-    "and",
-    "conditional",
-    "conditionals",
-    "drop",
-    "formal",
-    "had",
-    "if",
-    "in",
-    "invert",
-    "inverted",
-    "sentences",
-    "should",
-    "subject",
-    "the",
-    "were"
-   ],
    "status": "live",
    "topic": "Inverted Conditionals",
-   "kind": "activities"
+   "kind": "activities",
+   "search": "b2 inverted conditionals formal should were had drop if invert subject question word order",
+   "order": 47,
+   "blurb_html": "Drop <em>if</em> and invert the subject: Should, Were and Had in formal conditional sentences."
   },
   {
    "id": "inverted-conditionals-slides",
@@ -3983,26 +3487,12 @@
    "mode": "whole-class",
    "prep": "none",
    "minutes": 25,
-   "keywords": [
-    "and",
-    "conditional",
-    "conditionals",
-    "drop",
-    "formal",
-    "had",
-    "if",
-    "in",
-    "invert",
-    "inverted",
-    "sentences",
-    "should",
-    "subject",
-    "the",
-    "were"
-   ],
    "status": "live",
    "topic": "Inverted Conditionals",
-   "kind": "slides"
+   "kind": "slides",
+   "search": "b2 inverted conditionals formal should were had drop if invert subject question word order",
+   "order": 47,
+   "blurb_html": "Drop <em>if</em> and invert the subject: Should, Were and Had in formal conditional sentences."
   },
   {
    "id": "mixed-conditionals-activities",
@@ -4020,25 +3510,11 @@
    "mode": "solo",
    "prep": "none",
    "minutes": 20,
-   "keywords": [
-    "an",
-    "and",
-    "combine",
-    "condition",
-    "conditionals",
-    "different",
-    "frames",
-    "in",
-    "mixed",
-    "result",
-    "time",
-    "times",
-    "two",
-    "unreal"
-   ],
    "status": "live",
    "topic": "Mixed Conditionals",
-   "kind": "activities"
+   "kind": "activities",
+   "search": "b2 mixed conditionals combine two time frames: an unreal condition and result in different times.",
+   "order": 48
   },
   {
    "id": "mixed-conditionals-slides",
@@ -4056,25 +3532,11 @@
    "mode": "whole-class",
    "prep": "none",
    "minutes": 25,
-   "keywords": [
-    "an",
-    "and",
-    "combine",
-    "condition",
-    "conditionals",
-    "different",
-    "frames",
-    "in",
-    "mixed",
-    "result",
-    "time",
-    "times",
-    "two",
-    "unreal"
-   ],
    "status": "live",
    "topic": "Mixed Conditionals",
-   "kind": "slides"
+   "kind": "slides",
+   "search": "b2 mixed conditionals combine two time frames: an unreal condition and result in different times.",
+   "order": 48
   },
   {
    "id": "modals-of-deduction-activities",
@@ -4092,31 +3554,11 @@
    "mode": "solo",
    "prep": "none",
    "minutes": 20,
-   "keywords": [
-    "about",
-    "and",
-    "are",
-    "can",
-    "certain",
-    "could",
-    "deduction",
-    "how",
-    "may",
-    "might",
-    "modals",
-    "must",
-    "of",
-    "present",
-    "say",
-    "t",
-    "the",
-    "to",
-    "use",
-    "you"
-   ],
    "status": "live",
    "topic": "Modals of Deduction",
-   "kind": "activities"
+   "kind": "activities",
+   "search": "b1 modals of deduction use must, might, may, could and can't to say how certain you are about the present.",
+   "order": 21
   },
   {
    "id": "modals-of-deduction-slides",
@@ -4134,31 +3576,11 @@
    "mode": "whole-class",
    "prep": "none",
    "minutes": 25,
-   "keywords": [
-    "about",
-    "and",
-    "are",
-    "can",
-    "certain",
-    "could",
-    "deduction",
-    "how",
-    "may",
-    "might",
-    "modals",
-    "must",
-    "of",
-    "present",
-    "say",
-    "t",
-    "the",
-    "to",
-    "use",
-    "you"
-   ],
    "status": "live",
    "topic": "Modals of Deduction",
-   "kind": "slides"
+   "kind": "slides",
+   "search": "b1 modals of deduction use must, might, may, could and can't to say how certain you are about the present.",
+   "order": 21
   },
   {
    "id": "negative-inversions-activities",
@@ -4176,32 +3598,11 @@
    "mode": "solo",
    "prep": "none",
    "minutes": 20,
-   "keywords": [
-    "a",
-    "adverbial",
-    "and",
-    "auxiliary",
-    "did",
-    "flip",
-    "front",
-    "had",
-    "have",
-    "i",
-    "inversions",
-    "know",
-    "little",
-    "negative",
-    "never",
-    "no",
-    "she",
-    "sooner",
-    "subject",
-    "the",
-    "we"
-   ],
    "status": "live",
    "topic": "Negative Inversions",
-   "kind": "activities"
+   "kind": "activities",
+   "search": "b2 negative inversions inversion never rarely seldom little hardly scarcely no sooner than when only then not only but also under no circumstances at no time emphasis formal word order auxiliary do did",
+   "order": 49
   },
   {
    "id": "negative-inversions-slides",
@@ -4219,32 +3620,11 @@
    "mode": "whole-class",
    "prep": "none",
    "minutes": 25,
-   "keywords": [
-    "a",
-    "adverbial",
-    "and",
-    "auxiliary",
-    "did",
-    "flip",
-    "front",
-    "had",
-    "have",
-    "i",
-    "inversions",
-    "know",
-    "little",
-    "negative",
-    "never",
-    "no",
-    "she",
-    "sooner",
-    "subject",
-    "the",
-    "we"
-   ],
    "status": "live",
    "topic": "Negative Inversions",
-   "kind": "slides"
+   "kind": "slides",
+   "search": "b2 negative inversions inversion never rarely seldom little hardly scarcely no sooner than when only then not only but also under no circumstances at no time emphasis formal word order auxiliary do did",
+   "order": 49
   },
   {
    "id": "noun-clauses-activities",
@@ -4262,27 +3642,11 @@
    "mode": "solo",
    "prep": "none",
    "minutes": 20,
-   "keywords": [
-    "accept",
-    "act",
-    "as",
-    "clauses",
-    "got",
-    "job",
-    "noun",
-    "nouns",
-    "she",
-    "that",
-    "the",
-    "to",
-    "wear",
-    "what",
-    "whether",
-    "you"
-   ],
    "status": "live",
    "topic": "Noun Clauses",
-   "kind": "activities"
+   "kind": "activities",
+   "search": "b2 noun clauses subject object that what how where who why when which whether statement word order singular agreement",
+   "order": 50
   },
   {
    "id": "noun-clauses-slides",
@@ -4300,27 +3664,11 @@
    "mode": "whole-class",
    "prep": "none",
    "minutes": 25,
-   "keywords": [
-    "accept",
-    "act",
-    "as",
-    "clauses",
-    "got",
-    "job",
-    "noun",
-    "nouns",
-    "she",
-    "that",
-    "the",
-    "to",
-    "wear",
-    "what",
-    "whether",
-    "you"
-   ],
    "status": "live",
    "topic": "Noun Clauses",
-   "kind": "slides"
+   "kind": "slides",
+   "search": "b2 noun clauses subject object that what how where who why when which whether statement word order singular agreement",
+   "order": 50
   },
   {
    "id": "paired-conjunctions-activities",
@@ -4338,28 +3686,11 @@
    "mode": "solo",
    "prep": "none",
    "minutes": 20,
-   "keywords": [
-    "also",
-    "and",
-    "both",
-    "but",
-    "conjunctions",
-    "either",
-    "halves",
-    "link",
-    "neither",
-    "nor",
-    "not",
-    "only",
-    "or",
-    "paired",
-    "things",
-    "two",
-    "with"
-   ],
    "status": "live",
    "topic": "Paired Conjunctions",
-   "kind": "activities"
+   "kind": "activities",
+   "search": "b2 paired conjunctions correlative both and either or neither nor not only but also parallel structure subject verb agreement nearer subject double negative linking",
+   "order": 51
   },
   {
    "id": "paired-conjunctions-slides",
@@ -4377,28 +3708,11 @@
    "mode": "whole-class",
    "prep": "none",
    "minutes": 25,
-   "keywords": [
-    "also",
-    "and",
-    "both",
-    "but",
-    "conjunctions",
-    "either",
-    "halves",
-    "link",
-    "neither",
-    "nor",
-    "not",
-    "only",
-    "or",
-    "paired",
-    "things",
-    "two",
-    "with"
-   ],
    "status": "live",
    "topic": "Paired Conjunctions",
-   "kind": "slides"
+   "kind": "slides",
+   "search": "b2 paired conjunctions correlative both and either or neither nor not only but also parallel structure subject verb agreement nearer subject double negative linking",
+   "order": 51
   },
   {
    "id": "participial-adjectives-activities",
@@ -4416,24 +3730,11 @@
    "mode": "solo",
    "prep": "none",
    "minutes": 20,
-   "keywords": [
-    "adjectives",
-    "and",
-    "between",
-    "bored",
-    "boring",
-    "difference",
-    "ed",
-    "excited",
-    "exciting",
-    "ing",
-    "participial",
-    "the",
-    "vs"
-   ],
    "status": "live",
    "topic": "Participial Adjectives",
-   "kind": "activities"
+   "kind": "activities",
+   "search": "b1 participial adjectives the difference between -ed and -ing adjectives — bored vs boring, excited vs exciting.",
+   "order": 23
   },
   {
    "id": "participial-adjectives-slides",
@@ -4451,24 +3752,11 @@
    "mode": "whole-class",
    "prep": "none",
    "minutes": 25,
-   "keywords": [
-    "adjectives",
-    "and",
-    "between",
-    "bored",
-    "boring",
-    "difference",
-    "ed",
-    "excited",
-    "exciting",
-    "ing",
-    "participial",
-    "the",
-    "vs"
-   ],
    "status": "live",
    "topic": "Participial Adjectives",
-   "kind": "slides"
+   "kind": "slides",
+   "search": "b1 participial adjectives the difference between -ed and -ing adjectives — bored vs boring, excited vs exciting.",
+   "order": 23
   },
   {
    "id": "participle-clauses-activities",
@@ -4486,30 +3774,11 @@
    "mode": "solo",
    "prep": "none",
    "minutes": 20,
-   "keywords": [
-    "a",
-    "and",
-    "called",
-    "clauses",
-    "done",
-    "few",
-    "forms",
-    "having",
-    "in",
-    "mean",
-    "participle",
-    "skill",
-    "the",
-    "they",
-    "this",
-    "three",
-    "times",
-    "walking",
-    "what"
-   ],
    "status": "live",
    "topic": "Participle Clauses",
-   "kind": "activities"
+   "kind": "activities",
+   "search": "b2 participle clauses present past perfect -ing form past participle having been active passive dangling participle same subject reduction",
+   "order": 52
   },
   {
    "id": "participle-clauses-slides",
@@ -4527,30 +3796,11 @@
    "mode": "whole-class",
    "prep": "none",
    "minutes": 25,
-   "keywords": [
-    "a",
-    "and",
-    "called",
-    "clauses",
-    "done",
-    "few",
-    "forms",
-    "having",
-    "in",
-    "mean",
-    "participle",
-    "skill",
-    "the",
-    "they",
-    "this",
-    "three",
-    "times",
-    "walking",
-    "what"
-   ],
    "status": "live",
    "topic": "Participle Clauses",
-   "kind": "slides"
+   "kind": "slides",
+   "search": "b2 participle clauses present past perfect -ing form past participle having been active passive dangling participle same subject reduction",
+   "order": 52
   },
   {
    "id": "passive-infinitives-gerunds-activities",
@@ -4568,27 +3818,11 @@
    "mode": "solo",
    "prep": "none",
    "minutes": 20,
-   "keywords": [
-    "answered",
-    "be",
-    "being",
-    "gerunds",
-    "given",
-    "hates",
-    "infinitives",
-    "introduced",
-    "like",
-    "must",
-    "passive",
-    "passives",
-    "tenseless",
-    "to",
-    "with",
-    "would"
-   ],
    "status": "live",
    "topic": "Passive with Infinitives & Gerunds",
-   "kind": "activities"
+   "kind": "activities",
+   "search": "b2 passive voice infinitives gerunds to be past participle being past participle modal going to would like to hate like remember afraid of look forward to insist on",
+   "order": 53
   },
   {
    "id": "passive-infinitives-gerunds-slides",
@@ -4606,27 +3840,11 @@
    "mode": "whole-class",
    "prep": "none",
    "minutes": 25,
-   "keywords": [
-    "answered",
-    "be",
-    "being",
-    "gerunds",
-    "given",
-    "hates",
-    "infinitives",
-    "introduced",
-    "like",
-    "must",
-    "passive",
-    "passives",
-    "tenseless",
-    "to",
-    "with",
-    "would"
-   ],
    "status": "live",
    "topic": "Passive with Infinitives & Gerunds",
-   "kind": "slides"
+   "kind": "slides",
+   "search": "b2 passive voice infinitives gerunds to be past participle being past participle modal going to would like to hate like remember afraid of look forward to insist on",
+   "order": 53
   },
   {
    "id": "passive-reporting-structures-activities",
@@ -4644,28 +3862,11 @@
    "mode": "solo",
    "prep": "none",
    "minutes": 20,
-   "keywords": [
-    "a",
-    "and",
-    "formally",
-    "have",
-    "information",
-    "is",
-    "it",
-    "naming",
-    "passive",
-    "report",
-    "reporting",
-    "said",
-    "source",
-    "structures",
-    "that",
-    "to",
-    "without"
-   ],
    "status": "live",
    "topic": "Passive Reporting Structures",
-   "kind": "activities"
+   "kind": "activities",
+   "search": "b2 passive reporting structures it is said that believed thought reported claimed estimated known understood assumed supposed to infinitive perfect infinitive impersonal passive formal rumour",
+   "order": 54
   },
   {
    "id": "passive-reporting-structures-slides",
@@ -4683,28 +3884,11 @@
    "mode": "whole-class",
    "prep": "none",
    "minutes": 25,
-   "keywords": [
-    "a",
-    "and",
-    "formally",
-    "have",
-    "information",
-    "is",
-    "it",
-    "naming",
-    "passive",
-    "report",
-    "reporting",
-    "said",
-    "source",
-    "structures",
-    "that",
-    "to",
-    "without"
-   ],
    "status": "live",
    "topic": "Passive Reporting Structures",
-   "kind": "slides"
+   "kind": "slides",
+   "search": "b2 passive reporting structures it is said that believed thought reported claimed estimated known understood assumed supposed to infinitive perfect infinitive impersonal passive formal rumour",
+   "order": 54
   },
   {
    "id": "past-modals-of-deduction-activities",
@@ -4722,27 +3906,11 @@
    "mode": "solo",
    "prep": "none",
    "minutes": 20,
-   "keywords": [
-    "about",
-    "can",
-    "conclusions",
-    "could",
-    "deduction",
-    "draw",
-    "events",
-    "finished",
-    "have",
-    "may",
-    "might",
-    "modals",
-    "must",
-    "of",
-    "past",
-    "t"
-   ],
    "status": "live",
    "topic": "Past Modals of Deduction",
-   "kind": "activities"
+   "kind": "activities",
+   "search": "b2 past modals of deduction must have may might could have can't couldn't have past participle certainty evidence conclusion guess",
+   "order": 55
   },
   {
    "id": "past-modals-of-deduction-slides",
@@ -4760,27 +3928,11 @@
    "mode": "whole-class",
    "prep": "none",
    "minutes": 25,
-   "keywords": [
-    "about",
-    "can",
-    "conclusions",
-    "could",
-    "deduction",
-    "draw",
-    "events",
-    "finished",
-    "have",
-    "may",
-    "might",
-    "modals",
-    "must",
-    "of",
-    "past",
-    "t"
-   ],
    "status": "live",
    "topic": "Past Modals of Deduction",
-   "kind": "slides"
+   "kind": "slides",
+   "search": "b2 past modals of deduction must have may might could have can't couldn't have past participle certainty evidence conclusion guess",
+   "order": 55
   },
   {
    "id": "past-perfect-activities",
@@ -4798,24 +3950,12 @@
    "mode": "solo",
    "prep": "none",
    "minutes": 20,
-   "keywords": [
-    "events",
-    "first",
-    "had",
-    "happened",
-    "of",
-    "participle",
-    "past",
-    "perfect",
-    "show",
-    "to",
-    "two",
-    "using",
-    "which"
-   ],
    "status": "live",
    "topic": "Past Perfect",
-   "kind": "activities"
+   "kind": "activities",
+   "search": "b1 past perfect using had + past participle to show which of two past events happened first.",
+   "order": 22,
+   "blurb_html": "Using <em>had + past participle</em> to show which of two past events happened first."
   },
   {
    "id": "past-perfect-slides",
@@ -4833,24 +3973,12 @@
    "mode": "whole-class",
    "prep": "none",
    "minutes": 25,
-   "keywords": [
-    "events",
-    "first",
-    "had",
-    "happened",
-    "of",
-    "participle",
-    "past",
-    "perfect",
-    "show",
-    "to",
-    "two",
-    "using",
-    "which"
-   ],
    "status": "live",
    "topic": "Past Perfect",
-   "kind": "slides"
+   "kind": "slides",
+   "search": "b1 past perfect using had + past participle to show which of two past events happened first.",
+   "order": 22,
+   "blurb_html": "Using <em>had + past participle</em> to show which of two past events happened first."
   },
   {
    "id": "past-progressive-activities",
@@ -4868,22 +3996,11 @@
    "mode": "solo",
    "prep": "none",
    "minutes": 20,
-   "keywords": [
-    "actions",
-    "in",
-    "ing",
-    "interrupted",
-    "often",
-    "past",
-    "progress",
-    "progressive",
-    "the",
-    "was",
-    "were"
-   ],
    "status": "live",
    "topic": "Past Progressive",
-   "kind": "activities"
+   "kind": "activities",
+   "search": "a2 past progressive was/were + -ing — actions in progress in the past, often interrupted.",
+   "order": 4
   },
   {
    "id": "past-progressive-slides",
@@ -4901,22 +4018,11 @@
    "mode": "whole-class",
    "prep": "none",
    "minutes": 25,
-   "keywords": [
-    "actions",
-    "in",
-    "ing",
-    "interrupted",
-    "often",
-    "past",
-    "progress",
-    "progressive",
-    "the",
-    "was",
-    "were"
-   ],
    "status": "live",
    "topic": "Past Progressive",
-   "kind": "slides"
+   "kind": "slides",
+   "search": "a2 past progressive was/were + -ing — actions in progress in the past, often interrupted.",
+   "order": 4
   },
   {
    "id": "phrasal-verbs-separable-activities",
@@ -4934,23 +4040,11 @@
    "mode": "solo",
    "prep": "none",
    "minutes": 20,
-   "keywords": [
-    "a",
-    "and",
-    "can",
-    "non",
-    "phrasal",
-    "separable",
-    "split",
-    "t",
-    "verb",
-    "verbs",
-    "when",
-    "you"
-   ],
    "status": "live",
    "topic": "Phrasal Verbs: Separable and Non-Separable",
-   "kind": "activities"
+   "kind": "activities",
+   "search": "b1 phrasal verbs: separable and non-separable when you can split a phrasal verb — and when you can't.",
+   "order": 24
   },
   {
    "id": "phrasal-verbs-separable-slides",
@@ -4968,23 +4062,11 @@
    "mode": "whole-class",
    "prep": "none",
    "minutes": 25,
-   "keywords": [
-    "a",
-    "and",
-    "can",
-    "non",
-    "phrasal",
-    "separable",
-    "split",
-    "t",
-    "verb",
-    "verbs",
-    "when",
-    "you"
-   ],
    "status": "live",
    "topic": "Phrasal Verbs: Separable and Non-Separable",
-   "kind": "slides"
+   "kind": "slides",
+   "search": "b1 phrasal verbs: separable and non-separable when you can split a phrasal verb — and when you can't.",
+   "order": 24
   },
   {
    "id": "present-continuous-activities",
@@ -5002,24 +4084,11 @@
    "mode": "solo",
    "prep": "none",
    "minutes": 20,
-   "keywords": [
-    "about",
-    "am",
-    "are",
-    "continuous",
-    "happening",
-    "ing",
-    "is",
-    "now",
-    "present",
-    "right",
-    "s",
-    "talking",
-    "what"
-   ],
    "status": "live",
    "topic": "Present Continuous",
-   "kind": "activities"
+   "kind": "activities",
+   "search": "a1 present continuous am, is, are + -ing — talking about what's happening right now.",
+   "order": 0
   },
   {
    "id": "present-continuous-slides",
@@ -5037,24 +4106,11 @@
    "mode": "whole-class",
    "prep": "none",
    "minutes": 25,
-   "keywords": [
-    "about",
-    "am",
-    "are",
-    "continuous",
-    "happening",
-    "ing",
-    "is",
-    "now",
-    "present",
-    "right",
-    "s",
-    "talking",
-    "what"
-   ],
    "status": "live",
    "topic": "Present Continuous",
-   "kind": "slides"
+   "kind": "slides",
+   "search": "a1 present continuous am, is, are + -ing — talking about what's happening right now.",
+   "order": 0
   },
   {
    "id": "present-past-tenses-review-activities",
@@ -5072,24 +4128,11 @@
    "mode": "solo",
    "prep": "none",
    "minutes": 20,
-   "keywords": [
-    "a",
-    "and",
-    "by",
-    "of",
-    "past",
-    "perfect",
-    "present",
-    "progressive",
-    "review",
-    "side",
-    "simple",
-    "six",
-    "tenses"
-   ],
    "status": "live",
    "topic": "Present and Past Tenses: A Review",
-   "kind": "activities"
+   "kind": "activities",
+   "search": "b1 present and past tenses: a review a side-by-side review of six tenses: simple past, past progressive, past perfect, past perfect progressive, present perfect, and present perfect progressive.",
+   "order": 28
   },
   {
    "id": "present-past-tenses-review-slides",
@@ -5107,24 +4150,11 @@
    "mode": "whole-class",
    "prep": "none",
    "minutes": 25,
-   "keywords": [
-    "a",
-    "and",
-    "by",
-    "of",
-    "past",
-    "perfect",
-    "present",
-    "progressive",
-    "review",
-    "side",
-    "simple",
-    "six",
-    "tenses"
-   ],
    "status": "live",
    "topic": "Present and Past Tenses: A Review",
-   "kind": "slides"
+   "kind": "slides",
+   "search": "b1 present and past tenses: a review a side-by-side review of six tenses: simple past, past progressive, past perfect, past perfect progressive, present perfect, and present perfect progressive.",
+   "order": 28
   },
   {
    "id": "present-perfect-activities",
@@ -5142,21 +4172,11 @@
    "mode": "solo",
    "prep": "none",
    "minutes": 20,
-   "keywords": [
-    "about",
-    "and",
-    "connected",
-    "events",
-    "experiences",
-    "perfect",
-    "present",
-    "talking",
-    "the",
-    "to"
-   ],
    "status": "live",
    "topic": "Present Perfect",
-   "kind": "activities"
+   "kind": "activities",
+   "search": "b1 present perfect talking about experiences and events connected to the present.",
+   "order": 25
   },
   {
    "id": "present-perfect-progressive-activities",
@@ -5174,27 +4194,11 @@
    "mode": "solo",
    "prep": "none",
    "minutes": 20,
-   "keywords": [
-    "actions",
-    "and",
-    "are",
-    "for",
-    "in",
-    "past",
-    "perfect",
-    "present",
-    "progress",
-    "progressive",
-    "since",
-    "started",
-    "still",
-    "that",
-    "the",
-    "with"
-   ],
    "status": "live",
    "topic": "Present Perfect Progressive",
-   "kind": "activities"
+   "kind": "activities",
+   "search": "b1 present perfect progressive actions that started in the past and are still in progress, with for and since.",
+   "order": 26
   },
   {
    "id": "present-perfect-progressive-slides",
@@ -5212,27 +4216,11 @@
    "mode": "whole-class",
    "prep": "none",
    "minutes": 25,
-   "keywords": [
-    "actions",
-    "and",
-    "are",
-    "for",
-    "in",
-    "past",
-    "perfect",
-    "present",
-    "progress",
-    "progressive",
-    "since",
-    "started",
-    "still",
-    "that",
-    "the",
-    "with"
-   ],
    "status": "live",
    "topic": "Present Perfect Progressive",
-   "kind": "slides"
+   "kind": "slides",
+   "search": "b1 present perfect progressive actions that started in the past and are still in progress, with for and since.",
+   "order": 26
   },
   {
    "id": "present-perfect-slides",
@@ -5250,21 +4238,11 @@
    "mode": "whole-class",
    "prep": "none",
    "minutes": 25,
-   "keywords": [
-    "about",
-    "and",
-    "connected",
-    "events",
-    "experiences",
-    "perfect",
-    "present",
-    "talking",
-    "the",
-    "to"
-   ],
    "status": "live",
    "topic": "Present Perfect",
-   "kind": "slides"
+   "kind": "slides",
+   "search": "b1 present perfect talking about experiences and events connected to the present.",
+   "order": 25
   },
   {
    "id": "present-perfect-vs-past-activities",
@@ -5282,27 +4260,11 @@
    "mode": "solo",
    "prep": "none",
    "minutes": 20,
-   "keywords": [
-    "and",
-    "choosing",
-    "doesn",
-    "it",
-    "matters",
-    "past",
-    "perfect",
-    "present",
-    "right",
-    "simple",
-    "t",
-    "tense",
-    "the",
-    "time",
-    "vs",
-    "when"
-   ],
    "status": "live",
    "topic": "Present Perfect vs Simple Past",
-   "kind": "activities"
+   "kind": "activities",
+   "search": "b1 present perfect vs simple past choosing the right tense — when time matters and when it doesn't.",
+   "order": 27
   },
   {
    "id": "present-perfect-vs-past-slides",
@@ -5320,27 +4282,11 @@
    "mode": "whole-class",
    "prep": "none",
    "minutes": 25,
-   "keywords": [
-    "and",
-    "choosing",
-    "doesn",
-    "it",
-    "matters",
-    "past",
-    "perfect",
-    "present",
-    "right",
-    "simple",
-    "t",
-    "tense",
-    "the",
-    "time",
-    "vs",
-    "when"
-   ],
    "status": "live",
    "topic": "Present Perfect vs Simple Past",
-   "kind": "slides"
+   "kind": "slides",
+   "search": "b1 present perfect vs simple past choosing the right tense — when time matters and when it doesn't.",
+   "order": 27
   },
   {
    "id": "reduced-adverb-cause-effect-activities",
@@ -5358,32 +4304,11 @@
    "mode": "solo",
    "prep": "none",
    "minutes": 20,
-   "keywords": [
-    "a",
-    "adverb",
-    "being",
-    "cause",
-    "clauses",
-    "effect",
-    "having",
-    "her",
-    "in",
-    "metal",
-    "name",
-    "of",
-    "participle",
-    "queue",
-    "reason",
-    "reduced",
-    "shorten",
-    "standing",
-    "the",
-    "to",
-    "used"
-   ],
    "status": "live",
    "topic": "Reduced Adverb Cause-Effect Clauses",
-   "kind": "activities"
+   "kind": "activities",
+   "search": "b2 reduced adverb cause effect clauses reason because since as participle -ing being having past participle same subject reduction",
+   "order": 56
   },
   {
    "id": "reduced-adverb-cause-effect-slides",
@@ -5401,32 +4326,11 @@
    "mode": "whole-class",
    "prep": "none",
    "minutes": 25,
-   "keywords": [
-    "a",
-    "adverb",
-    "being",
-    "cause",
-    "clauses",
-    "effect",
-    "having",
-    "her",
-    "in",
-    "metal",
-    "name",
-    "of",
-    "participle",
-    "queue",
-    "reason",
-    "reduced",
-    "shorten",
-    "standing",
-    "the",
-    "to",
-    "used"
-   ],
    "status": "live",
    "topic": "Reduced Adverb Cause-Effect Clauses",
-   "kind": "slides"
+   "kind": "slides",
+   "search": "b2 reduced adverb cause effect clauses reason because since as participle -ing being having past participle same subject reduction",
+   "order": 56
   },
   {
    "id": "reduced-adverb-time-clauses-activities",
@@ -5444,29 +4348,11 @@
    "mode": "solo",
    "prep": "none",
    "minutes": 20,
-   "keywords": [
-    "a",
-    "adverb",
-    "after",
-    "all",
-    "before",
-    "clauses",
-    "day",
-    "gerund",
-    "hearing",
-    "leaving",
-    "news",
-    "on",
-    "reduced",
-    "shorten",
-    "studying",
-    "the",
-    "time",
-    "to"
-   ],
    "status": "live",
    "topic": "Reduced Adverb Time Clauses",
-   "kind": "activities"
+   "kind": "activities",
+   "search": "b2 reduced adverb time clauses reduction before since after as soon as on upon gerund -ing subject deletion same subject participle clause",
+   "order": 58
   },
   {
    "id": "reduced-adverb-time-clauses-slides",
@@ -5484,29 +4370,11 @@
    "mode": "whole-class",
    "prep": "none",
    "minutes": 25,
-   "keywords": [
-    "a",
-    "adverb",
-    "after",
-    "all",
-    "before",
-    "clauses",
-    "day",
-    "gerund",
-    "hearing",
-    "leaving",
-    "news",
-    "on",
-    "reduced",
-    "shorten",
-    "studying",
-    "the",
-    "time",
-    "to"
-   ],
    "status": "live",
    "topic": "Reduced Adverb Time Clauses",
-   "kind": "slides"
+   "kind": "slides",
+   "search": "b2 reduced adverb time clauses reduction before since after as soon as on upon gerund -ing subject deletion same subject participle clause",
+   "order": 58
   },
   {
    "id": "reduced-relative-clauses-activities",
@@ -5524,31 +4392,11 @@
    "mode": "solo",
    "prep": "none",
    "minutes": 20,
-   "keywords": [
-    "and",
-    "be",
-    "clauses",
-    "drop",
-    "in",
-    "interested",
-    "it",
-    "letters",
-    "people",
-    "pronoun",
-    "reduced",
-    "relative",
-    "seen",
-    "sent",
-    "sometimes",
-    "the",
-    "tornadoes",
-    "ve",
-    "we",
-    "yesterday"
-   ],
    "status": "live",
    "topic": "Reduced Relative Clauses",
-   "kind": "activities"
+   "kind": "activities",
+   "search": "b2 reduced relative clauses omit relative pronoun who which that be adjective phrase prepositional phrase participle clause -ing past participle defining",
+   "order": 57
   },
   {
    "id": "reduced-relative-clauses-slides",
@@ -5566,31 +4414,11 @@
    "mode": "whole-class",
    "prep": "none",
    "minutes": 25,
-   "keywords": [
-    "and",
-    "be",
-    "clauses",
-    "drop",
-    "in",
-    "interested",
-    "it",
-    "letters",
-    "people",
-    "pronoun",
-    "reduced",
-    "relative",
-    "seen",
-    "sent",
-    "sometimes",
-    "the",
-    "tornadoes",
-    "ve",
-    "we",
-    "yesterday"
-   ],
    "status": "live",
    "topic": "Reduced Relative Clauses",
-   "kind": "slides"
+   "kind": "slides",
+   "search": "b2 reduced relative clauses omit relative pronoun who which that be adjective phrase prepositional phrase participle clause -ing past participle defining",
+   "order": 57
   },
   {
    "id": "reflexive-pronouns-activities",
@@ -5608,20 +4436,11 @@
    "mode": "solo",
    "prep": "none",
    "minutes": 20,
-   "keywords": [
-    "herself",
-    "himself",
-    "myself",
-    "pronouns",
-    "reflexive",
-    "to",
-    "use",
-    "when",
-    "yourself"
-   ],
    "status": "live",
    "topic": "Reflexive Pronouns",
-   "kind": "activities"
+   "kind": "activities",
+   "search": "b1 reflexive pronouns myself, yourself, himself, herself — when to use reflexive pronouns.",
+   "order": 29
   },
   {
    "id": "reflexive-pronouns-slides",
@@ -5639,20 +4458,11 @@
    "mode": "whole-class",
    "prep": "none",
    "minutes": 25,
-   "keywords": [
-    "herself",
-    "himself",
-    "myself",
-    "pronouns",
-    "reflexive",
-    "to",
-    "use",
-    "when",
-    "yourself"
-   ],
    "status": "live",
    "topic": "Reflexive Pronouns",
-   "kind": "slides"
+   "kind": "slides",
+   "search": "b1 reflexive pronouns myself, yourself, himself, herself — when to use reflexive pronouns.",
+   "order": 29
   },
   {
    "id": "relative-clauses-activities",
@@ -5670,24 +4480,11 @@
    "mode": "solo",
    "prep": "none",
    "minutes": 20,
-   "keywords": [
-    "and",
-    "clauses",
-    "commas",
-    "defining",
-    "go",
-    "non",
-    "relative",
-    "that",
-    "the",
-    "where",
-    "which",
-    "who",
-    "whose"
-   ],
    "status": "live",
    "topic": "Relative Clauses",
-   "kind": "activities"
+   "kind": "activities",
+   "search": "b2 relative clauses defining non-defining who which that whose where when why commas omission subject object pronoun",
+   "order": 59
   },
   {
    "id": "relative-clauses-slides",
@@ -5705,24 +4502,11 @@
    "mode": "whole-class",
    "prep": "none",
    "minutes": 25,
-   "keywords": [
-    "and",
-    "clauses",
-    "commas",
-    "defining",
-    "go",
-    "non",
-    "relative",
-    "that",
-    "the",
-    "where",
-    "which",
-    "who",
-    "whose"
-   ],
    "status": "live",
    "topic": "Relative Clauses",
-   "kind": "slides"
+   "kind": "slides",
+   "search": "b2 relative clauses defining non-defining who which that whose where when why commas omission subject object pronoun",
+   "order": 59
   },
   {
    "id": "reported-speech-activities",
@@ -5740,22 +4524,11 @@
    "mode": "solo",
    "prep": "none",
    "minutes": 20,
-   "keywords": [
-    "and",
-    "changes",
-    "others",
-    "pronoun",
-    "reported",
-    "reporting",
-    "said",
-    "speech",
-    "tense",
-    "what",
-    "with"
-   ],
    "status": "live",
    "topic": "Reported Speech",
-   "kind": "activities"
+   "kind": "activities",
+   "search": "b1 reported speech reporting what others said, with tense and pronoun changes.",
+   "order": 30
   },
   {
    "id": "reported-speech-slides",
@@ -5773,22 +4546,11 @@
    "mode": "whole-class",
    "prep": "none",
    "minutes": 25,
-   "keywords": [
-    "and",
-    "changes",
-    "others",
-    "pronoun",
-    "reported",
-    "reporting",
-    "said",
-    "speech",
-    "tense",
-    "what",
-    "with"
-   ],
    "status": "live",
    "topic": "Reported Speech",
-   "kind": "slides"
+   "kind": "slides",
+   "search": "b1 reported speech reporting what others said, with tense and pronoun changes.",
+   "order": 30
   },
   {
    "id": "second-conditional-activities",
@@ -5806,20 +4568,11 @@
    "mode": "solo",
    "prep": "none",
    "minutes": 20,
-   "keywords": [
-    "and",
-    "conditional",
-    "future",
-    "imaginary",
-    "or",
-    "present",
-    "second",
-    "situations",
-    "unlikely"
-   ],
    "status": "live",
    "topic": "Second Conditional",
-   "kind": "activities"
+   "kind": "activities",
+   "search": "b1 second conditional imaginary or unlikely present and future situations.",
+   "order": 34
   },
   {
    "id": "second-conditional-slides",
@@ -5837,20 +4590,11 @@
    "mode": "whole-class",
    "prep": "none",
    "minutes": 25,
-   "keywords": [
-    "and",
-    "conditional",
-    "future",
-    "imaginary",
-    "or",
-    "present",
-    "second",
-    "situations",
-    "unlikely"
-   ],
    "status": "live",
    "topic": "Second Conditional",
-   "kind": "slides"
+   "kind": "slides",
+   "search": "b1 second conditional imaginary or unlikely present and future situations.",
+   "order": 34
   },
   {
    "id": "should-have-activities",
@@ -5868,24 +4612,11 @@
    "mode": "solo",
    "prep": "none",
    "minutes": 20,
-   "keywords": [
-    "and",
-    "criticising",
-    "expressing",
-    "have",
-    "mistakes",
-    "n",
-    "participle",
-    "past",
-    "regret",
-    "should",
-    "shouldn",
-    "t",
-    "with"
-   ],
    "status": "live",
    "topic": "Should Have / Shouldn't Have",
-   "kind": "activities"
+   "kind": "activities",
+   "search": "b1 should have / shouldn't have criticising past mistakes and expressing regret with should(n't) have + past participle.",
+   "order": 40
   },
   {
    "id": "should-have-slides",
@@ -5903,24 +4634,11 @@
    "mode": "whole-class",
    "prep": "none",
    "minutes": 25,
-   "keywords": [
-    "and",
-    "criticising",
-    "expressing",
-    "have",
-    "mistakes",
-    "n",
-    "participle",
-    "past",
-    "regret",
-    "should",
-    "shouldn",
-    "t",
-    "with"
-   ],
    "status": "live",
    "topic": "Should Have / Shouldn't Have",
-   "kind": "slides"
+   "kind": "slides",
+   "search": "b1 should have / shouldn't have criticising past mistakes and expressing regret with should(n't) have + past participle.",
+   "order": 40
   },
   {
    "id": "simple-future-passive-activities",
@@ -5938,25 +4656,11 @@
    "mode": "solo",
    "prep": "none",
    "minutes": 20,
-   "keywords": [
-    "about",
-    "and",
-    "be",
-    "future",
-    "happen",
-    "participle",
-    "passive",
-    "past",
-    "predictions",
-    "simple",
-    "t",
-    "what",
-    "will",
-    "won"
-   ],
    "status": "live",
    "topic": "Simple Future Passive",
-   "kind": "activities"
+   "kind": "activities",
+   "search": "b1 simple future passive will be past participle won't be predictions focus on the thing not the doer",
+   "order": 33
   },
   {
    "id": "simple-future-passive-slides",
@@ -5974,25 +4678,11 @@
    "mode": "whole-class",
    "prep": "none",
    "minutes": 25,
-   "keywords": [
-    "about",
-    "and",
-    "be",
-    "future",
-    "happen",
-    "participle",
-    "passive",
-    "past",
-    "predictions",
-    "simple",
-    "t",
-    "what",
-    "will",
-    "won"
-   ],
    "status": "live",
    "topic": "Simple Future Passive",
-   "kind": "slides"
+   "kind": "slides",
+   "search": "b1 simple future passive will be past participle won't be predictions focus on the thing not the doer",
+   "order": 33
   },
   {
    "id": "simple-past-did-activities",
@@ -6010,23 +4700,11 @@
    "mode": "solo",
    "prep": "none",
    "minutes": 20,
-   "keywords": [
-    "about",
-    "actions",
-    "and",
-    "completed",
-    "did",
-    "irregular",
-    "past",
-    "regular",
-    "simple",
-    "talking",
-    "verbs",
-    "with"
-   ],
    "status": "live",
    "topic": "Simple Past: Did",
-   "kind": "activities"
+   "kind": "activities",
+   "search": "a2 simple past: did talking about completed past actions with regular and irregular verbs.",
+   "order": 5
   },
   {
    "id": "simple-past-did-slides",
@@ -6044,23 +4722,11 @@
    "mode": "whole-class",
    "prep": "none",
    "minutes": 25,
-   "keywords": [
-    "about",
-    "actions",
-    "and",
-    "completed",
-    "did",
-    "irregular",
-    "past",
-    "regular",
-    "simple",
-    "talking",
-    "verbs",
-    "with"
-   ],
    "status": "live",
    "topic": "Simple Past: Did",
-   "kind": "slides"
+   "kind": "slides",
+   "search": "a2 simple past: did talking about completed past actions with regular and irregular verbs.",
+   "order": 5
   },
   {
    "id": "simple-past-passive-activities",
@@ -6078,27 +4744,12 @@
    "mode": "solo",
    "prep": "none",
    "minutes": 20,
-   "keywords": [
-    "actions",
-    "did",
-    "focus",
-    "on",
-    "participle",
-    "passive",
-    "past",
-    "rather",
-    "simple",
-    "than",
-    "them",
-    "to",
-    "using",
-    "was",
-    "were",
-    "who"
-   ],
    "status": "live",
    "topic": "Simple Past Passive",
-   "kind": "activities"
+   "kind": "activities",
+   "search": "b1 simple past passive using was / were + past participle to focus on actions rather than who did them.",
+   "order": 31,
+   "blurb_html": "Using <em>was / were + past participle</em> to focus on actions rather than who did them."
   },
   {
    "id": "simple-past-passive-slides",
@@ -6116,27 +4767,12 @@
    "mode": "whole-class",
    "prep": "none",
    "minutes": 25,
-   "keywords": [
-    "actions",
-    "did",
-    "focus",
-    "on",
-    "participle",
-    "passive",
-    "past",
-    "rather",
-    "simple",
-    "than",
-    "them",
-    "to",
-    "using",
-    "was",
-    "were",
-    "who"
-   ],
    "status": "live",
    "topic": "Simple Past Passive",
-   "kind": "slides"
+   "kind": "slides",
+   "search": "b1 simple past passive using was / were + past participle to focus on actions rather than who did them.",
+   "order": 31,
+   "blurb_html": "Using <em>was / were + past participle</em> to focus on actions rather than who did them."
   },
   {
    "id": "simple-past-to-be-activities",
@@ -6154,22 +4790,11 @@
    "mode": "solo",
    "prep": "none",
    "minutes": 20,
-   "keywords": [
-    "and",
-    "be",
-    "describing",
-    "past",
-    "simple",
-    "situations",
-    "states",
-    "to",
-    "was",
-    "were",
-    "with"
-   ],
    "status": "live",
    "topic": "Simple Past: To Be",
-   "kind": "activities"
+   "kind": "activities",
+   "search": "a1 simple past: to be describing past situations and states with was and were.",
+   "order": 1
   },
   {
    "id": "simple-past-to-be-slides",
@@ -6187,22 +4812,11 @@
    "mode": "whole-class",
    "prep": "none",
    "minutes": 25,
-   "keywords": [
-    "and",
-    "be",
-    "describing",
-    "past",
-    "simple",
-    "situations",
-    "states",
-    "to",
-    "was",
-    "were",
-    "with"
-   ],
    "status": "live",
    "topic": "Simple Past: To Be",
-   "kind": "slides"
+   "kind": "slides",
+   "search": "a1 simple past: to be describing past situations and states with was and were.",
+   "order": 1
   },
   {
    "id": "simple-present-do-does-activities",
@@ -6220,25 +4834,11 @@
    "mode": "solo",
    "prep": "none",
    "minutes": 20,
-   "keywords": [
-    "all",
-    "and",
-    "be",
-    "do",
-    "does",
-    "except",
-    "facts",
-    "habits",
-    "present",
-    "routines",
-    "simple",
-    "to",
-    "verbs",
-    "with"
-   ],
    "status": "live",
    "topic": "Simple Present: Do / Does",
-   "kind": "activities"
+   "kind": "activities",
+   "search": "a1 simple present: do / does habits, routines and facts with all verbs except to be.",
+   "order": 3
   },
   {
    "id": "simple-present-do-does-slides",
@@ -6256,25 +4856,11 @@
    "mode": "whole-class",
    "prep": "none",
    "minutes": 25,
-   "keywords": [
-    "all",
-    "and",
-    "be",
-    "do",
-    "does",
-    "except",
-    "facts",
-    "habits",
-    "present",
-    "routines",
-    "simple",
-    "to",
-    "verbs",
-    "with"
-   ],
    "status": "live",
    "topic": "Simple Present: Do / Does",
-   "kind": "slides"
+   "kind": "slides",
+   "search": "a1 simple present: do / does habits, routines and facts with all verbs except to be.",
+   "order": 3
   },
   {
    "id": "simple-present-passive-activities",
@@ -6292,25 +4878,11 @@
    "mode": "solo",
    "prep": "none",
    "minutes": 20,
-   "keywords": [
-    "action",
-    "are",
-    "focusing",
-    "is",
-    "on",
-    "participle",
-    "passive",
-    "past",
-    "present",
-    "receives",
-    "simple",
-    "the",
-    "using",
-    "what"
-   ],
    "status": "live",
    "topic": "Simple Present Passive",
-   "kind": "activities"
+   "kind": "activities",
+   "search": "b1 simple present passive focusing on what receives the action using is/are + past participle.",
+   "order": 32
   },
   {
    "id": "simple-present-passive-slides",
@@ -6328,25 +4900,11 @@
    "mode": "whole-class",
    "prep": "none",
    "minutes": 25,
-   "keywords": [
-    "action",
-    "are",
-    "focusing",
-    "is",
-    "on",
-    "participle",
-    "passive",
-    "past",
-    "present",
-    "receives",
-    "simple",
-    "the",
-    "using",
-    "what"
-   ],
    "status": "live",
    "topic": "Simple Present Passive",
-   "kind": "slides"
+   "kind": "slides",
+   "search": "b1 simple present passive focusing on what receives the action using is/are + past participle.",
+   "order": 32
   },
   {
    "id": "simple-present-to-be-activities",
@@ -6364,24 +4922,11 @@
    "mode": "solo",
    "prep": "none",
    "minutes": 20,
-   "keywords": [
-    "am",
-    "and",
-    "are",
-    "be",
-    "describing",
-    "is",
-    "people",
-    "places",
-    "present",
-    "simple",
-    "things",
-    "to",
-    "with"
-   ],
    "status": "live",
    "topic": "Simple Present: To Be",
-   "kind": "activities"
+   "kind": "activities",
+   "search": "a1 simple present: to be describing people, places and things with am, is and are.",
+   "order": 2
   },
   {
    "id": "simple-present-to-be-slides",
@@ -6399,24 +4944,11 @@
    "mode": "whole-class",
    "prep": "none",
    "minutes": 25,
-   "keywords": [
-    "am",
-    "and",
-    "are",
-    "be",
-    "describing",
-    "is",
-    "people",
-    "places",
-    "present",
-    "simple",
-    "things",
-    "to",
-    "with"
-   ],
    "status": "live",
    "topic": "Simple Present: To Be",
-   "kind": "slides"
+   "kind": "slides",
+   "search": "a1 simple present: to be describing people, places and things with am, is and are.",
+   "order": 2
   },
   {
    "id": "so-such-activities",
@@ -6434,18 +4966,11 @@
    "mode": "solo",
    "prep": "none",
    "minutes": 20,
-   "keywords": [
-    "and",
-    "degree",
-    "descriptions",
-    "expressing",
-    "intensifying",
-    "so",
-    "such"
-   ],
    "status": "live",
    "topic": "So / Such",
-   "kind": "activities"
+   "kind": "activities",
+   "search": "b1 so / such expressing degree and intensifying descriptions.",
+   "order": 35
   },
   {
    "id": "so-such-slides",
@@ -6463,18 +4988,11 @@
    "mode": "whole-class",
    "prep": "none",
    "minutes": 25,
-   "keywords": [
-    "and",
-    "degree",
-    "descriptions",
-    "expressing",
-    "intensifying",
-    "so",
-    "such"
-   ],
    "status": "live",
    "topic": "So / Such",
-   "kind": "slides"
+   "kind": "slides",
+   "search": "b1 so / such expressing degree and intensifying descriptions.",
+   "order": 35
   },
   {
    "id": "so-such-too-enough-activities",
@@ -6492,22 +5010,12 @@
    "mode": "solo",
    "prep": "none",
    "minutes": 20,
-   "keywords": [
-    "and",
-    "degree",
-    "enough",
-    "express",
-    "intensity",
-    "so",
-    "such",
-    "sufficiency",
-    "to",
-    "too",
-    "use"
-   ],
    "status": "live",
    "topic": "So, Such, Too, Enough",
-   "kind": "activities"
+   "kind": "activities",
+   "search": "b1 so, such, too, enough use so, such, too and enough to express degree, intensity and sufficiency.",
+   "order": 36,
+   "blurb_html": "Use <em>so</em>, <em>such</em>, <em>too</em> and <em>enough</em> to express degree, intensity and sufficiency."
   },
   {
    "id": "so-such-too-enough-slides",
@@ -6525,22 +5033,12 @@
    "mode": "whole-class",
    "prep": "none",
    "minutes": 25,
-   "keywords": [
-    "and",
-    "degree",
-    "enough",
-    "express",
-    "intensity",
-    "so",
-    "such",
-    "sufficiency",
-    "to",
-    "too",
-    "use"
-   ],
    "status": "live",
    "topic": "So, Such, Too, Enough",
-   "kind": "slides"
+   "kind": "slides",
+   "search": "b1 so, such, too, enough use so, such, too and enough to express degree, intensity and sufficiency.",
+   "order": 36,
+   "blurb_html": "Use <em>so</em>, <em>such</em>, <em>too</em> and <em>enough</em> to express degree, intensity and sufficiency."
   },
   {
    "id": "stative-dynamic-verbs-activities",
@@ -6558,23 +5056,11 @@
    "mode": "solo",
    "prep": "none",
    "minutes": 20,
-   "keywords": [
-    "actions",
-    "and",
-    "both",
-    "describe",
-    "do",
-    "dynamic",
-    "ones",
-    "states",
-    "stative",
-    "that",
-    "the",
-    "verbs"
-   ],
    "status": "live",
    "topic": "Stative and Dynamic Verbs",
-   "kind": "activities"
+   "kind": "activities",
+   "search": "b1 stative and dynamic verbs state verbs action verbs non-continuous verbs progressive tenses think have taste see smell be",
+   "order": 37
   },
   {
    "id": "stative-dynamic-verbs-slides",
@@ -6592,23 +5078,11 @@
    "mode": "whole-class",
    "prep": "none",
    "minutes": 25,
-   "keywords": [
-    "actions",
-    "and",
-    "both",
-    "describe",
-    "do",
-    "dynamic",
-    "ones",
-    "states",
-    "stative",
-    "that",
-    "the",
-    "verbs"
-   ],
    "status": "live",
    "topic": "Stative and Dynamic Verbs",
-   "kind": "slides"
+   "kind": "slides",
+   "search": "b1 stative and dynamic verbs state verbs action verbs non-continuous verbs progressive tenses think have taste see smell be",
+   "order": 37
   },
   {
    "id": "subjunctive-activities",
@@ -6626,29 +5100,11 @@
    "mode": "solo",
    "prep": "none",
    "minutes": 20,
-   "keywords": [
-    "after",
-    "bare",
-    "be",
-    "he",
-    "i",
-    "infinitive",
-    "is",
-    "it",
-    "recommend",
-    "she",
-    "subjunctive",
-    "take",
-    "that",
-    "the",
-    "told",
-    "train",
-    "use",
-    "vital"
-   ],
    "status": "live",
    "topic": "The Subjunctive",
-   "kind": "activities"
+   "kind": "activities",
+   "search": "b2 the subjunctive mandative base verb bare infinitive that clause ask demand insist propose recommend request require suggest urge essential vital important necessary formal not be given",
+   "order": 60
   },
   {
    "id": "subjunctive-slides",
@@ -6666,29 +5122,11 @@
    "mode": "whole-class",
    "prep": "none",
    "minutes": 25,
-   "keywords": [
-    "after",
-    "bare",
-    "be",
-    "he",
-    "i",
-    "infinitive",
-    "is",
-    "it",
-    "recommend",
-    "she",
-    "subjunctive",
-    "take",
-    "that",
-    "the",
-    "told",
-    "train",
-    "use",
-    "vital"
-   ],
    "status": "live",
    "topic": "The Subjunctive",
-   "kind": "slides"
+   "kind": "slides",
+   "search": "b2 the subjunctive mandative base verb bare infinitive that clause ask demand insist propose recommend request require suggest urge essential vital important necessary formal not be given",
+   "order": 60
   },
   {
    "id": "tag-questions-activities",
@@ -6706,24 +5144,11 @@
    "mode": "solo",
    "prep": "none",
    "minutes": 20,
-   "keywords": [
-    "adding",
-    "and",
-    "be",
-    "do",
-    "modal",
-    "present",
-    "question",
-    "questions",
-    "short",
-    "tag",
-    "tags",
-    "verbs",
-    "with"
-   ],
    "status": "live",
    "topic": "Tag Questions - Present",
-   "kind": "activities"
+   "kind": "activities",
+   "search": "b1 tag questions - present adding short question tags with be, do and modal verbs.",
+   "order": 38
   },
   {
    "id": "tag-questions-slides",
@@ -6741,24 +5166,11 @@
    "mode": "whole-class",
    "prep": "none",
    "minutes": 25,
-   "keywords": [
-    "adding",
-    "and",
-    "be",
-    "do",
-    "modal",
-    "present",
-    "question",
-    "questions",
-    "short",
-    "tag",
-    "tags",
-    "verbs",
-    "with"
-   ],
    "status": "live",
    "topic": "Tag Questions - Present",
-   "kind": "slides"
+   "kind": "slides",
+   "search": "b1 tag questions - present adding short question tags with be, do and modal verbs.",
+   "order": 38
   },
   {
    "id": "third-conditional-activities",
@@ -6776,20 +5188,11 @@
    "mode": "solo",
    "prep": "none",
    "minutes": 20,
-   "keywords": [
-    "and",
-    "conditional",
-    "hypothetical",
-    "imagined",
-    "past",
-    "results",
-    "situations",
-    "their",
-    "third"
-   ],
    "status": "live",
    "topic": "Third Conditional",
-   "kind": "activities"
+   "kind": "activities",
+   "search": "b2 third conditional hypothetical past situations and their imagined results.",
+   "order": 61
   },
   {
    "id": "third-conditional-slides",
@@ -6807,20 +5210,11 @@
    "mode": "whole-class",
    "prep": "none",
    "minutes": 25,
-   "keywords": [
-    "and",
-    "conditional",
-    "hypothetical",
-    "imagined",
-    "past",
-    "results",
-    "situations",
-    "their",
-    "third"
-   ],
    "status": "live",
    "topic": "Third Conditional",
-   "kind": "slides"
+   "kind": "slides",
+   "search": "b2 third conditional hypothetical past situations and their imagined results.",
+   "order": 61
   },
   {
    "id": "used-to-activities",
@@ -6838,21 +5232,11 @@
    "mode": "solo",
    "prep": "none",
    "minutes": 20,
-   "keywords": [
-    "and",
-    "exist",
-    "habits",
-    "longer",
-    "no",
-    "past",
-    "states",
-    "that",
-    "to",
-    "used"
-   ],
    "status": "live",
    "topic": "Used To",
-   "kind": "activities"
+   "kind": "activities",
+   "search": "a2 used to past habits and states that no longer exist.",
+   "order": 6
   },
   {
    "id": "used-to-slides",
@@ -6870,21 +5254,11 @@
    "mode": "whole-class",
    "prep": "none",
    "minutes": 25,
-   "keywords": [
-    "and",
-    "exist",
-    "habits",
-    "longer",
-    "no",
-    "past",
-    "states",
-    "that",
-    "to",
-    "used"
-   ],
    "status": "live",
    "topic": "Used To",
-   "kind": "slides"
+   "kind": "slides",
+   "search": "a2 used to past habits and states that no longer exist.",
+   "order": 6
   },
   {
    "id": "verb-gerund-infinitive-activities",
@@ -6902,22 +5276,11 @@
    "mode": "solo",
    "prep": "none",
    "minutes": 20,
-   "keywords": [
-    "and",
-    "gerund",
-    "hate",
-    "infinitive",
-    "like",
-    "love",
-    "or",
-    "prefer",
-    "rather",
-    "verb",
-    "would"
-   ],
    "status": "live",
    "topic": "Verb + Gerund or Infinitive",
-   "kind": "activities"
+   "kind": "activities",
+   "search": "b1 verb + gerund or infinitive love, like, hate, prefer, would like, would prefer and would rather.",
+   "order": 39
   },
   {
    "id": "verb-gerund-infinitive-slides",
@@ -6935,22 +5298,11 @@
    "mode": "whole-class",
    "prep": "none",
    "minutes": 25,
-   "keywords": [
-    "and",
-    "gerund",
-    "hate",
-    "infinitive",
-    "like",
-    "love",
-    "or",
-    "prefer",
-    "rather",
-    "verb",
-    "would"
-   ],
    "status": "live",
    "topic": "Verb + Gerund or Infinitive",
-   "kind": "slides"
+   "kind": "slides",
+   "search": "b1 verb + gerund or infinitive love, like, hate, prefer, would like, would prefer and would rather.",
+   "order": 39
   },
   {
    "id": "verb-object-infinitive-activities",
@@ -6968,27 +5320,11 @@
    "mode": "solo",
    "prep": "none",
    "minutes": 20,
-   "keywords": [
-    "advice",
-    "and",
-    "ask",
-    "call",
-    "her",
-    "infinitive",
-    "not",
-    "object",
-    "report",
-    "requests",
-    "rules",
-    "tell",
-    "them",
-    "to",
-    "verb",
-    "wait"
-   ],
    "status": "live",
    "topic": "Verb + Object + Infinitive",
-   "kind": "activities"
+   "kind": "activities",
+   "search": "b2 verb object infinitive advise allow ask encourage expect force get invite need permit persuade tell want warn would like not to reported requests",
+   "order": 62
   },
   {
    "id": "verb-object-infinitive-slides",
@@ -7006,27 +5342,11 @@
    "mode": "whole-class",
    "prep": "none",
    "minutes": 25,
-   "keywords": [
-    "advice",
-    "and",
-    "ask",
-    "call",
-    "her",
-    "infinitive",
-    "not",
-    "object",
-    "report",
-    "requests",
-    "rules",
-    "tell",
-    "them",
-    "to",
-    "verb",
-    "wait"
-   ],
    "status": "live",
    "topic": "Verb + Object + Infinitive",
-   "kind": "slides"
+   "kind": "slides",
+   "search": "b2 verb object infinitive advise allow ask encourage expect force get invite need permit persuade tell want warn would like not to reported requests",
+   "order": 62
   },
   {
    "id": "wishes-about-the-past-activities",
@@ -7044,23 +5364,11 @@
    "mode": "solo",
    "prep": "none",
    "minutes": 20,
-   "keywords": [
-    "about",
-    "expressing",
-    "had",
-    "hadn",
-    "participle",
-    "past",
-    "regret",
-    "t",
-    "the",
-    "wish",
-    "wishes",
-    "with"
-   ],
    "status": "live",
    "topic": "Wishes About the Past",
-   "kind": "activities"
+   "kind": "activities",
+   "search": "b1 wishes about the past expressing regret with wish + had / hadn't + past participle.",
+   "order": 41
   },
   {
    "id": "wishes-about-the-past-slides",
@@ -7078,23 +5386,11 @@
    "mode": "whole-class",
    "prep": "none",
    "minutes": 25,
-   "keywords": [
-    "about",
-    "expressing",
-    "had",
-    "hadn",
-    "participle",
-    "past",
-    "regret",
-    "t",
-    "the",
-    "wish",
-    "wishes",
-    "with"
-   ],
    "status": "live",
    "topic": "Wishes About the Past",
-   "kind": "slides"
+   "kind": "slides",
+   "search": "b1 wishes about the past expressing regret with wish + had / hadn't + past participle.",
+   "order": 41
   },
   {
    "id": "zero-conditional-activities",
@@ -7112,21 +5408,11 @@
    "mode": "solo",
    "prep": "none",
    "minutes": 20,
-   "keywords": [
-    "always",
-    "and",
-    "conditional",
-    "facts",
-    "general",
-    "happen",
-    "that",
-    "things",
-    "truths",
-    "zero"
-   ],
    "status": "live",
    "topic": "Zero Conditional",
-   "kind": "activities"
+   "kind": "activities",
+   "search": "a2 zero conditional general truths, facts and things that always happen.",
+   "order": 7
   },
   {
    "id": "zero-conditional-slides",
@@ -7144,21 +5430,11 @@
    "mode": "whole-class",
    "prep": "none",
    "minutes": 25,
-   "keywords": [
-    "always",
-    "and",
-    "conditional",
-    "facts",
-    "general",
-    "happen",
-    "that",
-    "things",
-    "truths",
-    "zero"
-   ],
    "status": "live",
    "topic": "Zero Conditional",
-   "kind": "slides"
+   "kind": "slides",
+   "search": "a2 zero conditional general truths, facts and things that always happen.",
+   "order": 7
   },
   {
    "id": "basic-4-test-1-review",
