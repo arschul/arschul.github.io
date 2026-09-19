@@ -6253,6 +6253,37 @@
    "status": "live"
   },
   {
+   "id": "five-words",
+   "hub": "tools",
+   "path": "five-words/five-words.html",
+   "title": "Five Words",
+   "blurb": "Whole stories in five words, then the class talks about everything they left out.",
+   "icon": "🕯️",
+   "levels": [
+    "A1",
+    "A2",
+    "B1",
+    "B2"
+   ],
+   "skills": [
+    "speaking",
+    "writing"
+   ],
+   "mode": "whole-class",
+   "prep": "none",
+   "minutes": 20,
+   "keywords": [
+    "flash",
+    "inference",
+    "micro",
+    "narrative",
+    "stories",
+    "story",
+    "words"
+   ],
+   "status": "live"
+  },
+  {
    "id": "ideadeck",
    "hub": "tools",
    "path": "ideadeck/ideadeck.html",
@@ -6368,6 +6399,37 @@
     "silly",
     "speech",
     "stories",
+    "verbs"
+   ],
+   "status": "live"
+  },
+  {
+   "id": "phrasal-verbs",
+   "hub": "tools",
+   "path": "phrasal-verbs/phrasal-verbs.html",
+   "title": "Phrasal Verb Lab",
+   "blurb": "Particle choice, word order and pronoun rules for multi-word verbs.",
+   "icon": "🔀",
+   "levels": [
+    "A1",
+    "A2",
+    "B1",
+    "B2"
+   ],
+   "skills": [
+    "grammar"
+   ],
+   "mode": "whole-class",
+   "prep": "none",
+   "minutes": 20,
+   "keywords": [
+    "inseparable",
+    "multi-word",
+    "particles",
+    "phrasal",
+    "pronoun",
+    "separable",
+    "three-word",
     "verbs"
    ],
    "status": "live"
