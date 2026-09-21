@@ -1110,6 +1110,37 @@
    "status": "live"
   },
   {
+   "id": "back-to-board",
+   "hub": "games",
+   "path": "back-to-board/back-to-board.html",
+   "title": "Back to the Board",
+   "blurb": "One player per team faces away while their team shouts examples until the player names the category. 100 categories, A1-B2.",
+   "icon": "",
+   "levels": [
+    "A1",
+    "A2",
+    "B1",
+    "B2"
+   ],
+   "skills": [
+    "vocabulary",
+    "speaking"
+   ],
+   "mode": "team",
+   "prep": "none",
+   "minutes": 15,
+   "keywords": [
+    "backs",
+    "blind",
+    "category",
+    "guess",
+    "hot seat",
+    "shout",
+    "words"
+   ],
+   "status": "live"
+  },
+  {
    "id": "battle-pets",
    "hub": "games",
    "path": "battle-pets/battle-pets.html",
@@ -2339,6 +2370,31 @@
     "quest",
     "word",
     "wordle"
+   ],
+   "status": "live"
+  },
+  {
+   "id": "letter-swap",
+   "hub": "games",
+   "path": "letter-swap/letter-swap.html",
+   "title": "Letter Swap",
+   "blurb": "Teams change one letter at a time to make new four-letter words against the clock.",
+   "icon": "",
+   "levels": [],
+   "skills": [
+    "vocabulary"
+   ],
+   "mode": "team",
+   "prep": "none",
+   "minutes": 15,
+   "keywords": [
+    "four-letter",
+    "ladder",
+    "letters",
+    "spelling",
+    "swap",
+    "word",
+    "word ladder"
    ],
    "status": "live"
   },
