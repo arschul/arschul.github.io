@@ -6715,6 +6715,40 @@
    "status": "live"
   },
   {
+   "id": "story-lab",
+   "hub": "tools",
+   "path": "story-lab/story-lab.html",
+   "title": "Story Lab",
+   "blurb": "A teacher led story builder. The class creates a story in five stages, from who and where to the plot twist and the ending, with support that changes for A1 to B2.",
+   "icon": "🧪",
+   "levels": [
+    "A1",
+    "A2",
+    "B1",
+    "B2"
+   ],
+   "skills": [
+    "writing"
+   ],
+   "mode": "whole-class",
+   "prep": "none",
+   "minutes": 30,
+   "keywords": [
+    "beginning",
+    "characters",
+    "creative",
+    "ending",
+    "narrative",
+    "plot",
+    "scaffold",
+    "setting",
+    "story",
+    "twist",
+    "writing"
+   ],
+   "status": "live"
+  },
+  {
    "id": "story-spark",
    "hub": "tools",
    "path": "story-spark/story-spark.html",
