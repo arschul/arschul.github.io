@@ -54,7 +54,9 @@ def leaves(root):
         for dirpath, dirnames, filenames in os.walk(base):
             dirnames[:] = [d for d in dirnames if d != ".git"]
             for f in filenames:
-                if f.endswith(".html") and f != "index.html":
+                # only the repo's root index.html is a hub (hubgen owns it);
+                # section indexes further down are leaves like any other page
+                if f.endswith(".html") and not (f == "index.html" and dirpath == base):
                     yield repo, os.path.join(dirpath, f)
 
 
