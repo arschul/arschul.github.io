@@ -217,7 +217,8 @@
     "C1"
    ],
    "skills": [
-    "grammar"
+    "grammar",
+    "writing"
    ],
    "mode": "whole-class",
    "prep": "none",
@@ -547,12 +548,14 @@
    "blurb": "Build an essay one step at a time — hook, thesis, topic sentences, support, conclusion — with color-coded model essays at every level. Then practice on a searchable bank of TOEFL-style prompts.",
    "icon": "",
    "levels": [
-    "C1"
+    "A2",
+    "B1",
+    "B2"
    ],
    "skills": [
-    "grammar"
+    "writing"
    ],
-   "mode": "whole-class",
+   "mode": "solo",
    "prep": "none",
    "minutes": 40,
    "keywords": [
@@ -562,13 +565,14 @@
    "status": "live"
   },
   {
-   "id": "index",
+   "id": "toefl-error-correction",
    "hub": "advanced",
    "path": "toefl/index.html",
    "title": "TOEFL Error Correction",
    "blurb": "The grammar mistakes that cost students the most marks, one page per family. Each page explains the patterns behind the error, then drills them with thirty exercises — recognition, four-underlined-parts error spotting, and self-correction.",
    "icon": "",
    "levels": [
+    "B2",
     "C1"
    ],
    "skills": [
@@ -582,7 +586,8 @@
     "error",
     "toefl"
    ],
-   "status": "live"
+   "status": "live",
+   "section": "toefl"
   },
   {
    "id": "intensive-b2-c1",
@@ -592,10 +597,15 @@
    "blurb": "17-class evening intensive — vocabulary, grammar, reading, writing and TOEFL practice across 15 themes. All exercises inline with click-to-reveal answers and a print-ready worksheet for every class.",
    "icon": "",
    "levels": [
+    "B2",
     "C1"
    ],
    "skills": [
-    "grammar"
+    "vocabulary",
+    "grammar",
+    "reading",
+    "writing",
+    "speaking"
    ],
    "mode": "whole-class",
    "prep": "none",
@@ -615,12 +625,14 @@
    "blurb": "Twelve multi-session projects for teenagers — invent a company, run a newsroom, redesign a city district. Each one is broken into six stages and around thirty numbered steps, so teams always know what comes next. Printable briefs, projectable milestones and a live progress board.",
    "icon": "",
    "levels": [
-    "C1"
+    "B1",
+    "B2"
    ],
    "skills": [
-    "grammar"
+    "speaking",
+    "writing"
    ],
-   "mode": "whole-class",
+   "mode": "team",
    "prep": "none",
    "minutes": 40,
    "keywords": [
@@ -637,6 +649,7 @@
    "blurb": "Thirty error-correction exercises on articles, determiners and countability, on screen plus a printable worksheet and key.",
    "icon": "",
    "levels": [
+    "B2",
     "C1"
    ],
    "skills": [
@@ -665,10 +678,15 @@
    "blurb": "Learn and practice all three paper-based ITP sections — Listening Comprehension, Structure & Written Expression, and Reading Comprehension. Strategy walkthroughs first, then timed practice sets with explained answers.",
    "icon": "",
    "levels": [
+    "B1",
+    "B2",
     "C1"
    ],
    "skills": [
-    "grammar"
+    "listening",
+    "grammar",
+    "reading",
+    "assessment"
    ],
    "mode": "whole-class",
    "prep": "none",
@@ -688,6 +706,7 @@
    "blurb": "Thirty error-correction exercises on modifiers and comparison, on screen plus a printable worksheet and key.",
    "icon": "",
    "levels": [
+    "B2",
     "C1"
    ],
    "skills": [
@@ -715,6 +734,7 @@
    "blurb": "Thirty error-correction exercises on parallel structure, on screen plus a printable worksheet and key.",
    "icon": "",
    "levels": [
+    "B2",
     "C1"
    ],
    "skills": [
@@ -741,6 +761,7 @@
    "blurb": "Thirty error-correction exercises on prepositions and dependent prepositions, on screen plus a printable worksheet and key.",
    "icon": "",
    "levels": [
+    "B2",
     "C1"
    ],
    "skills": [
@@ -768,6 +789,7 @@
    "blurb": "Thirty error-correction exercises on pronoun reference and agreement, on screen plus a printable worksheet and key.",
    "icon": "",
    "levels": [
+    "B2",
     "C1"
    ],
    "skills": [
@@ -796,6 +818,7 @@
    "blurb": "Build a custom quiz across every error family.",
    "icon": "",
    "levels": [
+    "B2",
     "C1"
    ],
    "skills": [
@@ -822,6 +845,7 @@
    "blurb": "Thirty error-correction exercises on sentence boundaries, on screen plus a printable worksheet and key.",
    "icon": "",
    "levels": [
+    "B2",
     "C1"
    ],
    "skills": [
@@ -848,6 +872,7 @@
    "blurb": "Thirty error-correction exercises on subject–verb agreement, on screen plus a printable worksheet and key.",
    "icon": "",
    "levels": [
+    "B2",
     "C1"
    ],
    "skills": [
@@ -875,6 +900,7 @@
    "blurb": "Thirty error-correction exercises on verb tense and sequence, on screen plus a printable worksheet and key.",
    "icon": "",
    "levels": [
+    "B2",
     "C1"
    ],
    "skills": [
@@ -903,6 +929,7 @@
    "blurb": "Thirty error-correction exercises on verb forms, on screen plus a printable worksheet and key.",
    "icon": "",
    "levels": [
+    "B2",
     "C1"
    ],
    "skills": [
@@ -929,6 +956,7 @@
    "blurb": "Thirty error-correction exercises on word form, on screen plus a printable worksheet and key.",
    "icon": "",
    "levels": [
+    "B2",
     "C1"
    ],
    "skills": [
@@ -955,6 +983,7 @@
    "blurb": "Thirty error-correction exercises on word order, inversion and redundancy, on screen plus a printable worksheet and key.",
    "icon": "",
    "levels": [
+    "B2",
     "C1"
    ],
    "skills": [
