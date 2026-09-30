@@ -1095,7 +1095,7 @@
    "hub": "games",
    "path": "reveal-it/reveal-it.html",
    "title": "Reveal It!",
-   "blurb": "Uncover a hidden emoji picture one square at a time and name it first. Ten categories: animals, food, flags, sports and more.",
+   "blurb": "Uncover a hidden emoji picture one square at a time and name it first. 16 categories, or make your own list.",
    "icon": "",
    "levels": [
     "A1",
@@ -1134,7 +1134,21 @@
     "school",
     "household",
     "categories",
-    "mix"
+    "mix",
+    "feelings",
+    "emotions",
+    "jobs",
+    "occupations",
+    "body parts",
+    "actions",
+    "verbs",
+    "music",
+    "instruments",
+    "places",
+    "buildings",
+    "custom list",
+    "own words",
+    "teacher list"
    ],
    "status": "live"
   },
