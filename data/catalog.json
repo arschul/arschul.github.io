@@ -1095,7 +1095,7 @@
    "hub": "games",
    "path": "reveal-it/reveal-it.html",
    "title": "Reveal It!",
-   "blurb": "Uncover a hidden picture one square at a time and name it first. Fewer squares open, more points.",
+   "blurb": "Uncover a hidden emoji picture one square at a time and name it first. Ten categories: animals, food, flags, sports and more.",
    "icon": "",
    "levels": [
     "A1",
@@ -1119,7 +1119,22 @@
     "guess",
     "vocabulary",
     "nouns",
-    "animal guess"
+    "animal guess",
+    "flags",
+    "countries",
+    "nationalities",
+    "fruits",
+    "vegetables",
+    "food",
+    "transport",
+    "sports",
+    "clothes",
+    "weather",
+    "nature",
+    "school",
+    "household",
+    "categories",
+    "mix"
    ],
    "status": "live"
   },
