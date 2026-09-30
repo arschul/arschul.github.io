@@ -1091,26 +1091,68 @@
    "status": "live"
   },
   {
-   "id": "animal-guess-game",
+   "id": "reveal-it",
    "hub": "games",
-   "path": "animal-guess-game/animal-guess-game.html",
-   "title": "Animal Guess",
-   "blurb": "Test your knowledge and intuition at the same time.",
+   "path": "reveal-it/reveal-it.html",
+   "title": "Reveal It!",
+   "blurb": "Uncover a hidden picture one square at a time and name it first. Fewer squares open, more points.",
    "icon": "",
-   "levels": [],
+   "levels": [
+    "A1",
+    "A2",
+    "B1"
+   ],
    "skills": [
     "vocabulary",
     "speaking"
    ],
    "mode": "team",
    "prep": "none",
-   "minutes": 10,
+   "minutes": 15,
    "keywords": [
     "animals",
-    "guessing",
-    "questions",
-    "twenty",
-    "yes/no"
+    "emoji",
+    "picture",
+    "reveal",
+    "hidden",
+    "squares",
+    "guess",
+    "vocabulary",
+    "nouns",
+    "animal guess"
+   ],
+   "status": "live"
+  },
+  {
+   "id": "escalation",
+   "hub": "games",
+   "path": "escalation/escalation.html",
+   "title": "Escalation",
+   "blurb": "Everyone holds a secret number from 1 to 10. Answer the prompt, then put the whole class in order from mild to extreme.",
+   "icon": "",
+   "levels": [
+    "A2",
+    "B1",
+    "B2"
+   ],
+   "skills": [
+    "speaking"
+   ],
+   "mode": "whole-class",
+   "prep": "none",
+   "minutes": 20,
+   "keywords": [
+    "debate",
+    "degree",
+    "extreme",
+    "intensity",
+    "mild",
+    "order",
+    "ranking",
+    "scale",
+    "secret number",
+    "top ten",
+    "that escalated quickly"
    ],
    "status": "live"
   },
