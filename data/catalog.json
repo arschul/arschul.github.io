@@ -1071,10 +1071,14 @@
    "id": "alphabet",
    "hub": "games",
    "path": "alphabet/alphabet.html",
-   "title": "Alphabet Game",
-   "blurb": "Test your vocabulary skills by finding words that start with specific letters.",
+   "title": "Alphabet Grab",
+   "blurb": "Say a word in the category and grab its first letter. Hard letters score more. 16 word lists, A1-B1, or your own category.",
    "icon": "",
-   "levels": [],
+   "levels": [
+    "A1",
+    "A2",
+    "B1"
+   ],
    "skills": [
     "vocabulary",
     "speaking"
@@ -1083,10 +1087,22 @@
    "prep": "none",
    "minutes": 10,
    "keywords": [
+    "alphabet",
+    "a to z",
+    "a-z",
     "brainstorm",
     "categories",
     "letters",
-    "warm-up"
+    "first letter",
+    "warm-up",
+    "word race",
+    "claim",
+    "animals",
+    "food",
+    "jobs",
+    "verbs",
+    "adjectives",
+    "countries"
    ],
    "status": "live"
   },
