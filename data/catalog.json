@@ -1202,26 +1202,45 @@
    "status": "live"
   },
   {
-   "id": "backandforth",
+   "id": "take-a-seat",
    "hub": "games",
-   "path": "backandforth/backandforth.html",
-   "title": "Back and Forth",
-   "blurb": "Alternate listing items in a chosen category.",
+   "path": "take-a-seat/take-a-seat.html",
+   "title": "Take a Seat",
+   "blurb": "One student at the front gets a prompt like “a verb starting with G”. Answer before the clock runs out or take a seat. Last one standing wins.",
    "icon": "",
-   "levels": [],
+   "levels": [
+    "A1",
+    "A2",
+    "B1"
+   ],
    "skills": [
     "vocabulary",
     "speaking"
    ],
-   "mode": "team",
+   "mode": "whole-class",
    "prep": "none",
-   "minutes": 10,
+   "minutes": 15,
    "keywords": [
-    "alternating",
+    "back and forth",
+    "elimination",
+    "hot seat",
+    "circle",
+    "individual",
+    "whole class",
+    "last one standing",
     "categories",
-    "fire",
-    "quick",
-    "warm-up"
+    "first letter",
+    "starting with",
+    "prompt",
+    "timer",
+    "comeback",
+    "final",
+    "warm-up",
+    "animals",
+    "verbs",
+    "adjectives",
+    "jobs",
+    "countries"
    ],
    "status": "live"
   },
