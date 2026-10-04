@@ -1245,6 +1245,38 @@
    "status": "live"
   },
   {
+   "id": "question-mark",
+   "hub": "games",
+   "path": "question-mark/question-mark.html",
+   "title": "Question Mark",
+   "blurb": "The question is hidden word by word. Teams call a number to flip a word, then everyone guesses. The fewer words you need, the more you score.",
+   "icon": "",
+   "levels": [
+    "A1",
+    "A2",
+    "B1"
+   ],
+   "skills": [
+    "reading",
+    "speaking"
+   ],
+   "mode": "team",
+   "prep": "none",
+   "minutes": 20,
+   "keywords": [
+    "hidden question",
+    "word reveal",
+    "flip",
+    "word order",
+    "trivia",
+    "game show",
+    "quiz",
+    "guess the question",
+    "jeopardy questions"
+   ],
+   "status": "live"
+  },
+  {
    "id": "back-to-board",
    "hub": "games",
    "path": "back-to-board/back-to-board.html",
