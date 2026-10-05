@@ -590,6 +590,85 @@
    "section": "toefl"
   },
   {
+   "id": "ielts-listening",
+   "hub": "advanced",
+   "path": "ielts/index.html",
+   "title": "IELTS Listening",
+   "blurb": "Full practice tests in the IELTS Listening format, read aloud by the browser’s own voices. Play a whole test or one part at a time, answer on screen or on the printed question paper, and finish with a percentage score.",
+   "icon": "",
+   "levels": [
+    "B2",
+    "C1"
+   ],
+   "skills": [
+    "listening"
+   ],
+   "mode": "whole-class",
+   "prep": "print",
+   "minutes": 40,
+   "keywords": [
+    "ielts",
+    "listening",
+    "practice test",
+    "exam",
+    "percentage"
+   ],
+   "status": "live",
+   "section": "ielts"
+  },
+  {
+   "id": "ielts-listening-test-1",
+   "hub": "advanced",
+   "path": "ielts/listen.html#/test-1",
+   "title": "IELTS Listening — Test 1",
+   "blurb": "Booking a party venue, a nature-reserve orientation, a study-spaces project and a lecture on the nineteenth-century ice trade. Four parts, 40 questions, scored as a percentage.",
+   "icon": "",
+   "levels": [
+    "B2",
+    "C1"
+   ],
+   "skills": [
+    "listening"
+   ],
+   "mode": "whole-class",
+   "prep": "print",
+   "minutes": 40,
+   "keywords": [
+    "ielts",
+    "listening",
+    "practice test",
+    "test 1"
+   ],
+   "status": "live",
+   "section": "ielts"
+  },
+  {
+   "id": "ielts-listening-test-2",
+   "hub": "advanced",
+   "path": "ielts/listen.html#/test-2",
+   "title": "IELTS Listening — Test 2",
+   "blurb": "Applying for a festival job, a radio report on a reopened library, a food-waste project and a lecture on bioluminescence. Four parts, 40 questions, scored as a percentage.",
+   "icon": "",
+   "levels": [
+    "B2",
+    "C1"
+   ],
+   "skills": [
+    "listening"
+   ],
+   "mode": "whole-class",
+   "prep": "print",
+   "minutes": 40,
+   "keywords": [
+    "ielts",
+    "listening",
+    "practice test",
+    "test 2"
+   ],
+   "status": "live",
+   "section": "ielts"
+  },
+  {
    "id": "intensive-b2-c1",
    "hub": "advanced",
    "path": "intensive-b2-c1.html",
