@@ -1328,7 +1328,7 @@
    "hub": "games",
    "path": "question-mark/question-mark.html",
    "title": "Question Mark",
-   "blurb": "The question is hidden word by word. Teams call a number to flip a word, then everyone guesses. The fewer words you need, the more you score.",
+   "blurb": "The question is hidden word by word. Teams call a number to flip a word, then everyone guesses. One point per right answer — first team to 3, 5 or 7 wins.",
    "icon": "",
    "levels": [
     "A1",
