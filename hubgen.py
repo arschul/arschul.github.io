@@ -37,6 +37,7 @@ from collections import Counter, defaultdict
 CATALOG = "catalog.json"
 ROOT_REPO = "arschul.github.io"
 ASSET_VERSION = "v3"          # bump to ship a new shared stylesheet/script
+NAV_VERSION = "v1"            # corner hub switcher: assets/hub-nav.<v>.css/js
 LINK_EXT = (".html", ".pdf", ".docx")
 
 C = dict(red="\033[31m", yellow="\033[33m", green="\033[32m", dim="\033[2m", off="\033[0m")
@@ -349,15 +350,55 @@ def render_theme():
     )
 
 
+NAV_ARROW = ('<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" '
+             'stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M19 12H5M11 18l-6-6 6-6"/></svg>')
+
+
 def render_backlink(cat, hub):
+    """Corner hub switcher: arrow goes up a level, hover/tap opens every hub plus any extras.
+
+    The menu order and extra links live in catalog["hub_nav"]; each hub's icon is hubs[*]["icon"].
+    At a hub's top level "up" is the Classroom Hub, so the root row starts hidden; hubs with
+    internal levels move "up" at runtime through window.hubNav (assets/hub-nav.js).
+    """
     if hub == "root":
         return ""
-    root = cat["hubs"]["root"]
-    cfg = cat["hubs"][hub].get("backlink") or {}
-    label = cfg.get("label", "\u2190 " + root["title"])
-    cls = ("hub-backlink " + cfg["class"]).strip() if cfg.get("class") else "hub-backlink"
-    title = f' title="{esc(cfg["title"])}"' if cfg.get("title") else ""
-    return f'  <a class="{cls}" href="{root["url"]}"{title}>{label}</a>'
+    hubs = cat["hubs"]
+    root = hubs["root"]
+    cfg = cat.get("hub_nav", {})
+    order = cfg.get("order") or list(hubs)
+    extras = {e["after"]: e for e in cfg.get("extras", [])}
+    up_label = esc(root["title"])
+
+    def row(key, title, url, icon, attrs=""):
+        cur = ' aria-current="page" data-hub-nav-current' if key == hub else ""
+        return (f'      <li{attrs}><a class="hub-nav__link" href="{url}"{cur}>'
+                f'<span class="hub-nav__ic" aria-hidden="true">{icon}</span>{esc(title)}</a></li>')
+
+    rows = []
+    for key in order:
+        h = hubs[key]
+        rows.append(row(key, h["title"], h["url"], h.get("icon", "\u2022"),
+                        ' data-hub-nav="root" hidden' if key == "root" else ""))
+        if key in extras:
+            e = extras[key]
+            rows.append(row(None, e["title"], e["url"], e.get("icon", "\u2022")))
+    return "\n".join([
+        '  <div class="hub-nav" role="navigation" aria-label="Switch hub">',
+        f'    <a class="hub-nav__up" href="{root["url"]}" data-label="{up_label}" aria-expanded="false" '
+        f'aria-controls="hub-nav-panel" title="Back to {up_label}">{NAV_ARROW}'
+        f'<span class="hub-nav__sr">Back to {up_label}</span></a>',
+        '    <div class="hub-nav__panel" id="hub-nav-panel">',
+        '      <span class="hub-nav__label">Go to</span>',
+        '      <ul class="hub-nav__list">',
+        f'      <li><a class="hub-nav__link hub-nav__link--up" href="{root["url"]}">'
+        f'<span class="hub-nav__ic" aria-hidden="true">\u2191</span>Up to <span class="hub-nav__uplabel">{up_label}</span></a></li>',
+        '      <li class="hub-nav__sep" role="presentation"></li>',
+        *rows,
+        '      </ul>',
+        '    </div>',
+        '  </div>',
+    ])
 
 
 def render_search(cat, hub):
@@ -393,6 +434,14 @@ def render_head(cat, hub):
         f'  <link rel="stylesheet" href="{root}/assets/hub.{ASSET_VERSION}.css">',
         f'  <script defer src="{root}/assets/hub.{ASSET_VERSION}.js"></script>',
     ]
+    if hub != "root":
+        lines += [
+            f'  <link rel="stylesheet" href="{root}/assets/hub-nav.{NAV_VERSION}.css">',
+            f'  <script defer src="{root}/assets/hub-nav.{NAV_VERSION}.js"></script>',
+        ]
+        if h.get("nav_clear"):
+            # keeps this hub's own header clear of the fixed corner button
+            lines.append(f'  <style>{h["nav_clear"]}</style>')
     if t:
         pairs = [("bg", "bg"), ("surface", "surface"), ("ink", "ink"), ("ink-soft", "ink_soft"),
                  ("rule", "rule"), ("accent", "accent"), ("radius", "radius")]
@@ -447,6 +496,8 @@ def cmd_build(cat, args):
         for name, body in [("cards", render_cards(cat, hub)), ("theme", render_theme()),
                            ("backlink", render_backlink(cat, hub)), ("head", render_head(cat, hub)),
                            ("search", render_search(cat, hub))]:
+            if getattr(args, "regions", "") and name not in args.regions.split(","):
+                continue
             src, ok = replace_region(src, name, body)
             hit = hit or ok
         if not hit:
@@ -542,6 +593,7 @@ def main():
     ap.add_argument("--catalog", default=CATALOG)
     ap.add_argument("--dry-run", action="store_true")
     ap.add_argument("--soft", action="store_true", help="report drift but exit 0")
+    ap.add_argument("--regions", default="", help="build only these comma-separated regions, e.g. backlink,head")
     args = ap.parse_args()
     cat = load_catalog(args.catalog)
 
