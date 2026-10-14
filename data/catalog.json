@@ -203,6 +203,24 @@
    "description": "Gamified vocabulary sets from A1 to B2.",
    "icon": "📚",
    "nav_clear": "body>.topbar{padding-left:calc(var(--hn-size, 2.75rem) + 1.75rem)}"
+  },
+  "lessons": {
+   "repo": "lessons",
+   "url": "https://arschul.github.io/lessons/",
+   "title": "Lesson Hub",
+   "tokens": {
+    "bg": "--bg",
+    "surface": "--surface",
+    "ink": "--text",
+    "ink_soft": "--muted",
+    "rule": "--border",
+    "accent": "--violet",
+    "radius": "--radius",
+    "display": "'Fraunces', serif",
+    "ui": "'DM Sans', sans-serif"
+   },
+   "description": "Ready-to-teach lessons: a Student Pack and a Teacher's Guide for every topic, organized by level.",
+   "icon": "🎓"
   }
  },
  "hub_nav": {
@@ -214,7 +232,8 @@
    "worksheets",
    "reviews",
    "advanced",
-   "vocab"
+   "vocab",
+   "lessons"
   ],
   "extras": [
    {
@@ -8026,6 +8045,97 @@
    "status": "live",
    "klass": "Intermediate 1",
    "date": "2026-06-25"
+  },
+  {
+   "id": "urban-heat-islands-student-pack",
+   "path": "advanced/Urban_Heat_Islands_Student_Pack.pdf",
+   "title": "Urban Heat Islands — Student Pack",
+   "blurb": "Advanced TOEFL lesson: interview warm-up, topic vocabulary, lecture notes, city council debate, hedging and an academic discussion post.",
+   "keywords": [
+    "urban",
+    "heat",
+    "islands",
+    "toefl",
+    "lecture",
+    "note-taking",
+    "hedging",
+    "concession",
+    "debate",
+    "academic discussion",
+    "city",
+    "climate",
+    "environment",
+    "student",
+    "pack",
+    "worksheets"
+   ],
+   "kind": "student-pack",
+   "hub": "lessons",
+   "icon": "",
+   "levels": [
+    "B2",
+    "C1"
+   ],
+   "skills": [
+    "speaking",
+    "listening",
+    "vocabulary",
+    "grammar",
+    "writing"
+   ],
+   "mode": "whole-class",
+   "prep": "print",
+   "minutes": 135,
+   "status": "live",
+   "klass": "Advanced",
+   "topic": "Urban Heat Islands"
+  },
+  {
+   "id": "urban-heat-islands-teacher-guide",
+   "path": "advanced/Urban_Heat_Islands_Teacher_Guide.pdf",
+   "title": "Urban Heat Islands — Teacher's Guide",
+   "blurb": "2h15 lesson plan, answer keys with distractor explanations, lecture script and audio notes for the Urban Heat Islands lesson.",
+   "keywords": [
+    "urban",
+    "heat",
+    "islands",
+    "toefl",
+    "lecture",
+    "note-taking",
+    "hedging",
+    "concession",
+    "debate",
+    "academic discussion",
+    "city",
+    "climate",
+    "environment",
+    "teacher",
+    "guide",
+    "key",
+    "answers",
+    "script",
+    "plan"
+   ],
+   "kind": "teacher-guide",
+   "hub": "lessons",
+   "icon": "",
+   "levels": [
+    "B2",
+    "C1"
+   ],
+   "skills": [
+    "speaking",
+    "listening",
+    "vocabulary",
+    "grammar",
+    "writing"
+   ],
+   "mode": "teacher",
+   "prep": "print",
+   "minutes": 135,
+   "status": "live",
+   "klass": "Advanced",
+   "topic": "Urban Heat Islands"
   }
  ]
 }

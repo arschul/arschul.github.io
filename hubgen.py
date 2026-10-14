@@ -408,8 +408,8 @@ def render_search(cat, hub):
     root = cat["hubs"]["root"]["url"].rstrip("/")
     total = len([i for i in cat["items"] if i["hub"] != "root" and i.get("status", "live") == "live"])
     return "\n".join([
-        f'  <link rel="stylesheet" href="{root}/assets/hub-search.v1.css">',
-        f'  <script defer src="{root}/assets/hub-search.v1.js"></script>',
+        f'  <link rel="stylesheet" href="{root}/assets/hub-search.v2.css">',
+        f'  <script defer src="{root}/assets/hub-search.v2.js"></script>',
         '  <div class="xhub">',
         f'    <input type="search" class="xhub-search" placeholder="Search everything — {total} games, tools, decks and worksheets" aria-label="Search every hub" autocomplete="off" spellcheck="false">',
         '    <p class="xhub-hint">Press / to jump here. Try a grammar topic, a game name, or a class code.</p>',
