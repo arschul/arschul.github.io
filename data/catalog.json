@@ -6339,6 +6339,21 @@
    "status": "live"
   },
   {
+   "id": "hub-lesson-hub",
+   "hub": "root",
+   "path": "https://arschul.github.io/lessons/",
+   "title": "Lesson Hub",
+   "blurb": "Ready-to-teach lessons built on one topic — a Student Pack and a Teacher's Guide with plan, keys and scripts.",
+   "icon": "",
+   "levels": [],
+   "skills": [],
+   "mode": "teacher",
+   "prep": "none",
+   "minutes": 0,
+   "keywords": [],
+   "status": "live"
+  },
+  {
    "id": "aura-tracker",
    "hub": "tools",
    "path": "aura-tracker/aura-tracker.html",
