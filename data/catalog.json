@@ -1990,6 +1990,40 @@
    "status": "live"
   },
   {
+   "id": "castle-roads",
+   "hub": "games",
+   "path": "castle-roads/castle-roads.html",
+   "title": "Castle Roads",
+   "blurb": "A tile-laying game in the style of Carcassonne. Build the map one tile at a time and claim roads, cities, monasteries and fields. 2–5 players or teams.",
+   "icon": "",
+   "levels": [],
+   "skills": [
+    "speaking"
+   ],
+   "mode": "team",
+   "prep": "none",
+   "minutes": 40,
+   "keywords": [
+    "carcassonne",
+    "tile laying",
+    "tiles",
+    "board game",
+    "strategy",
+    "map",
+    "castle",
+    "roads",
+    "cities",
+    "monastery",
+    "meeples",
+    "followers",
+    "farmers",
+    "fields",
+    "reward",
+    "end of term"
+   ],
+   "status": "live"
+  },
+  {
    "id": "hex-duel",
    "hub": "games",
    "path": "hex-duel/hex-duel.html",
