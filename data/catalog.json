@@ -2024,6 +2024,35 @@
    "status": "live"
   },
   {
+   "id": "forbidden-island",
+   "hub": "games",
+   "path": "forbidden-island/forbidden-island.html",
+   "title": "Forbidden Island",
+   "blurb": "Cooperative rescue: capture 4 treasures before the island sinks. 2–4 players or teams win or lose together.",
+   "icon": "",
+   "levels": [],
+   "skills": [
+    "speaking"
+   ],
+   "mode": "team",
+   "prep": "none",
+   "minutes": 40,
+   "keywords": [
+    "co-op",
+    "cooperative",
+    "board game",
+    "treasure",
+    "flood",
+    "sink",
+    "rescue",
+    "adventurers",
+    "strategy",
+    "reward",
+    "end of term"
+   ],
+   "status": "live"
+  },
+  {
    "id": "tangled-paths",
    "hub": "games",
    "path": "tangled-paths/tangled-paths.html",
