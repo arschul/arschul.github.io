@@ -2055,6 +2055,38 @@
    "status": "live"
   },
   {
+   "id": "quoridor",
+   "hub": "games",
+   "path": "quoridor/quoridor.html",
+   "title": "Quoridor",
+   "blurb": "Race to the far side while walling in your rivals. A maze-building strategy game for 2 or 4 players or teams.",
+   "icon": "",
+   "levels": [],
+   "skills": [
+    "speaking"
+   ],
+   "mode": "team",
+   "prep": "none",
+   "minutes": 20,
+   "keywords": [
+    "quoridor",
+    "maze",
+    "walls",
+    "fences",
+    "strategy",
+    "race",
+    "pawn",
+    "board game",
+    "2 players",
+    "4 players",
+    "path",
+    "blocking",
+    "reward",
+    "end of term"
+   ],
+   "status": "live"
+  },
+  {
    "id": "hex-duel",
    "hub": "games",
    "path": "hex-duel/hex-duel.html",
