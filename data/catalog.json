@@ -2055,10 +2055,10 @@
    "status": "live"
   },
   {
-   "id": "quoridor",
+   "id": "maze-race",
    "hub": "games",
-   "path": "quoridor/quoridor.html",
-   "title": "Quoridor",
+   "path": "maze-race/maze-race.html",
+   "title": "Maze Race",
    "blurb": "Race to the far side while walling in your rivals. A maze-building strategy game for 2 or 4 players or teams.",
    "icon": "",
    "levels": [],
@@ -2069,7 +2069,6 @@
    "prep": "none",
    "minutes": 20,
    "keywords": [
-    "quoridor",
     "maze",
     "walls",
     "fences",
@@ -2081,6 +2080,7 @@
     "4 players",
     "path",
     "blocking",
+    "quoridor",
     "reward",
     "end of term"
    ],
