@@ -1990,6 +1990,36 @@
    "status": "live"
   },
   {
+   "id": "bear-park",
+   "hub": "games",
+   "path": "bear-park/bear-park.html",
+   "title": "Bear Park",
+   "blurb": "Fit bear houses, enclosures, and park tiles to build the best bear park. 2–4 teams.",
+   "icon": "",
+   "levels": [],
+   "skills": [
+    "speaking"
+   ],
+   "mode": "team",
+   "prep": "none",
+   "minutes": 40,
+   "keywords": [
+    "barenpark",
+    "baerenpark",
+    "polyomino",
+    "tiles",
+    "puzzle",
+    "strategy",
+    "board game",
+    "polar bear",
+    "panda",
+    "koala",
+    "reward",
+    "end of term"
+   ],
+   "status": "live"
+  },
+  {
    "id": "castle-roads",
    "hub": "games",
    "path": "castle-roads/castle-roads.html",
