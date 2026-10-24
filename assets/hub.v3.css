@@ -221,3 +221,23 @@
 
 /* the grid is the only thing that must survive a stylesheet 404 —
    hubs inline a minimal fallback for .hub-grid / .hub-card */
+
+/* ---------------------------------------------------- new-item badge */
+.hub-card[data-new] { position: relative; }
+.hub-new-badge {
+  position: absolute;
+  top: -.55rem;
+  right: .8rem;
+  padding: .14rem .5rem;
+  border-radius: 100px;
+  background: var(--hub-accent);
+  color: var(--hub-bg);
+  font-family: var(--hub-font-ui, inherit);
+  font-size: .66rem;
+  font-weight: 800;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+  box-shadow: 0 2px 6px rgba(0,0,0,.25);
+  pointer-events: none;
+}
+.hub-sort-toggle { margin-left: .6rem; }

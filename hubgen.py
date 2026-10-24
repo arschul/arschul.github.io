@@ -307,6 +307,8 @@ def render_cards(cat, hub):
             f'data-time="{bucket(i.get("minutes"))}"',
             f'data-search="{esc(" ".join([i["title"], i.get("blurb",""), " ".join(i.get("keywords",[]))]).lower())}"',
         ]
+        if i.get("added"):
+            attrs.insert(-1, f'data-added="{esc(i["added"])}"')
         icon = f'<span class="hub-card__icon" aria-hidden="true">{i["icon"]}</span>\n        ' if i.get("icon") else ""
         chips = "".join(f'<span class="hub-chip hub-chip--level">{l}</span>' for l in i.get("levels", []))
         if i.get("mode"):

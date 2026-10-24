@@ -1160,7 +1160,8 @@
     "the",
     "your"
    ],
-   "status": "live"
+   "status": "live",
+   "added": "2026-04-05"
   },
   {
    "id": "airtight",
@@ -1190,7 +1191,8 @@
     "past",
     "suspects"
    ],
-   "status": "live"
+   "status": "live",
+   "added": "2026-07-18"
   },
   {
    "id": "alphabet",
@@ -1229,7 +1231,8 @@
     "adjectives",
     "countries"
    ],
-   "status": "live"
+   "status": "live",
+   "added": "2025-06-05"
   },
   {
    "id": "reveal-it",
@@ -1291,7 +1294,8 @@
     "own words",
     "teacher list"
    ],
-   "status": "live"
+   "status": "live",
+   "added": "2026-09-30"
   },
   {
    "id": "escalation",
@@ -1324,7 +1328,8 @@
     "top ten",
     "that escalated quickly"
    ],
-   "status": "live"
+   "status": "live",
+   "added": "2026-09-23"
   },
   {
    "id": "take-a-seat",
@@ -1367,7 +1372,8 @@
     "jobs",
     "countries"
    ],
-   "status": "live"
+   "status": "live",
+   "added": "2026-10-01"
   },
   {
    "id": "question-mark",
@@ -1399,7 +1405,8 @@
     "guess the question",
     "jeopardy questions"
    ],
-   "status": "live"
+   "status": "live",
+   "added": "2026-10-03"
   },
   {
    "id": "back-to-board",
@@ -1430,7 +1437,8 @@
     "shout",
     "words"
    ],
-   "status": "live"
+   "status": "live",
+   "added": "2026-09-14"
   },
   {
    "id": "battle-pets",
@@ -1462,7 +1470,8 @@
     "showdown",
     "topics"
    ],
-   "status": "live"
+   "status": "live",
+   "added": "2026-06-15"
   },
   {
    "id": "beam-of-ra",
@@ -1498,7 +1507,8 @@
     "reward",
     "end of term"
    ],
-   "status": "live"
+   "status": "live",
+   "added": "2026-10-23"
   },
   {
    "id": "cant-stop",
@@ -1524,7 +1534,8 @@
     "sackson",
     "race"
    ],
-   "status": "live"
+   "status": "live",
+   "added": "2026-10-23"
   },
   {
    "id": "bee",
@@ -1551,7 +1562,8 @@
     "spelling",
     "tournament"
    ],
-   "status": "live"
+   "status": "live",
+   "added": "2025-09-09"
   },
   {
    "id": "bingo",
@@ -1576,7 +1588,8 @@
     "word",
     "words"
    ],
-   "status": "live"
+   "status": "live",
+   "added": "2025-10-05"
   },
   {
    "id": "bluff",
@@ -1598,7 +1611,8 @@
     "lying",
     "persuasion"
    ],
-   "status": "live"
+   "status": "live",
+   "added": "2025-12-29"
   },
   {
    "id": "boardgame",
@@ -1629,7 +1643,8 @@
     "quiz",
     "tokens"
    ],
-   "status": "live"
+   "status": "live",
+   "added": "2026-06-01"
   },
   {
    "id": "categories",
@@ -1660,7 +1675,8 @@
     "think",
     "your"
    ],
-   "status": "live"
+   "status": "live",
+   "added": "2025-06-10"
   },
   {
    "id": "chain",
@@ -1683,7 +1699,8 @@
     "warm-up",
     "word"
    ],
-   "status": "live"
+   "status": "live",
+   "added": "2025-06-24"
   },
   {
    "id": "city",
@@ -1713,7 +1730,8 @@
     "prepositions",
     "streets"
    ],
-   "status": "live"
+   "status": "live",
+   "added": "2026-07-03"
   },
   {
    "id": "classroom-auction",
@@ -1735,7 +1753,8 @@
     "dares",
     "stunts"
    ],
-   "status": "live"
+   "status": "live",
+   "added": "2026-04-24"
   },
   {
    "id": "connect",
@@ -1758,7 +1777,8 @@
     "pressure",
     "word"
    ],
-   "status": "live"
+   "status": "live",
+   "added": "2025-06-05"
   },
   {
    "id": "control-deck",
@@ -1782,7 +1802,8 @@
     "instructions",
     "sliders"
    ],
-   "status": "live"
+   "status": "live",
+   "added": "2026-07-03"
   },
   {
    "id": "deal-no-deal",
@@ -1805,7 +1826,8 @@
     "prizes",
     "probability"
    ],
-   "status": "live"
+   "status": "live",
+   "added": "2025-08-25"
   },
   {
    "id": "deep-cover",
@@ -1836,7 +1858,8 @@
     "spymaster",
     "word"
    ],
-   "status": "live"
+   "status": "live",
+   "added": "2026-07-22"
   },
   {
    "id": "emoji",
@@ -1861,7 +1884,8 @@
     "observation",
     "what"
    ],
-   "status": "live"
+   "status": "live",
+   "added": "2025-07-07"
   },
   {
    "id": "emoji-logic",
@@ -1887,7 +1911,8 @@
     "riddle",
     "zebra"
    ],
-   "status": "live"
+   "status": "live",
+   "added": "2026-07-22"
   },
   {
    "id": "escape",
@@ -1918,7 +1943,8 @@
     "sequence",
     "vault"
    ],
-   "status": "live"
+   "status": "live",
+   "added": "2025-12-07"
   },
   {
    "id": "escape2",
@@ -1948,7 +1974,8 @@
     "thinking",
     "wordplay"
    ],
-   "status": "live"
+   "status": "live",
+   "added": "2025-12-12"
   },
   {
    "id": "family-feud-efl",
@@ -1971,7 +1998,8 @@
     "money",
     "survey"
    ],
-   "status": "live"
+   "status": "live",
+   "added": "2026-03-02"
   },
   {
    "id": "grammar-boom",
@@ -1999,7 +2027,8 @@
     "quiz",
     "tiles"
    ],
-   "status": "live"
+   "status": "live",
+   "added": "2026-07-12"
   },
   {
    "id": "hangman",
@@ -2025,7 +2054,8 @@
     "the",
     "word"
    ],
-   "status": "live"
+   "status": "live",
+   "added": "2025-06-06"
   },
   {
    "id": "herd-up",
@@ -2049,7 +2079,8 @@
     "think",
     "thinking"
    ],
-   "status": "live"
+   "status": "live",
+   "added": "2026-03-18"
   },
   {
    "id": "bear-park",
@@ -2079,7 +2110,8 @@
     "reward",
     "end of term"
    ],
-   "status": "live"
+   "status": "live",
+   "added": "2026-10-20"
   },
   {
    "id": "castle-roads",
@@ -2113,7 +2145,8 @@
     "reward",
     "end of term"
    ],
-   "status": "live"
+   "status": "live",
+   "added": "2026-10-18"
   },
   {
    "id": "forbidden-island",
@@ -2142,7 +2175,8 @@
     "reward",
     "end of term"
    ],
-   "status": "live"
+   "status": "live",
+   "added": "2026-10-21"
   },
   {
    "id": "tangled-paths",
@@ -2173,7 +2207,8 @@
     "reward",
     "end of term"
    ],
-   "status": "live"
+   "status": "live",
+   "added": "2026-10-19"
   },
   {
    "id": "maze-race",
@@ -2205,7 +2240,8 @@
     "reward",
     "end of term"
    ],
-   "status": "live"
+   "status": "live",
+   "added": "2026-10-20"
   },
   {
    "id": "hex-duel",
@@ -2228,7 +2264,8 @@
     "mode",
     "territory"
    ],
-   "status": "live"
+   "status": "live",
+   "added": "2026-03-21"
   },
   {
    "id": "hot-seat",
@@ -2256,7 +2293,8 @@
     "taboo",
     "words"
    ],
-   "status": "live"
+   "status": "live",
+   "added": "2026-07-22"
   },
   {
    "id": "interrupt",
@@ -2282,7 +2320,8 @@
     "storytelling",
     "turn"
    ],
-   "status": "live"
+   "status": "live",
+   "added": "2026-07-27"
   },
   {
    "id": "inventions",
@@ -2305,7 +2344,8 @@
     "technology",
     "trivia"
    ],
-   "status": "live"
+   "status": "live",
+   "added": "2025-06-05"
   },
   {
    "id": "jeopardy",
@@ -2328,7 +2368,8 @@
     "categories",
     "quiz"
    ],
-   "status": "live"
+   "status": "live",
+   "added": "2026-03-15"
   },
   {
    "id": "last-one-standing",
@@ -2350,7 +2391,8 @@
     "differently",
     "elimination"
    ],
-   "status": "live"
+   "status": "live",
+   "added": "2026-03-14"
   },
   {
    "id": "leftright",
@@ -2372,7 +2414,8 @@
     "pass",
     "warm-up"
    ],
-   "status": "live"
+   "status": "live",
+   "added": "2025-08-21"
   },
   {
    "id": "letter-battle",
@@ -2397,7 +2440,8 @@
     "waves",
     "word"
    ],
-   "status": "live"
+   "status": "live",
+   "added": "2026-03-04"
   },
   {
    "id": "linking-park",
@@ -2428,7 +2472,8 @@
     "transitions",
     "words"
    ],
-   "status": "live"
+   "status": "live",
+   "added": "2026-04-18"
   },
   {
    "id": "mastermind",
@@ -2451,7 +2496,8 @@
     "deduction",
     "pegs"
    ],
-   "status": "live"
+   "status": "live",
+   "added": "2026-06-24"
   },
   {
    "id": "minefield",
@@ -2479,7 +2525,8 @@
     "tiles",
     "treasure"
    ],
-   "status": "live"
+   "status": "live",
+   "added": "2026-07-22"
   },
   {
    "id": "mistake-hunters",
@@ -2510,7 +2557,8 @@
     "steal",
     "the"
    ],
-   "status": "live"
+   "status": "live",
+   "added": "2026-04-12"
   },
   {
    "id": "orbit",
@@ -2534,7 +2582,8 @@
     "row",
     "strategy"
    ],
-   "status": "live"
+   "status": "live",
+   "added": "2026-03-30"
   },
   {
    "id": "order-up",
@@ -2558,7 +2607,8 @@
     "ranking",
     "sequence"
    ],
-   "status": "live"
+   "status": "live",
+   "added": "2026-04-16"
   },
   {
    "id": "perfect-fit",
@@ -2580,7 +2630,8 @@
     "slots",
     "timer"
    ],
-   "status": "live"
+   "status": "live",
+   "added": "2026-07-03"
   },
   {
    "id": "problem-solvers",
@@ -2603,7 +2654,8 @@
     "problems",
     "solutions"
    ],
-   "status": "live"
+   "status": "live",
+   "added": "2026-04-12"
   },
   {
    "id": "record-breaker",
@@ -2627,7 +2679,8 @@
     "records",
     "the"
    ],
-   "status": "live"
+   "status": "live",
+   "added": "2026-03-13"
   },
   {
    "id": "resistance",
@@ -2650,7 +2703,8 @@
     "missions",
     "social"
    ],
-   "status": "live"
+   "status": "live",
+   "added": "2025-08-04"
   },
   {
    "id": "ring-memory",
@@ -2674,7 +2728,8 @@
     "ring",
     "rotation"
    ],
-   "status": "live"
+   "status": "live",
+   "added": "2026-07-01"
   },
   {
    "id": "scattergories",
@@ -2697,7 +2752,8 @@
     "quick",
     "thinking"
    ],
-   "status": "live"
+   "status": "live",
+   "added": "2025-08-17"
   },
   {
    "id": "scrambler",
@@ -2728,7 +2784,8 @@
     "unscramble",
     "word"
    ],
-   "status": "live"
+   "status": "live",
+   "added": "2026-03-31"
   },
   {
    "id": "sentence-auction",
@@ -2757,7 +2814,8 @@
     "sentences",
     "spotting"
    ],
-   "status": "live"
+   "status": "live",
+   "added": "2026-03-31"
   },
   {
    "id": "song-word-race",
@@ -2780,7 +2838,8 @@
     "singing",
     "songs"
    ],
-   "status": "live"
+   "status": "live",
+   "added": "2026-07-05"
   },
   {
    "id": "sound-off",
@@ -2807,7 +2866,8 @@
     "phonemes",
     "pronunciation"
    ],
-   "status": "live"
+   "status": "live",
+   "added": "2026-08-01"
   },
   {
    "id": "stairs",
@@ -2829,7 +2889,8 @@
     "levels",
     "progressive"
    ],
-   "status": "live"
+   "status": "live",
+   "added": "2025-06-05"
   },
   {
    "id": "stop-twist",
@@ -2852,7 +2913,8 @@
     "speed",
     "stop"
    ],
-   "status": "live"
+   "status": "live",
+   "added": "2026-03-03"
   },
   {
    "id": "teacher-wordle",
@@ -2881,7 +2943,8 @@
     "word",
     "wordle"
    ],
-   "status": "live"
+   "status": "live",
+   "added": "2026-03-15"
   },
   {
    "id": "letter-swap",
@@ -2906,7 +2969,8 @@
     "word",
     "word ladder"
    ],
-   "status": "live"
+   "status": "live",
+   "added": "2026-09-21"
   },
   {
    "id": "tictactoe",
@@ -2930,7 +2994,8 @@
     "tic",
     "toe"
    ],
-   "status": "live"
+   "status": "live",
+   "added": "2025-08-23"
   },
   {
    "id": "topten",
@@ -2951,7 +3016,8 @@
     "opinions",
     "ranking"
    ],
-   "status": "live"
+   "status": "live",
+   "added": "2025-08-06"
   },
   {
    "id": "toptwenty",
@@ -2975,7 +3041,8 @@
     "ranking",
     "trivia"
    ],
-   "status": "live"
+   "status": "live",
+   "added": "2026-06-06"
   },
   {
    "id": "trivia-teams",
@@ -2999,7 +3066,8 @@
     "knowledge",
     "trivia"
    ],
-   "status": "live"
+   "status": "live",
+   "added": "2026-04-19"
   },
   {
    "id": "truorfalse",
@@ -3027,7 +3095,8 @@
     "or",
     "true"
    ],
-   "status": "live"
+   "status": "live",
+   "added": "2026-04-20"
   },
   {
    "id": "unscramble",
@@ -3055,7 +3124,8 @@
     "scramble",
     "word"
    ],
-   "status": "live"
+   "status": "live",
+   "added": "2025-08-22"
   },
   {
    "id": "vocab-toolkit",
@@ -3080,7 +3150,8 @@
     "search",
     "word"
    ],
-   "status": "live"
+   "status": "live",
+   "added": "2026-06-11"
   },
   {
    "id": "wave",
@@ -3100,7 +3171,8 @@
     "energy",
     "warm-up"
    ],
-   "status": "live"
+   "status": "live",
+   "added": "2025-06-08"
   },
   {
    "id": "wheel",
@@ -3129,7 +3201,8 @@
     "spinner",
     "wheel"
    ],
-   "status": "live"
+   "status": "live",
+   "added": "2025-06-05"
   },
   {
    "id": "word-buzz",
@@ -3158,7 +3231,8 @@
     "speed",
     "to"
    ],
-   "status": "live"
+   "status": "live",
+   "added": "2026-06-07"
   },
   {
    "id": "word-gap-game",
@@ -3192,7 +3266,8 @@
     "mode",
     "word"
    ],
-   "status": "live"
+   "status": "live",
+   "added": "2026-03-09"
   },
   {
    "id": "wordsearch",
@@ -3218,7 +3293,8 @@
     "word",
     "words"
    ],
-   "status": "live"
+   "status": "live",
+   "added": "2026-03-29"
   },
   {
    "id": "crown-lands",
@@ -3247,7 +3323,8 @@
     "reward",
     "end of term"
    ],
-   "status": "live"
+   "status": "live",
+   "added": "2026-10-23"
   },
   {
    "id": "adjective-order-activities",

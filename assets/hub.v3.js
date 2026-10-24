@@ -66,6 +66,7 @@
   /* ----------------------------------------------------------- filters */
 
   var FACETS = [
+    { key: "new",    attr: "data-new",    name: "New", single: true },
     { key: "levels", attr: "data-levels", name: "Level" },
     { key: "skills", attr: "data-skills", name: "Skill" },
     { key: "mode",   attr: "data-mode",   name: "Mode" },
@@ -76,6 +77,7 @@
   var ANY = "__any__";
   var PREP_LABEL = { none: "no prep", print: "printing", setup: "setup" };
   var LEVEL_ORDER = ["A1", "A2", "B1", "B2", "C1"];
+  var NEW_DAYS = 14;
 
   function values(cards, attr) {
     var seen = {};
@@ -102,6 +104,7 @@
   }
 
   function label(key, v) {
+    if (key === "new") return "added in the last 2 weeks";
     if (v === ANY) return "any level";
     if (key === "time") return TIME_LABEL[v] || v;
     if (key === "prep") return PREP_LABEL[v] || v;
@@ -116,6 +119,7 @@
       var kv = pair.split("=");
       if (kv.length !== 2) return;
       var k = decodeURIComponent(kv[0]);
+      if (k === "sort") return;
       if (k === "q") { state.q = decodeURIComponent(kv[1].replace(/\+/g, " ")); return; }
       state[k] = decodeURIComponent(kv[1]).split(",").filter(Boolean);
     });
@@ -147,12 +151,44 @@
     var clear = document.querySelector(".hub-clear");
     var state = readHash();
 
+    // "new" = data-added (YYYY-MM-DD, from the catalog) within NEW_DAYS of today.
+    // Computed here so badges expire on their own without a rebuild.
+    var now = new Date();
+    var today = Date.UTC(now.getFullYear(), now.getMonth(), now.getDate());
+    var newCount = 0;
+    cards.forEach(function (c, idx) {
+      c.setAttribute("data-order", idx);
+      var m = /^(\d{4})-(\d{2})-(\d{2})$/.exec(c.getAttribute("data-added") || "");
+      if (!m) return;
+      var age = (today - Date.UTC(+m[1], +m[2] - 1, +m[3])) / 864e5;
+      if (age < 0 || age > NEW_DAYS) return;
+      c.setAttribute("data-new", "yes");
+      var badge = document.createElement("span");
+      badge.className = "hub-new-badge";
+      badge.textContent = "New";
+      c.insertBefore(badge, c.firstChild);
+      newCount++;
+    });
+
+    function sortCards(newFirst) {
+      var sorted = cards.slice().sort(function (a, b) {
+        if (newFirst) {
+          var fa = a.classList.contains("is-featured"), fb = b.classList.contains("is-featured");
+          if (fa !== fb) return fa ? -1 : 1;
+          var na = a.hasAttribute("data-new"), nb = b.hasAttribute("data-new");
+          if (na !== nb) return na ? -1 : 1;
+        }
+        return a.getAttribute("data-order") - b.getAttribute("data-order");
+      });
+      sorted.forEach(function (c) { grid.appendChild(c); });
+    }
+
     // build chip rows for every facet that actually has more than one value
     var row = toolbar && toolbar.querySelector(".hub-toolbar__row--facets");
     if (row) {
       FACETS.forEach(function (f) {
         var vals = values(cards, f.attr);
-        if (vals.length < 2) return;
+        if (vals.length < (f.single ? 1 : 2)) return;
         var wrap = document.createElement("div");
         wrap.className = "hub-facet";
         var nm = document.createElement("span");
@@ -180,6 +216,27 @@
         });
         row.appendChild(wrap);
       });
+    }
+
+    if (row && newCount) {
+      var NF_KEY = "arschul:newFirst";
+      var nf = false;
+      try { nf = localStorage.getItem(NF_KEY) === "1"; } catch (e) {}
+      var tog = document.createElement("button");
+      tog.type = "button";
+      tog.className = "hub-filter hub-sort-toggle";
+      tog.textContent = "\u2195 New first";
+      tog.title = "Show games added in the last 2 weeks at the top";
+      tog.setAttribute("aria-pressed", String(nf));
+      tog.addEventListener("click", function () {
+        nf = tog.getAttribute("aria-pressed") !== "true";
+        tog.setAttribute("aria-pressed", String(nf));
+        try { localStorage.setItem(NF_KEY, nf ? "1" : "0"); } catch (e) {}
+        sortCards(nf);
+      });
+      var first = row.querySelector(".hub-facet");
+      if (first) first.appendChild(tog); else row.insertBefore(tog, row.firstChild);
+      if (nf) sortCards(true);
     }
 
     if (search && state.q) search.value = state.q;
@@ -231,7 +288,7 @@
       clear.addEventListener("click", function () {
         state = {};
         if (search) search.value = "";
-        [].forEach.call(document.querySelectorAll(".hub-filter"), function (b) {
+        [].forEach.call(document.querySelectorAll(".hub-filter[data-facet]"), function (b) {
           b.setAttribute("aria-pressed", "false");
         });
         apply();
