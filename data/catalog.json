@@ -1465,6 +1465,42 @@
    "status": "live"
   },
   {
+   "id": "beam-of-ra",
+   "hub": "games",
+   "path": "beam-of-ra/beam-of-ra.html",
+   "title": "Beam of Ra",
+   "blurb": "A laser-and-mirror strategy game in the style of Khet. Move or turn one piece, fire your laser, and bounce it into the other Pharaoh. 2 players or teams.",
+   "icon": "",
+   "levels": [],
+   "skills": [
+    "speaking"
+   ],
+   "mode": "team",
+   "prep": "none",
+   "minutes": 30,
+   "keywords": [
+    "khet",
+    "laser chess",
+    "laser",
+    "mirrors",
+    "beam",
+    "reflection",
+    "egypt",
+    "pharaoh",
+    "pyramid",
+    "sphinx",
+    "scarab",
+    "anubis",
+    "strategy",
+    "board game",
+    "2 players",
+    "directions",
+    "reward",
+    "end of term"
+   ],
+   "status": "live"
+  },
+  {
    "id": "bee",
    "hub": "games",
    "path": "bee/bee.html",
