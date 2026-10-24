@@ -3221,6 +3221,35 @@
    "status": "live"
   },
   {
+   "id": "crown-lands",
+   "hub": "games",
+   "path": "crown-lands/crown-lands.html",
+   "title": "Crown Lands",
+   "blurb": "Draft dominoes and build a 5×5 kingdom; crowns multiply your territories. 2–4 players or teams.",
+   "icon": "",
+   "levels": [],
+   "skills": [
+    "speaking"
+   ],
+   "mode": "team",
+   "prep": "none",
+   "minutes": 35,
+   "keywords": [
+    "kingdomino",
+    "dominoes",
+    "tile laying",
+    "drafting",
+    "kingdom",
+    "board game",
+    "strategy",
+    "crowns",
+    "castle",
+    "reward",
+    "end of term"
+   ],
+   "status": "live"
+  },
+  {
    "id": "adjective-order-activities",
    "hub": "grammar",
    "path": "b1/adjective-order_activities.html",
