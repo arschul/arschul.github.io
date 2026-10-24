@@ -170,6 +170,32 @@
       newCount++;
     });
 
+    // poster hubs get a "New this fortnight" shelf above the toolbar (hidden while filtering)
+    var shelf = null;
+    if (newCount && grid.classList.contains("hub-grid--posters")) {
+      shelf = document.createElement("section");
+      shelf.className = "hub-shelf";
+      shelf.setAttribute("aria-label", "New games");
+      var h = document.createElement("h2");
+      h.className = "hub-shelf__title";
+      h.innerHTML = "<span>New</span> this fortnight";
+      var shelfRow = document.createElement("div");
+      shelfRow.className = "hub-shelf__row";
+      cards.filter(function (c) { return c.hasAttribute("data-new"); })
+        .sort(function (a, b) { return (b.getAttribute("data-added") || "").localeCompare(a.getAttribute("data-added") || ""); })
+        .forEach(function (c) {
+          var k = c.cloneNode(true);
+          k.removeAttribute("data-id");
+          var img = k.querySelector("img");
+          if (img) img.loading = "eager";
+          shelfRow.appendChild(k);
+        });
+      shelf.appendChild(h);
+      shelf.appendChild(shelfRow);
+      var anchor = toolbar || grid;
+      anchor.parentNode.insertBefore(shelf, anchor);
+    }
+
     function sortCards(newFirst) {
       var sorted = cards.slice().sort(function (a, b) {
         if (newFirst) {
@@ -278,6 +304,7 @@
         return state[f.key] && state[f.key].length;
       });
       if (clear) clear.hidden = !any;
+      if (shelf) shelf.hidden = any;
       writeHash(state);
     }
 

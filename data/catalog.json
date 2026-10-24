@@ -1161,7 +1161,8 @@
     "your"
    ],
    "status": "live",
-   "added": "2026-04-05"
+   "added": "2026-04-05",
+   "cover": "covers/adventure.webp"
   },
   {
    "id": "airtight",
@@ -1192,7 +1193,8 @@
     "suspects"
    ],
    "status": "live",
-   "added": "2026-07-18"
+   "added": "2026-07-18",
+   "cover": "covers/airtight.webp"
   },
   {
    "id": "alphabet",
@@ -1232,7 +1234,8 @@
     "countries"
    ],
    "status": "live",
-   "added": "2025-06-05"
+   "added": "2025-06-05",
+   "cover": "covers/alphabet.webp"
   },
   {
    "id": "reveal-it",
@@ -1295,7 +1298,8 @@
     "teacher list"
    ],
    "status": "live",
-   "added": "2026-09-30"
+   "added": "2026-09-30",
+   "cover": "covers/reveal-it.webp"
   },
   {
    "id": "escalation",
@@ -1329,7 +1333,8 @@
     "that escalated quickly"
    ],
    "status": "live",
-   "added": "2026-09-23"
+   "added": "2026-09-23",
+   "cover": "covers/escalation.webp"
   },
   {
    "id": "take-a-seat",
@@ -1373,7 +1378,8 @@
     "countries"
    ],
    "status": "live",
-   "added": "2026-10-01"
+   "added": "2026-10-01",
+   "cover": "covers/take-a-seat.webp"
   },
   {
    "id": "question-mark",
@@ -1406,7 +1412,8 @@
     "jeopardy questions"
    ],
    "status": "live",
-   "added": "2026-10-03"
+   "added": "2026-10-03",
+   "cover": "covers/question-mark.webp"
   },
   {
    "id": "back-to-board",
@@ -1438,7 +1445,8 @@
     "words"
    ],
    "status": "live",
-   "added": "2026-09-14"
+   "added": "2026-09-14",
+   "cover": "covers/back-to-board.webp"
   },
   {
    "id": "battle-pets",
@@ -1471,7 +1479,8 @@
     "topics"
    ],
    "status": "live",
-   "added": "2026-06-15"
+   "added": "2026-06-15",
+   "cover": "covers/battle-pets.webp"
   },
   {
    "id": "beam-of-ra",
@@ -1508,7 +1517,8 @@
     "end of term"
    ],
    "status": "live",
-   "added": "2026-10-23"
+   "added": "2026-10-23",
+   "cover": "covers/beam-of-ra.webp"
   },
   {
    "id": "cant-stop",
@@ -1535,7 +1545,8 @@
     "race"
    ],
    "status": "live",
-   "added": "2026-10-23"
+   "added": "2026-10-23",
+   "cover": "covers/cant-stop.webp"
   },
   {
    "id": "bee",
@@ -1563,7 +1574,8 @@
     "tournament"
    ],
    "status": "live",
-   "added": "2025-09-09"
+   "added": "2025-09-09",
+   "cover": "covers/bee.webp"
   },
   {
    "id": "bingo",
@@ -1589,7 +1601,8 @@
     "words"
    ],
    "status": "live",
-   "added": "2025-10-05"
+   "added": "2025-10-05",
+   "cover": "covers/bingo.webp"
   },
   {
    "id": "bluff",
@@ -1612,7 +1625,8 @@
     "persuasion"
    ],
    "status": "live",
-   "added": "2025-12-29"
+   "added": "2025-12-29",
+   "cover": "covers/bluff.webp"
   },
   {
    "id": "boardgame",
@@ -1644,7 +1658,8 @@
     "tokens"
    ],
    "status": "live",
-   "added": "2026-06-01"
+   "added": "2026-06-01",
+   "cover": "covers/boardgame.webp"
   },
   {
    "id": "categories",
@@ -1676,7 +1691,8 @@
     "your"
    ],
    "status": "live",
-   "added": "2025-06-10"
+   "added": "2025-06-10",
+   "cover": "covers/categories.webp"
   },
   {
    "id": "chain",
@@ -1700,7 +1716,8 @@
     "word"
    ],
    "status": "live",
-   "added": "2025-06-24"
+   "added": "2025-06-24",
+   "cover": "covers/chain.webp"
   },
   {
    "id": "city",
@@ -1731,7 +1748,8 @@
     "streets"
    ],
    "status": "live",
-   "added": "2026-07-03"
+   "added": "2026-07-03",
+   "cover": "covers/city.webp"
   },
   {
    "id": "classroom-auction",
@@ -1754,7 +1772,8 @@
     "stunts"
    ],
    "status": "live",
-   "added": "2026-04-24"
+   "added": "2026-04-24",
+   "cover": "covers/classroom-auction.webp"
   },
   {
    "id": "connect",
@@ -1778,7 +1797,8 @@
     "word"
    ],
    "status": "live",
-   "added": "2025-06-05"
+   "added": "2025-06-05",
+   "cover": "covers/connect.webp"
   },
   {
    "id": "control-deck",
@@ -1803,7 +1823,8 @@
     "sliders"
    ],
    "status": "live",
-   "added": "2026-07-03"
+   "added": "2026-07-03",
+   "cover": "covers/control-deck.webp"
   },
   {
    "id": "deal-no-deal",
@@ -1827,7 +1848,8 @@
     "probability"
    ],
    "status": "live",
-   "added": "2025-08-25"
+   "added": "2025-08-25",
+   "cover": "covers/deal-no-deal.webp"
   },
   {
    "id": "deep-cover",
@@ -1859,7 +1881,8 @@
     "word"
    ],
    "status": "live",
-   "added": "2026-07-22"
+   "added": "2026-07-22",
+   "cover": "covers/deep-cover.webp"
   },
   {
    "id": "emoji",
@@ -1885,7 +1908,8 @@
     "what"
    ],
    "status": "live",
-   "added": "2025-07-07"
+   "added": "2025-07-07",
+   "cover": "covers/emoji.webp"
   },
   {
    "id": "emoji-logic",
@@ -1912,7 +1936,8 @@
     "zebra"
    ],
    "status": "live",
-   "added": "2026-07-22"
+   "added": "2026-07-22",
+   "cover": "covers/emoji-logic.webp"
   },
   {
    "id": "escape",
@@ -1944,7 +1969,8 @@
     "vault"
    ],
    "status": "live",
-   "added": "2025-12-07"
+   "added": "2025-12-07",
+   "cover": "covers/escape.webp"
   },
   {
    "id": "escape2",
@@ -1975,7 +2001,8 @@
     "wordplay"
    ],
    "status": "live",
-   "added": "2025-12-12"
+   "added": "2025-12-12",
+   "cover": "covers/escape2.webp"
   },
   {
    "id": "family-feud-efl",
@@ -1999,7 +2026,8 @@
     "survey"
    ],
    "status": "live",
-   "added": "2026-03-02"
+   "added": "2026-03-02",
+   "cover": "covers/family-feud-efl.webp"
   },
   {
    "id": "grammar-boom",
@@ -2028,7 +2056,8 @@
     "tiles"
    ],
    "status": "live",
-   "added": "2026-07-12"
+   "added": "2026-07-12",
+   "cover": "covers/grammar-boom.webp"
   },
   {
    "id": "hangman",
@@ -2055,7 +2084,8 @@
     "word"
    ],
    "status": "live",
-   "added": "2025-06-06"
+   "added": "2025-06-06",
+   "cover": "covers/hangman.webp"
   },
   {
    "id": "herd-up",
@@ -2080,7 +2110,8 @@
     "thinking"
    ],
    "status": "live",
-   "added": "2026-03-18"
+   "added": "2026-03-18",
+   "cover": "covers/herd-up.webp"
   },
   {
    "id": "bear-park",
@@ -2111,7 +2142,8 @@
     "end of term"
    ],
    "status": "live",
-   "added": "2026-10-20"
+   "added": "2026-10-20",
+   "cover": "covers/bear-park.webp"
   },
   {
    "id": "castle-roads",
@@ -2146,7 +2178,8 @@
     "end of term"
    ],
    "status": "live",
-   "added": "2026-10-18"
+   "added": "2026-10-18",
+   "cover": "covers/castle-roads.webp"
   },
   {
    "id": "forbidden-island",
@@ -2176,7 +2209,8 @@
     "end of term"
    ],
    "status": "live",
-   "added": "2026-10-21"
+   "added": "2026-10-21",
+   "cover": "covers/forbidden-island.webp"
   },
   {
    "id": "tangled-paths",
@@ -2208,7 +2242,8 @@
     "end of term"
    ],
    "status": "live",
-   "added": "2026-10-19"
+   "added": "2026-10-19",
+   "cover": "covers/tangled-paths.webp"
   },
   {
    "id": "maze-race",
@@ -2241,7 +2276,8 @@
     "end of term"
    ],
    "status": "live",
-   "added": "2026-10-20"
+   "added": "2026-10-20",
+   "cover": "covers/maze-race.webp"
   },
   {
    "id": "hex-duel",
@@ -2265,7 +2301,8 @@
     "territory"
    ],
    "status": "live",
-   "added": "2026-03-21"
+   "added": "2026-03-21",
+   "cover": "covers/hex-duel.webp"
   },
   {
    "id": "hot-seat",
@@ -2294,7 +2331,8 @@
     "words"
    ],
    "status": "live",
-   "added": "2026-07-22"
+   "added": "2026-07-22",
+   "cover": "covers/hot-seat.webp"
   },
   {
    "id": "interrupt",
@@ -2321,7 +2359,8 @@
     "turn"
    ],
    "status": "live",
-   "added": "2026-07-27"
+   "added": "2026-07-27",
+   "cover": "covers/interrupt.webp"
   },
   {
    "id": "inventions",
@@ -2345,7 +2384,8 @@
     "trivia"
    ],
    "status": "live",
-   "added": "2025-06-05"
+   "added": "2025-06-05",
+   "cover": "covers/inventions.webp"
   },
   {
    "id": "jeopardy",
@@ -2369,7 +2409,8 @@
     "quiz"
    ],
    "status": "live",
-   "added": "2026-03-15"
+   "added": "2026-03-15",
+   "cover": "covers/jeopardy.webp"
   },
   {
    "id": "last-one-standing",
@@ -2392,7 +2433,8 @@
     "elimination"
    ],
    "status": "live",
-   "added": "2026-03-14"
+   "added": "2026-03-14",
+   "cover": "covers/last-one-standing.webp"
   },
   {
    "id": "leftright",
@@ -2415,7 +2457,8 @@
     "warm-up"
    ],
    "status": "live",
-   "added": "2025-08-21"
+   "added": "2025-08-21",
+   "cover": "covers/leftright.webp"
   },
   {
    "id": "letter-battle",
@@ -2441,7 +2484,8 @@
     "word"
    ],
    "status": "live",
-   "added": "2026-03-04"
+   "added": "2026-03-04",
+   "cover": "covers/letter-battle.webp"
   },
   {
    "id": "linking-park",
@@ -2473,7 +2517,8 @@
     "words"
    ],
    "status": "live",
-   "added": "2026-04-18"
+   "added": "2026-04-18",
+   "cover": "covers/linking-park.webp"
   },
   {
    "id": "mastermind",
@@ -2497,7 +2542,8 @@
     "pegs"
    ],
    "status": "live",
-   "added": "2026-06-24"
+   "added": "2026-06-24",
+   "cover": "covers/mastermind.webp"
   },
   {
    "id": "minefield",
@@ -2526,7 +2572,8 @@
     "treasure"
    ],
    "status": "live",
-   "added": "2026-07-22"
+   "added": "2026-07-22",
+   "cover": "covers/minefield.webp"
   },
   {
    "id": "mistake-hunters",
@@ -2558,7 +2605,8 @@
     "the"
    ],
    "status": "live",
-   "added": "2026-04-12"
+   "added": "2026-04-12",
+   "cover": "covers/mistake-hunters.webp"
   },
   {
    "id": "orbit",
@@ -2583,7 +2631,8 @@
     "strategy"
    ],
    "status": "live",
-   "added": "2026-03-30"
+   "added": "2026-03-30",
+   "cover": "covers/orbit.webp"
   },
   {
    "id": "order-up",
@@ -2608,7 +2657,8 @@
     "sequence"
    ],
    "status": "live",
-   "added": "2026-04-16"
+   "added": "2026-04-16",
+   "cover": "covers/order-up.webp"
   },
   {
    "id": "perfect-fit",
@@ -2631,7 +2681,8 @@
     "timer"
    ],
    "status": "live",
-   "added": "2026-07-03"
+   "added": "2026-07-03",
+   "cover": "covers/perfect-fit.webp"
   },
   {
    "id": "problem-solvers",
@@ -2655,7 +2706,8 @@
     "solutions"
    ],
    "status": "live",
-   "added": "2026-04-12"
+   "added": "2026-04-12",
+   "cover": "covers/problem-solvers.webp"
   },
   {
    "id": "record-breaker",
@@ -2680,7 +2732,8 @@
     "the"
    ],
    "status": "live",
-   "added": "2026-03-13"
+   "added": "2026-03-13",
+   "cover": "covers/record-breaker.webp"
   },
   {
    "id": "resistance",
@@ -2704,7 +2757,8 @@
     "social"
    ],
    "status": "live",
-   "added": "2025-08-04"
+   "added": "2025-08-04",
+   "cover": "covers/resistance.webp"
   },
   {
    "id": "ring-memory",
@@ -2729,7 +2783,8 @@
     "rotation"
    ],
    "status": "live",
-   "added": "2026-07-01"
+   "added": "2026-07-01",
+   "cover": "covers/ring-memory.webp"
   },
   {
    "id": "scattergories",
@@ -2753,7 +2808,8 @@
     "thinking"
    ],
    "status": "live",
-   "added": "2025-08-17"
+   "added": "2025-08-17",
+   "cover": "covers/scattergories.webp"
   },
   {
    "id": "scrambler",
@@ -2785,7 +2841,8 @@
     "word"
    ],
    "status": "live",
-   "added": "2026-03-31"
+   "added": "2026-03-31",
+   "cover": "covers/scrambler.webp"
   },
   {
    "id": "sentence-auction",
@@ -2815,7 +2872,8 @@
     "spotting"
    ],
    "status": "live",
-   "added": "2026-03-31"
+   "added": "2026-03-31",
+   "cover": "covers/sentence-auction.webp"
   },
   {
    "id": "song-word-race",
@@ -2839,7 +2897,8 @@
     "songs"
    ],
    "status": "live",
-   "added": "2026-07-05"
+   "added": "2026-07-05",
+   "cover": "covers/song-word-race.webp"
   },
   {
    "id": "sound-off",
@@ -2867,7 +2926,8 @@
     "pronunciation"
    ],
    "status": "live",
-   "added": "2026-08-01"
+   "added": "2026-08-01",
+   "cover": "covers/sound-off.webp"
   },
   {
    "id": "stairs",
@@ -2890,7 +2950,8 @@
     "progressive"
    ],
    "status": "live",
-   "added": "2025-06-05"
+   "added": "2025-06-05",
+   "cover": "covers/stairs.webp"
   },
   {
    "id": "stop-twist",
@@ -2914,7 +2975,8 @@
     "stop"
    ],
    "status": "live",
-   "added": "2026-03-03"
+   "added": "2026-03-03",
+   "cover": "covers/stop-twist.webp"
   },
   {
    "id": "teacher-wordle",
@@ -2944,7 +3006,8 @@
     "wordle"
    ],
    "status": "live",
-   "added": "2026-03-15"
+   "added": "2026-03-15",
+   "cover": "covers/teacher-wordle.webp"
   },
   {
    "id": "letter-swap",
@@ -2970,7 +3033,8 @@
     "word ladder"
    ],
    "status": "live",
-   "added": "2026-09-21"
+   "added": "2026-09-21",
+   "cover": "covers/letter-swap.webp"
   },
   {
    "id": "tictactoe",
@@ -2995,7 +3059,8 @@
     "toe"
    ],
    "status": "live",
-   "added": "2025-08-23"
+   "added": "2025-08-23",
+   "cover": "covers/tictactoe.webp"
   },
   {
    "id": "topten",
@@ -3017,7 +3082,8 @@
     "ranking"
    ],
    "status": "live",
-   "added": "2025-08-06"
+   "added": "2025-08-06",
+   "cover": "covers/topten.webp"
   },
   {
    "id": "toptwenty",
@@ -3042,7 +3108,8 @@
     "trivia"
    ],
    "status": "live",
-   "added": "2026-06-06"
+   "added": "2026-06-06",
+   "cover": "covers/toptwenty.webp"
   },
   {
    "id": "trivia-teams",
@@ -3067,7 +3134,8 @@
     "trivia"
    ],
    "status": "live",
-   "added": "2026-04-19"
+   "added": "2026-04-19",
+   "cover": "covers/trivia-teams.webp"
   },
   {
    "id": "truorfalse",
@@ -3096,7 +3164,8 @@
     "true"
    ],
    "status": "live",
-   "added": "2026-04-20"
+   "added": "2026-04-20",
+   "cover": "covers/truorfalse.webp"
   },
   {
    "id": "unscramble",
@@ -3125,7 +3194,8 @@
     "word"
    ],
    "status": "live",
-   "added": "2025-08-22"
+   "added": "2025-08-22",
+   "cover": "covers/unscramble.webp"
   },
   {
    "id": "vocab-toolkit",
@@ -3151,7 +3221,8 @@
     "word"
    ],
    "status": "live",
-   "added": "2026-06-11"
+   "added": "2026-06-11",
+   "cover": "covers/vocab-toolkit.webp"
   },
   {
    "id": "wave",
@@ -3172,7 +3243,8 @@
     "warm-up"
    ],
    "status": "live",
-   "added": "2025-06-08"
+   "added": "2025-06-08",
+   "cover": "covers/wave.webp"
   },
   {
    "id": "wheel",
@@ -3202,7 +3274,8 @@
     "wheel"
    ],
    "status": "live",
-   "added": "2025-06-05"
+   "added": "2025-06-05",
+   "cover": "covers/wheel.webp"
   },
   {
    "id": "word-buzz",
@@ -3232,7 +3305,8 @@
     "to"
    ],
    "status": "live",
-   "added": "2026-06-07"
+   "added": "2026-06-07",
+   "cover": "covers/word-buzz.webp"
   },
   {
    "id": "word-gap-game",
@@ -3267,7 +3341,8 @@
     "word"
    ],
    "status": "live",
-   "added": "2026-03-09"
+   "added": "2026-03-09",
+   "cover": "covers/word-gap-game.webp"
   },
   {
    "id": "wordsearch",
@@ -3294,7 +3369,8 @@
     "words"
    ],
    "status": "live",
-   "added": "2026-03-29"
+   "added": "2026-03-29",
+   "cover": "covers/wordsearch.webp"
   },
   {
    "id": "crown-lands",
@@ -3324,7 +3400,8 @@
     "end of term"
    ],
    "status": "live",
-   "added": "2026-10-23"
+   "added": "2026-10-23",
+   "cover": "covers/crown-lands.webp"
   },
   {
    "id": "adjective-order-activities",

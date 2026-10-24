@@ -294,6 +294,7 @@ def render_cards(cat, hub):
     items = [i for i in cat["items"] if i["hub"] == hub and i.get("status", "live") == "live"]
     items.sort(key=lambda i: (not i.get("featured", False), i["title"].lower()))
     rows = []
+    posters = any(i.get("cover") for i in items)
     for i in items:
         cls = "hub-card" + (" is-featured" if i.get("featured") else "")
         attrs = [
@@ -315,6 +316,22 @@ def render_cards(cat, hub):
             chips += f'<span class="hub-chip hub-chip--mode">{esc(i["mode"])}</span>'
         if i.get("prep") and i["prep"] != "none":
             chips += f'<span class="hub-chip hub-chip--prep">{esc(i["prep"])}</span>'
+        if posters:
+            # poster tile: cover art (or a typographic stand-in) + title/chips; blurb rides on the art
+            if i.get("cover"):
+                art = (f'<img class="hub-card__cover" src="{urllib.parse.quote(i["cover"], safe="/")}" '
+                       f'alt="" loading="lazy" decoding="async" width="600" height="800">')
+            else:
+                art = f'<span class="hub-card__cover hub-card__cover--blank" aria-hidden="true">{esc(i["title"])}</span>'
+            attrs[0] = f'class="{cls} hub-card--poster"'
+            rows.append(
+                f'      <a {" ".join(attrs)}>\n'
+                f'        <span class="hub-card__art">{art}<span class="hub-card__blurb">{esc(i.get("blurb",""))}</span></span>\n'
+                f'        <h3 class="hub-card__title">{esc(i["title"])}</h3>\n'
+                f'        <div class="hub-card__meta">{chips}</div>\n'
+                f'      </a>'
+            )
+            continue
         rows.append(
             f'      <a {" ".join(attrs)}>\n'
             f'        {icon}<h3 class="hub-card__title">{esc(i["title"])}</h3>\n'
@@ -333,7 +350,7 @@ def render_cards(cat, hub):
         '    </div>\n'
         '    <div class="hub-toolbar__row"><span class="hub-count"></span></div>\n'
         '  </div>\n'
-        '  <div class="hub-grid">\n' + "\n".join(rows) + '\n  </div>\n'
+        f'  <div class="hub-grid{" hub-grid--posters" if posters else ""}">\n' + "\n".join(rows) + '\n  </div>\n'
         f'  <p class="hub-empty" hidden>Nothing matches those filters. <button type="button" class="hub-clear">Clear all</button></p>'
     )
 
