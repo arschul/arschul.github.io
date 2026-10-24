@@ -1501,6 +1501,32 @@
    "status": "live"
   },
   {
+   "id": "cant-stop",
+   "hub": "games",
+   "path": "cant-stop/cant-stop.html",
+   "title": "Can't Stop",
+   "blurb": "Push-your-luck dice race: pair four dice, climb the columns, and decide when to stop before you bust. First team to claim three columns wins.",
+   "icon": "",
+   "levels": [],
+   "skills": [
+    "speaking"
+   ],
+   "mode": "team",
+   "prep": "none",
+   "minutes": 30,
+   "keywords": [
+    "dice",
+    "push your luck",
+    "probability",
+    "board game",
+    "risk",
+    "climbing",
+    "sackson",
+    "race"
+   ],
+   "status": "live"
+  },
+  {
    "id": "bee",
    "hub": "games",
    "path": "bee/bee.html",
