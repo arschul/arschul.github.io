@@ -3229,7 +3229,7 @@
    "hub": "games",
    "path": "wave/wave.html",
    "title": "Wave",
-   "blurb": "Ride the wave of excitement in this dynamic and engaging game experience.",
+   "blurb": "Spin the dial, peek behind the screen, give one clue. Teams turn the needle to find the hidden target.",
    "icon": "",
    "levels": [],
    "skills": [
@@ -3237,9 +3237,16 @@
    ],
    "mode": "team",
    "prep": "none",
-   "minutes": 10,
+   "minutes": 20,
    "keywords": [
-    "energy",
+    "wavelength",
+    "dial",
+    "clue",
+    "opposites",
+    "spectrum",
+    "adjectives",
+    "guessing",
+    "speaking",
     "warm-up"
    ],
    "status": "live",
