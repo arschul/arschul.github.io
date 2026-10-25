@@ -170,7 +170,7 @@
       newCount++;
     });
 
-    // poster hubs get a "New this fortnight" shelf above the toolbar (hidden while filtering)
+    // poster hubs get a "Latest Games" shelf above the toolbar (hidden while filtering)
     var shelf = null;
     if (newCount && grid.classList.contains("hub-grid--posters")) {
       shelf = document.createElement("section");
@@ -178,7 +178,7 @@
       shelf.setAttribute("aria-label", "New games");
       var h = document.createElement("h2");
       h.className = "hub-shelf__title";
-      h.innerHTML = "<span>New</span> this fortnight";
+      h.innerHTML = "<span>Latest</span> Games";
       var shelfRow = document.createElement("div");
       shelfRow.className = "hub-shelf__row";
       cards.filter(function (c) { return c.hasAttribute("data-new"); })
@@ -190,10 +190,45 @@
           if (img) img.loading = "eager";
           shelfRow.appendChild(k);
         });
+      // streaming-style carousel: < > buttons instead of a scrollbar (swipe/trackpad still work)
+      var track = document.createElement("div");
+      track.className = "hub-shelf__track";
+      function arrow(dir) {
+        var b = document.createElement("button");
+        b.type = "button";
+        b.className = "hub-shelf__nav hub-shelf__nav--" + (dir < 0 ? "prev" : "next");
+        b.setAttribute("aria-label", dir < 0 ? "Previous games" : "Next games");
+        b.innerHTML = '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="' +
+          (dir < 0 ? "M15 4l-8 8 8 8" : "M9 4l8 8-8 8") + '"/></svg>';
+        b.addEventListener("click", function () {
+          var step = Math.max(shelfRow.clientWidth * 0.9, 200);
+          var smooth = !window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+          shelfRow.scrollBy({ left: dir * step, behavior: smooth ? "smooth" : "auto" });
+        });
+        return b;
+      }
+      var prevBtn = arrow(-1), nextBtn = arrow(1);
+      function syncArrows() {
+        var max = shelfRow.scrollWidth - shelfRow.clientWidth;
+        var atStart = shelfRow.scrollLeft <= 8, atEnd = shelfRow.scrollLeft >= max - 8;
+        prevBtn.hidden = atStart || max <= 8;
+        nextBtn.hidden = atEnd || max <= 8;
+        track.classList.toggle("is-start", atStart);
+        track.classList.toggle("is-end", atEnd || max <= 8);
+      }
+      shelfRow.addEventListener("scroll", syncArrows, { passive: true });
+      window.addEventListener("resize", syncArrows);
+      track.appendChild(prevBtn);
+      track.appendChild(shelfRow);
+      track.appendChild(nextBtn);
       shelf.appendChild(h);
-      shelf.appendChild(shelfRow);
+      shelf.appendChild(track);
       var anchor = toolbar || grid;
       anchor.parentNode.insertBefore(shelf, anchor);
+      syncArrows();
+      Array.prototype.forEach.call(shelfRow.querySelectorAll("img"), function (im) {
+        if (!im.complete) im.addEventListener("load", syncArrows);
+      });
     }
 
     function sortCards(newFirst) {
