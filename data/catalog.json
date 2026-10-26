@@ -1454,6 +1454,167 @@
    "section": "grammar"
   },
   {
+   "id": "grammar-tense-sequence",
+   "hub": "advanced",
+   "path": "grammar/tense-sequence.html",
+   "title": "Grammar Practice — Tense Sequence",
+   "blurb": "One hundred items on tense sequence: simple past, present perfect and past perfect, time words and reported speech. Six patterns, thirty Structure and thirty Written Expression items in TOEFL format, sorting, gap-fill and an exit check, with a printable worksheet and key.",
+   "icon": "",
+   "levels": [
+    "B1",
+    "B2"
+   ],
+   "skills": [
+    "grammar"
+   ],
+   "mode": "whole-class",
+   "prep": "print",
+   "minutes": 60,
+   "keywords": [
+    "tense",
+    "past",
+    "perfect",
+    "sequence",
+    "toefl",
+    "grammar",
+    "practice",
+    "structure",
+    "written",
+    "expression"
+   ],
+   "status": "live",
+   "section": "grammar"
+  },
+  {
+   "id": "grammar-past-participles",
+   "hub": "advanced",
+   "path": "grammar/past-participles.html",
+   "title": "Grammar Practice — Past Participles after Have and Be",
+   "blurb": "One hundred items on past participles after have and be: six patterns, thirty Structure and thirty Written Expression items in TOEFL format, matching, an error hunt and an exit check, with a printable worksheet and key.",
+   "icon": "",
+   "levels": [
+    "B1",
+    "B2"
+   ],
+   "skills": [
+    "grammar"
+   ],
+   "mode": "whole-class",
+   "prep": "print",
+   "minutes": 60,
+   "keywords": [
+    "participle",
+    "irregular",
+    "verbs",
+    "perfect",
+    "toefl",
+    "grammar",
+    "practice",
+    "structure",
+    "written",
+    "expression"
+   ],
+   "status": "live",
+   "section": "grammar"
+  },
+  {
+   "id": "grammar-passive-voice",
+   "hub": "advanced",
+   "path": "grammar/passive-voice.html",
+   "title": "Grammar Practice — Passive Voice",
+   "blurb": "One hundred items on the passive voice: six patterns, thirty Structure and thirty Written Expression items in TOEFL format, sorting, active-to-passive rewriting and an exit check, with a printable worksheet and key.",
+   "icon": "",
+   "levels": [
+    "B1",
+    "B2"
+   ],
+   "skills": [
+    "grammar"
+   ],
+   "mode": "whole-class",
+   "prep": "print",
+   "minutes": 60,
+   "keywords": [
+    "passive",
+    "voice",
+    "be",
+    "participle",
+    "toefl",
+    "grammar",
+    "practice",
+    "structure",
+    "written",
+    "expression"
+   ],
+   "status": "live",
+   "section": "grammar"
+  },
+  {
+   "id": "grammar-modals",
+   "hub": "advanced",
+   "path": "grammar/modals.html",
+   "title": "Grammar Practice — Modals and the Base Form",
+   "blurb": "One hundred items on modals and the base form: six patterns, thirty Structure and thirty Written Expression items in TOEFL format, an error hunt, unscrambling and an exit check, with a printable worksheet and key.",
+   "icon": "",
+   "levels": [
+    "B1",
+    "B2"
+   ],
+   "skills": [
+    "grammar"
+   ],
+   "mode": "whole-class",
+   "prep": "print",
+   "minutes": 60,
+   "keywords": [
+    "modal",
+    "can",
+    "must",
+    "should",
+    "base",
+    "toefl",
+    "grammar",
+    "practice",
+    "structure",
+    "written",
+    "expression"
+   ],
+   "status": "live",
+   "section": "grammar"
+  },
+  {
+   "id": "grammar-subjunctive-conditionals",
+   "hub": "advanced",
+   "path": "grammar/subjunctive-conditionals.html",
+   "title": "Grammar Practice — Subjunctive and Conditionals",
+   "blurb": "One hundred items on conditionals, wishes and the subjunctive: six patterns, thirty Structure and thirty Written Expression items in TOEFL format, sorting, sentence combining and an exit check, with a printable worksheet and key.",
+   "icon": "",
+   "levels": [
+    "B1",
+    "B2"
+   ],
+   "skills": [
+    "grammar"
+   ],
+   "mode": "whole-class",
+   "prep": "print",
+   "minutes": 60,
+   "keywords": [
+    "conditional",
+    "if",
+    "wish",
+    "subjunctive",
+    "toefl",
+    "grammar",
+    "practice",
+    "structure",
+    "written",
+    "expression"
+   ],
+   "status": "live",
+   "section": "grammar"
+  },
+  {
    "id": "adventure",
    "hub": "games",
    "path": "adventure/adventure.html",
