@@ -1745,6 +1745,242 @@
    "section": "grammar"
   },
   {
+   "id": "grammar-inversion-negatives",
+   "hub": "advanced",
+   "path": "grammar/inversion-negatives.html",
+   "title": "Grammar Practice — Inversion after Negatives and Only",
+   "blurb": "One hundred items on inversion after negative and limiting words (never, rarely, not only, only then): six patterns, thirty Structure and thirty Written Expression items in TOEFL format, unscrambling, rewriting and an exit check, with a printable worksheet and key.",
+   "icon": "",
+   "levels": [
+    "B1",
+    "B2"
+   ],
+   "skills": [
+    "grammar"
+   ],
+   "mode": "whole-class",
+   "prep": "print",
+   "minutes": 60,
+   "keywords": [
+    "inversion",
+    "never",
+    "rarely",
+    "not only",
+    "only",
+    "toefl",
+    "grammar",
+    "practice",
+    "structure",
+    "written",
+    "expression"
+   ],
+   "status": "live",
+   "section": "grammar"
+  },
+  {
+   "id": "grammar-inversion-place-conditionals",
+   "hub": "advanced",
+   "path": "grammar/inversion-place-conditionals.html",
+   "title": "Grammar Practice — Inversion with Place and Conditionals",
+   "blurb": "One hundred items on inversion after place expressions and in conditionals without if (had I known, were it not for, should you): six patterns, thirty Structure and thirty Written Expression items in TOEFL format, an error-hunt passage, rewriting and an exit check, with a printable worksheet and key.",
+   "icon": "",
+   "levels": [
+    "B1",
+    "B2"
+   ],
+   "skills": [
+    "grammar"
+   ],
+   "mode": "whole-class",
+   "prep": "print",
+   "minutes": 60,
+   "keywords": [
+    "inversion",
+    "place",
+    "conditional",
+    "had",
+    "were",
+    "should",
+    "toefl",
+    "grammar",
+    "practice",
+    "structure",
+    "written",
+    "expression"
+   ],
+   "status": "live",
+   "section": "grammar"
+  },
+  {
+   "id": "grammar-comparatives",
+   "hub": "advanced",
+   "path": "grammar/comparatives.html",
+   "title": "Grammar Practice — Comparatives and Superlatives",
+   "blurb": "One hundred items on comparatives, superlatives, as … as and the more … the more: six patterns, thirty Structure and thirty Written Expression items in TOEFL format, gap-fill, sentence combining and an exit check, with a printable worksheet and key.",
+   "icon": "",
+   "levels": [
+    "B1",
+    "B2"
+   ],
+   "skills": [
+    "grammar"
+   ],
+   "mode": "whole-class",
+   "prep": "print",
+   "minutes": 60,
+   "keywords": [
+    "comparative",
+    "superlative",
+    "than",
+    "as",
+    "more",
+    "most",
+    "toefl",
+    "grammar",
+    "practice",
+    "structure",
+    "written",
+    "expression"
+   ],
+   "status": "live",
+   "section": "grammar"
+  },
+  {
+   "id": "grammar-count-noncount",
+   "hub": "advanced",
+   "path": "grammar/count-noncount.html",
+   "title": "Grammar Practice — Countable and Uncountable Nouns",
+   "blurb": "One hundred items on countable and uncountable nouns and the quantity words that go with them (much, many, fewer, less, amount, number): six patterns, thirty Structure and thirty Written Expression items in TOEFL format, sorting, gap-fill and an exit check, with a printable worksheet and key.",
+   "icon": "",
+   "levels": [
+    "B1",
+    "B2"
+   ],
+   "skills": [
+    "grammar"
+   ],
+   "mode": "whole-class",
+   "prep": "print",
+   "minutes": 60,
+   "keywords": [
+    "countable",
+    "uncountable",
+    "much",
+    "many",
+    "fewer",
+    "less",
+    "toefl",
+    "grammar",
+    "practice",
+    "structure",
+    "written",
+    "expression"
+   ],
+   "status": "live",
+   "section": "grammar"
+  },
+  {
+   "id": "grammar-articles",
+   "hub": "advanced",
+   "path": "grammar/articles.html",
+   "title": "Grammar Practice — Articles",
+   "blurb": "One hundred items on a, an, the and no article: six patterns, thirty Structure and thirty Written Expression items in TOEFL format, error-hunt passages, gap-fill and an exit check, with a printable worksheet and key.",
+   "icon": "",
+   "levels": [
+    "B1",
+    "B2"
+   ],
+   "skills": [
+    "grammar"
+   ],
+   "mode": "whole-class",
+   "prep": "print",
+   "minutes": 60,
+   "keywords": [
+    "articles",
+    "a",
+    "an",
+    "the",
+    "zero article",
+    "toefl",
+    "grammar",
+    "practice",
+    "structure",
+    "written",
+    "expression"
+   ],
+   "status": "live",
+   "section": "grammar"
+  },
+  {
+   "id": "grammar-singular-plural",
+   "hub": "advanced",
+   "path": "grammar/singular-plural.html",
+   "title": "Grammar Practice — Singular and Plural Nouns",
+   "blurb": "One hundred items on singular and plural nouns, irregular plurals and nouns used as adjectives: six patterns, thirty Structure and thirty Written Expression items in TOEFL format, matching, an error-hunt passage and an exit check, with a printable worksheet and key.",
+   "icon": "",
+   "levels": [
+    "B1",
+    "B2"
+   ],
+   "skills": [
+    "grammar"
+   ],
+   "mode": "whole-class",
+   "prep": "print",
+   "minutes": 60,
+   "keywords": [
+    "singular",
+    "plural",
+    "irregular",
+    "children",
+    "each",
+    "every",
+    "toefl",
+    "grammar",
+    "practice",
+    "structure",
+    "written",
+    "expression"
+   ],
+   "status": "live",
+   "section": "grammar"
+  },
+  {
+   "id": "grammar-pronoun-case",
+   "hub": "advanced",
+   "path": "grammar/pronoun-case.html",
+   "title": "Grammar Practice — Pronoun Case and Possessives",
+   "blurb": "One hundred items on subject, object, possessive and reflexive pronouns, its and it’s: six patterns, thirty Structure and thirty Written Expression items in TOEFL format, sorting, unscrambling and an exit check, with a printable worksheet and key.",
+   "icon": "",
+   "levels": [
+    "B1",
+    "B2"
+   ],
+   "skills": [
+    "grammar"
+   ],
+   "mode": "whole-class",
+   "prep": "print",
+   "minutes": 60,
+   "keywords": [
+    "pronoun",
+    "case",
+    "possessive",
+    "reflexive",
+    "its",
+    "their",
+    "toefl",
+    "grammar",
+    "practice",
+    "structure",
+    "written",
+    "expression"
+   ],
+   "status": "live",
+   "section": "grammar"
+  },
+  {
    "id": "adventure",
    "hub": "games",
    "path": "adventure/adventure.html",
