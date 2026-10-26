@@ -1131,6 +1131,67 @@
    "section": "toefl"
   },
   {
+   "id": "toefl-grammar-practice",
+   "hub": "advanced",
+   "path": "toefl/grammar/index.html",
+   "title": "TOEFL Grammar Practice",
+   "blurb": "Thirty sessions at B1 → B2, 100 items each, on the grammar points the TOEFL ITP tests most: explanation, Structure and Written Expression drills in the exact test format, and other kinds of practice, all printable.",
+   "icon": "",
+   "levels": [
+    "B1",
+    "B2"
+   ],
+   "skills": [
+    "grammar",
+    "assessment"
+   ],
+   "mode": "whole-class",
+   "prep": "none",
+   "minutes": 60,
+   "keywords": [
+    "grammar",
+    "practice",
+    "toefl",
+    "itp",
+    "structure",
+    "written",
+    "expression"
+   ],
+   "status": "live",
+   "section": "toefl"
+  },
+  {
+   "id": "toefl-grammar-subject-verb-agreement",
+   "hub": "advanced",
+   "path": "toefl/grammar/subject-verb-agreement.html",
+   "title": "TOEFL Grammar Practice — Subject and Verb Agreement",
+   "blurb": "One hundred items on subject and verb agreement: six patterns, thirty Structure and thirty Written Expression items in TOEFL format, sorting, sentence rewriting and an exit check, with a printable worksheet and key.",
+   "icon": "",
+   "levels": [
+    "B1",
+    "B2"
+   ],
+   "skills": [
+    "grammar"
+   ],
+   "mode": "whole-class",
+   "prep": "print",
+   "minutes": 60,
+   "keywords": [
+    "agreement",
+    "subject",
+    "verb",
+    "toefl",
+    "grammar",
+    "practice",
+    "structure",
+    "written",
+    "expression"
+   ],
+   "status": "live",
+   "section": "toefl"
+  },
+  {
    "id": "adventure",
    "hub": "games",
    "path": "adventure/adventure.html",
