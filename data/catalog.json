@@ -1131,10 +1131,10 @@
    "section": "toefl"
   },
   {
-   "id": "toefl-grammar-practice",
+   "id": "grammar-practice",
    "hub": "advanced",
-   "path": "toefl/grammar/index.html",
-   "title": "TOEFL Grammar Practice",
+   "path": "grammar/index.html",
+   "title": "Grammar Practice",
    "blurb": "Thirty sessions at B1 → B2, 100 items each, on the grammar points the TOEFL ITP tests most: explanation, Structure and Written Expression drills in the exact test format, and other kinds of practice, all printable.",
    "icon": "",
    "levels": [
@@ -1158,13 +1158,13 @@
     "expression"
    ],
    "status": "live",
-   "section": "toefl"
+   "section": "grammar"
   },
   {
-   "id": "toefl-grammar-missing-subject-verb",
+   "id": "grammar-missing-subject-verb",
    "hub": "advanced",
-   "path": "toefl/grammar/missing-subject-verb.html",
-   "title": "TOEFL Grammar Practice — Missing Subject or Verb",
+   "path": "grammar/missing-subject-verb.html",
+   "title": "Grammar Practice — Missing Subject or Verb",
    "blurb": "One hundred items on missing subjects and verbs: six patterns, thirty Structure and thirty Written Expression items in TOEFL format, sentence sorting, gap-fill and an exit check, with a printable worksheet and key.",
    "icon": "",
    "levels": [
@@ -1190,13 +1190,13 @@
     "expression"
    ],
    "status": "live",
-   "section": "toefl"
+   "section": "grammar"
   },
   {
-   "id": "toefl-grammar-appositives",
+   "id": "grammar-appositives",
    "hub": "advanced",
-   "path": "toefl/grammar/appositives.html",
-   "title": "TOEFL Grammar Practice — Appositives",
+   "path": "grammar/appositives.html",
+   "title": "Grammar Practice — Appositives",
    "blurb": "One hundred items on appositives: six patterns, thirty Structure and thirty Written Expression items in TOEFL format, matching, sentence combining and an exit check, with a printable worksheet and key.",
    "icon": "",
    "levels": [
@@ -1221,13 +1221,13 @@
     "expression"
    ],
    "status": "live",
-   "section": "toefl"
+   "section": "grammar"
   },
   {
-   "id": "toefl-grammar-coordinating-conjunctions",
+   "id": "grammar-coordinating-conjunctions",
    "hub": "advanced",
-   "path": "toefl/grammar/coordinating-conjunctions.html",
-   "title": "TOEFL Grammar Practice — Coordinating Conjunctions",
+   "path": "grammar/coordinating-conjunctions.html",
+   "title": "Grammar Practice — Coordinating Conjunctions",
    "blurb": "One hundred items on and, but, or, so, yet and nor: six patterns, thirty Structure and thirty Written Expression items in TOEFL format, sorting, unscrambling and an exit check, with a printable worksheet and key.",
    "icon": "",
    "levels": [
@@ -1254,13 +1254,13 @@
     "expression"
    ],
    "status": "live",
-   "section": "toefl"
+   "section": "grammar"
   },
   {
-   "id": "toefl-grammar-adverb-clauses",
+   "id": "grammar-adverb-clauses",
    "hub": "advanced",
-   "path": "toefl/grammar/adverb-clauses.html",
-   "title": "TOEFL Grammar Practice — Adverb Clause Connectors",
+   "path": "grammar/adverb-clauses.html",
+   "title": "Grammar Practice — Adverb Clause Connectors",
    "blurb": "One hundred items on because, although, when, if, unless and their prepositions: six patterns, thirty Structure and thirty Written Expression items in TOEFL format, a paragraph error hunt, rewriting and an exit check, with a printable worksheet and key.",
    "icon": "",
    "levels": [
@@ -1287,13 +1287,13 @@
     "expression"
    ],
    "status": "live",
-   "section": "toefl"
+   "section": "grammar"
   },
   {
-   "id": "toefl-grammar-subject-verb-agreement",
+   "id": "grammar-subject-verb-agreement",
    "hub": "advanced",
-   "path": "toefl/grammar/subject-verb-agreement.html",
-   "title": "TOEFL Grammar Practice — Subject and Verb Agreement",
+   "path": "grammar/subject-verb-agreement.html",
+   "title": "Grammar Practice — Subject and Verb Agreement",
    "blurb": "One hundred items on subject and verb agreement: six patterns, thirty Structure and thirty Written Expression items in TOEFL format, sorting, sentence rewriting and an exit check, with a printable worksheet and key.",
    "icon": "",
    "levels": [
@@ -1318,7 +1318,140 @@
     "expression"
    ],
    "status": "live",
-   "section": "toefl"
+   "section": "grammar"
+  },
+  {
+   "id": "grammar-adjective-clauses",
+   "hub": "advanced",
+   "path": "grammar/adjective-clauses.html",
+   "title": "Grammar Practice — Adjective Clauses",
+   "blurb": "One hundred items on who, which, that, whose, where and when: six patterns, thirty Structure and thirty Written Expression items in TOEFL format, sorting, sentence combining and an exit check, with a printable worksheet and key.",
+   "icon": "",
+   "levels": [
+    "B1",
+    "B2"
+   ],
+   "skills": [
+    "grammar"
+   ],
+   "mode": "whole-class",
+   "prep": "print",
+   "minutes": 60,
+   "keywords": [
+    "adjective",
+    "relative",
+    "clause",
+    "who",
+    "which",
+    "whose",
+    "toefl",
+    "grammar",
+    "practice",
+    "structure",
+    "written",
+    "expression"
+   ],
+   "status": "live",
+   "section": "grammar"
+  },
+  {
+   "id": "grammar-reduced-adjective-clauses",
+   "hub": "advanced",
+   "path": "grammar/reduced-adjective-clauses.html",
+   "title": "Grammar Practice — Reduced Adjective Clauses",
+   "blurb": "One hundred items on reduced adjective clauses (-ing and past participle): six patterns, thirty Structure and thirty Written Expression items in TOEFL format, a paragraph error hunt, rewriting and an exit check, with a printable worksheet and key.",
+   "icon": "",
+   "levels": [
+    "B1",
+    "B2"
+   ],
+   "skills": [
+    "grammar"
+   ],
+   "mode": "whole-class",
+   "prep": "print",
+   "minutes": 60,
+   "keywords": [
+    "reduced",
+    "participle",
+    "clause",
+    "adjective",
+    "toefl",
+    "grammar",
+    "practice",
+    "structure",
+    "written",
+    "expression"
+   ],
+   "status": "live",
+   "section": "grammar"
+  },
+  {
+   "id": "grammar-noun-clauses",
+   "hub": "advanced",
+   "path": "grammar/noun-clauses.html",
+   "title": "Grammar Practice — Noun Clauses",
+   "blurb": "One hundred items on noun clauses and embedded questions: six patterns, thirty Structure and thirty Written Expression items in TOEFL format, gap-fill, unscrambling and an exit check, with a printable worksheet and key.",
+   "icon": "",
+   "levels": [
+    "B1",
+    "B2"
+   ],
+   "skills": [
+    "grammar"
+   ],
+   "mode": "whole-class",
+   "prep": "print",
+   "minutes": 60,
+   "keywords": [
+    "noun",
+    "clause",
+    "embedded",
+    "question",
+    "whether",
+    "that",
+    "toefl",
+    "grammar",
+    "practice",
+    "structure",
+    "written",
+    "expression"
+   ],
+   "status": "live",
+   "section": "grammar"
+  },
+  {
+   "id": "grammar-reduced-adverb-clauses",
+   "hub": "advanced",
+   "path": "grammar/reduced-adverb-clauses.html",
+   "title": "Grammar Practice — Reduced Adverb Clauses",
+   "blurb": "One hundred items on reduced adverb clauses and dangling modifiers: six patterns, thirty Structure and thirty Written Expression items in TOEFL format, sorting, sentence combining and an exit check, with a printable worksheet and key.",
+   "icon": "",
+   "levels": [
+    "B1",
+    "B2"
+   ],
+   "skills": [
+    "grammar"
+   ],
+   "mode": "whole-class",
+   "prep": "print",
+   "minutes": 60,
+   "keywords": [
+    "reduced",
+    "adverb",
+    "clause",
+    "participle",
+    "dangling",
+    "toefl",
+    "grammar",
+    "practice",
+    "structure",
+    "written",
+    "expression"
+   ],
+   "status": "live",
+   "section": "grammar"
   },
   {
    "id": "adventure",
