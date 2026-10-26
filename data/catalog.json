@@ -1981,6 +1981,175 @@
    "section": "grammar"
   },
   {
+   "id": "grammar-word-form",
+   "hub": "advanced",
+   "path": "grammar/word-form.html",
+   "title": "Grammar Practice — Word Form",
+   "blurb": "One hundred items on word form — choosing the noun, verb, adjective or adverb that fits the slot: six patterns, thirty Structure and thirty Written Expression items in TOEFL format, gap-fill, an error-hunt passage and an exit check, with a printable worksheet and key.",
+   "icon": "",
+   "levels": [
+    "B1",
+    "B2"
+   ],
+   "skills": [
+    "grammar"
+   ],
+   "mode": "whole-class",
+   "prep": "print",
+   "minutes": 60,
+   "keywords": [
+    "word form",
+    "suffix",
+    "noun",
+    "verb",
+    "adjective",
+    "adverb",
+    "toefl",
+    "grammar",
+    "practice",
+    "structure",
+    "written",
+    "expression"
+   ],
+   "status": "live",
+   "section": "grammar"
+  },
+  {
+   "id": "grammar-adjective-adverb",
+   "hub": "advanced",
+   "path": "grammar/adjective-adverb.html",
+   "title": "Grammar Practice — Adjective or Adverb",
+   "blurb": "One hundred items on adjectives and adverbs, linking verbs, good and well, hard and hardly: six patterns, thirty Structure and thirty Written Expression items in TOEFL format, sorting, rewriting and an exit check, with a printable worksheet and key.",
+   "icon": "",
+   "levels": [
+    "B1",
+    "B2"
+   ],
+   "skills": [
+    "grammar"
+   ],
+   "mode": "whole-class",
+   "prep": "print",
+   "minutes": 60,
+   "keywords": [
+    "adjective",
+    "adverb",
+    "linking verbs",
+    "good",
+    "well",
+    "-ly",
+    "toefl",
+    "grammar",
+    "practice",
+    "structure",
+    "written",
+    "expression"
+   ],
+   "status": "live",
+   "section": "grammar"
+  },
+  {
+   "id": "grammar-redundancy",
+   "hub": "advanced",
+   "path": "grammar/redundancy.html",
+   "title": "Grammar Practice — Redundancy",
+   "blurb": "One hundred items on redundancy — repeated meanings, repeated subjects and the reason is because: six patterns, thirty Structure and thirty Written Expression items in TOEFL format, an error-hunt passage, rewriting and an exit check, with a printable worksheet and key.",
+   "icon": "",
+   "levels": [
+    "B1",
+    "B2"
+   ],
+   "skills": [
+    "grammar"
+   ],
+   "mode": "whole-class",
+   "prep": "print",
+   "minutes": 60,
+   "keywords": [
+    "redundancy",
+    "repetition",
+    "return back",
+    "the reason is because",
+    "double subject",
+    "toefl",
+    "grammar",
+    "practice",
+    "structure",
+    "written",
+    "expression"
+   ],
+   "status": "live",
+   "section": "grammar"
+  },
+  {
+   "id": "grammar-word-order",
+   "hub": "advanced",
+   "path": "grammar/word-order.html",
+   "title": "Grammar Practice — Word Order",
+   "blurb": "One hundred items on word order — adverb position, enough, adjective order and embedded questions: six patterns, thirty Structure and thirty Written Expression items in TOEFL format, unscrambling, rewriting and an exit check, with a printable worksheet and key.",
+   "icon": "",
+   "levels": [
+    "B1",
+    "B2"
+   ],
+   "skills": [
+    "grammar"
+   ],
+   "mode": "whole-class",
+   "prep": "print",
+   "minutes": 60,
+   "keywords": [
+    "word order",
+    "adverb position",
+    "enough",
+    "adjective order",
+    "embedded questions",
+    "toefl",
+    "grammar",
+    "practice",
+    "structure",
+    "written",
+    "expression"
+   ],
+   "status": "live",
+   "section": "grammar"
+  },
+  {
+   "id": "grammar-confused-words",
+   "hub": "advanced",
+   "path": "grammar/confused-words.html",
+   "title": "Grammar Practice — Confused Words and Prepositions",
+   "blurb": "One hundred items on confused words (make and do, say and tell, rise and raise, affect and effect) and fixed prepositions: six patterns, thirty Structure and thirty Written Expression items in TOEFL format, sorting, gap-fill and an exit check, with a printable worksheet and key.",
+   "icon": "",
+   "levels": [
+    "B1",
+    "B2"
+   ],
+   "skills": [
+    "grammar"
+   ],
+   "mode": "whole-class",
+   "prep": "print",
+   "minutes": 60,
+   "keywords": [
+    "make",
+    "do",
+    "say",
+    "tell",
+    "rise",
+    "raise",
+    "prepositions",
+    "toefl",
+    "grammar",
+    "practice",
+    "structure",
+    "written",
+    "expression"
+   ],
+   "status": "live",
+   "section": "grammar"
+  },
+  {
    "id": "adventure",
    "hub": "games",
    "path": "adventure/adventure.html",
