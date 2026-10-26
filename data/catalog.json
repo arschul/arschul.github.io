@@ -1161,6 +1161,135 @@
    "section": "toefl"
   },
   {
+   "id": "toefl-grammar-missing-subject-verb",
+   "hub": "advanced",
+   "path": "toefl/grammar/missing-subject-verb.html",
+   "title": "TOEFL Grammar Practice — Missing Subject or Verb",
+   "blurb": "One hundred items on missing subjects and verbs: six patterns, thirty Structure and thirty Written Expression items in TOEFL format, sentence sorting, gap-fill and an exit check, with a printable worksheet and key.",
+   "icon": "",
+   "levels": [
+    "B1",
+    "B2"
+   ],
+   "skills": [
+    "grammar"
+   ],
+   "mode": "whole-class",
+   "prep": "print",
+   "minutes": 60,
+   "keywords": [
+    "subject",
+    "verb",
+    "fragment",
+    "sentence",
+    "toefl",
+    "grammar",
+    "practice",
+    "structure",
+    "written",
+    "expression"
+   ],
+   "status": "live",
+   "section": "toefl"
+  },
+  {
+   "id": "toefl-grammar-appositives",
+   "hub": "advanced",
+   "path": "toefl/grammar/appositives.html",
+   "title": "TOEFL Grammar Practice — Appositives",
+   "blurb": "One hundred items on appositives: six patterns, thirty Structure and thirty Written Expression items in TOEFL format, matching, sentence combining and an exit check, with a printable worksheet and key.",
+   "icon": "",
+   "levels": [
+    "B1",
+    "B2"
+   ],
+   "skills": [
+    "grammar"
+   ],
+   "mode": "whole-class",
+   "prep": "print",
+   "minutes": 60,
+   "keywords": [
+    "appositive",
+    "noun",
+    "phrase",
+    "toefl",
+    "grammar",
+    "practice",
+    "structure",
+    "written",
+    "expression"
+   ],
+   "status": "live",
+   "section": "toefl"
+  },
+  {
+   "id": "toefl-grammar-coordinating-conjunctions",
+   "hub": "advanced",
+   "path": "toefl/grammar/coordinating-conjunctions.html",
+   "title": "TOEFL Grammar Practice — Coordinating Conjunctions",
+   "blurb": "One hundred items on and, but, or, so, yet and nor: six patterns, thirty Structure and thirty Written Expression items in TOEFL format, sorting, unscrambling and an exit check, with a printable worksheet and key.",
+   "icon": "",
+   "levels": [
+    "B1",
+    "B2"
+   ],
+   "skills": [
+    "grammar"
+   ],
+   "mode": "whole-class",
+   "prep": "print",
+   "minutes": 60,
+   "keywords": [
+    "conjunction",
+    "and",
+    "but",
+    "or",
+    "so",
+    "toefl",
+    "grammar",
+    "practice",
+    "structure",
+    "written",
+    "expression"
+   ],
+   "status": "live",
+   "section": "toefl"
+  },
+  {
+   "id": "toefl-grammar-adverb-clauses",
+   "hub": "advanced",
+   "path": "toefl/grammar/adverb-clauses.html",
+   "title": "TOEFL Grammar Practice — Adverb Clause Connectors",
+   "blurb": "One hundred items on because, although, when, if, unless and their prepositions: six patterns, thirty Structure and thirty Written Expression items in TOEFL format, a paragraph error hunt, rewriting and an exit check, with a printable worksheet and key.",
+   "icon": "",
+   "levels": [
+    "B1",
+    "B2"
+   ],
+   "skills": [
+    "grammar"
+   ],
+   "mode": "whole-class",
+   "prep": "print",
+   "minutes": 60,
+   "keywords": [
+    "adverb",
+    "clause",
+    "because",
+    "although",
+    "connector",
+    "toefl",
+    "grammar",
+    "practice",
+    "structure",
+    "written",
+    "expression"
+   ],
+   "status": "live",
+   "section": "toefl"
+  },
+  {
    "id": "toefl-grammar-subject-verb-agreement",
    "hub": "advanced",
    "path": "toefl/grammar/subject-verb-agreement.html",
