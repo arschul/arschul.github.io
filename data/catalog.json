@@ -1615,6 +1615,136 @@
    "section": "grammar"
   },
   {
+   "id": "grammar-gerund-infinitive",
+   "hub": "advanced",
+   "path": "grammar/gerund-infinitive.html",
+   "title": "Grammar Practice — Gerund or Infinitive",
+   "blurb": "One hundred items on verbs followed by -ing or to + verb, and -ing after prepositions: six patterns, thirty Structure and thirty Written Expression items in TOEFL format, sorting, unscrambling and an exit check, with a printable worksheet and key.",
+   "icon": "",
+   "levels": [
+    "B1",
+    "B2"
+   ],
+   "skills": [
+    "grammar"
+   ],
+   "mode": "whole-class",
+   "prep": "print",
+   "minutes": 60,
+   "keywords": [
+    "gerund",
+    "infinitive",
+    "ing",
+    "to",
+    "toefl",
+    "grammar",
+    "practice",
+    "structure",
+    "written",
+    "expression"
+   ],
+   "status": "live",
+   "section": "grammar"
+  },
+  {
+   "id": "grammar-ed-ing-adjectives",
+   "hub": "advanced",
+   "path": "grammar/ed-ing-adjectives.html",
+   "title": "Grammar Practice — Adjectives Ending in ed or ing",
+   "blurb": "One hundred items on -ed and -ing adjectives (bored or boring): six patterns, thirty Structure and thirty Written Expression items in TOEFL format, an error hunt, gap-fill and an exit check, with a printable worksheet and key.",
+   "icon": "",
+   "levels": [
+    "B1",
+    "B2"
+   ],
+   "skills": [
+    "grammar"
+   ],
+   "mode": "whole-class",
+   "prep": "print",
+   "minutes": 60,
+   "keywords": [
+    "adjective",
+    "ed",
+    "ing",
+    "participle",
+    "toefl",
+    "grammar",
+    "practice",
+    "structure",
+    "written",
+    "expression"
+   ],
+   "status": "live",
+   "section": "grammar"
+  },
+  {
+   "id": "grammar-pronoun-agreement",
+   "hub": "advanced",
+   "path": "grammar/pronoun-agreement.html",
+   "title": "Grammar Practice — Pronoun Agreement and Reference",
+   "blurb": "One hundred items on pronoun agreement and reference (its or their): six patterns, thirty Structure and thirty Written Expression items in TOEFL format, sorting, an error hunt and an exit check, with a printable worksheet and key.",
+   "icon": "",
+   "levels": [
+    "B1",
+    "B2"
+   ],
+   "skills": [
+    "grammar"
+   ],
+   "mode": "whole-class",
+   "prep": "print",
+   "minutes": 60,
+   "keywords": [
+    "pronoun",
+    "agreement",
+    "reference",
+    "its",
+    "their",
+    "toefl",
+    "grammar",
+    "practice",
+    "structure",
+    "written",
+    "expression"
+   ],
+   "status": "live",
+   "section": "grammar"
+  },
+  {
+   "id": "grammar-parallel-structure",
+   "hub": "advanced",
+   "path": "grammar/parallel-structure.html",
+   "title": "Grammar Practice — Parallel Structure",
+   "blurb": "One hundred items on parallel structure in lists, pairs and comparisons: six patterns, thirty Structure and thirty Written Expression items in TOEFL format, gap-fill, rewriting and an exit check, with a printable worksheet and key.",
+   "icon": "",
+   "levels": [
+    "B1",
+    "B2"
+   ],
+   "skills": [
+    "grammar"
+   ],
+   "mode": "whole-class",
+   "prep": "print",
+   "minutes": 60,
+   "keywords": [
+    "parallel",
+    "structure",
+    "list",
+    "both",
+    "either",
+    "toefl",
+    "grammar",
+    "practice",
+    "structure",
+    "written",
+    "expression"
+   ],
+   "status": "live",
+   "section": "grammar"
+  },
+  {
    "id": "adventure",
    "hub": "games",
    "path": "adventure/adventure.html",
