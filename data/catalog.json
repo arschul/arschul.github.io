@@ -2691,7 +2691,7 @@
    "id": "categories",
    "hub": "games",
    "path": "categories/categories.html",
-   "title": "Think on your Feet",
+   "title": "Think on Your Feet",
    "blurb": "Name an item for every category on the board before your clock runs out. CEFR level filter, 2–6 teams.",
    "icon": "",
    "levels": [
@@ -2718,7 +2718,7 @@
    ],
    "status": "live",
    "added": "2025-06-10",
-   "updated": "2026-08-26",
+   "updated": "2026-10-27",
    "cover": "covers/categories.webp"
   },
   {
