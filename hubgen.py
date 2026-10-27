@@ -8,7 +8,7 @@ Usage (run from the directory holding the cloned repos):
     python3 hubgen.py index              write arschul.github.io/data/search-index.json
     python3 hubgen.py verify             prove build is idempotent and byte-safe
     python3 hubgen.py all                check -> build -> index -> verify
-    python3 hubgen.py stamp-updated      set each item's "updated" from its hub repo's git log
+    python3 hubgen.py stamp-updated      set each item's "updated" from its hub repo's git log (build does this too)
 
 Machine-owned regions are delimited in each hub's index.html:
 
@@ -508,6 +508,9 @@ def node_check(path):
 
 
 def cmd_build(cat, args):
+    # "updated" comes from each hub repo's git log, never from memory: stamp before rendering
+    if stamp_updated(cat) and not args.dry_run:
+        write_catalog(cat, args.catalog)
     changed, skipped, fails = [], [], []
     for hub, meta in cat["hubs"].items():
         idx = os.path.join(meta["repo"], "index.html")
@@ -608,7 +611,23 @@ def cmd_verify(cat, args):
 
 
 def cmd_stamp_updated(cat, args):
+    changed = stamp_updated(cat)
+    if changed and not args.dry_run:
+        write_catalog(cat, args.catalog)
+    return 0
+
+
+def write_catalog(cat, path):
+    with open(path, "w", encoding="utf-8") as f:
+        json.dump(cat, f, ensure_ascii=False, indent=1)
+        f.write("\n")
+
+
+def stamp_updated(cat):
     """Set item["updated"] to the date of the latest "Update ..." commit touching the item's file.
+
+    Runs automatically at the start of every build, so a hub's Recently Updated shelf never
+    depends on someone remembering this step; `stamp-updated` alone just writes the catalog.
 
     Only commits whose subject starts with "Update" count (Fix/Add/cover-only commits don't).
     A date already in the catalog is never moved backwards, so a hand-set date survives.
@@ -648,11 +667,7 @@ def cmd_stamp_updated(cat, args):
         print(f"{C['green']}updated{C['off']} {iid} → {d}")
     if not changed:
         print("no updated dates changed")
-    if changed and not args.dry_run:
-        with open(args.catalog, "w", encoding="utf-8") as f:
-            json.dump(cat, f, ensure_ascii=False, indent=1)
-            f.write("\n")
-    return 0
+    return changed
 
 
 # ----------------------------------------------------------------------- main
