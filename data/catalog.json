@@ -2181,6 +2181,7 @@
    ],
    "status": "live",
    "added": "2026-04-05",
+   "updated": "2026-07-26",
    "cover": "covers/adventure.webp"
   },
   {
@@ -2254,6 +2255,7 @@
    ],
    "status": "live",
    "added": "2025-06-05",
+   "updated": "2026-10-01",
    "cover": "covers/alphabet.webp"
   },
   {
@@ -2318,6 +2320,7 @@
    ],
    "status": "live",
    "added": "2026-09-30",
+   "updated": "2026-09-30",
    "cover": "covers/reveal-it.webp"
   },
   {
@@ -2432,6 +2435,7 @@
    ],
    "status": "live",
    "added": "2026-10-03",
+   "updated": "2026-10-06",
    "cover": "covers/question-mark.webp"
   },
   {
@@ -2465,6 +2469,7 @@
    ],
    "status": "live",
    "added": "2026-09-14",
+   "updated": "2026-09-15",
    "cover": "covers/back-to-board.webp"
   },
   {
@@ -2537,6 +2542,7 @@
    ],
    "status": "live",
    "added": "2026-10-23",
+   "updated": "2026-10-25",
    "cover": "covers/beam-of-ra.webp"
   },
   {
@@ -2565,6 +2571,7 @@
    ],
    "status": "live",
    "added": "2026-10-23",
+   "updated": "2026-10-25",
    "cover": "covers/cant-stop.webp"
   },
   {
@@ -2711,6 +2718,7 @@
    ],
    "status": "live",
    "added": "2025-06-10",
+   "updated": "2026-08-26",
    "cover": "covers/categories.webp"
   },
   {
@@ -2768,13 +2776,14 @@
    ],
    "status": "live",
    "added": "2026-07-03",
+   "updated": "2026-07-27",
    "cover": "covers/city.webp"
   },
   {
    "id": "classroom-auction",
    "hub": "games",
    "path": "classroom-auction/classroom-auction.html",
-   "title": "Classroom Auction",
+   "title": "Auction Stunt Show",
    "blurb": "Bid against your classmates to prove you can perform stunts and tasks the fastest. Do you have what it takes to win the bid?",
    "icon": "",
    "levels": [],
@@ -2785,20 +2794,23 @@
    "prep": "none",
    "minutes": 20,
    "keywords": [
+    "auction",
     "bidding",
     "challenges",
+    "classroom auction",
     "dares",
     "stunts"
    ],
    "status": "live",
    "added": "2026-04-24",
+   "updated": "2026-10-25",
    "cover": "covers/classroom-auction.webp"
   },
   {
    "id": "connect",
    "hub": "games",
    "path": "connect/connect.html",
-   "title": "Connect",
+   "title": "Word Battle Arena",
    "blurb": "Make words under pressure. Exercise your vocabulary.",
    "icon": "",
    "levels": [],
@@ -2810,6 +2822,7 @@
    "minutes": 20,
    "keywords": [
     "building",
+    "connect",
     "letters",
     "power-ups",
     "pressure",
@@ -2817,6 +2830,7 @@
    ],
    "status": "live",
    "added": "2025-06-05",
+   "updated": "2026-10-26",
    "cover": "covers/connect.webp"
   },
   {
@@ -2928,6 +2942,7 @@
    ],
    "status": "live",
    "added": "2025-07-07",
+   "updated": "2026-08-29",
    "cover": "covers/emoji.webp"
   },
   {
@@ -2956,6 +2971,7 @@
    ],
    "status": "live",
    "added": "2026-07-22",
+   "updated": "2026-10-06",
    "cover": "covers/emoji-logic.webp"
   },
   {
@@ -3046,6 +3062,7 @@
    ],
    "status": "live",
    "added": "2026-03-02",
+   "updated": "2026-08-26",
    "cover": "covers/family-feud-efl.webp"
   },
   {
@@ -3162,6 +3179,7 @@
    ],
    "status": "live",
    "added": "2026-10-20",
+   "updated": "2026-10-25",
    "cover": "covers/bear-park.webp"
   },
   {
@@ -3198,6 +3216,7 @@
    ],
    "status": "live",
    "added": "2026-10-18",
+   "updated": "2026-10-19",
    "cover": "covers/castle-roads.webp"
   },
   {
@@ -3229,6 +3248,7 @@
    ],
    "status": "live",
    "added": "2026-10-21",
+   "updated": "2026-10-24",
    "cover": "covers/forbidden-island.webp"
   },
   {
@@ -3262,6 +3282,7 @@
    ],
    "status": "live",
    "added": "2026-10-19",
+   "updated": "2026-10-19",
    "cover": "covers/tangled-paths.webp"
   },
   {
@@ -3296,6 +3317,7 @@
    ],
    "status": "live",
    "added": "2026-10-20",
+   "updated": "2026-10-22",
    "cover": "covers/maze-race.webp"
   },
   {
@@ -3321,6 +3343,7 @@
    ],
    "status": "live",
    "added": "2026-03-21",
+   "updated": "2026-10-24",
    "cover": "covers/hex-duel.webp"
   },
   {
@@ -3429,6 +3452,7 @@
    ],
    "status": "live",
    "added": "2026-03-15",
+   "updated": "2026-10-25",
    "cover": "covers/jeopardy.webp"
   },
   {
@@ -3504,6 +3528,7 @@
    ],
    "status": "live",
    "added": "2026-03-04",
+   "updated": "2026-09-14",
    "cover": "covers/letter-battle.webp"
   },
   {
@@ -3701,6 +3726,7 @@
    ],
    "status": "live",
    "added": "2026-07-03",
+   "updated": "2026-10-25",
    "cover": "covers/perfect-fit.webp"
   },
   {
@@ -3752,6 +3778,7 @@
    ],
    "status": "live",
    "added": "2026-03-13",
+   "updated": "2026-10-26",
    "cover": "covers/record-breaker.webp"
   },
   {
@@ -4026,6 +4053,7 @@
    ],
    "status": "live",
    "added": "2026-03-15",
+   "updated": "2026-09-14",
    "cover": "covers/teacher-wordle.webp"
   },
   {
@@ -4154,6 +4182,7 @@
    ],
    "status": "live",
    "added": "2026-04-19",
+   "updated": "2026-08-18",
    "cover": "covers/trivia-teams.webp"
   },
   {
@@ -4184,6 +4213,7 @@
    ],
    "status": "live",
    "added": "2026-04-20",
+   "updated": "2026-09-03",
    "cover": "covers/truorfalse.webp"
   },
   {
@@ -4270,6 +4300,7 @@
    ],
    "status": "live",
    "added": "2025-06-08",
+   "updated": "2026-10-24",
    "cover": "covers/wave.webp"
   },
   {
@@ -4301,6 +4332,7 @@
    ],
    "status": "live",
    "added": "2025-06-05",
+   "updated": "2026-09-17",
    "cover": "covers/wheel.webp"
   },
   {
@@ -4368,6 +4400,7 @@
    ],
    "status": "live",
    "added": "2026-03-09",
+   "updated": "2026-09-18",
    "cover": "covers/word-gap-game.webp"
   },
   {
@@ -4427,6 +4460,7 @@
    ],
    "status": "live",
    "added": "2026-10-23",
+   "updated": "2026-10-25",
    "cover": "covers/crown-lands.webp"
   },
   {

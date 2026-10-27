@@ -302,8 +302,14 @@
 .hub-card--poster .hub-card__title { margin-top: .5rem; font-size: .98rem; line-height: 1.25; }
 .hub-card--poster .hub-card__meta { margin-top: 0; padding-top: 0; }
 .hub-card--poster .hub-new-badge { top: -.5rem; right: -.4rem; z-index: 2; font-size: .7rem; }
+.hub-card[data-recent-update] { position: relative; }
+.hub-new-badge--updated {
+  background: var(--hub-surface);
+  color: var(--hub-accent);
+  box-shadow: inset 0 0 0 1.5px var(--hub-accent), 0 2px 6px rgba(0,0,0,.25);
+}
 
-/* "Latest Games" shelf */
+/* "Latest Games" / "Recently Updated" shelves */
 .hub-shelf { margin: 0 0 2rem; }
 .hub-shelf[hidden] { display: none; }
 .hub-shelf__title {

@@ -8,6 +8,7 @@ Usage (run from the directory holding the cloned repos):
     python3 hubgen.py index              write arschul.github.io/data/search-index.json
     python3 hubgen.py verify             prove build is idempotent and byte-safe
     python3 hubgen.py all                check -> build -> index -> verify
+    python3 hubgen.py stamp-updated      set each item's "updated" from its hub repo's git log
 
 Machine-owned regions are delimited in each hub's index.html:
 
@@ -310,6 +311,8 @@ def render_cards(cat, hub):
         ]
         if i.get("added"):
             attrs.insert(-1, f'data-added="{esc(i["added"])}"')
+        if i.get("updated"):
+            attrs.insert(-1, f'data-updated="{esc(i["updated"])}"')
         icon = f'<span class="hub-card__icon" aria-hidden="true">{i["icon"]}</span>\n        ' if i.get("icon") else ""
         chips = "".join(f'<span class="hub-chip hub-chip--level">{l}</span>' for l in i.get("levels", []))
         if i.get("mode"):
@@ -604,11 +607,59 @@ def cmd_verify(cat, args):
     return 0
 
 
+def cmd_stamp_updated(cat, args):
+    """Set item["updated"] to the date of the latest "Update ..." commit touching the item's file.
+
+    Only commits whose subject starts with "Update" count (Fix/Add/cover-only commits don't).
+    A date already in the catalog is never moved backwards, so a hand-set date survives.
+    Shallow clones are deepened to the last 60 days first so recent history is visible.
+    """
+    import datetime
+    changed = []
+    for hub, meta in cat["hubs"].items():
+        repo = meta["repo"]
+        if not os.path.isdir(os.path.join(repo, ".git")):
+            continue
+        if os.path.exists(os.path.join(repo, ".git", "shallow")):
+            since = (datetime.date.today() - datetime.timedelta(days=60)).isoformat()
+            subprocess.run(["git", "-C", repo, "fetch", "-q", f"--shallow-since={since}"],
+                           capture_output=True)
+        for i in cat["items"]:
+            if i["hub"] != hub or i.get("status", "live") != "live" or "#" in i["path"]:
+                continue
+            r = subprocess.run(["git", "-C", repo, "log", "-1", "--format=%ad", "--date=short",
+                                "--grep=^Update", "--", i["path"]], capture_output=True, text=True)
+            d = r.stdout.strip()
+            if not re.fullmatch(r"\d{4}-\d{2}-\d{2}", d) or d <= i.get("updated", ""):
+                continue
+            # keep "updated" right after "added" so catalog diffs stay readable
+            new = {}
+            for k, v in i.items():
+                if k == "updated":
+                    continue
+                new[k] = v
+                if k == "added":
+                    new["updated"] = d
+            if "updated" not in new:
+                new["updated"] = d
+            i.clear(); i.update(new)
+            changed.append((i["id"], d))
+    for iid, d in changed:
+        print(f"{C['green']}updated{C['off']} {iid} → {d}")
+    if not changed:
+        print("no updated dates changed")
+    if changed and not args.dry_run:
+        with open(args.catalog, "w", encoding="utf-8") as f:
+            json.dump(cat, f, ensure_ascii=False, indent=1)
+            f.write("\n")
+    return 0
+
+
 # ----------------------------------------------------------------------- main
 
 def main():
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
-    ap.add_argument("command", choices=["check", "build", "index", "verify", "all"])
+    ap.add_argument("command", choices=["check", "build", "index", "verify", "all", "stamp-updated"])
     ap.add_argument("--catalog", default=CATALOG)
     ap.add_argument("--dry-run", action="store_true")
     ap.add_argument("--soft", action="store_true", help="report drift but exit 0")
@@ -623,7 +674,8 @@ def main():
         rc |= cmd_index(cat, args)
         rc |= cmd_verify(cat, args)
         return rc
-    return dict(check=cmd_check, build=cmd_build, index=cmd_index, verify=cmd_verify)[args.command](cat, args)
+    return {"check": cmd_check, "build": cmd_build, "index": cmd_index, "verify": cmd_verify,
+            "stamp-updated": cmd_stamp_updated}[args.command](cat, args)
 
 
 if __name__ == "__main__":

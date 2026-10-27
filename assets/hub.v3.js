@@ -78,6 +78,7 @@
   var PREP_LABEL = { none: "no prep", print: "printing", setup: "setup" };
   var LEVEL_ORDER = ["A1", "A2", "B1", "B2", "C1"];
   var NEW_DAYS = 14;
+  var UPDATED_DAYS = 14;
 
   function values(cards, attr) {
     var seen = {};
@@ -151,38 +152,50 @@
     var clear = document.querySelector(".hub-clear");
     var state = readHash();
 
-    // "new" = data-added (YYYY-MM-DD, from the catalog) within NEW_DAYS of today.
-    // Computed here so badges expire on their own without a rebuild.
+    // "new" = data-added (YYYY-MM-DD, from the catalog) within NEW_DAYS of today;
+    // "updated" = data-updated within UPDATED_DAYS, for cards that are not already new.
+    // Computed here so badges and shelves expire on their own without a rebuild.
     var now = new Date();
     var today = Date.UTC(now.getFullYear(), now.getMonth(), now.getDate());
-    var newCount = 0;
+    function recent(c, attr, days) {
+      var m = /^(\d{4})-(\d{2})-(\d{2})$/.exec(c.getAttribute(attr) || "");
+      if (!m) return false;
+      var age = (today - Date.UTC(+m[1], +m[2] - 1, +m[3])) / 864e5;
+      return age >= 0 && age <= days;
+    }
+    function addBadge(c, cls, text) {
+      var badge = document.createElement("span");
+      badge.className = cls;
+      badge.textContent = text;
+      c.insertBefore(badge, c.firstChild);
+    }
+    var newCount = 0, updatedCount = 0;
     cards.forEach(function (c, idx) {
       c.setAttribute("data-order", idx);
-      var m = /^(\d{4})-(\d{2})-(\d{2})$/.exec(c.getAttribute("data-added") || "");
-      if (!m) return;
-      var age = (today - Date.UTC(+m[1], +m[2] - 1, +m[3])) / 864e5;
-      if (age < 0 || age > NEW_DAYS) return;
-      c.setAttribute("data-new", "yes");
-      var badge = document.createElement("span");
-      badge.className = "hub-new-badge";
-      badge.textContent = "New";
-      c.insertBefore(badge, c.firstChild);
-      newCount++;
+      if (recent(c, "data-added", NEW_DAYS)) {
+        c.setAttribute("data-new", "yes");
+        addBadge(c, "hub-new-badge", "New");
+        newCount++;
+      } else if (recent(c, "data-updated", UPDATED_DAYS)) {
+        c.setAttribute("data-recent-update", "yes");
+        addBadge(c, "hub-new-badge hub-new-badge--updated", "Updated");
+        updatedCount++;
+      }
     });
 
-    // poster hubs get a "Latest Games" shelf above the toolbar (hidden while filtering)
-    var shelf = null;
-    if (newCount && grid.classList.contains("hub-grid--posters")) {
-      shelf = document.createElement("section");
+    // poster hubs get streaming-style shelves above the toolbar (hidden while filtering)
+    var shelves = [];
+    function buildShelf(label, titleHtml, flag, dateAttr) {
+      var shelf = document.createElement("section");
       shelf.className = "hub-shelf";
-      shelf.setAttribute("aria-label", "New games");
+      shelf.setAttribute("aria-label", label);
       var h = document.createElement("h2");
       h.className = "hub-shelf__title";
-      h.innerHTML = "<span>Latest</span> Games";
+      h.innerHTML = titleHtml;
       var shelfRow = document.createElement("div");
       shelfRow.className = "hub-shelf__row";
-      cards.filter(function (c) { return c.hasAttribute("data-new"); })
-        .sort(function (a, b) { return (b.getAttribute("data-added") || "").localeCompare(a.getAttribute("data-added") || ""); })
+      cards.filter(function (c) { return c.hasAttribute(flag); })
+        .sort(function (a, b) { return (b.getAttribute(dateAttr) || "").localeCompare(a.getAttribute(dateAttr) || ""); })
         .forEach(function (c) {
           var k = c.cloneNode(true);
           k.removeAttribute("data-id");
@@ -190,7 +203,7 @@
           if (img) img.loading = "eager";
           shelfRow.appendChild(k);
         });
-      // streaming-style carousel: < > buttons instead of a scrollbar (swipe/trackpad still work)
+      // < > buttons instead of a scrollbar (swipe/trackpad still work)
       var track = document.createElement("div");
       track.className = "hub-shelf__track";
       function arrow(dir) {
@@ -229,6 +242,11 @@
       Array.prototype.forEach.call(shelfRow.querySelectorAll("img"), function (im) {
         if (!im.complete) im.addEventListener("load", syncArrows);
       });
+      shelves.push(shelf);
+    }
+    if (grid.classList.contains("hub-grid--posters")) {
+      if (newCount) buildShelf("New games", "<span>Latest</span> Games", "data-new", "data-added");
+      if (updatedCount) buildShelf("Recently updated games", "Recently <span>Updated</span>", "data-recent-update", "data-updated");
     }
 
     function sortCards(newFirst) {
@@ -339,7 +357,7 @@
         return state[f.key] && state[f.key].length;
       });
       if (clear) clear.hidden = !any;
-      if (shelf) shelf.hidden = any;
+      shelves.forEach(function (sh) { sh.hidden = any; });
       writeHash(state);
     }
 
