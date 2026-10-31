@@ -3702,6 +3702,7 @@
    ],
    "status": "live",
    "added": "2026-04-16",
+   "updated": "2026-10-30",
    "cover": "covers/order-up.webp"
   },
   {
@@ -3837,7 +3838,7 @@
    "hub": "games",
    "path": "scattergories/scattergories.html",
    "title": "Scattergories",
-   "blurb": "Quick thinking game where you name items in categories.",
+   "blurb": "Spin a letter and race the sand timer to name something in every category. Teams score 3 for answers that start with the letter, 2 if it's inside, 1 if it's not there at all.",
    "icon": "",
    "levels": [],
    "skills": [
@@ -3846,12 +3847,16 @@
    ],
    "mode": "team",
    "prep": "none",
-   "minutes": 15,
+   "minutes": 25,
    "keywords": [
     "categories",
     "letters",
     "quick",
-    "thinking"
+    "thinking",
+    "teams",
+    "timer",
+    "scoring",
+    "vocabulary race"
    ],
    "status": "live",
    "added": "2025-08-17",
@@ -4332,7 +4337,7 @@
    ],
    "status": "live",
    "added": "2025-06-05",
-   "updated": "2026-09-17",
+   "updated": "2026-10-31",
    "cover": "covers/wheel.webp"
   },
   {
