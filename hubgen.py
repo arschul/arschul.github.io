@@ -37,7 +37,7 @@ from collections import Counter, defaultdict
 
 CATALOG = "catalog.json"
 ROOT_REPO = "arschul.github.io"
-ASSET_VERSION = "v3"          # bump to ship a new shared stylesheet/script
+ASSET_VERSION = "v4"          # bump to ship a new shared stylesheet/script
 NAV_VERSION = "v1"            # corner hub switcher: assets/hub-nav.<v>.css/js
 LINK_EXT = (".html", ".pdf", ".docx")
 
@@ -353,7 +353,7 @@ def render_cards(cat, hub):
         '    </div>\n'
         '    <div class="hub-toolbar__row"><span class="hub-count"></span></div>\n'
         '  </div>\n'
-        f'  <div class="hub-grid{" hub-grid--posters" if posters else ""}">\n' + "\n".join(rows) + '\n  </div>\n'
+        f'  <div class="hub-grid{" hub-grid--posters" if posters else ""}" data-noun="{noun}">\n' + "\n".join(rows) + '\n  </div>\n'
         f'  <p class="hub-empty" hidden>Nothing matches those filters. <button type="button" class="hub-clear">Clear all</button></p>'
     )
 

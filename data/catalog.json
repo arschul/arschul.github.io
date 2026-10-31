@@ -2181,7 +2181,7 @@
    ],
    "status": "live",
    "added": "2026-04-05",
-   "updated": "2026-07-26",
+   "updated": "2026-09-02",
    "cover": "covers/adventure.webp"
   },
   {
@@ -2214,6 +2214,7 @@
    ],
    "status": "live",
    "added": "2026-07-18",
+   "updated": "2026-09-02",
    "cover": "covers/airtight.webp"
   },
   {
@@ -2504,6 +2505,7 @@
    ],
    "status": "live",
    "added": "2026-06-15",
+   "updated": "2026-09-02",
    "cover": "covers/battle-pets.webp"
   },
   {
@@ -2601,6 +2603,7 @@
    ],
    "status": "live",
    "added": "2025-09-09",
+   "updated": "2026-10-31",
    "cover": "covers/bee.webp"
   },
   {
@@ -2628,6 +2631,7 @@
    ],
    "status": "live",
    "added": "2025-10-05",
+   "updated": "2026-09-02",
    "cover": "covers/bingo.webp"
   },
   {
@@ -2652,6 +2656,7 @@
    ],
    "status": "live",
    "added": "2025-12-29",
+   "updated": "2026-09-02",
    "cover": "covers/bluff.webp"
   },
   {
@@ -2685,6 +2690,7 @@
    ],
    "status": "live",
    "added": "2026-06-01",
+   "updated": "2026-09-02",
    "cover": "covers/boardgame.webp"
   },
   {
@@ -2744,6 +2750,7 @@
    ],
    "status": "live",
    "added": "2025-06-24",
+   "updated": "2026-09-02",
    "cover": "covers/chain.webp"
   },
   {
@@ -2776,7 +2783,7 @@
    ],
    "status": "live",
    "added": "2026-07-03",
-   "updated": "2026-07-27",
+   "updated": "2026-09-02",
    "cover": "covers/city.webp"
   },
   {
@@ -2857,6 +2864,7 @@
    ],
    "status": "live",
    "added": "2026-07-03",
+   "updated": "2026-09-02",
    "cover": "covers/control-deck.webp"
   },
   {
@@ -2882,6 +2890,7 @@
    ],
    "status": "live",
    "added": "2025-08-25",
+   "updated": "2026-09-02",
    "cover": "covers/deal-no-deal.webp"
   },
   {
@@ -2915,6 +2924,7 @@
    ],
    "status": "live",
    "added": "2026-07-22",
+   "updated": "2026-09-02",
    "cover": "covers/deep-cover.webp"
   },
   {
@@ -2942,7 +2952,7 @@
    ],
    "status": "live",
    "added": "2025-07-07",
-   "updated": "2026-08-29",
+   "updated": "2026-09-02",
    "cover": "covers/emoji.webp"
   },
   {
@@ -3005,6 +3015,7 @@
    ],
    "status": "live",
    "added": "2025-12-07",
+   "updated": "2026-09-02",
    "cover": "covers/escape.webp"
   },
   {
@@ -3037,6 +3048,7 @@
    ],
    "status": "live",
    "added": "2025-12-12",
+   "updated": "2026-09-02",
    "cover": "covers/escape2.webp"
   },
   {
@@ -3062,7 +3074,7 @@
    ],
    "status": "live",
    "added": "2026-03-02",
-   "updated": "2026-08-26",
+   "updated": "2026-09-02",
    "cover": "covers/family-feud-efl.webp"
   },
   {
@@ -3093,6 +3105,7 @@
    ],
    "status": "live",
    "added": "2026-07-12",
+   "updated": "2026-09-02",
    "cover": "covers/grammar-boom.webp"
   },
   {
@@ -3121,6 +3134,7 @@
    ],
    "status": "live",
    "added": "2025-06-06",
+   "updated": "2026-09-02",
    "cover": "covers/hangman.webp"
   },
   {
@@ -3147,6 +3161,7 @@
    ],
    "status": "live",
    "added": "2026-03-18",
+   "updated": "2026-09-02",
    "cover": "covers/herd-up.webp"
   },
   {
@@ -3374,6 +3389,7 @@
    ],
    "status": "live",
    "added": "2026-07-22",
+   "updated": "2026-09-02",
    "cover": "covers/hot-seat.webp"
   },
   {
@@ -3402,6 +3418,7 @@
    ],
    "status": "live",
    "added": "2026-07-27",
+   "updated": "2026-09-02",
    "cover": "covers/interrupt.webp"
   },
   {
@@ -3427,6 +3444,7 @@
    ],
    "status": "live",
    "added": "2025-06-05",
+   "updated": "2026-10-31",
    "cover": "covers/inventions.webp"
   },
   {
@@ -3477,6 +3495,7 @@
    ],
    "status": "live",
    "added": "2026-03-14",
+   "updated": "2026-09-02",
    "cover": "covers/last-one-standing.webp"
   },
   {
@@ -3501,6 +3520,7 @@
    ],
    "status": "live",
    "added": "2025-08-21",
+   "updated": "2026-09-02",
    "cover": "covers/leftright.webp"
   },
   {
@@ -3562,6 +3582,7 @@
    ],
    "status": "live",
    "added": "2026-04-18",
+   "updated": "2026-09-02",
    "cover": "covers/linking-park.webp"
   },
   {
@@ -3587,6 +3608,7 @@
    ],
    "status": "live",
    "added": "2026-06-24",
+   "updated": "2026-09-02",
    "cover": "covers/mastermind.webp"
   },
   {
@@ -3617,6 +3639,7 @@
    ],
    "status": "live",
    "added": "2026-07-22",
+   "updated": "2026-09-02",
    "cover": "covers/minefield.webp"
   },
   {
@@ -3650,6 +3673,7 @@
    ],
    "status": "live",
    "added": "2026-04-12",
+   "updated": "2026-09-02",
    "cover": "covers/mistake-hunters.webp"
   },
   {
@@ -3676,6 +3700,7 @@
    ],
    "status": "live",
    "added": "2026-03-30",
+   "updated": "2026-09-02",
    "cover": "covers/orbit.webp"
   },
   {
@@ -3753,6 +3778,7 @@
    ],
    "status": "live",
    "added": "2026-04-12",
+   "updated": "2026-09-02",
    "cover": "covers/problem-solvers.webp"
   },
   {
@@ -3805,6 +3831,7 @@
    ],
    "status": "live",
    "added": "2025-08-04",
+   "updated": "2026-10-31",
    "cover": "covers/resistance.webp"
   },
   {
@@ -3831,6 +3858,7 @@
    ],
    "status": "live",
    "added": "2026-07-01",
+   "updated": "2026-09-02",
    "cover": "covers/ring-memory.webp"
   },
   {
@@ -3860,6 +3888,7 @@
    ],
    "status": "live",
    "added": "2025-08-17",
+   "updated": "2026-10-31",
    "cover": "covers/scattergories.webp"
   },
   {
@@ -3893,6 +3922,7 @@
    ],
    "status": "live",
    "added": "2026-03-31",
+   "updated": "2026-09-02",
    "cover": "covers/scrambler.webp"
   },
   {
@@ -3924,6 +3954,7 @@
    ],
    "status": "live",
    "added": "2026-03-31",
+   "updated": "2026-09-02",
    "cover": "covers/sentence-auction.webp"
   },
   {
@@ -3949,6 +3980,7 @@
    ],
    "status": "live",
    "added": "2026-07-05",
+   "updated": "2026-09-02",
    "cover": "covers/song-word-race.webp"
   },
   {
@@ -3978,6 +4010,7 @@
    ],
    "status": "live",
    "added": "2026-08-01",
+   "updated": "2026-09-02",
    "cover": "covers/sound-off.webp"
   },
   {
@@ -4002,6 +4035,7 @@
    ],
    "status": "live",
    "added": "2025-06-05",
+   "updated": "2026-09-02",
    "cover": "covers/stairs.webp"
   },
   {
@@ -4027,6 +4061,7 @@
    ],
    "status": "live",
    "added": "2026-03-03",
+   "updated": "2026-09-02",
    "cover": "covers/stop-twist.webp"
   },
   {
@@ -4112,6 +4147,7 @@
    ],
    "status": "live",
    "added": "2025-08-23",
+   "updated": "2026-09-02",
    "cover": "covers/tictactoe.webp"
   },
   {
@@ -4135,6 +4171,7 @@
    ],
    "status": "live",
    "added": "2025-08-06",
+   "updated": "2026-09-02",
    "cover": "covers/topten.webp"
   },
   {
@@ -4161,6 +4198,7 @@
    ],
    "status": "live",
    "added": "2026-06-06",
+   "updated": "2026-09-02",
    "cover": "covers/toptwenty.webp"
   },
   {
@@ -4187,7 +4225,7 @@
    ],
    "status": "live",
    "added": "2026-04-19",
-   "updated": "2026-08-18",
+   "updated": "2026-09-02",
    "cover": "covers/trivia-teams.webp"
   },
   {
@@ -4249,6 +4287,7 @@
    ],
    "status": "live",
    "added": "2025-08-22",
+   "updated": "2026-09-02",
    "cover": "covers/unscramble.webp"
   },
   {
@@ -4276,6 +4315,7 @@
    ],
    "status": "live",
    "added": "2026-06-11",
+   "updated": "2026-09-02",
    "cover": "covers/vocab-toolkit.webp"
   },
   {
@@ -4369,6 +4409,7 @@
    ],
    "status": "live",
    "added": "2026-06-07",
+   "updated": "2026-09-02",
    "cover": "covers/word-buzz.webp"
   },
   {
@@ -7859,7 +7900,9 @@
     "tracker",
     "vibes"
    ],
-   "status": "live"
+   "status": "live",
+   "added": "2026-06-16",
+   "cover": "covers/aura-tracker.webp"
   },
   {
    "id": "before-after-writing",
@@ -7888,7 +7931,9 @@
     "paragraphs",
     "revision"
    ],
-   "status": "live"
+   "status": "live",
+   "added": "2026-06-16",
+   "cover": "covers/before-after-writing.webp"
   },
   {
    "id": "competition",
@@ -7910,7 +7955,9 @@
     "scoring",
     "tournament"
    ],
-   "status": "live"
+   "status": "live",
+   "added": "2026-06-16",
+   "cover": "covers/competition.webp"
   },
   {
    "id": "dialog-practice",
@@ -7941,7 +7988,9 @@
     "simulator",
     "tts"
    ],
-   "status": "live"
+   "status": "live",
+   "added": "2026-07-04",
+   "cover": "covers/dialog-practice.webp"
   },
   {
    "id": "dictation",
@@ -7969,7 +8018,10 @@
     "tts",
     "typing"
    ],
-   "status": "live"
+   "status": "live",
+   "added": "2026-07-03",
+   "updated": "2026-07-28",
+   "cover": "covers/dictation.webp"
   },
   {
    "id": "efl-classroom-toolkit",
@@ -7994,7 +8046,9 @@
     "random",
     "timer"
    ],
-   "status": "live"
+   "status": "live",
+   "added": "2026-06-16",
+   "cover": "covers/efl-classroom-toolkit.webp"
   },
   {
    "id": "efl-oral-assessment",
@@ -8017,7 +8071,9 @@
     "scoring",
     "speaking"
    ],
-   "status": "live"
+   "status": "live",
+   "added": "2026-06-16",
+   "cover": "covers/efl-oral-assessment.webp"
   },
   {
    "id": "efl-recipe-challenge",
@@ -8047,7 +8103,10 @@
     "recipe",
     "rumble"
    ],
-   "status": "live"
+   "status": "live",
+   "added": "2026-06-16",
+   "updated": "2026-07-28",
+   "cover": "covers/efl-recipe-challenge.webp"
   },
   {
    "id": "first-class",
@@ -8080,7 +8139,10 @@
     "start",
     "term"
    ],
-   "status": "live"
+   "status": "live",
+   "added": "2026-08-02",
+   "updated": "2026-08-03",
+   "cover": "covers/first-class.webp"
   },
   {
    "id": "five-words",
@@ -8111,7 +8173,9 @@
     "story",
     "words"
    ],
-   "status": "live"
+   "status": "live",
+   "added": "2026-09-16",
+   "cover": "covers/five-words.webp"
   },
   {
    "id": "ideadeck",
@@ -8139,7 +8203,10 @@
     "presentation",
     "prompts"
    ],
-   "status": "live"
+   "status": "live",
+   "added": "2026-06-16",
+   "updated": "2026-07-27",
+   "cover": "covers/ideadeck.webp"
   },
   {
    "id": "irregular",
@@ -8166,7 +8233,9 @@
     "past",
     "verbs"
    ],
-   "status": "live"
+   "status": "live",
+   "added": "2026-06-16",
+   "cover": "covers/irregular.webp"
   },
   {
    "id": "listening-cloze",
@@ -8196,7 +8265,9 @@
     "tts",
     "weak"
    ],
-   "status": "live"
+   "status": "live",
+   "added": "2026-07-11",
+   "cover": "covers/listening-cloze.webp"
   },
   {
    "id": "mad-libs-efl",
@@ -8231,7 +8302,9 @@
     "stories",
     "verbs"
    ],
-   "status": "live"
+   "status": "live",
+   "added": "2026-06-16",
+   "cover": "covers/mad-libs-efl.webp"
   },
   {
    "id": "phrasal-verbs",
@@ -8262,7 +8335,10 @@
     "three-word",
     "verbs"
    ],
-   "status": "live"
+   "status": "live",
+   "added": "2026-09-19",
+   "updated": "2026-09-19",
+   "cover": "covers/phrasal-verbs.webp"
   },
   {
    "id": "placement-test",
@@ -8286,7 +8362,10 @@
     "starter",
     "students"
    ],
-   "status": "live"
+   "status": "live",
+   "added": "2026-06-20",
+   "updated": "2026-07-30",
+   "cover": "covers/placement-test.webp"
   },
   {
    "id": "pop-quiz",
@@ -8316,7 +8395,9 @@
     "quiz",
     "unscramble"
    ],
-   "status": "live"
+   "status": "live",
+   "added": "2026-07-12",
+   "cover": "covers/pop-quiz.webp"
   },
   {
    "id": "pronunciation-trainer",
@@ -8350,7 +8431,9 @@
     "uk",
     "us"
    ],
-   "status": "live"
+   "status": "live",
+   "added": "2026-07-11",
+   "cover": "covers/pronunciation-trainer.webp"
   },
   {
    "id": "questions",
@@ -8378,7 +8461,9 @@
     "question",
     "starters"
    ],
-   "status": "live"
+   "status": "live",
+   "added": "2026-06-16",
+   "cover": "covers/questions.webp"
   },
   {
    "id": "reading",
@@ -8408,7 +8493,9 @@
     "reader",
     "topics"
    ],
-   "status": "live"
+   "status": "live",
+   "added": "2026-06-16",
+   "cover": "covers/reading.webp"
   },
   {
    "id": "reportcards",
@@ -8432,7 +8519,10 @@
     "report",
     "student"
    ],
-   "status": "live"
+   "status": "live",
+   "added": "2026-06-16",
+   "updated": "2026-09-30",
+   "cover": "covers/reportcards.webp"
   },
   {
    "id": "roleplay-spinner",
@@ -8460,7 +8550,9 @@
     "scenarios",
     "situations"
    ],
-   "status": "live"
+   "status": "live",
+   "added": "2026-06-16",
+   "cover": "covers/roleplay-spinner.webp"
   },
   {
    "id": "spinner",
@@ -8486,7 +8578,9 @@
     "would",
     "you"
    ],
-   "status": "live"
+   "status": "live",
+   "added": "2026-06-16",
+   "cover": "covers/spinner.webp"
   },
   {
    "id": "story-lab",
@@ -8520,7 +8614,9 @@
     "twist",
     "writing"
    ],
-   "status": "live"
+   "status": "live",
+   "added": "2026-09-28",
+   "cover": "covers/story-lab.webp"
   },
   {
    "id": "story-spark",
@@ -8549,7 +8645,10 @@
     "twist",
     "writing"
    ],
-   "status": "live"
+   "status": "live",
+   "added": "2026-06-16",
+   "updated": "2026-09-13",
+   "cover": "covers/story-spark.webp"
   },
   {
    "id": "teacher-dashboard",
@@ -8576,7 +8675,10 @@
     "students"
    ],
    "status": "live",
-   "featured": true
+   "added": "2026-06-16",
+   "updated": "2026-10-21",
+   "featured": true,
+   "cover": "covers/teacher-dashboard.webp"
   },
   {
    "id": "thermometer",
@@ -8605,7 +8707,9 @@
     "only",
     "portuguese"
    ],
-   "status": "live"
+   "status": "live",
+   "added": "2026-06-16",
+   "cover": "covers/thermometer.webp"
   },
   {
    "id": "toefl-correction",
@@ -8629,7 +8733,10 @@
     "sections",
     "toefl"
    ],
-   "status": "live"
+   "status": "live",
+   "added": "2026-06-16",
+   "updated": "2026-07-26",
+   "cover": "covers/toefl-correction.webp"
   },
   {
    "id": "writing-scaffold",
@@ -8659,7 +8766,9 @@
     "starters",
     "word"
    ],
-   "status": "live"
+   "status": "live",
+   "added": "2026-06-16",
+   "cover": "covers/writing-scaffold.webp"
   },
   {
    "id": "vocab-a1-animals",

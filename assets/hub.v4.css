@@ -1,0 +1,374 @@
+/* hub.v1.css — shared layer for the arschul hub ecosystem.
+ *
+ * This file owns STRUCTURE and BEHAVIOR, never a hub's palette. Each hub keeps its
+ * own identity by mapping its existing tokens onto the --hub-* contract below; that
+ * mapping is emitted into the hub's <head> by hubgen, so it stays in one place.
+ *
+ * Every selector here is prefixed .hub- so it cannot collide with a hub's own CSS.
+ * Versioned filename: to change this file, ship hub.v2.css and let hubs opt in one
+ * at a time. Never mutate a version that is already live.
+ */
+
+/* ---------------------------------------------------------------- contract */
+/* Fallbacks only. A hub that maps its own tokens overrides all of these. */
+:root {
+  --hub-bg:        #10182a;
+  --hub-surface:   #182338;
+  --hub-ink:       #e9edf4;
+  --hub-ink-soft:  #94a1b8;
+  --hub-rule:      #2c3a55;
+  --hub-accent:    #d9a548;
+  --hub-radius:    10px;
+  --hub-shadow:    0 1px 2px rgba(0, 0, 0, .4);
+  --hub-font-ui:   system-ui, sans-serif;
+  --hub-font-display: var(--hub-font-ui);
+  --hub-gap:       1rem;
+  --hub-speed:     .2s;
+}
+
+/* -------------------------------------------------------------- back-link */
+.hub-backlink {
+  color: var(--hub-ink-soft);
+  font-family: var(--hub-font-ui);
+  font-size: .85rem;
+  text-decoration: none;
+  transition: color var(--hub-speed);
+}
+.hub-backlink:hover { color: var(--hub-accent); }
+
+/* ----------------------------------------------------------- theme toggle */
+.hub-theme-toggle {
+  margin-left: auto;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.1rem;
+  height: 2.1rem;
+  padding: 0;
+  background: none;
+  border: 1px solid var(--hub-rule);
+  border-radius: 100px;
+  color: var(--hub-ink-soft);
+  font-size: .95rem;
+  line-height: 1;
+  cursor: pointer;
+  transition: border-color var(--hub-speed), color var(--hub-speed);
+}
+.hub-theme-toggle:hover { border-color: var(--hub-accent); color: var(--hub-accent); }
+
+/* ------------------------------------------------------------- card grid */
+/* Unused until Stage 2, shipped now so the canary proves the delivery path. */
+.hub-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(17rem, 1fr));
+  gap: var(--hub-gap);
+}
+.hub-card {
+  display: flex;
+  flex-direction: column;
+  gap: .45rem;
+  padding: 1.1rem 1.25rem 1rem;
+  background: var(--hub-surface);
+  border: 1px solid var(--hub-rule);
+  border-radius: var(--hub-radius);
+  box-shadow: var(--hub-shadow);
+  color: inherit;
+  text-decoration: none;
+  transition: transform var(--hub-speed), border-color var(--hub-speed);
+}
+.hub-card:hover { transform: translateY(-3px); border-color: var(--hub-accent); }
+.hub-card.is-featured { border-color: var(--hub-accent); }
+.hub-card[hidden] { display: none; }
+
+.hub-card__icon  { font-size: 1.4rem; line-height: 1; }
+.hub-card__title {
+  margin: 0;
+  font-family: var(--hub-font-display);
+  font-size: 1.02rem;
+  font-weight: 600;
+  color: var(--hub-ink);
+}
+.hub-card__blurb {
+  margin: 0;
+  font-size: .86rem;
+  line-height: 1.5;
+  color: var(--hub-ink-soft);
+  max-width: 60ch;
+}
+.hub-card__meta { display: flex; flex-wrap: wrap; gap: .3rem; margin-top: auto; padding-top: .55rem; }
+
+.hub-chip {
+  padding: .16rem .45rem;
+  border: 1px solid var(--hub-rule);
+  border-radius: 100px;
+  font-size: .68rem;
+  font-weight: 600;
+  letter-spacing: .3px;
+  color: var(--hub-ink-soft);
+  white-space: nowrap;
+}
+.hub-chip--level { border-color: var(--hub-accent); color: var(--hub-accent); }
+
+/* --------------------------------------------------------------- filters */
+.hub-filters { display: flex; flex-wrap: wrap; gap: .4rem; align-items: center; margin: 0 0 1rem; }
+.hub-filters__group { display: flex; flex-wrap: wrap; gap: .3rem; }
+.hub-filters__label {
+  font-size: .72rem;
+  color: var(--hub-ink-soft);
+  margin-right: .2rem;
+}
+.hub-filter {
+  padding: .28rem .6rem;
+  background: none;
+  border: 1px solid var(--hub-rule);
+  border-radius: 100px;
+  color: var(--hub-ink-soft);
+  font: inherit;
+  font-size: .76rem;
+  cursor: pointer;
+  transition: border-color var(--hub-speed), color var(--hub-speed), background var(--hub-speed);
+}
+.hub-filter:hover { border-color: var(--hub-accent); color: var(--hub-accent); }
+.hub-filter[aria-pressed="true"] {
+  background: var(--hub-accent);
+  border-color: var(--hub-accent);
+  color: var(--hub-bg);
+}
+.hub-filters__count { font-size: .76rem; color: var(--hub-ink-soft); margin-left: auto; }
+
+/* ---------------------------------------------------------------- search */
+.hub-search {
+  width: 100%;
+  padding: .8rem .9rem;
+  background: transparent;
+  border: none;
+  border-bottom: 2px dashed var(--hub-rule);
+  color: var(--hub-ink);
+  font: inherit;
+  transition: border-color var(--hub-speed);
+}
+.hub-search::placeholder { color: var(--hub-ink-soft); }
+.hub-search:focus { outline: none; border-bottom-color: var(--hub-accent); }
+.hub-empty {
+  padding: 2.5rem 1rem;
+  border: 1px dashed var(--hub-rule);
+  border-radius: var(--hub-radius);
+  text-align: center;
+  color: var(--hub-ink-soft);
+}
+
+/* ------------------------------------------------------- quality floor */
+:where(.hub-card, .hub-filter, .hub-theme-toggle, .hub-backlink, .hub-search):focus-visible {
+  outline: 2px solid var(--hub-accent);
+  outline-offset: 2px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .hub-card,
+  .hub-filter,
+  .hub-theme-toggle,
+  .hub-backlink,
+  .hub-search { transition: none; }
+  .hub-card:hover { transform: none; }
+}
+
+@media (max-width: 520px) {
+  .hub-grid { grid-template-columns: 1fr; }
+  .hub-filters__count { margin-left: 0; width: 100%; }
+}
+
+/* ======================================================================
+ * v2 additions — filter toolbar and grid states (Stage 2)
+ * v1 remains live and unmodified; hubs opt in by bumping their asset link.
+ * ====================================================================== */
+
+.hub-toolbar {
+  display: flex;
+  flex-direction: column;
+  gap: .7rem;
+  margin: 0 0 1.4rem;
+}
+.hub-toolbar__row { display: flex; flex-wrap: wrap; gap: .45rem; align-items: center; }
+
+.hub-facet { display: flex; flex-wrap: wrap; gap: .28rem; align-items: center; }
+.hub-facet__name {
+  font-family: var(--hub-font-ui);
+  font-size: .7rem;
+  color: var(--hub-ink-soft);
+  margin-right: .15rem;
+}
+.hub-clear {
+  background: none;
+  border: none;
+  color: var(--hub-ink-soft);
+  font: inherit;
+  font-size: .74rem;
+  text-decoration: underline;
+  cursor: pointer;
+  padding: .2rem .3rem;
+}
+.hub-clear:hover { color: var(--hub-accent); }
+.hub-clear[hidden] { display: none; }
+
+.hub-count {
+  font-family: var(--hub-font-ui);
+  font-size: .76rem;
+  color: var(--hub-ink-soft);
+  margin-left: auto;
+  white-space: nowrap;
+}
+.hub-empty[hidden] { display: none; }
+
+/* the grid is the only thing that must survive a stylesheet 404 —
+   hubs inline a minimal fallback for .hub-grid / .hub-card */
+
+/* ---------------------------------------------------- new-item badge */
+.hub-card[data-new] { position: relative; }
+.hub-new-badge {
+  position: absolute;
+  top: -.55rem;
+  right: .8rem;
+  padding: .14rem .5rem;
+  border-radius: 100px;
+  background: var(--hub-accent);
+  color: var(--hub-bg);
+  font-family: var(--hub-font-ui, inherit);
+  font-size: .66rem;
+  font-weight: 800;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+  box-shadow: 0 2px 6px rgba(0,0,0,.25);
+  pointer-events: none;
+}
+.hub-sort-toggle { margin-left: .6rem; }
+
+/* ------------------------------------------------------------ poster tiles */
+.hub-grid.hub-grid--posters { grid-template-columns: repeat(auto-fill, minmax(12.5rem, 1fr)); gap: 1.4rem 1.1rem; }
+.hub-card.hub-card--poster {
+  position: relative;
+  padding: 0;
+  gap: .35rem;
+  background: none;
+  border: 0;
+  box-shadow: none;
+}
+.hub-card.hub-card--poster:hover { transform: translateY(-4px); }
+.hub-card__art {
+  position: relative;
+  display: block;
+  aspect-ratio: 3 / 4;
+  border-radius: calc(var(--hub-radius, 12px) + 2px);
+  overflow: hidden;
+  background: var(--hub-surface);
+  box-shadow: 0 8px 22px rgba(0,0,0,.35);
+  outline: 2px solid transparent;
+  outline-offset: 3px;
+  transition: outline-color var(--hub-speed), box-shadow var(--hub-speed);
+}
+.hub-card--poster:hover .hub-card__art,
+.hub-card--poster:focus-visible .hub-card__art { outline-color: var(--hub-accent); box-shadow: 0 14px 30px rgba(0,0,0,.45); }
+.hub-card--poster:focus-visible { outline: none; }
+/* featured poster (e.g. Teacher Dashboard) keeps a standing accent ring */
+.hub-card--poster.is-featured .hub-card__art { outline-color: var(--hub-accent); }
+.hub-card__cover { display: block; width: 100%; height: 100%; object-fit: cover; }
+.hub-card__cover--blank {
+  display: grid;
+  place-items: center;
+  padding: 1rem;
+  text-align: center;
+  font-family: var(--hub-font-display);
+  font-size: 1.6rem;
+  font-weight: 800;
+  line-height: 1.1;
+  color: var(--hub-accent);
+  background:
+    radial-gradient(120% 80% at 50% 0%, color-mix(in srgb, var(--hub-accent) 22%, transparent), transparent 70%),
+    var(--hub-surface);
+}
+.hub-card--poster .hub-card__blurb {
+  position: absolute;
+  inset: auto 0 0 0;
+  max-width: none;
+  padding: 2.4rem .85rem .8rem;
+  font-size: .8rem;
+  line-height: 1.4;
+  color: #fff;
+  background: linear-gradient(to top, rgba(0,0,0,.9), rgba(0,0,0,.65) 60%, transparent);
+  opacity: 0;
+  transform: translateY(8px);
+  transition: opacity var(--hub-speed), transform var(--hub-speed);
+}
+.hub-card--poster:hover .hub-card__blurb,
+.hub-card--poster:focus-visible .hub-card__blurb { opacity: 1; transform: none; }
+@media (hover: none) { .hub-card--poster .hub-card__blurb { display: none; } }
+.hub-card--poster .hub-card__title { margin-top: .5rem; font-size: .98rem; line-height: 1.25; }
+.hub-card--poster .hub-card__meta { margin-top: 0; padding-top: 0; }
+.hub-card--poster .hub-new-badge { top: -.5rem; right: -.4rem; z-index: 2; font-size: .7rem; }
+.hub-card[data-recent-update] { position: relative; }
+.hub-new-badge--updated {
+  background: var(--hub-surface);
+  color: var(--hub-accent);
+  box-shadow: inset 0 0 0 1.5px var(--hub-accent), 0 2px 6px rgba(0,0,0,.25);
+}
+
+/* "Latest Games" / "Recently Updated" shelves */
+.hub-shelf { margin: 0 0 2rem; }
+.hub-shelf[hidden] { display: none; }
+.hub-shelf__title {
+  margin: 0 0 .9rem;
+  font-family: var(--hub-font-display);
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: var(--hub-ink);
+}
+.hub-shelf__title span { color: var(--hub-accent); }
+.hub-shelf__row {
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: 14.5rem;           /* fixed: a short shelf must not stretch one poster full-width */
+  justify-content: start;
+  gap: 1.2rem;
+  overflow-x: auto;
+  padding: .6rem .2rem 1rem;
+  scroll-snap-type: x proximity;
+  scrollbar-width: none;
+}
+.hub-shelf__row::-webkit-scrollbar { display: none; }
+.hub-shelf__row > .hub-card { scroll-snap-align: start; }
+.hub-shelf__track { position: relative; }
+/* edge fades hint there is more to scroll */
+.hub-shelf__track::before, .hub-shelf__track::after {
+  content: ""; position: absolute; top: 0; bottom: 0; width: 3.5rem; z-index: 3;
+  pointer-events: none; transition: opacity var(--hub-speed);
+}
+.hub-shelf__track::before { left: 0;  background: linear-gradient(to right, var(--hub-bg), transparent); }
+.hub-shelf__track::after  { right: 0; background: linear-gradient(to left,  var(--hub-bg), transparent); }
+.hub-shelf__track.is-start::before, .hub-shelf__track.is-end::after { opacity: 0; }
+.hub-shelf__nav {
+  position: absolute; top: calc(50% - .2rem); z-index: 4;
+  transform: translateY(-50%);
+  display: grid; place-items: center;
+  width: 2.9rem; height: 2.9rem; padding: 0;
+  border: 1px solid var(--hub-rule); border-radius: 50%;
+  background: var(--hub-surface); color: var(--hub-ink);
+  box-shadow: 0 4px 14px rgba(0, 0, 0, .45);
+  cursor: pointer;
+  transition: background var(--hub-speed), color var(--hub-speed), border-color var(--hub-speed), transform var(--hub-speed);
+}
+.hub-shelf__nav[hidden] { display: none; }
+.hub-shelf__nav--prev { left: -.6rem; }
+.hub-shelf__nav--next { right: -.6rem; }
+.hub-shelf__nav svg { width: 1.3rem; height: 1.3rem; fill: none; stroke: currentColor; stroke-width: 2.6; stroke-linecap: round; stroke-linejoin: round; }
+.hub-shelf__nav:hover { background: var(--hub-accent); border-color: var(--hub-accent); color: var(--hub-bg); transform: translateY(-50%) scale(1.08); }
+.hub-shelf__nav:focus-visible { outline: 2px solid var(--hub-accent); outline-offset: 3px; }
+@media (prefers-reduced-motion: reduce) {
+  .hub-card--poster, .hub-card--poster .hub-card__blurb, .hub-card__art, .hub-shelf__nav { transition: none; }
+}
+@media (max-width: 520px) {
+  .hub-grid.hub-grid--posters { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1rem .8rem; }
+  .hub-card--poster .hub-card__title { font-size: .88rem; }
+  .hub-shelf__row { grid-auto-columns: 62%; }
+  .hub-shelf__nav { width: 2.4rem; height: 2.4rem; }
+  .hub-shelf__nav--prev { left: -.3rem; }
+  .hub-shelf__nav--next { right: -.3rem; }
+}
