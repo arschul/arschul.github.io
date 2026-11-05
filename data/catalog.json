@@ -2470,7 +2470,7 @@
    ],
    "status": "live",
    "added": "2026-09-14",
-   "updated": "2026-09-15",
+   "updated": "2026-11-04",
    "cover": "covers/back-to-board.webp"
   },
   {
@@ -2845,26 +2845,47 @@
    "hub": "games",
    "path": "control-deck/control-deck.html",
    "title": "Control Deck",
-   "blurb": "A voice reads out a command. Find the matching dial, slider, or switch and set it exactly right before time runs out.",
+   "blurb": "A voice gives a grammar or vocabulary command. Set the right module on the console before time runs out. It starts with one module, and every correct answer installs a new one.",
    "icon": "",
-   "levels": [],
+   "levels": [
+    "A1",
+    "A2",
+    "B1"
+   ],
    "skills": [
-    "listening"
+    "listening",
+    "grammar",
+    "vocabulary"
    ],
    "mode": "team",
    "prep": "none",
-   "minutes": 15,
+   "minutes": 20,
    "keywords": [
     "commands",
     "dials",
     "following",
     "imperatives",
     "instructions",
-    "sliders"
+    "sliders",
+    "word class",
+    "parts of speech",
+    "irregular verbs",
+    "past simple",
+    "prepositions of time",
+    "much many",
+    "a an",
+    "plurals",
+    "comparatives",
+    "superlatives",
+    "syllables",
+    "synonyms",
+    "opposites",
+    "question words",
+    "tenses"
    ],
    "status": "live",
    "added": "2026-07-03",
-   "updated": "2026-09-02",
+   "updated": "2026-11-05",
    "cover": "covers/control-deck.webp"
   },
   {
@@ -3548,7 +3569,7 @@
    ],
    "status": "live",
    "added": "2026-03-04",
-   "updated": "2026-09-14",
+   "updated": "2026-11-03",
    "cover": "covers/letter-battle.webp"
   },
   {
@@ -3778,7 +3799,7 @@
    ],
    "status": "live",
    "added": "2026-04-12",
-   "updated": "2026-09-02",
+   "updated": "2026-11-04",
    "cover": "covers/problem-solvers.webp"
   },
   {
@@ -4507,7 +4528,7 @@
    ],
    "status": "live",
    "added": "2026-10-23",
-   "updated": "2026-10-25",
+   "updated": "2026-11-04",
    "cover": "covers/crown-lands.webp"
   },
   {
