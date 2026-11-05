@@ -2845,12 +2845,14 @@
    "hub": "games",
    "path": "control-deck/control-deck.html",
    "title": "Control Deck",
-   "blurb": "A voice gives a grammar or vocabulary command. Set the right module on the console before time runs out. It starts with one module, and every correct answer installs a new one.",
+   "blurb": "A voice gives a grammar or vocabulary command. Set the right module before time runs out. New modules unlock with every correct answer, and the level climbs from Basic to Advanced.",
    "icon": "",
    "levels": [
     "A1",
     "A2",
-    "B1"
+    "B1",
+    "B2",
+    "C1"
    ],
    "skills": [
     "listening",
@@ -2875,13 +2877,14 @@
     "much many",
     "a an",
     "plurals",
-    "comparatives",
-    "superlatives",
-    "syllables",
     "synonyms",
     "opposites",
     "question words",
-    "tenses"
+    "tenses",
+    "definitions",
+    "real words",
+    "levels",
+    "speed bonus"
    ],
    "status": "live",
    "added": "2026-07-03",
