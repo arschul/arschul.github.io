@@ -2548,6 +2548,39 @@
    "cover": "covers/beam-of-ra.webp"
   },
   {
+   "id": "azulejos",
+   "hub": "games",
+   "path": "azulejos/azulejos.html",
+   "title": "Azulejos",
+   "blurb": "Draft glazed tiles from the plates, fill your rows and decorate the palace wall. Tiles that do not fit break on the floor. 2–4 players or teams.",
+   "icon": "",
+   "levels": [],
+   "skills": [
+    "speaking"
+   ],
+   "mode": "team",
+   "prep": "none",
+   "minutes": 40,
+   "keywords": [
+    "azul",
+    "tiles",
+    "tile drafting",
+    "drafting",
+    "board game",
+    "strategy",
+    "mosaic",
+    "wall",
+    "pattern",
+    "portugal",
+    "lisbon",
+    "reward",
+    "end of term"
+   ],
+   "status": "live",
+   "added": "2026-11-05",
+   "cover": "covers/azulejos.webp"
+  },
+  {
    "id": "cant-stop",
    "hub": "games",
    "path": "cant-stop/cant-stop.html",
