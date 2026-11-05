@@ -641,14 +641,24 @@ def stamp_updated(cat):
             continue
         if os.path.exists(os.path.join(repo, ".git", "shallow")):
             since = (datetime.date.today() - datetime.timedelta(days=60)).isoformat()
-            subprocess.run(["git", "-C", repo, "fetch", "-q", f"--shallow-since={since}"],
+            # name the ref explicitly: a bare `fetch --shallow-since` right after a depth-1
+            # checkout is a silent no-op, leaving one grafted commit that "touches" every file
+            subprocess.run(["git", "-C", repo, "fetch", "-q", f"--shallow-since={since}", "origin", "HEAD"],
                            capture_output=True)
+        # a shallow boundary commit has no parent, so git log reports it as touching every
+        # file; never take a date from one
+        boundary = set()
+        sp = os.path.join(repo, ".git", "shallow")
+        if os.path.exists(sp):
+            boundary = set(open(sp).read().split())
         for i in cat["items"]:
             if i["hub"] != hub or i.get("status", "live") != "live" or "#" in i["path"]:
                 continue
-            r = subprocess.run(["git", "-C", repo, "log", "-1", "--format=%ad", "--date=short",
+            r = subprocess.run(["git", "-C", repo, "log", "-1", "--format=%H %ad", "--date=short",
                                 "--grep=^Update", "--", i["path"]], capture_output=True, text=True)
-            d = r.stdout.strip()
+            sha, _, d = r.stdout.strip().partition(" ")
+            if sha in boundary:
+                continue
             if not re.fullmatch(r"\d{4}-\d{2}-\d{2}", d) or d <= i.get("updated", ""):
                 continue
             # keep "updated" right after "added" so catalog diffs stay readable
