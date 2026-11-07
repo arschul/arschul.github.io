@@ -2256,7 +2256,7 @@
    ],
    "status": "live",
    "added": "2025-06-05",
-   "updated": "2026-10-01",
+   "updated": "2026-11-06",
    "cover": "covers/alphabet.webp"
   },
   {
@@ -2578,6 +2578,7 @@
    ],
    "status": "live",
    "added": "2026-11-05",
+   "updated": "2026-11-05",
    "cover": "covers/azulejos.webp"
   },
   {
@@ -2671,25 +2672,30 @@
    "id": "bluff",
    "hub": "games",
    "path": "bluff/bluff.html",
-   "title": "Bluff",
-   "blurb": "If you don't know, just make it up!",
+   "title": "Word Bluff",
+   "blurb": "Take turns adding one letter. Keep a real word possible, or call the bluff before you lose all your hearts.",
    "icon": "",
    "levels": [],
    "skills": [
-    "speaking"
+    "speaking",
+    "vocabulary"
    ],
    "mode": "team",
    "prep": "none",
-   "minutes": 15,
+   "minutes": 20,
    "keywords": [
-    "definitions",
-    "invent",
-    "lying",
-    "persuasion"
+    "spelling",
+    "letters",
+    "ghost",
+    "word chain",
+    "challenge",
+    "bluffing",
+    "vocabulary",
+    "synthwave"
    ],
    "status": "live",
    "added": "2025-12-29",
-   "updated": "2026-09-02",
+   "updated": "2026-11-06",
    "cover": "covers/bluff.webp"
   },
   {
@@ -4118,7 +4124,7 @@
    ],
    "status": "live",
    "added": "2026-03-03",
-   "updated": "2026-09-02",
+   "updated": "2026-11-06",
    "cover": "covers/stop-twist.webp"
   },
   {
