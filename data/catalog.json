@@ -3188,28 +3188,32 @@
    "hub": "games",
    "path": "hangman/hangman.html",
    "title": "Save the Cheese",
-   "blurb": "Classic word guessing game. Figure out the hidden word before running out of chances!",
+   "blurb": "Guess the hidden word letter by letter before the mouse reaches the cheese. Type your own word or pick a random one by topic and level.",
    "icon": "",
    "levels": [],
    "skills": [
     "vocabulary"
    ],
    "mode": "whole-class",
-   "prep": "setup",
+   "prep": "none",
    "minutes": 10,
    "keywords": [
     "cheese",
     "guessing",
     "hangman",
     "letters",
+    "mouse",
+    "random word",
     "save",
     "spelling",
     "the",
+    "topics",
+    "vocabulary",
     "word"
    ],
    "status": "live",
    "added": "2025-06-06",
-   "updated": "2026-09-02",
+   "updated": "2026-11-06",
    "cover": "covers/hangman.webp"
   },
   {
