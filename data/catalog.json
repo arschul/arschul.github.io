@@ -2797,19 +2797,22 @@
    "hub": "games",
    "path": "city/city.html",
    "title": "City Directions",
-   "blurb": "Listen to spoken directions through a city grid, then tap the place where you end up. Named streets and avenues, A1–B1.",
+   "blurb": "Listen to spoken directions across a model city and pin the place where they end, then take turns giving directions yourselves. Choose A1, A2, B1 or B2.",
    "icon": "",
    "levels": [
     "A1",
     "A2",
-    "B1"
+    "B1",
+    "B2"
    ],
    "skills": [
-    "listening"
+    "listening",
+    "speaking",
+    "vocabulary"
    ],
    "mode": "team",
    "prep": "none",
-   "minutes": 20,
+   "minutes": 30,
    "keywords": [
     "compass",
     "directions",
@@ -2818,11 +2821,20 @@
     "of",
     "place",
     "prepositions",
-    "streets"
+    "streets",
+    "giving directions",
+    "left right",
+    "prepositions of place",
+    "city",
+    "town",
+    "speaking",
+    "listening",
+    "turn left",
+    "landmarks"
    ],
    "status": "live",
    "added": "2026-07-03",
-   "updated": "2026-09-02",
+   "updated": "2026-11-06",
    "cover": "covers/city.webp"
   },
   {
