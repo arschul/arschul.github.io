@@ -8799,15 +8799,10 @@
    "id": "thermometer",
    "hub": "tools",
    "path": "thermometer/thermometer.html",
-   "title": "Thermometer",
-   "blurb": "English only, please!",
+   "title": "Class Thermometer",
+   "blurb": "Too much noise? The class chooses what to lose.",
    "icon": "🌡",
-   "levels": [
-    "A1",
-    "A2",
-    "B1",
-    "B2"
-   ],
+   "levels": [],
    "skills": [
     "admin"
    ],
@@ -8816,14 +8811,17 @@
    "minutes": 5,
    "keywords": [
     "behavior",
+    "classroom",
     "english",
-    "l1",
-    "monitoring",
-    "only",
-    "portuguese"
+    "management",
+    "noise",
+    "portuguese",
+    "privileges",
+    "rewards"
    ],
    "status": "live",
    "added": "2026-06-16",
+   "updated": "2026-11-08",
    "cover": "covers/thermometer.webp"
   },
   {
