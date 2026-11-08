@@ -1161,6 +1161,42 @@
    "section": "grammar"
   },
   {
+   "id": "grammar-custom-test",
+   "hub": "advanced",
+   "path": "grammar/test.html",
+   "title": "Grammar Practice — Custom Test",
+   "blurb": "Build a test from any of the thirty grammar points: choose the topics and the number of questions, reveal answers on screen one at a time, and print the test with a separate answer key.",
+   "icon": "",
+   "levels": [
+    "B1",
+    "B2"
+   ],
+   "skills": [
+    "grammar",
+    "assessment"
+   ],
+   "mode": "whole-class",
+   "prep": "none",
+   "minutes": 30,
+   "keywords": [
+    "grammar",
+    "test",
+    "quiz",
+    "builder",
+    "custom",
+    "toefl",
+    "itp",
+    "structure",
+    "written",
+    "expression",
+    "answer",
+    "key",
+    "print"
+   ],
+   "status": "live",
+   "section": "grammar"
+  },
+  {
    "id": "grammar-missing-subject-verb",
    "hub": "advanced",
    "path": "grammar/missing-subject-verb.html",
