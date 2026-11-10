@@ -2765,7 +2765,7 @@
    ],
    "status": "live",
    "added": "2026-06-01",
-   "updated": "2026-09-02",
+   "updated": "2026-11-08",
    "cover": "covers/boardgame.webp"
   },
   {
@@ -2870,7 +2870,7 @@
    ],
    "status": "live",
    "added": "2026-07-03",
-   "updated": "2026-11-06",
+   "updated": "2026-11-09",
    "cover": "covers/city.webp"
   },
   {
@@ -2975,7 +2975,7 @@
    ],
    "status": "live",
    "added": "2026-07-03",
-   "updated": "2026-11-05",
+   "updated": "2026-11-09",
    "cover": "covers/control-deck.webp"
   },
   {
@@ -4045,7 +4045,7 @@
    "hub": "games",
    "path": "sentence-auction/sentence-auction.html",
    "title": "Sentence Auction",
-   "blurb": "Bid on correct sentences and be the one with the most money at the end!",
+   "blurb": "Each lot is a short paragraph worth $2,000 minus its mistakes. Teams read, bid, and profit when they spot the errors and fix them aloud.",
    "icon": "",
    "levels": [
     "A1",
@@ -4054,22 +4054,28 @@
     "B2"
    ],
    "skills": [
-    "grammar"
+    "grammar",
+    "reading"
    ],
    "mode": "team",
    "prep": "none",
-   "minutes": 25,
+   "minutes": 30,
    "keywords": [
+    "appraise",
     "bidding",
-    "correct",
+    "correction",
     "error",
+    "mistakes",
     "money",
+    "paragraph",
+    "profit",
+    "proofreading",
     "sentences",
     "spotting"
    ],
    "status": "live",
    "added": "2026-03-31",
-   "updated": "2026-09-02",
+   "updated": "2026-11-09",
    "cover": "covers/sentence-auction.webp"
   },
   {
@@ -4524,7 +4530,7 @@
    ],
    "status": "live",
    "added": "2026-06-07",
-   "updated": "2026-09-02",
+   "updated": "2026-11-07",
    "cover": "covers/word-buzz.webp"
   },
   {
