@@ -3846,6 +3846,41 @@
    "cover": "covers/order-up.webp"
   },
   {
+   "id": "peel",
+   "hub": "games",
+   "path": "peel/peel.html",
+   "title": "Peel!",
+   "blurb": "Word-grid race in the style of Bananagrams. Build your own crossword, peel a tile when you use them all, and shout Bananas! when the Bunch runs out.",
+   "icon": "",
+   "levels": [
+    "A2",
+    "B1",
+    "B2"
+   ],
+   "skills": [
+    "vocabulary"
+   ],
+   "mode": "team",
+   "prep": "none",
+   "minutes": 25,
+   "keywords": [
+    "bananagrams",
+    "crossword",
+    "anagram",
+    "spelling",
+    "letters",
+    "tiles",
+    "word building",
+    "race",
+    "dump",
+    "rotten"
+   ],
+   "status": "live",
+   "added": "2026-11-14",
+   "updated": "2026-11-14",
+   "cover": "covers/peel.webp"
+  },
+  {
    "id": "perfect-fit",
    "hub": "games",
    "path": "perfect-fit/perfect-fit.html",
