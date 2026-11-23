@@ -2357,7 +2357,7 @@
    ],
    "status": "live",
    "added": "2026-09-30",
-   "updated": "2026-09-30",
+   "updated": "2026-11-17",
    "cover": "covers/reveal-it.webp"
   },
   {
@@ -3346,7 +3346,7 @@
    ],
    "status": "live",
    "added": "2026-10-18",
-   "updated": "2026-10-19",
+   "updated": "2026-11-23",
    "cover": "covers/castle-roads.webp"
   },
   {
@@ -3412,7 +3412,7 @@
    ],
    "status": "live",
    "added": "2026-10-19",
-   "updated": "2026-10-19",
+   "updated": "2026-11-23",
    "cover": "covers/tangled-paths.webp"
   },
   {
@@ -4362,10 +4362,12 @@
    "hub": "games",
    "path": "trivia-teams/trivia-teams.html",
    "title": "Trivia Badge Hunters",
-   "blurb": "The more you know!",
+   "blurb": "Teams pick a category and a value, bet Safe, Risky or All-In before the question appears, and earn bronze, silver or gold badges for every category they get right.",
    "icon": "",
    "levels": [
-    "A2"
+    "A2",
+    "B1",
+    "B2"
    ],
    "skills": [
     "reading"
@@ -4377,11 +4379,15 @@
     "badges",
     "general",
     "knowledge",
-    "trivia"
+    "trivia",
+    "quiz",
+    "jeopardy",
+    "betting",
+    "categories"
    ],
    "status": "live",
    "added": "2026-04-19",
-   "updated": "2026-09-02",
+   "updated": "2026-11-23",
    "cover": "covers/trivia-teams.webp"
   },
   {
