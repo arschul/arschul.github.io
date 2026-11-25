@@ -253,6 +253,34 @@
  "unlisted": [],
  "items": [
   {
+   "id": "adv3",
+   "hub": "advanced",
+   "path": "adv3.html",
+   "title": "Advanced 3 — Booklet Companion",
+   "blurb": "The whole Advanced 3 student’s booklet on one screen — essay craft, source use, grammar and life-journal writing, with self-checking practice and space to draft every task. Thesis statements through to the final time capsule, one set per class.",
+   "icon": "",
+   "levels": [
+    "B2",
+    "C1"
+   ],
+   "skills": [
+    "writing",
+    "grammar",
+    "reading"
+   ],
+   "mode": "whole-class",
+   "prep": "none",
+   "minutes": 40,
+   "keywords": [
+    "advanced",
+    "booklet",
+    "companion",
+    "essay",
+    "paraphrase"
+   ],
+   "status": "live"
+  },
+  {
    "id": "adv4",
    "hub": "advanced",
    "path": "adv4.html",
